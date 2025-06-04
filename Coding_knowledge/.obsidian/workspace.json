@@ -9,34 +9,6 @@
         "dimension": 63.04744525547446,
         "children": [
           {
-            "id": "7a9dbf045bbe8f8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/입출력 효율.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "입출력 효율"
-            }
-          },
-          {
-            "id": "8c7c8ad9c455685a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "General/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
             "id": "536d42b63777958e",
             "type": "leaf",
             "state": {
@@ -50,8 +22,7 @@
               "title": "입출력 효율"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "67d8acfafb736aaf",
@@ -219,8 +190,8 @@
   "active": "536d42b63777958e",
   "lastOpenFiles": [
     "General/Untitled.md",
-    "Python/Untitled.md",
     "C++/입출력 효율.md",
+    "Python/Untitled.md",
     "General",
     "Python",
     "Untitled 1.md",
