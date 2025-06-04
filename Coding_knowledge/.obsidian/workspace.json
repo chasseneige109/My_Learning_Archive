@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Untitled.md",
+                "file": "C++/입출력 효율.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "입출력 효율"
             }
           }
         ],
@@ -202,11 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "9ce7a9f7a8420c9b",
   "lastOpenFiles": [
-    "C++/입출력 효율.md",
     "C++/Untitled.md",
-    "General/Untitled.md",
+    "C++/Malloc, Calloc, Realloc.md",
+    "C++/입출력 효율.md",
     "Python/Untitled.md",
     "General",
     "Python",
