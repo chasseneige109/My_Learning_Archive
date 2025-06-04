@@ -17,10 +17,20 @@ C++에서의 `set`은 **자동 정렬 + 중복 제거** 기능을 가진 컨테�
 
 ---
 
-## ✅ 예시
+✅ 예시
 
-cpp
+#include <iostream>
+#include <set>
+using namespace std;
 
-복사편집
+int main() {
+    set<int> s;
+    s.insert(3);
+    s.insert(1);
+    s.insert(5);
+    s.insert(3); // 중복 → 무시됨
 
-`#include <iostream> #include <set> using namespace std;  int main() {     set<int> s;     s.insert(3);     s.insert(1);     s.insert(5);     s.insert(3); // 중복 → 무시됨      for (int x : s) {         cout << x << " ";  // 1 3 5 (자동 정렬됨)     } }`
+    for (int x : s) {
+        cout << x << " ";  // 1 3 5 (자동 정렬됨)
+    }
+}
