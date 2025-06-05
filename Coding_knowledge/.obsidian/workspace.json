@@ -35,9 +35,23 @@
               "icon": "lucide-file",
               "title": "반복문"
             }
+          },
+          {
+            "id": "3201ea7a9936069f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "값 교환.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "값 교환"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "반복문.md",
+                "file": "값 교환.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +134,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "반복문 의 백링크"
+              "title": "값 교환 의 백링크"
             }
           },
           {
@@ -158,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "반복문.md",
+                "file": "값 교환.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "반복문 의 개요"
+              "title": "값 교환 의 개요"
             }
           },
           {
@@ -199,10 +213,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43467cbc4951f94a",
+  "active": "3201ea7a9936069f",
   "lastOpenFiles": [
-    "C & C++/입력 방식.md",
     "반복문.md",
+    "값 교환.md",
+    "C & C++/입력 방식.md",
     "C & C++/입출력 효율.md",
     "C & C++/자료형.md",
     "C & C++/문자열.md",
