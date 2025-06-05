@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "입력 방식.md",
+                "file": "C & C++/입력 방식.md",
                 "mode": "source",
                 "source": false
               },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "입력 방식.md",
+                "file": "C & C++/입력 방식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "입력 방식.md",
+                "file": "C & C++/입력 방식.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -184,9 +184,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2bc800c123f30062",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
-    "입력 방식.md",
+    "C & C++/입력 방식.md",
     "C & C++/입출력 효율.md",
     "C & C++/자료형.md",
     "C & C++/문자열.md",
