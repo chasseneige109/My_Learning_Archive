@@ -6,7 +6,7 @@
       {
         "id": "77b7cfd6acec4025",
         "type": "tabs",
-        "dimension": 42.97658862876254,
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "0666e76e556b3e11",
@@ -20,23 +20,6 @@
               },
               "icon": "lucide-file",
               "title": "실수형"
-            }
-          }
-        ]
-      },
-      {
-        "id": "67d8acfafb736aaf",
-        "type": "tabs",
-        "dimension": 57.02341137123745,
-        "children": [
-          {
-            "id": "82d875732c29a4fe",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
             }
           }
         ]
@@ -188,7 +171,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6090a71ce926d0fa",
+  "active": "0666e76e556b3e11",
   "lastOpenFiles": [
     "정수형.md",
     "포인터.md",
