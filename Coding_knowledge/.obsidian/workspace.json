@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "아스키코드.md",
+                "file": "C & C++/아스키코드.md",
                 "mode": "source",
                 "source": false
               },
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "아스키코드.md",
+                "file": "C & C++/아스키코드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,10 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b5b093a6bd6485f0",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
     "C & C++/입출력 효율.md",
-    "아스키코드.md",
+    "C & C++/아스키코드.md",
     "C & C++/Set.md",
     "C & C++/Malloc, Calloc, Realloc.md",
     "실수형.md",
