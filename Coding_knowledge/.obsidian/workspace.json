@@ -6,7 +6,7 @@
       {
         "id": "77b7cfd6acec4025",
         "type": "tabs",
-        "dimension": 63.04744525547446,
+        "dimension": 42.97658862876254,
         "children": [
           {
             "id": "0666e76e556b3e11",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "포인터.md",
+                "file": "실수형.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "포인터"
+              "title": "실수형"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "67d8acfafb736aaf",
         "type": "tabs",
-        "dimension": 36.95255474452554,
+        "dimension": 57.02341137123745,
         "children": [
           {
             "id": "82d875732c29a4fe",
@@ -189,10 +189,10 @@
   },
   "active": "0666e76e556b3e11",
   "lastOpenFiles": [
-    "실수형.md",
     "정수형.md",
-    "C & C++/자료형.md",
     "포인터.md",
+    "실수형.md",
+    "C & C++/자료형.md",
     "포인터형.md",
     "Python/Untitled.md",
     "C & C++/문자열.md",
