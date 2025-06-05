@@ -19,16 +19,13 @@ int main() {
     
 - 내부는 이진 탐색 트리(Red-Black Tree) 기반 → 시간 복잡도 O(log N)
     
-    
-### 🔧 주요 함수 정리
-
 |함수|설명|
 |---|---|
 |`insert(value)`|값 추가 (중복 시 무시됨)|
 |`erase(value)`|값 제거|
-|`find(value)`  |값 찾기 (없으면 `end()` 반환)|
-|`count(value)`  |값의 개수 (set은 0 또는 1만 나옴)|
-|`size()`  |전체 원소 개수|
-|`clear()`  |전부 삭제|
-|`empty()`  |비었는지 확인|
-|`begin(), end()`  |반복자 (iterator)|
+|`find(value)`|값 찾기 (없으면 `end()` 반환)|
+|`count(value)`|값의 개수 (set은 0 또는 1만 나옴)|
+|`size()`|전체 원소 개수|
+|`clear()`|전부 삭제|
+|`empty()`|비었는지 확인|
+|`begin(), end()`|반복자 (iterator)|
