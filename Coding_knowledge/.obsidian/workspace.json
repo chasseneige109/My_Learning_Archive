@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,7 +170,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0666e76e556b3e11",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
     "정수형.md",
     "포인터.md",
