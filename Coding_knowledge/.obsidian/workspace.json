@@ -63,9 +63,23 @@
               "icon": "lucide-file",
               "title": "포인터"
             }
+          },
+          {
+            "id": "8941856aa5ad7cfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Map 함수.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Map 함수"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C & C++/포인터.md",
+                "file": "Map 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +162,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "포인터 의 백링크"
+              "title": "Map 함수 의 백링크"
             }
           },
           {
@@ -186,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & C++/포인터.md",
+                "file": "Map 함수.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "포인터 의 개요"
+              "title": "Map 함수 의 개요"
             }
           }
         ],
@@ -214,8 +228,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "52ccff05a0cab565",
+  "active": "8941856aa5ad7cfe",
   "lastOpenFiles": [
+    "C & C++/포인터.md",
+    "Map 함수.md",
     "C & C++/Set.md",
     "C & C++/Malloc, Calloc, Realloc.md",
     "C & C++/비트 연산자.md",
@@ -229,7 +245,6 @@
     "C & C++/값 교환.md",
     "C & C++/정수형.md",
     "C & C++/자료형.md",
-    "C & C++/포인터.md",
     "C & C++/실수형.md",
     "포인터형.md",
     "Python/Untitled.md",
