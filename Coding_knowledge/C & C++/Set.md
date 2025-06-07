@@ -1,4 +1,5 @@
 ## 🔍 예시
+
 ```
 #include <iostream>
 #include <set>
@@ -18,12 +19,10 @@ int main() {
     
 - **자동 정렬됨 (기본: 오름차순)**
     
-- `insert()`, `erase()`, `find()` 등 함수 사용
-    
 - 내부는 이진 탐색 트리(Red-Black Tree) 기반 → 시간 복잡도 O(log N)
 
 
-## 🔍 사용
+## 🔍 지원하는 함수
 
 |함수|설명|
 |---|---|
