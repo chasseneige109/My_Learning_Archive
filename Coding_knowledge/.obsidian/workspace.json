@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,8 +104,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -214,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6090a71ce926d0fa",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
     "C & C++/Malloc, Calloc, Realloc.md",
     "C & C++/포인터.md",
