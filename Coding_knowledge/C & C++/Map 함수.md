@@ -75,8 +75,7 @@ int main() {
 
 ## unordered_map
 
-
-## ✅ `map` vs `unordered_map`
+### ✅ `map` vs `unordered_map`
 
 | 항목        | `map`                | `unordered_map`             |
 | --------- | -------------------- | --------------------------- |
