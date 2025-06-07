@@ -50,7 +50,8 @@
               "title": "Set"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C & C++/입력 방식.md",
+                "file": "C & C++/Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "입력 방식 의 백링크"
+              "title": "Set 의 백링크"
             }
           },
           {
@@ -171,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & C++/입력 방식.md",
+                "file": "C & C++/Set.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "입력 방식 의 개요"
+              "title": "Set 의 개요"
             }
           },
           {
@@ -212,12 +213,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "38b4cf042d0c5342",
+  "active": "3201ea7a9936069f",
   "lastOpenFiles": [
     "C & C++/반복문.md",
     "C & C++/Set.md",
-    "무제.md",
     "C & C++/입력 방식.md",
+    "무제.md",
     "C & C++/Malloc, Calloc, Realloc.md",
     "C & C++/포인터.md",
     "C & C++/정수형.md",
