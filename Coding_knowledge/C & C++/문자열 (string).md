@@ -16,14 +16,20 @@ a + b;
 ###  3. `append()` 함수
 
 
-`string s = "Hi"; s.append(" there");        // "Hi there" s.append(3, '!');          // "Hi there!!!" (문자 3개 붙임)`
+```
+string s = "Hi"; 
+s.append(" there");        
+// "Hi there" 
+s.append(3, '!');         
+// "Hi there!!!" (문자 3개 붙임)
+```
 
 ---
 
 ###  4. `push_back(char)` — 문자 1개만
 
-cpp
-
-복사편집
-
-`string s = "A"; s.push_back('B');  // "AB"`
+```
+string s = "A"; 
+s.push_back('B');  
+// "AB"
+```
