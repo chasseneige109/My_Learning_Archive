@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#class",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +118,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -214,7 +215,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2bc800c123f30062",
+  "active": "52ccff05a0cab565",
   "lastOpenFiles": [
     "C & C++/입출력 효율.md",
     "C & C++/입력 방식.md",
