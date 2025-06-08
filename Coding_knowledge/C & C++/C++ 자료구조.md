@@ -4,22 +4,22 @@
 
 - [[vector]]: 동적 배열 (가장 많이 쓰임)
     
-- `deque`: 양방향 큐 (앞뒤 삽입/삭제 빠름)
+- [[deque]]: 양방향 큐 (앞뒤 삽입/삭제 빠름)
     
-- `list`: 이중 연결 리스트
+- [[list]]: 이중 연결 리스트
     
-- `array`: 정적 배열 (`std::array<T, N>`)
+- [[array]]: 정적 배열 (`std::array<T, N>`)
     
-- `forward_list`: 단일 연결 리스트
+- [[forward_list]]: 단일 연결 리스트
     
 
 ### 2. **Associative Containers** (정렬된 키 기반)
 
-- `set`: 중복 없는 집합, 자동 정렬
+- [[set]]: 중복 없는 집합, 자동 정렬
     
-- `multiset`: 중복 허용 집합
+- [[multiset]]: 중복 허용 집합
     
-- `map`: 키-값 쌍, 키 중복 불가
+- [[map]]: 키-값 쌍, 키 중복 불가
     
 - `multimap`: 키 중복 허용 map
     
