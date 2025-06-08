@@ -154,12 +154,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "알고리즘/탐색/너비 우선 탐색 (BFS).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "너비 우선 탐색 (BFS)"
             }
           },
           {
@@ -196,16 +196,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
+                "file": "알고리즘/탐색/너비 우선 탐색 (BFS).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "계수 정렬(Counting Sort)"
+              "title": "너비 우선 탐색 (BFS)"
+            }
+          },
+          {
+            "id": "d3939d3c9bf07b0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/탐색/무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -278,7 +292,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
+                "file": "알고리즘/탐색/무제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,7 +302,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "계수 정렬(Counting Sort) 의 백링크"
+              "title": "무제 의 백링크"
             }
           },
           {
@@ -326,13 +340,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
+                "file": "알고리즘/탐색/무제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "계수 정렬(Counting Sort) 의 개요"
+              "title": "무제 의 개요"
             }
           }
         ],
@@ -356,10 +370,11 @@
   },
   "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "알고리즘/탐색/너비 우선 탐색 (BFS).md",
+    "알고리즘/탐색/무제.md",
+    "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
     "알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
     "알고리즘/정렬(Sort)/병합 정렬(Merge Sort).md",
-    "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
-    "무제.md",
     "알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
     "알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
     "알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
@@ -384,9 +399,8 @@
     "C & C++/비트 연산자.md",
     "C & C++/삼항 연산자.md",
     "C & C++/문법 & 테크닉/값 교환.md",
-    "C & C++/자료형/정수형 (char, int, long).md",
     "C & C++/자료형",
-    "알고리즘/정렬(Sort)/무제 1",
+    "알고리즘/탐색",
     "C & C++/메모리 할당",
     "C & C++/입력",
     "자료구조",
