@@ -47,7 +47,7 @@
 
 ### 2. **Associative Containers** (정렬된 키 기반)
 
-- [[set]]: 중복 없는 집합, 자동 정렬
+- [[Set]]: 중복 없는 집합, 자동 정렬
     
 - [[multiset]]: 중복 허용 집합
     
