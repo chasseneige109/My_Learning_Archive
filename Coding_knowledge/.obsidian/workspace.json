@@ -98,12 +98,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자료형/실수형.md",
+                "file": "자료형/정수형 (char, int, long).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "실수형"
+              "title": "정수형 (char, int, long)"
             }
           }
         ],
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자료형/실수형.md",
+                "file": "자료형/정수형 (char, int, long).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "실수형 의 백링크"
+              "title": "정수형 (char, int, long) 의 백링크"
             }
           },
           {
@@ -228,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자료형/실수형.md",
+                "file": "자료형/정수형 (char, int, long).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "실수형 의 개요"
+              "title": "정수형 (char, int, long) 의 개요"
             }
           }
         ],
@@ -258,6 +258,9 @@
   },
   "active": "b773555bc1081770",
   "lastOpenFiles": [
+    "자료형/포인터.md",
+    "자료형/실수형 (float, double).md",
+    "자료형/자료형.md",
     "자료형/문자열 (string).md",
     "자료형",
     "무제 1",
@@ -279,11 +282,8 @@
     "General/자료구조/배열 (Array).md",
     "C & C++/forward_list.md",
     "C & C++/Set.md",
-    "자료형/포인터.md",
     "C & C++/반복문.md",
-    "자료형/실수형.md",
-    "자료형/자료형.md",
-    "자료형/정수형.md",
+    "자료형/정수형 (char, int, long).md",
     "C & C++/조건문.md",
     "C & C++/입력/입력 방식.md",
     "C & C++/입력/입출력 효율.md",
