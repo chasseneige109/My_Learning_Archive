@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/정렬(Sort)/버블 정렬 (Bubble).md",
+                "file": "알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "버블 정렬 (Bubble)"
+              "title": "버블 정렬 (Bubble Sort)"
             }
           },
           {
@@ -140,16 +140,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/정렬(Sort)/버블 정렬 (Bubble).md",
+                "file": "퀵 정렬 (Quick Sort).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "버블 정렬 (Bubble)"
+              "title": "퀵 정렬 (Quick Sort)"
+            }
+          },
+          {
+            "id": "6dbd32d3d0e0cc76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
+          },
+          {
+            "id": "8cbd219e948404bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "계수 정렬(Counting Sort).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "계수 정렬(Counting Sort)"
+            }
+          },
+          {
+            "id": "bb671b768370c1f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "힙 정렬 (Heap Sort).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "힙 정렬 (Heap Sort)"
+            }
+          },
+          {
+            "id": "d8dca41851ea2f56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "계수 정렬(Counting Sort).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "계수 정렬(Counting Sort)"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -222,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/정렬(Sort)/버블 정렬 (Bubble).md",
+                "file": "계수 정렬(Counting Sort).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +288,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "버블 정렬 (Bubble) 의 백링크"
+              "title": "계수 정렬(Counting Sort) 의 백링크"
             }
           },
           {
@@ -270,13 +326,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/정렬(Sort)/버블 정렬 (Bubble).md",
+                "file": "계수 정렬(Counting Sort).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "버블 정렬 (Bubble) 의 개요"
+              "title": "계수 정렬(Counting Sort) 의 개요"
             }
           }
         ],
@@ -298,11 +354,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f0e415c98b296386",
+  "active": "2bc800c123f30062",
   "lastOpenFiles": [
+    "힙 정렬 (Heap Sort).md",
+    "병합 정렬(Merge Sort).md",
+    "계수 정렬(Counting Sort).md",
+    "무제.md",
+    "퀵 정렬 (Quick Sort).md",
+    "알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
     "알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
-    "퀵 정렬 (Quick).md",
-    "알고리즘/정렬(Sort)/버블 정렬 (Bubble).md",
     "자료구조/그래프 (Graph).md",
     "알고리즘/정렬(Sort)",
     "알고리즘",
@@ -325,10 +385,6 @@
     "C & C++/삼항 연산자.md",
     "C & C++/문법 & 테크닉/값 교환.md",
     "C & C++/자료형/정수형 (char, int, long).md",
-    "C & C++/자료형/포인터.md",
-    "C & C++/자료형/실수형 (float, double).md",
-    "C & C++/자료형/자료형.md",
-    "C & C++/자료형/문자열 (string).md",
     "C & C++/자료형",
     "무제 1",
     "C & C++/메모리 할당",
