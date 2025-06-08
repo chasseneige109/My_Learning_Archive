@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "퀵 정렬 (Quick Sort).md",
+                "file": "알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
                 "mode": "source",
                 "source": false
               },
@@ -168,7 +168,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "계수 정렬(Counting Sort).md",
+                "file": "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
                 "mode": "source",
                 "source": false
               },
@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "힙 정렬 (Heap Sort).md",
+                "file": "알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
                 "mode": "source",
                 "source": false
               },
@@ -196,7 +196,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "계수 정렬(Counting Sort).md",
+                "file": "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
                 "mode": "source",
                 "source": false
               },
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "계수 정렬(Counting Sort).md",
+                "file": "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -326,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "계수 정렬(Counting Sort).md",
+                "file": "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -354,13 +354,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2bc800c123f30062",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
-    "힙 정렬 (Heap Sort).md",
-    "병합 정렬(Merge Sort).md",
-    "계수 정렬(Counting Sort).md",
+    "알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
+    "알고리즘/정렬(Sort)/병합 정렬(Merge Sort).md",
+    "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
     "무제.md",
-    "퀵 정렬 (Quick Sort).md",
+    "알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
     "알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
     "알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
     "자료구조/그래프 (Graph).md",
@@ -386,7 +386,7 @@
     "C & C++/문법 & 테크닉/값 교환.md",
     "C & C++/자료형/정수형 (char, int, long).md",
     "C & C++/자료형",
-    "무제 1",
+    "알고리즘/정렬(Sort)/무제 1",
     "C & C++/메모리 할당",
     "C & C++/입력",
     "자료구조",
