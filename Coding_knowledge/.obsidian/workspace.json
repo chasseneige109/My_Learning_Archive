@@ -98,12 +98,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "forward_list.md",
+                "file": "C & C++/C++ 자료구조.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "forward_list"
+              "title": "C++ 자료구조"
             }
           }
         ],
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "forward_list.md",
+                "file": "C & C++/C++ 자료구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "forward_list 의 백링크"
+              "title": "C++ 자료구조 의 백링크"
             }
           },
           {
@@ -228,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "forward_list.md",
+                "file": "C & C++/C++ 자료구조.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "forward_list 의 개요"
+              "title": "C++ 자료구조 의 개요"
             }
           }
         ],
@@ -258,9 +258,9 @@
   },
   "active": "b773555bc1081770",
   "lastOpenFiles": [
+    "C & C++/forward_list.md",
     "C & C++/Set.md",
     "C & C++/C++ 자료구조.md",
-    "forward_list.md",
     "C & C++/포인터.md",
     "C & C++/반복문.md",
     "C & C++/실수형.md",

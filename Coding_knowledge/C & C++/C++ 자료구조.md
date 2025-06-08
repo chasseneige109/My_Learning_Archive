@@ -21,18 +21,18 @@
     
 - [[map]]: 키-값 쌍, 키 중복 불가
     
-- `multimap`: 키 중복 허용 map
+- [[multimap]]: 키 중복 허용 map
     
 
 ### 3. **Unordered Containers** (정렬 X, 해시 기반)
 
-- `unordered_set`: 중복 없는 집합, 해시 기반
+- [[unordered_set]]: 중복 없는 집합, 해시 기반
     
-- `unordered_multiset`
+- [[unordered_multiset]]
     
-- `unordered_map`
+- [[unordered_map]]
     
-- `unordered_multimap`
+- [[unordered_multimap]]
     
 
 ---
