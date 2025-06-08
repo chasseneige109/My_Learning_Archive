@@ -256,8 +256,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b773555bc1081770",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "자료구조",
     "C & C++/C++ 자료구조.md",
     "Trie.md",
     "그래프 (Graph).md",
@@ -283,7 +284,6 @@
     "C & C++/Map 함수.md",
     "C & C++/비트 연산자.md",
     "C & C++/Malloc, Calloc, Realloc.md",
-    "C & C++/삼항 연산자.md",
     "무제",
     "General",
     "Python",
