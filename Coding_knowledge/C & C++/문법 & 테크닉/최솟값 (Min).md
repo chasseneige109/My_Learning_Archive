@@ -35,17 +35,20 @@ int result = min({a, b, c, d});
 ### 🔍 `std::min_element`
 
 ```
-#include <iostream>
-#include <vector>
 #include <algorithm>
 using namespace std;
 
-int main() {
     vector<int> v = {7, 2, 5, 1, 9};
-
     auto it = min_element(v.begin(), v.end());
     cout << "최솟값: " << *it << '\n'; // 1
 
-    return 0;
-}
+
 ```
+
+#### 📌 특징
+
+- 시간복잡도: **O(n)**
+    
+- 리턴값은 iterator이므로, **인덱스는 `it - v.begin()`** 식으로 계산 가능
+    
+- `std::max_element`도 사용법 동일함
