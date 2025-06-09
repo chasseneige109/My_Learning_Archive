@@ -27,3 +27,6 @@ int result = min(min(a, b), c);
 
 ### 🔍 방법 2: `std::initializer_list` + `std::min`
 
+```
+int result = min({a, b, c, d});
+```
