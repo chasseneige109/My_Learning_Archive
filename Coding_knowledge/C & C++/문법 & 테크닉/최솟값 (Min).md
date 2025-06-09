@@ -21,5 +21,9 @@ int smaller = std::min(a, b); // smaller == 5
 
 ### 🔍방법 1: `std::min` 중첩 사용
 
+```
+int result = min(min(a, b), c);
+```
 
+### 🔍 방법 2: `std::initializer_list` + `std::min`
 
