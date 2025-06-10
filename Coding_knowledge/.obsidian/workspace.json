@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/정렬(Sort)/ㄱ 정렬 및 시간 복잡도.md",
+                "file": "알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ㄱ 정렬 및 시간 복잡도"
+              "title": "버블 정렬 (Bubble Sort)"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/정렬(Sort)/ㄱ 정렬 및 시간 복잡도.md",
+                "file": "알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ㄱ 정렬 및 시간 복잡도 의 개요"
+              "title": "버블 정렬 (Bubble Sort) 의 개요"
             }
           }
         ],
@@ -243,9 +243,9 @@
   },
   "active": "d50e273dabd8b723",
   "lastOpenFiles": [
+    "알고리즘/정렬(Sort)/ㄱ 정렬 및 시간 복잡도.md",
     "알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
     "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
-    "알고리즘/정렬(Sort)/ㄱ 정렬 및 시간 복잡도.md",
     "알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
     "알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
     "알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
