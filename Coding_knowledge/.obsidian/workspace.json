@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
+                "file": "C & C++/문법 & 테크닉/최솟값 (Min).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "삽입 정렬 (Insertion sort)"
+              "title": "최솟값 (Min)"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
+                "file": "C & C++/문법 & 테크닉/최솟값 (Min).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "삽입 정렬 (Insertion sort) 의 개요"
+              "title": "최솟값 (Min) 의 개요"
             }
           }
         ],
@@ -243,24 +243,24 @@
   },
   "active": "d50e273dabd8b723",
   "lastOpenFiles": [
+    "C & C++/문법 & 테크닉/find 함수.md",
+    "C & C++/문법 & 테크닉/최솟값 (Min).md",
+    "C & C++/문법 & 테크닉/조건문.md",
+    "C & C++/문법 & 테크닉/자료형 변환.md",
+    "자료구조/배열/Vector.md",
+    "알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
     "알고리즘/정렬(Sort)/ㄱ 정렬 및 시간 복잡도.md",
     "C & C++/문법 & 테크닉/값 교환.md",
     "알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
     "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
     "알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
     "알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
-    "알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
     "알고리즘/정렬(Sort)/병합 정렬(Merge Sort).md",
-    "C & C++/문법 & 테크닉/find 함수.md",
-    "C & C++/문법 & 테크닉/자료형 변환.md",
-    "자료구조/배열/Vector.md",
     "C & C++/문법 & 테크닉/삼항 연산자.md",
     "C & C++/문법 & 테크닉/아스키코드.md",
     "C & C++/문법 & 테크닉/비트 연산자.md",
-    "C & C++/문법 & 테크닉/조건문.md",
     "C & C++/성능.md",
     "C & C++/문법 & 테크닉/inline.md",
-    "C & C++/문법 & 테크닉/최솟값 (Min).md",
     "자료구조/Set.md",
     "자료구조/트리 (Tree).md",
     "자료구조/해시 테이블 (Hash Table).md",
