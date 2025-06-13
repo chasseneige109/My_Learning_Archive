@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자료구조/Set.md",
+                "file": "자료구조/해시 테이블 (Hash Table).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Set"
+              "title": "해시 테이블 (Hash Table)"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자료구조/Set.md",
+                "file": "자료구조/해시 테이블 (Hash Table).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Set 의 개요"
+              "title": "해시 테이블 (Hash Table) 의 개요"
             }
           }
         ],
@@ -257,6 +257,8 @@
   },
   "active": "ba9b3905598e0a05",
   "lastOpenFiles": [
+    "자료구조/Set.md",
+    "자료구조/해시",
     "자료구조/Map.md",
     "C & C++/문법 & 테크닉/중복값 삭제.md",
     "C & C++/문법 & 테크닉/최솟값 (Min).md",
@@ -277,12 +279,10 @@
     "C & C++/문법 & 테크닉/비트 연산자.md",
     "C & C++/성능.md",
     "C & C++/문법 & 테크닉/inline.md",
-    "자료구조/Set.md",
     "자료구조/트리 (Tree).md",
     "자료구조/해시 테이블 (Hash Table).md",
     "자료구조/C++ 자료구조.md",
     "자료구조/덱 (Deque).md",
-    "자료구조/스택 (Stack).md",
     "자료구조/배열",
     "알고리즘/정렬(Sort)",
     "알고리즘",
@@ -292,7 +292,6 @@
     "C & C++/메모리 할당",
     "C & C++/입력",
     "자료구조",
-    "무제",
     "Untitled 8.canvas",
     "Untitled 9.canvas",
     "Untitled 7.canvas",
