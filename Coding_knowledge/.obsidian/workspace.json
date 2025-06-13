@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "최솟값 (Min)"
             }
+          },
+          {
+            "id": "ba9b3905598e0a05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C & C++/문법 & 테크닉/중복값 삭제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "중복값 삭제"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -213,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & C++/문법 & 테크닉/최솟값 (Min).md",
+                "file": "C & C++/문법 & 테크닉/중복값 삭제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "최솟값 (Min) 의 개요"
+              "title": "중복값 삭제 의 개요"
             }
           }
         ],
@@ -227,7 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 431.5
+    "width": 254.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,10 +255,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d50e273dabd8b723",
+  "active": "ba9b3905598e0a05",
   "lastOpenFiles": [
-    "C & C++/문법 & 테크닉/find 함수.md",
     "C & C++/문법 & 테크닉/최솟값 (Min).md",
+    "C & C++/문법 & 테크닉/중복값 삭제.md",
+    "C & C++/문법 & 테크닉/find 함수.md",
     "C & C++/문법 & 테크닉/조건문.md",
     "C & C++/문법 & 테크닉/자료형 변환.md",
     "자료구조/배열/Vector.md",
@@ -269,7 +284,6 @@
     "자료구조/스택 (Stack).md",
     "자료구조/그래프 (Graph).md",
     "자료구조/배열",
-    "자료구조/Map.md",
     "알고리즘/정렬(Sort)",
     "알고리즘",
     "C & C++/문법 & 테크닉",
