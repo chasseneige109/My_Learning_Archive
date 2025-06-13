@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C & C++/문법 & 테크닉/중복값 삭제.md",
+                "file": "자료구조/Map.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "중복값 삭제"
+              "title": "Map"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & C++/문법 & 테크닉/중복값 삭제.md",
+                "file": "자료구조/Map.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "중복값 삭제 의 개요"
+              "title": "Map 의 개요"
             }
           }
         ],
@@ -257,8 +257,8 @@
   },
   "active": "ba9b3905598e0a05",
   "lastOpenFiles": [
-    "C & C++/문법 & 테크닉/최솟값 (Min).md",
     "C & C++/문법 & 테크닉/중복값 삭제.md",
+    "C & C++/문법 & 테크닉/최솟값 (Min).md",
     "C & C++/문법 & 테크닉/find 함수.md",
     "C & C++/문법 & 테크닉/조건문.md",
     "C & C++/문법 & 테크닉/자료형 변환.md",
