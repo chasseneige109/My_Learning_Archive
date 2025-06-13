@@ -34,3 +34,13 @@ int main() {
 | `clear()`        | 전부 삭제                   |
 | `empty()`        | 비었는지 확인                 |
 | `begin(), end()` | 반복자 (iterator)          |
+
+## ✅ `unordered_set`에 **많은 데이터** 넣을 때
+    
+- **속도 안정화** (특히 find/insert 반복) 를 위한 **고급 최적화**
+    
+
+
+`unordered_set<string> s; s.reserve(1000000);             // 미리 충분한 공간 확보 s.max_load_factor(0.7);         // 충돌 줄여서 성능 향상`
+
+> 특히 `백준` 같이 **시간 아슬아슬한 대형 입력 문제**에서는 체감 차이 꽤 나.
