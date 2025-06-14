@@ -305,9 +305,19 @@
               "icon": "lucide-list",
               "title": "큐 (Queue) 의 개요"
             }
+          },
+          {
+            "id": "76cce2b472c10099",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -325,7 +335,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ac9acd48263ecc9e",
+  "active": "76cce2b472c10099",
   "lastOpenFiles": [
     "자료구조/deque.md",
     "자료구조/큐 (Queue).md",
