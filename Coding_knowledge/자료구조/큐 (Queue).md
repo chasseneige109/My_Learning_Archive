@@ -22,8 +22,24 @@
 
 ### ▶ 코드 예시
 
-cpp
 
-복사편집
+```
+#include <iostream> 
+#include <queue> 
+using namespace std; 
 
-`#include <iostream> #include <queue> using namespace std;  int main() {     queue<int> q;     q.push(10);     q.push(20);      cout << q.front() << '\n'; // 10     cout << q.back() << '\n';  // 20     q.pop();     cout << q.front() << '\n'; // 20 }`
+int main() {     
+
+queue<int> q;     
+
+q.push(10);     
+q.push(20);      
+
+cout << q.front() << '\n'; // 10     
+cout << q.back() << '\n';  // 20     
+
+q.pop();     
+
+cout << q.front() << '\n'; // 20 
+}
+```
