@@ -162,11 +162,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,7 +180,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ac9acd48263ecc9e",
+  "active": "2bc800c123f30062",
   "lastOpenFiles": [
     "자료구조/큐 (Queue).md",
     "자료구조/덱 (Deque).md",
