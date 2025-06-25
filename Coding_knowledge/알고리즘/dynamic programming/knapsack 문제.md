@@ -1,0 +1,1 @@
+https://beyond-common-sense.tistory.com/4
