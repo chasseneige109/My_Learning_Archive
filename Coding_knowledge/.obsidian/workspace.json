@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/탐색/너비 우선 탐색 (BFS).md",
+                "file": "알고리즘/dynamic programming/Memoization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "너비 우선 탐색 (BFS)"
+              "title": "Memoization"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/탐색/너비 우선 탐색 (BFS).md",
+                "file": "알고리즘/dynamic programming/Memoization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "너비 우선 탐색 (BFS) 의 개요"
+              "title": "Memoization 의 개요"
             }
           },
           {
@@ -209,11 +209,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "186634b11b3e60f1",
   "lastOpenFiles": [
-    "알고리즘/탐색/깊이 우선 탐색 (DFS).md",
-    "알고리즘/dynamic programming/무제.md",
     "알고리즘/dynamic programming/knapsack 문제.md",
+    "알고리즘/dynamic programming/Memoization.md",
+    "알고리즘/탐색/너비 우선 탐색 (BFS).md",
+    "알고리즘/탐색/깊이 우선 탐색 (DFS).md",
     "무제 2",
     "알고리즘/dynamic programming",
     "무제 1",
@@ -239,7 +240,6 @@
     "C & C++/문법 & 테크닉/비트 연산자.md",
     "C & C++/문법 & 테크닉/아스키코드.md",
     "C & C++/문법 & 테크닉/자료형 변환.md",
-    "C & C++/자료형/문자열 (string).md",
     "수학/정수론",
     "수학",
     "자료구조/해시",
