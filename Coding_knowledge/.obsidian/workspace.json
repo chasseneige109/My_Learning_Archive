@@ -11,10 +11,14 @@
             "id": "063ab9cff4fcdf35",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "회계및세무/무제 2/내국신용장.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "내국신용장"
             }
           }
         ]
@@ -138,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제.canvas",
+                "file": "회계및세무/무제 2/내국신용장.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 의 개요"
+              "title": "내국신용장 의 개요"
             }
           },
           {
@@ -176,11 +180,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "063ab9cff4fcdf35",
   "lastOpenFiles": [
+    "무제.canvas",
+    "회계및세무/무제 2/내국신용장.md",
+    "회계및세무/무제 2",
     "무제 4",
     "무제 1.canvas",
-    "무제.canvas",
     "알고리즘/dynamic programming/ㄱ. DP 문제 해결.md",
     "알고리즘/dynamic programming/LIS, LCS.md",
     "알고리즘/dynamic programming/Tabulation.md",
@@ -209,13 +215,10 @@
     "C & C++/문법 & 테크닉/2차원 '조합'으로 순회하기 테크닉.md",
     "C & C++/문법 & 테크닉/삼항 연산자.md",
     "C & C++/문법 & 테크닉/소수 판별 함수.md",
-    "자료구조/그래프 (Graph).md",
     "수학/정수론",
     "수학",
     "자료구조/해시",
     "자료구조/배열",
-    "알고리즘/정렬(Sort)",
-    "알고리즘",
     "Untitled 8.canvas",
     "Untitled 9.canvas",
     "Untitled 7.canvas",
