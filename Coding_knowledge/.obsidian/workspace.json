@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학/정수론/페르마 소정리.md",
+                "file": "수학/정수론/베르트랑 공준.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "페르마 소정리"
+              "title": "베르트랑 공준"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수학/정수론/페르마 소정리.md",
+                "file": "수학/정수론/베르트랑 공준.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "페르마 소정리 의 개요"
+              "title": "베르트랑 공준 의 개요"
             }
           },
           {
@@ -211,9 +211,10 @@
   },
   "active": "9f4cb7642ef3a6fe",
   "lastOpenFiles": [
-    "수학/정수론/무제.md",
-    "수학/정수론/페르마 소정리.md",
     "수학/정수론/유클리드 호제법.md",
+    "수학/정수론/베르트랑 공준.md",
+    "수학/정수론/MOD.md",
+    "수학/정수론/페르마 소정리.md",
     "회계및세무/무제 2/내국신용장.md",
     "무제.canvas",
     "회계및세무/무제 2",
@@ -244,7 +245,6 @@
     "C & C++/문법 & 테크닉/반복문.md",
     "C & C++/문법 & 테크닉/값 치환하기.md",
     "C & C++/문법 & 테크닉/값 교환.md",
-    "C & C++/문법 & 테크닉/2차원 '조합'으로 순회하기 테크닉.md",
     "수학/정수론",
     "수학",
     "자료구조/해시",
