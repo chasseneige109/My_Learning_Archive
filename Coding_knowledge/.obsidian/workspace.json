@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학/정수론/베르트랑 공준.md",
+                "file": "알고리즘/dynamic programming/Tabulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "베르트랑 공준"
+              "title": "Tabulation"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수학/정수론/베르트랑 공준.md",
+                "file": "알고리즘/dynamic programming/Tabulation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "베르트랑 공준 의 개요"
+              "title": "Tabulation 의 개요"
             }
           },
           {
@@ -209,10 +209,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9f4cb7642ef3a6fe",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
-    "수학/정수론/유클리드 호제법.md",
+    "알고리즘/dynamic programming/Memoization.md",
+    "알고리즘/dynamic programming/LIS, LCS.md",
+    "알고리즘/dynamic programming/knapsack 문제.md",
+    "알고리즘/dynamic programming/ㄱ. DP 문제 해결.md",
     "수학/정수론/베르트랑 공준.md",
+    "수학/정수론/유클리드 호제법.md",
     "수학/정수론/MOD.md",
     "수학/정수론/페르마 소정리.md",
     "회계및세무/무제 2/내국신용장.md",
@@ -220,12 +224,8 @@
     "회계및세무/무제 2",
     "무제 4",
     "무제 1.canvas",
-    "알고리즘/dynamic programming/ㄱ. DP 문제 해결.md",
-    "알고리즘/dynamic programming/LIS, LCS.md",
     "알고리즘/dynamic programming/Tabulation.md",
-    "알고리즘/dynamic programming/Memoization.md",
     "무제 3",
-    "알고리즘/dynamic programming/knapsack 문제.md",
     "알고리즘/탐색/너비 우선 탐색 (BFS).md",
     "알고리즘/탐색/깊이 우선 탐색 (DFS).md",
     "회계및세무",
