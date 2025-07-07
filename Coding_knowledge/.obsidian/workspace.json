@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
+                "file": "자료구조/큐 (Queue).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "힙 정렬 (Heap Sort)"
+              "title": "큐 (Queue)"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
+                "file": "자료구조/큐 (Queue).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "힙 정렬 (Heap Sort) 의 개요"
+              "title": "큐 (Queue) 의 개요"
             }
           },
           {
@@ -182,6 +182,7 @@
   },
   "active": "33c6557a6cd9f653",
   "lastOpenFiles": [
+    "알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
     "자료구조/큐 (Queue).md",
     "알고리즘/dynamic programming/Tabulation.md",
     "알고리즘/탐색/이분탐색 (Binary search).md",
@@ -213,7 +214,6 @@
     "알고리즘/정렬(Sort)/병합 정렬(Merge Sort).md",
     "알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
     "알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
-    "알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
     "C & C++/문법 & 테크닉/최솟값 (Min).md",
     "C & C++/문법 & 테크닉/반복문.md",
     "수학/정수론",
