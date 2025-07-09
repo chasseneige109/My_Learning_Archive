@@ -1,4 +1,4 @@
-간선을 
+### 기본적인 구현 방법 
 ```
 for (int i = 1; i <= N; ++i) {
     for (int j = i + 1; j <= N; ++j) {
@@ -7,8 +7,9 @@ for (int i = 1; i <= N; ++i) {
         adj[higher][lower] = true;
         indegree[lower]++;
 ```
-이렇게 vec<vec<bool>> 배열로 구현.
+간선을 vec<vec<bool>> 배열로 구현.
 int  indegree 라는 변수를 지정해서 진입차수를 저장시킴.
+
 
 
 
