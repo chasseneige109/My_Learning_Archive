@@ -15,7 +15,7 @@
               "state": {
                 "file": "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "위상 정렬(topology sort)"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자료구조/Set.md",
+                "file": "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Set 의 백링크"
+              "title": "위상 정렬(topology sort) 의 백링크"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Untitled.md",
+                "file": "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "위상 정렬(topology sort) 의 나가는 링크"
             }
           },
           {
@@ -128,12 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "태그"
             }
           },
           {
@@ -161,8 +161,7 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,12 +181,12 @@
   },
   "active": "7abc4e4eb828be87",
   "lastOpenFiles": [
-    "자료구조/배열/Vector.md",
+    "알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
     "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
+    "자료구조/배열/Vector.md",
     "회계및세무/무제 2/내국신용장.md",
     "알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
     "알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
-    "알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
     "알고리즘/정렬(Sort)/병합 정렬(Merge Sort).md",
     "알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
     "알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
