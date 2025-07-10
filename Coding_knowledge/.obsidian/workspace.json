@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/그래프/Dijkstra algorithm.md",
+                "file": "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dijkstra algorithm"
+              "title": "위상 정렬(topology sort)"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/그래프/Dijkstra algorithm.md",
+                "file": "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Dijkstra algorithm 의 백링크"
+              "title": "위상 정렬(topology sort) 의 백링크"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/그래프/Dijkstra algorithm.md",
+                "file": "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Dijkstra algorithm 의 나가는 링크"
+              "title": "위상 정렬(topology sort) 의 나가는 링크"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/그래프/Dijkstra algorithm.md",
+                "file": "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dijkstra algorithm 의 개요"
+              "title": "위상 정렬(topology sort) 의 개요"
             }
           },
           {
@@ -210,8 +210,8 @@
   },
   "active": "5b46f09ef6df9abf",
   "lastOpenFiles": [
-    "알고리즘/그래프/Kruskal algorithm.md",
     "알고리즘/그래프/Dijkstra algorithm.md",
+    "알고리즘/그래프/Kruskal algorithm.md",
     "알고리즘/그래프",
     "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
     "알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
