@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "Kruskal algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "Kruskal algorithm"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제.md",
+                "file": "Kruskal algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "무제 의 백링크"
+              "title": "Kruskal algorithm 의 백링크"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제.md",
+                "file": "Kruskal algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "무제 의 나가는 링크"
+              "title": "Kruskal algorithm 의 나가는 링크"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제.md",
+                "file": "Kruskal algorithm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 의 개요"
+              "title": "Kruskal algorithm 의 개요"
             }
           },
           {
@@ -196,8 +196,9 @@
   },
   "active": "0490ba6bd45c8cc7",
   "lastOpenFiles": [
+    "알고리즘/그래프",
     "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
-    "무제.md",
+    "Kruskal algorithm.md",
     "알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
     "자료구조/배열/Vector.md",
     "회계및세무/무제 2/내국신용장.md",
@@ -229,7 +230,6 @@
     "무제 1",
     "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
     "C & C++/성능.md",
-    "알고리즘/정렬(Sort)/ㄱ 정렬 및 시간 복잡도.md",
     "수학/정수론",
     "수학",
     "자료구조/해시",
