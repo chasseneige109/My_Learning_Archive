@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/그래프/Dijkstra algorithm.md",
+                "file": "C & C++/문법 & 테크닉/삼항 연산자.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dijkstra algorithm"
+              "title": "삼항 연산자"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/그래프/Dijkstra algorithm.md",
+                "file": "C & C++/문법 & 테크닉/삼항 연산자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Dijkstra algorithm 의 백링크"
+              "title": "삼항 연산자 의 백링크"
             }
           },
           {
@@ -210,6 +210,7 @@
   },
   "active": "bacd96495e6f04f0",
   "lastOpenFiles": [
+    "알고리즘/그래프/Dijkstra algorithm.md",
     "C & C++/문법 & 테크닉/값 교환.md",
     "C & C++/문법 & 테크닉/2차원 '조합'으로 순회하기 테크닉.md",
     "C & C++/문법 & 테크닉/비트 연산자.md",
@@ -217,7 +218,6 @@
     "알고리즘/그래프/Union Find.md",
     "알고리즘/그래프/Bellman - Ford algorithm.md",
     "알고리즘/그래프/Floyd-Warshall.md",
-    "알고리즘/그래프/Dijkstra algorithm.md",
     "C & C++/문법 & 테크닉/값 전달.md",
     "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
     "알고리즘/그래프",
