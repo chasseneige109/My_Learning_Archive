@@ -22,7 +22,7 @@ void uni (int x, int y)
 - `find(x)`를 호출할 때, x가 루트가 아니면 **그 부모를 루트로 직접 연결**해버리는 방식
     
 - → 다음 `find(x)`는 O(1)처럼 작동
-### ✅ 2. 랭크 기반 유니온 (Union by Rank or Size)
+# ✅ 2. 랭크 기반 유니온 (Union by Rank or Size)
 
 ### 🧠 개념:
 
@@ -30,7 +30,6 @@ void uni (int x, int y)
     
 - 트리의 높이(또는 노드 수)를 최소화해 성능을 향상시킴
 
-### 경로 압축
 
 # 💻 전체 코드 예시: Union by Rank + Path Compression
 ```
@@ -54,3 +53,8 @@ void unionSet(int a, int b) {
     }
 }
 ```
+
+
+# 그룹의 개수
+
+netsize배열 추가해서 uni에서 parnet
