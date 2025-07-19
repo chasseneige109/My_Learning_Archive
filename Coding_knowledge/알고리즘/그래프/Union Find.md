@@ -57,4 +57,4 @@ void unionSet(int a, int b) {
 
 # 그룹의 개수
 
-netsize배열 추가해서 uni에서 parnet
+netsize배열 추가해서 uni에서 parent 연결시마다 netsize a += netsize b
