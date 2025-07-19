@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/그래프/Kruskal algorithm.md",
+                "file": "알고리즘/그래프/Union Find.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Kruskal algorithm 의 백링크"
+              "title": "Union Find 의 백링크"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/그래프/Kruskal algorithm.md",
+                "file": "알고리즘/그래프/Union Find.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Kruskal algorithm 의 개요"
+              "title": "Union Find 의 개요"
             }
           },
           {
@@ -209,11 +209,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3cdd4e65b1a76438",
+  "active": "bacd96495e6f04f0",
   "lastOpenFiles": [
+    "알고리즘/그래프/Kruskal algorithm.md",
     "알고리즘/그래프/Bellman - Ford algorithm.md",
     "알고리즘/그래프/Union Find.md",
-    "알고리즘/그래프/Kruskal algorithm.md",
     "자료구조/Map.md",
     "무제 2",
     "자료구조/Vector.md",
