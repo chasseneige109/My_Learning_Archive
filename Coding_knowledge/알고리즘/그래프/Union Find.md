@@ -57,6 +57,10 @@ void unionSet(int a, int b) {
 ```
 
 
-# 그룹의 개수
-
+# ✅ 그룹 내 원소의 개수
+ 
 netsize배열 추가해서 uni에서 parent 연결시마다 netsize a += netsize b
+
+# ✅사이클 찾는 법
+
+UNION함수에서 A == B일 경우 false 를 return하기
