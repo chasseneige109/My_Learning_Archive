@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/그래프/Union Find.md",
+                "file": "알고리즘/그래프/Kruskal algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Union Find 의 백링크"
+              "title": "Kruskal algorithm 의 백링크"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & C++/문법 & 테크닉/값 교환.md",
+                "file": "알고리즘/그래프/Kruskal algorithm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "값 교환 의 개요"
+              "title": "Kruskal algorithm 의 개요"
             }
           },
           {
@@ -190,7 +190,8 @@
               "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -208,10 +209,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bacd96495e6f04f0",
+  "active": "3cdd4e65b1a76438",
   "lastOpenFiles": [
-    "알고리즘/그래프/Kruskal algorithm.md",
+    "알고리즘/그래프/Bellman - Ford algorithm.md",
     "알고리즘/그래프/Union Find.md",
+    "알고리즘/그래프/Kruskal algorithm.md",
     "자료구조/Map.md",
     "무제 2",
     "자료구조/Vector.md",
@@ -222,7 +224,6 @@
     "C & C++/문법 & 테크닉/값 교환.md",
     "C & C++/문법 & 테크닉/2차원 '조합'으로 순회하기 테크닉.md",
     "C & C++/문법 & 테크닉/비트 연산자.md",
-    "알고리즘/그래프/Bellman - Ford algorithm.md",
     "알고리즘/그래프/Floyd-Warshall.md",
     "C & C++/문법 & 테크닉/값 전달.md",
     "알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
