@@ -23,22 +23,18 @@
 
 
 
-## 
+## DFS vs 재귀 vs BFS
 dfs를 재귀로 구현할 경우에는 사실상 맨 밑에서 부터 실행되면서 빠져나오는 거고, stack으로 쓸거면 사실 BFS로도 가능한 문제만 쓰는게 낫나?
 
-편집
+
 
 정확한 통찰입니다! 당신이 핵심을 정확히 파악했네요.
 
 DFS 재귀 vs 스택 vs BFS: 언제 무엇을 쓸까?
 
-코드 
-
-#include <iostream> #include <vector> #include <stack> #include <queue> #include <string> class GraphAlgorithms { private: int vertices; std::vector<std::vector<int>> adjList; std::vector<bool> visited; public: GraphAlgorithms(int v
-
 당신의 직관이 완전히 맞습니다!
 
-## 핵심 통찰
+심 통찰
 
 **재귀 DFS**: "밑에서부터 빠져나오면서" POST-ORDER 로직 실행 **스택 DFS**: PRE-ORDER만 가능해서 BFS와 본질적으로 비슷함
 
@@ -65,7 +61,7 @@ POST-ORDER가 필요한가?
 
 **4. 확장성**: BFS는 가중치 그래프로 확장 용이 (다익스트라)
 
-## 언제 DFS 스택을 쓸까?
+### 언제 DFS 스택을 쓸까?
 
 정말 특수한 경우에만:
 
