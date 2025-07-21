@@ -33,7 +33,14 @@ DFS 재귀 vs 스택 vs BFS: 언제 무엇을 쓸까?
 - 메모리가 극도로 제한적
 - **그런데 이런 경우에도 BFS를 먼저 고려해볼 것!**
 
-당신 말이 맞습니다. **DFS 스택은 사실상 "재귀를 못 쓸 때의 차선책"**이고, 그런 상황이라면 **BFS를 먼저 고려하는 게 현명**합니다!## ✅ 방법 1: Post-order DFS
+당신 말이 맞습니다. **DFS 스택은 사실상 "재귀를 못 쓸 때의 차선책"**이고, 그런 상황이라면 **BFS를 먼저 고려하는 게 현명**합니다!
+
+
+
+
+# 리프 노드 먼저 처리하며 순회하는 DFS
+
+## ✅ 방법 1: Post-order DFS
 
 ### (가장 일반적인 방식)
 
@@ -41,7 +48,18 @@ cpp
 
 복사편집
 
-`void dfs(int node, int parent) {     for (int child : tree[node]) {         if (child != parent) {             dfs(child, node);         }     }     // 자식들을 다 본 후, 현재 노드 처리 (가장 깊은 노드부터 올라오는 순서)     doSomething(node); }`
+```
+void dfs(int node, int parent) {
+    for (int child : tree[node]) {
+        if (child != parent) {
+            dfs(child, node);
+        }
+    }
+    // 자식들을 다 본 후, 현재 노드 처리 (가장 깊은 노드부터 올라오는 순서)
+    doSomething(node);
+}
+
+```
 
 이 방식은 **리프 → 부모 → 조상 순**으로 진행돼서 "깊은 노드부터 순회"에 해당함.
 
@@ -60,7 +78,30 @@ cpp
 
 복사편집
 
-`vector<int> order; int depth[100001];  void dfs(int node, int parent, int d) {     depth[node] = d;     for (int child : tree[node]) {         if (child != parent)             dfs(child, node, d + 1);     }     order.push_back(node); // DFS 완료 후 넣으면 post-order }  ...  dfs(root, -1, 0); sort(order.begin(), order.end(), [](int a, int b) {     return depth[a] > depth[b]; // 깊은 노드부터 });  for (int node : order)     doSomething(node);`
+```
+vector<int> order;
+int depth[100001];
+
+void dfs(int node, int parent, int d) {
+    depth[node] = d;
+    for (int child : tree[node]) {
+        if (child != parent)
+            dfs(child, node, d + 1);
+    }
+    order.push_back(node); // DFS 완료 후 넣으면 post-order
+}
+
+...
+
+dfs(root, -1, 0);
+sort(order.begin(), order.end(), [](int a, int b) {
+    return depth[a] > depth[b]; // 깊은 노드부터
+});
+
+for (int node : order)
+    doSomething(node);
+
+```
 
 ---
 
