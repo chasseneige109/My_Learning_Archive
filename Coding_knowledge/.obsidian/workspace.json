@@ -53,6 +53,20 @@
             }
           },
           {
+            "id": "f1330c8c43d269ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General/Error/Without Returning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Without Returning"
+            }
+          },
+          {
             "id": "ba72302ca562cc92",
             "type": "leaf",
             "state": {
@@ -63,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C & C++/문법 & 테크닉/최솟값 (Min).md",
+                "file": "General/Error/Without Returning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +160,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "최솟값 (Min) 의 백링크"
+              "title": "Without Returning 의 백링크"
             }
           },
           {
@@ -184,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & C++/문법 & 테크닉/최솟값 (Min).md",
+                "file": "General/Error/Without Returning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "최솟값 (Min) 의 개요"
+              "title": "Without Returning 의 개요"
             }
           },
           {
@@ -222,8 +236,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dc0bf50e49f006e4",
+  "active": "f1330c8c43d269ef",
   "lastOpenFiles": [
+    "C & C++/문법 & 테크닉/최솟값 (Min).md",
+    "General/Error/Without Returning.md",
     "알고리즘/탐색/DFS.md",
     "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
     "알고리즘/탐색/BFS.md",
@@ -251,8 +267,6 @@
     "자료구조/Vector.md",
     "자료구조/Tree.md",
     "자료구조/Set.md",
-    "C & C++/문법 & 테크닉/삼항 연산자.md",
-    "알고리즘/그래프/Dijkstra algorithm.md",
     "알고리즘/그래프",
     "회계및세무/무제 2",
     "무제 4",
