@@ -44,10 +44,6 @@ DFS 재귀 vs 스택 vs BFS: 언제 무엇을 쓸까?
 
 ### (가장 일반적인 방식)
 
-cpp
-
-복사편집
-
 ```
 void dfs(int node, int parent) {
     for (int child : tree[node]) {
@@ -73,11 +69,6 @@ void dfs(int node, int parent) {
     
 3. 정렬된 순서대로 처리
     
-
-cpp
-
-복사편집
-
 ```
 vector<int> order;
 int depth[100001];
