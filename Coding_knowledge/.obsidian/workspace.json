@@ -72,12 +72,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C & C++/문법 & 테크닉/조건문.md",
+                "file": "알고리즘/그래프/MST, Minimum Spanning Tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "조건문"
+              "title": "MST, Minimum Spanning Tree"
             }
           },
           {
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C & C++/문법 & 테크닉/조건문.md",
+                "file": "알고리즘/그래프/MST, Minimum Spanning Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "조건문 의 백링크"
+              "title": "MST, Minimum Spanning Tree 의 백링크"
             }
           },
           {
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & C++/문법 & 테크닉/조건문.md",
+                "file": "알고리즘/그래프/MST, Minimum Spanning Tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "조건문 의 개요"
+              "title": "MST, Minimum Spanning Tree 의 개요"
             }
           },
           {
@@ -252,6 +252,7 @@
   },
   "active": "f9dbf57248b71aa6",
   "lastOpenFiles": [
+    "C & C++/문법 & 테크닉/조건문.md",
     "자료구조/Vector.md",
     "수학/정수론/유클리드 호제법.md",
     "알고리즘/그래프/Dijkstra algorithm.md",
@@ -279,7 +280,6 @@
     "C & C++/Class & Struct/Struct",
     "회계및세무/무제 2/내국신용장.md",
     "자료구조/그래프 (Graph).md",
-    "자료구조/트리 (Tree).md",
     "C & C++/Class & Struct",
     "알고리즘/그래프",
     "회계및세무/무제 2",
