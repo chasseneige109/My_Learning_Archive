@@ -15,3 +15,9 @@
     
 
 이런 모양을 만드는 껍질 = Convex Hull입니다.
+
+## 3️⃣ 구하는 방법 (대표 알고리즘)
+
+- **Graham Scan**: CCW(반시계 방향) 판정으로 Hull을 쌓아 올림. O(N log N)
+    
+- **Andrew's Monotone Chain**: 정렬 + 스택으로 Hull 계산. O(N log N)
