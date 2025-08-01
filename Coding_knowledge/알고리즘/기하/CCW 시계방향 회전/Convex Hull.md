@@ -18,6 +18,6 @@
 
 ## 3️⃣ 구하는 방법 (대표 알고리즘)
 
-- ### #GrahamScan: CCW(반시계 방향) 판정으로 Hull을 쌓아 올림. O(N log N)
+### #GrahamScan: CCW(반시계 방향) 판정으로 Hull을 쌓아 올림. O(N log N)
     
-- ### #AndrewMonotoneChain: 정렬 + 스택으로 Hull 계산. O(N log N)
+### #AndrewMonotoneChain: 정렬 + 스택으로 Hull 계산. O(N log N)
