@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "히스토그램 문제.md",
+                "file": "알고리즘/자료구조활용/히스토그램 문제.md",
                 "mode": "source",
                 "source": false
               },
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path: 히스토그램",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "히스토그램 문제.md",
+                "file": "알고리즘/자료구조활용/히스토그램 문제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,8 +180,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6090a71ce926d0fa",
+  "active": "a47cebe351f66e2e",
   "lastOpenFiles": [
+    "알고리즘/자료구조활용/슬라이딩 윈도우.md",
+    "알고리즘/자료구조활용/무제 1.md",
+    "알고리즘/자료구조활용/히스토그램 문제.md",
     "알고리즘/dynamic programming/Tabulation.md",
     "알고리즘/dynamic programming/Memoization.md",
     "알고리즘/dynamic programming/LIS, LCS.md",
@@ -194,10 +196,7 @@
     "자료구조/그래프 (Graph).md",
     "자료구조/덱 (Deque).md",
     "자료구조/스택 (Stack).md",
-    "알고리즘/자료구조활용/슬라이딩 윈도우.md",
-    "알고리즘/자료구조활용/무제 1.md",
     "알고리즘/자료구조활용",
-    "히스토그램 문제.md",
     "자료구조/Vector.md",
     "자료구조/큐 (Queue).md",
     "자료구조/연결 리스트 (Linked List).md",
