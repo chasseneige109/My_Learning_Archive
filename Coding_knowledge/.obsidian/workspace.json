@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학/기하/신발끈 정리.md",
+                "file": "알고리즘/기하/신발끈 정리.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학/기하/CCW 시계방향 회전/CCW 알고리즘.md",
+                "file": "알고리즘/기하/CCW 시계방향 회전/CCW 알고리즘.md",
                 "mode": "source",
                 "source": false
               },
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학/기하/CCW 시계방향 회전/CCW 알고리즘.md",
+                "file": "알고리즘/기하/CCW 시계방향 회전/CCW 알고리즘.md",
                 "mode": "source",
                 "source": false
               },
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학/기하/신발끈 정리.md",
+                "file": "알고리즘/기하/CCW 시계방향 회전/CCW 알고리즘.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "신발끈 정리"
+              "title": "CCW 알고리즘"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수학/기하/신발끈 정리.md",
+                "file": "알고리즘/기하/CCW 시계방향 회전/CCW 알고리즘.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "신발끈 정리 의 개요"
+              "title": "CCW 알고리즘 의 개요"
             }
           },
           {
@@ -239,13 +239,17 @@
   },
   "active": "64268347e8bd3fa2",
   "lastOpenFiles": [
-    "수학/기하/CCW 시계방향 회전/Convex Hull.md",
-    "수학/기하/CCW 시계방향 회전/무제 1.md",
-    "수학/기하/CCW 시계방향 회전/CCW 알고리즘.md",
-    "수학/기하/CCW 시계방향 회전",
-    "수학/기하/신발끈 정리.md",
+    "알고리즘/기하/신발끈 정리.md",
+    "알고리즘/기하/CCW 시계방향 회전/무제 1.md",
+    "알고리즘/기하/CCW 시계방향 회전/Convex Hull.md",
+    "알고리즘/기하/CCW 시계방향 회전/CCW 알고리즘.md",
+    "수학/정수론/MOD.md",
+    "수학/정수론/페르마 소정리.md",
+    "수학/정수론/유클리드 호제법.md",
+    "수학/정수론/베르트랑 공준.md",
+    "알고리즘/기하/CCW 시계방향 회전",
     "알고리즘/dynamic programming/Memoization.md",
-    "수학/기하",
+    "알고리즘/기하",
     "알고리즘/dynamic programming/Tabulation.md",
     "알고리즘/dynamic programming/트리 + DP.md",
     "알고리즘/dynamic programming/무제.md",
@@ -264,10 +268,6 @@
     "자료구조/큐 (Queue).md",
     "자료구조/연결 리스트 (Linked List).md",
     "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
-    "C & C++/문법 & 테크닉/비트 연산자.md",
-    "C & C++/문법 & 테크닉/반복문.md",
-    "C & C++/문법 & 테크닉/값 치환하기.md",
-    "C & C++/문법 & 테크닉/값 전달.md",
     "무제.canvas",
     "C & C++/Class & Struct/Struct",
     "C & C++/Class & Struct",
