@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Andrew",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +131,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -237,12 +238,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "64268347e8bd3fa2",
+  "active": "6090a71ce926d0fa",
   "lastOpenFiles": [
-    "알고리즘/기하/CCW 시계방향 회전/무제 1.md",
+    "알고리즘/기하/CCW 시계방향 회전/Graham Scan.md",
+    "알고리즘/기하/CCW 시계방향 회전/Convex Hull.md",
     "알고리즘/기하/CCW 시계방향 회전/CCW 알고리즘.md",
     "알고리즘/기하/신발끈 정리.md",
-    "알고리즘/기하/CCW 시계방향 회전/Convex Hull.md",
     "수학/정수론/MOD.md",
     "수학/정수론/페르마 소정리.md",
     "수학/정수론/유클리드 호제법.md",
