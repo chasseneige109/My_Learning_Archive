@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/기하/CCW 시계방향 회전/Convex Hull.md",
+                "file": "수학/정수론/유클리드 호제법.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Convex Hull"
+              "title": "유클리드 호제법"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/기하/CCW 시계방향 회전/Convex Hull.md",
+                "file": "수학/정수론/유클리드 호제법.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Convex Hull 의 개요"
+              "title": "유클리드 호제법 의 개요"
             }
           },
           {
@@ -253,8 +253,8 @@
   },
   "active": "6e766171a077b95e",
   "lastOpenFiles": [
-    "알고리즘/기하/CCW 시계방향 회전/AndrewMonotoneChain.md",
     "알고리즘/기하/CCW 시계방향 회전/Convex Hull.md",
+    "알고리즘/기하/CCW 시계방향 회전/AndrewMonotoneChain.md",
     "알고리즘/기하/CCW 시계방향 회전/Graham Scan.md",
     "알고리즘/기하/CCW 시계방향 회전/CCW 알고리즘.md",
     "알고리즘/기하/신발끈 정리.md",
