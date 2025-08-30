@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/탐색/DFS.md",
+                "file": "C & C++/문법 & 테크닉/소수 판별 함수.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DFS"
+              "title": "소수 판별 함수"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/탐색/DFS.md",
+                "file": "C & C++/문법 & 테크닉/소수 판별 함수.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DFS 의 개요"
+              "title": "소수 판별 함수 의 개요"
             }
           },
           {
@@ -253,6 +253,14 @@
   },
   "active": "f56666987c556f7a",
   "lastOpenFiles": [
+    "C & C++/문법 & 테크닉/삼항 연산자.md",
+    "C & C++/문법 & 테크닉/비트 연산자.md",
+    "C & C++/문법 & 테크닉/반복문.md",
+    "C & C++/문법 & 테크닉/값 치환하기.md",
+    "C & C++/문법 & 테크닉/값 전달.md",
+    "C & C++/문법 & 테크닉/값 교환.md",
+    "C & C++/문법 & 테크닉/2차원 '조합'으로 순회하기 테크닉.md",
+    "알고리즘/탐색/DFS.md",
     "알고리즘/탐색/Binary search.md",
     "알고리즘/탐색/BFS.md",
     "알고리즘/자료구조활용/히스토그램 문제.md",
@@ -271,14 +279,6 @@
     "자료구조/트리 (Tree).md",
     "자료구조/큐 (Queue).md",
     "자료구조/연결 리스트 (Linked List).md",
-    "자료구조/스택 (Stack).md",
-    "자료구조/덱 (Deque).md",
-    "자료구조/그래프 (Graph).md",
-    "알고리즘/기하/신발끈 정리.md",
-    "알고리즘/dynamic programming/knapsack 문제.md",
-    "알고리즘/dynamic programming/Tabulation.md",
-    "알고리즘/dynamic programming/Memoization.md",
-    "알고리즘/dynamic programming/LIS, LCS.md",
     "논문 읽기/논문 선정 기준",
     "논문 읽기/학회 및 저널",
     "논문 읽기",
