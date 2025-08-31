@@ -90,9 +90,21 @@
               "icon": "lucide-file",
               "title": "트리 + DP"
             }
+          },
+          {
+            "id": "21348d8f6de7ebc7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.12"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -213,13 +225,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/dynamic programming/트리 + DP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "트리 + DP 의 개요"
+              "title": "개요"
             }
           },
           {
@@ -241,6 +252,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -251,7 +263,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f56666987c556f7a",
+  "active": "21348d8f6de7ebc7",
   "lastOpenFiles": [
     "알고리즘/dynamic programming/DP 문제 해결.md",
     "알고리즘/dynamic programming/knapsack 문제.md",
