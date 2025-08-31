@@ -95,12 +95,14 @@
             "id": "21348d8f6de7ebc7",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "알고리즘/그래프/MST, Minimum Spanning Tree.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.9.12"
+              "icon": "lucide-file",
+              "title": "MST, Minimum Spanning Tree"
             }
           }
         ],
@@ -225,12 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "알고리즘/그래프/MST, Minimum Spanning Tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "MST, Minimum Spanning Tree 의 개요"
             }
           },
           {
@@ -265,6 +268,10 @@
   },
   "active": "21348d8f6de7ebc7",
   "lastOpenFiles": [
+    "알고리즘/그래프/Kruskal algorithm.md",
+    "알고리즘/그래프/Floyd-Warshall.md",
+    "알고리즘/그래프/Dijkstra algorithm.md",
+    "알고리즘/그래프/Bellman - Ford algorithm.md",
     "알고리즘/dynamic programming/DP 문제 해결.md",
     "알고리즘/dynamic programming/knapsack 문제.md",
     "알고리즘/dynamic programming/LIS, LCS.md",
@@ -287,10 +294,6 @@
     "알고리즘/자료구조활용/히스토그램 문제.md",
     "알고리즘/기하/CCW 시계방향 회전/Graham Scan.md",
     "알고리즘/기하/CCW 시계방향 회전/Convex Hull.md",
-    "알고리즘/기하/CCW 시계방향 회전/CCW 알고리즘.md",
-    "알고리즘/기하/CCW 시계방향 회전/AndrewMonotoneChain.md",
-    "논문 읽기/논문 선정 기준/논문 선정 기준.md",
-    "C & C++/Class & Struct/struct vs class.md",
     "논문 읽기/논문 선정 기준",
     "논문 읽기/학회 및 저널",
     "논문 읽기",
