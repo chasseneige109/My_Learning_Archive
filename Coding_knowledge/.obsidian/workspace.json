@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Graham Scan"
             }
+          },
+          {
+            "id": "bdb966507fda3592",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/CVXPY/무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/기하/CCW 시계방향 회전/Graham Scan.md",
+                "file": "Python/CVXPY/무제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Graham Scan 의 개요"
+              "title": "무제 의 개요"
             }
           },
           {
@@ -183,6 +198,8 @@
   },
   "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "알고리즘/기하/CCW 시계방향 회전/Graham Scan.md",
+    "Python/CVXPY/무제.md",
     "Python/CVXPY",
     "알고리즘/기하/CCW 시계방향 회전/Convex Hull.md",
     "알고리즘/기하/CCW 시계방향 회전/CCW 알고리즘.md",
@@ -207,7 +224,6 @@
     "알고리즘/자료구조활용/슬라이딩 윈도우.md",
     "알고리즘/자료구조활용/무제 1.md",
     "알고리즘/기하/신발끈 정리.md",
-    "알고리즘/기하/CCW 시계방향 회전/Graham Scan.md",
     "알고리즘/dynamic programming/DP 문제 해결.md",
     "알고리즘/dynamic programming/knapsack 문제.md",
     "알고리즘/dynamic programming/LIS, LCS.md",
@@ -219,7 +235,6 @@
     "알고리즘/기하",
     "알고리즘/자료구조활용",
     "무제.canvas",
-    "C & C++/Class & Struct/Struct",
     "무제 1.canvas",
     "Untitled 8.canvas",
     "Untitled 9.canvas",
