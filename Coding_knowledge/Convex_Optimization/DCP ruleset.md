@@ -11,3 +11,4 @@
 | **Concave & nondecreasing** | Concave input     | Concave                | `log(x)`        | ✅          |
 | **Concave & nonincreasing** | Convex input      | Concave                | `-sqrt(x)`      | ✅          |
 
+# Examples from 
