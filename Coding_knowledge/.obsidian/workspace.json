@@ -198,10 +198,10 @@
   },
   "active": "e4eb675570441450",
   "lastOpenFiles": [
-    "Convex_Optimization/Basic Syntax.md",
-    "Convex_Optimization/DCP ruleset.md",
-    "Convex_Optimization/CVXPY",
     "자료구조/C++ 자료구조.md",
+    "Convex_Optimization/DCP ruleset.md",
+    "Convex_Optimization/Basic Syntax.md",
+    "Convex_Optimization/CVXPY",
     "알고리즘/기하/CCW 시계방향 회전/Graham Scan.md",
     "Convex_Optimization",
     "알고리즘/기하/CCW 시계방향 회전/Convex Hull.md",
