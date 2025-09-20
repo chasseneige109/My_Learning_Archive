@@ -24,7 +24,11 @@ when f(X) is convex,
 ## followings are convex constraints, but violating CVX Rule
 
 1. norm (x + 2y, x - y) == 0   (X)
+
 2. square(square(x+y)) (X)
+- 
    - variable t 
    - square( x+y ) <= t 
    - square( t ) <= x- y
+
+3. 
