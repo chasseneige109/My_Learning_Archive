@@ -10,6 +10,13 @@
 | **Concave**                 | Affine only       | Concave                | `sqrt(x+y)`     | ✅          |
 | **Concave & nondecreasing** | Concave input     | Concave                | `log(x)`        | ✅          |
 | **Concave & nonincreasing** | Convex input      | Concave                | `-sqrt(x)`      | ✅          |
+# DCP Rule Quick Summary
+
+| Functions                                 | Property                | Allowed Input             |
+| ----------------------------------------- | ----------------------- | ------------------------- |
+| `square`, `norm`, `abs`, `max`, `min`     | Convex but not monotone | **Affine only**           |
+| `exp`, `-log`, `quad_over_lin`, `inv_pos` | Convex & monotone       | **Convex input allowed**  |
+| `log`, `sqrt`, `geomean`                  | Concave & increasing    | **Concave input allowed** |
 
 # ✅ Some Special Rules & Cases
 
