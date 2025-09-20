@@ -26,7 +26,9 @@ when f(X) is convex,
 1. norm (x + 2y, x - y) == 0   (X)
 
 2. square(square(x+y)) (X)
-- 
+	        Instead, use
+   - square_pos( square( x + y ) ) <= x- y 
+			  OR
    - variable t 
    - square( x+y ) <= t 
    - square( t ) <= x- y
