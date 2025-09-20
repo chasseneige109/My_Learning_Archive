@@ -15,5 +15,7 @@
 
 1. norm (x + 2y, x - y) == 0   (X)
 2. square(square(x+y)) (X)
-
+   - variable t 
+   - square( x+y ) <= t 
+   - square( t ) <= x- y
 3. 
