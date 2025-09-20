@@ -33,4 +33,5 @@ when f(X) is convex,
    - square( x+y ) <= t 
    - square( t ) <= x- y
 
-3. 
+2. 
+inv_pos(x)+inv_pos(y)<=1
