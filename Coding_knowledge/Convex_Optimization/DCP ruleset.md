@@ -11,4 +11,7 @@
 | **Concave & nondecreasing** | Concave input     | Concave                | `log(x)`        | ✅          |
 | **Concave & nonincreasing** | Convex input      | Concave                | `-sqrt(x)`      | ✅          |
 
-# Examples from 
+# Examples from the lecture
+
+1. norm (x + 2y, x - y) == 0 (X)
+2. 
