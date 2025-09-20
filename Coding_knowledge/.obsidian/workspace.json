@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convex_Optimization/CVXPY's Policy.md",
+                "file": "Convex_Optimization/DCP composition rule.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CVXPY's Policy"
+              "title": "DCP composition rule"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convex_Optimization/CVXPY's Policy.md",
+                "file": "Convex_Optimization/DCP composition rule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CVXPY's Policy 의 개요"
+              "title": "DCP composition rule 의 개요"
             }
           },
           {
@@ -212,9 +212,9 @@
   },
   "active": "e4eb675570441450",
   "lastOpenFiles": [
-    "Convex_Optimization/CVXPY",
     "Convex_Optimization/Basic Syntax.md",
-    "Convex_Optimization/CVXPY's Policy.md",
+    "Convex_Optimization/DCP composition rule.md",
+    "Convex_Optimization/CVXPY",
     "자료구조/C++ 자료구조.md",
     "알고리즘/기하/CCW 시계방향 회전/Graham Scan.md",
     "Convex_Optimization",
@@ -247,7 +247,6 @@
     "논문 읽기",
     "알고리즘/기하/CCW 시계방향 회전",
     "알고리즘/기하",
-    "알고리즘/자료구조활용",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
