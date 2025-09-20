@@ -17,11 +17,10 @@ when f(X) is convex,
 1. square(f(X)) is convex when f(X) >= 0
 2. 
 
-# Examples from the lecture
+# Examples from Stephan-Boyd's Lecture
 
 1. norm (x + 2y, x - y) == 0   (X)
 2. square(square(x+y)) (X)
    - variable t 
    - square( x+y ) <= t 
    - square( t ) <= x- y
-3. 
