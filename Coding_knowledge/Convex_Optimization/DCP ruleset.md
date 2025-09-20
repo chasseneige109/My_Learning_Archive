@@ -14,5 +14,6 @@
 # Examples from the lecture
 
 1. norm (x + 2y, x - y) == 0   (X)
-2. square(x+y)^2 (X)
+2. square(square(x+y)) (X)
+
 3. 
