@@ -34,4 +34,5 @@ when f(X) is convex,
    - square( t ) <= x- y
 
 2. 
+			
 inv_pos(x)+inv_pos(y)<=1
