@@ -13,7 +13,9 @@
 
 # Some Special Rules & Cases
 
-1. 
+when f(X) is convex,
+1. square(f(X)) is convex when f(X) >= 0
+2. 
 
 # Examples from the lecture
 
