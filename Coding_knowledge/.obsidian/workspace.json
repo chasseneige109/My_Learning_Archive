@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine_Learning/Regression.md",
+                "file": "Convex_Optimization/Löwner-John Ellipsoid.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Regression 의 개요"
+              "title": "Löwner-John Ellipsoid 의 개요"
             }
           },
           {
@@ -238,10 +238,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f1431a3404c97ea5",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
-    "Machine_Learning/무제/무제.md",
     "Machine_Learning/Regression.md",
+    "Convex_Optimization/Löwner-John Ellipsoid.md",
+    "Machine_Learning/무제/무제.md",
     "Invest/w.md",
     "무제",
     "Machine_Learning/무제",
@@ -275,7 +276,6 @@
     "Convex Optimization/Affine 변환.md",
     "Convex Optimization/무제",
     "Convex Optimization",
-    "알고리즘/자료구조활용/슬라이딩 윈도우.md",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
