@@ -78,7 +78,7 @@
             }
           },
           {
-            "id": "17541f4b823012d6",
+            "id": "c650bdbb17841a33",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -252,14 +252,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "17541f4b823012d6",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
-    "Convex_Optimization/Löwner-John Ellipsoid.md",
+    "무제",
+    "Convex_Optimization/Distances.md",
     "Convex_Optimization/무제.md",
+    "Convex_Optimization/Löwner-John Ellipsoid.md",
     "Machine_Learning/Regression.md",
     "Machine_Learning/무제/무제.md",
     "Invest/w.md",
-    "무제",
     "Machine_Learning/무제",
     "Machine_Learning",
     "Invest",
@@ -285,9 +286,7 @@
     "자료구조/덱 (Deque).md",
     "자료구조/그래프 (Graph).md",
     "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
-    "알고리즘/자료구조활용/히스토그램 문제.md",
     "Convex Optimization",
-    "Convex Optimization/perspective function.md",
     "Convex Optimization/무제",
     "Convex Optimization",
     "무제.canvas",
