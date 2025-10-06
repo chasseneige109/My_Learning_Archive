@@ -308,8 +308,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c168629bebc8d62",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "무제",
     "geometry/MVEE&MVIE/H - V representations.md",
     "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
     "geometry/MVEE&MVIE/Faces to Vertices Method.md",
@@ -344,7 +345,6 @@
     "알고리즘/그래프/Kruskal algorithm.md",
     "알고리즘/그래프/Floyd-Warshall.md",
     "알고리즘/그래프/Dijkstra algorithm.md",
-    "알고리즘/그래프/Bellman - Ford algorithm.md",
     "Convex Optimization",
     "무제.canvas",
     "무제 1.canvas",
