@@ -1,0 +1,1 @@
+| $d(x,\mu) = \sqrt{(x - \mu)^T \Sigma^{-1} (x - \mu)}$ |
