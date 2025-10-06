@@ -146,9 +146,23 @@
               "icon": "lucide-file",
               "title": "Löwner–John Ellipsoid"
             }
+          },
+          {
+            "id": "2940d2e35626d332",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BLAS Levels & Matrix Structure"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -269,13 +283,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
+                "file": "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Löwner–John Ellipsoid 의 개요"
+              "title": "BLAS Levels & Matrix Structure 의 개요"
             }
           },
           {
@@ -308,11 +322,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "2940d2e35626d332",
   "lastOpenFiles": [
-    "무제",
-    "geometry/MVEE&MVIE/H - V representations.md",
     "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
+    "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
+    "Machine_Learning/Calculate",
+    "geometry/MVEE&MVIE/H - V representations.md",
     "geometry/MVEE&MVIE/Faces to Vertices Method.md",
     "geometry/MVEE&MVIE",
     "Machine_Learning/Regression.md",
@@ -345,7 +360,6 @@
     "알고리즘/그래프/Kruskal algorithm.md",
     "알고리즘/그래프/Floyd-Warshall.md",
     "알고리즘/그래프/Dijkstra algorithm.md",
-    "Convex Optimization",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
