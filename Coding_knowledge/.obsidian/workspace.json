@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convex_Optimization/CVXPY/DCP ruleset.md",
+                "file": "Machine_Learning/Convex_Optimization/CVXPY/DCP ruleset.md",
                 "mode": "source",
                 "source": false
               },
@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convex_Optimization/distance/Mahalanobis Distance.md",
+                "file": "Machine_Learning/Convex_Optimization/distance/Mahalanobis Distance.md",
                 "mode": "source",
                 "source": false
               },
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convex_Optimization/distance/Euclidean Distance.md",
+                "file": "Machine_Learning/Convex_Optimization/distance/Euclidean Distance.md",
                 "mode": "source",
                 "source": false
               },
@@ -227,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convex_Optimization/distance/Euclidean Distance.md",
+                "file": "Machine_Learning/Convex_Optimization/distance/Euclidean Distance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -266,11 +266,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "622b7ddc0095cb1c",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
-    "Convex_Optimization/distance/Mahalanobis Distance.md",
-    "Convex_Optimization/distance/Euclidean Distance.md",
-    "Convex_Optimization/distance",
+    "geometry",
+    "Machine_Learning/Convex_Optimization/distance/Mahalanobis Distance.md",
+    "Machine_Learning/Convex_Optimization/distance/Euclidean Distance.md",
+    "Machine_Learning/Convex_Optimization/distance",
     "Convex_Optimization/Distances.md",
     "Convex_Optimization/Löwner-John Ellipsoid.md",
     "Machine_Learning/Regression.md",
@@ -279,14 +280,14 @@
     "Machine_Learning/무제",
     "Machine_Learning",
     "Invest",
-    "Convex_Optimization/CVXPY/DCP ruleset.md",
-    "Convex_Optimization/CVXPY/Various functions.md",
-    "Convex_Optimization/CVXPY/Basic Syntax.md",
+    "Machine_Learning/Convex_Optimization/CVXPY/DCP ruleset.md",
+    "Machine_Learning/Convex_Optimization/CVXPY/Various functions.md",
+    "Machine_Learning/Convex_Optimization/CVXPY/Basic Syntax.md",
     "Convex_Optimization/CVXPY/무제",
     "자료구조/C++ 자료구조.md",
-    "Convex_Optimization/CVXPY",
+    "Machine_Learning/Convex_Optimization/CVXPY",
     "알고리즘/기하/CCW 시계방향 회전/Graham Scan.md",
-    "Convex_Optimization",
+    "Machine_Learning/Convex_Optimization",
     "알고리즘/기하/CCW 시계방향 회전/Convex Hull.md",
     "알고리즘/기하/CCW 시계방향 회전/CCW 알고리즘.md",
     "알고리즘/기하/CCW 시계방향 회전/AndrewMonotoneChain.md",
@@ -300,7 +301,6 @@
     "알고리즘/그래프/Bellman - Ford algorithm.md",
     "자료구조/덱 (Deque).md",
     "자료구조/그래프 (Graph).md",
-    "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
     "Convex Optimization",
     "Convex Optimization/무제",
     "Convex Optimization",
