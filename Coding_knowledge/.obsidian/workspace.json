@@ -111,7 +111,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "geometry/Min Ellipsoid/Faces to Vertices Method.md",
+                "file": "geometry/MVEE&MVIE/Faces to Vertices Method.md",
                 "mode": "source",
                 "source": false
               },
@@ -125,7 +125,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "geometry/Min Ellipsoid/H - V representations.md",
+                "file": "geometry/MVEE&MVIE/H - V representations.md",
                 "mode": "source",
                 "source": false
               },
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "geometry/Min Ellipsoid/H - V representations.md",
+                "file": "geometry/MVEE&MVIE/H - V representations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -296,9 +296,9 @@
   },
   "active": "d7c785da27c4659f",
   "lastOpenFiles": [
-    "geometry/Min Ellipsoid/Faces to Vertices Method.md",
-    "geometry/Min Ellipsoid/H - V representations.md",
-    "geometry/Min Ellipsoid",
+    "geometry/MVEE&MVIE/Faces to Vertices Method.md",
+    "geometry/MVEE&MVIE/H - V representations.md",
+    "geometry/MVEE&MVIE",
     "Machine_Learning/Regression.md",
     "Machine_Learning/Convex_Optimization/distance/Euclidean Distance.md",
     "geometry",

@@ -1,3 +1,5 @@
+## MVEE / MVIE 둘다
+
 ✅ **V-representation (points given)**  
 → convex problem → logdet-min, CVXPY로 풀림.
 
