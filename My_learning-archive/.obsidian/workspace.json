@@ -4,137 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0e23426b722d4ebe",
+        "id": "d89f60e3483c30da",
         "type": "tabs",
         "children": [
           {
-            "id": "bdb966507fda3592",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convex_Optimization/CVXPY/Basic Syntax.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basic Syntax"
-            }
-          },
-          {
-            "id": "e4eb675570441450",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convex_Optimization/CVXPY/Basic Syntax.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basic Syntax"
-            }
-          },
-          {
-            "id": "b655f42bbf261c8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convex_Optimization/CVXPY/DCP ruleset.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DCP ruleset"
-            }
-          },
-          {
-            "id": "f1431a3404c97ea5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine_Learning/Regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Regression"
-            }
-          },
-          {
-            "id": "c650bdbb17841a33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convex_Optimization/distance/Mahalanobis Distance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mahalanobis Distance"
-            }
-          },
-          {
-            "id": "622b7ddc0095cb1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine_Learning/Regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Regression"
-            }
-          },
-          {
-            "id": "d7e41cdc6c8e6635",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "geometry/MVEE&MVIE/Faces to Vertices Method.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Faces to Vertices Method"
-            }
-          },
-          {
-            "id": "d7c785da27c4659f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "geometry/MVEE&MVIE/H - V representations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "H - V representations"
-            }
-          },
-          {
-            "id": "6c168629bebc8d62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Löwner–John Ellipsoid"
-            }
-          },
-          {
-            "id": "2940d2e35626d332",
+            "id": "84eca5bfa7c3c4cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,37 +20,8 @@
               "icon": "lucide-file",
               "title": "BLAS Levels & Matrix Structure"
             }
-          },
-          {
-            "id": "efdf0f9631fc783a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convex_Optimization/Schur Complement.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Schur Complement"
-            }
-          },
-          {
-            "id": "e3458ffbdb8d2238",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convex_Optimization/Schur Complement.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Schur Complement"
-            }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -297,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convex_Optimization/Schur Complement.md",
+                "file": "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Schur Complement 의 개요"
+              "title": "BLAS Levels & Matrix Structure 의 개요"
             }
           },
           {
@@ -336,27 +181,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "84eca5bfa7c3c4cb",
   "lastOpenFiles": [
     "Convex_Optimization/Schur Complement.md",
+    "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
+    "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
+    "geometry/MVEE&MVIE/H - V representations.md",
+    "geometry/MVEE&MVIE/Faces to Vertices Method.md",
+    "Machine_Learning/Regression.md",
+    "Convex_Optimization/distance/Mahalanobis Distance.md",
+    "Convex_Optimization/CVXPY/DCP ruleset.md",
+    "Convex_Optimization/CVXPY/Basic Syntax.md",
     "무제.md",
     "Invest/w.md",
     "Mathematics/정수론/MOD.md",
     "Mathematics/정수론/페르마 소정리.md",
     "Mathematics/정수론/유클리드 호제법.md",
     "Mathematics/정수론/베르트랑 공준.md",
-    "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
     "Linear Algebra",
     "Convex_Optimization/무제",
-    "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
     "Machine_Learning/Calculate",
-    "geometry/MVEE&MVIE/H - V representations.md",
-    "geometry/MVEE&MVIE/Faces to Vertices Method.md",
     "geometry/MVEE&MVIE",
-    "Machine_Learning/Regression.md",
     "Convex_Optimization/distance/Euclidean Distance.md",
     "geometry",
-    "Convex_Optimization/distance/Mahalanobis Distance.md",
     "Convex_Optimization/distance",
     "Convex_Optimization/Distances.md",
     "Convex_Optimization/Löwner-John Ellipsoid.md",
@@ -364,9 +211,7 @@
     "Machine_Learning/무제",
     "Machine_Learning",
     "Invest",
-    "Convex_Optimization/CVXPY/DCP ruleset.md",
     "Convex_Optimization/CVXPY/Various functions.md",
-    "Convex_Optimization/CVXPY/Basic Syntax.md",
     "Convex_Optimization/CVXPY/무제",
     "자료구조/C++ 자료구조.md",
     "알고리즘/기하/CCW 시계방향 회전/Graham Scan.md",
