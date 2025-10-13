@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convex_Optimization/distance/Mahalanobis Distance.md",
+                "file": "Convex_Optimization/CVXPY/Solvers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mahalanobis Distance"
+              "title": "Solvers"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convex_Optimization/distance/Mahalanobis Distance.md",
+                "file": "Convex_Optimization/CVXPY/Solvers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Mahalanobis Distance 의 개요"
+              "title": "Solvers 의 개요"
             }
           },
           {
@@ -183,8 +183,8 @@
   },
   "active": "84eca5bfa7c3c4cb",
   "lastOpenFiles": [
-    "Convex_Optimization/distance/Euclidean Distance.md",
     "Convex_Optimization/distance/Mahalanobis Distance.md",
+    "Convex_Optimization/distance/Euclidean Distance.md",
     "Convex_Optimization/CVXPY/Solvers.md",
     "Machine_Learning/Regression.md",
     "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
