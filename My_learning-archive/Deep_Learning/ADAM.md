@@ -25,11 +25,15 @@ output layer activation function: softmax 선택
 샘플 32, 64개 정도 한 번에 넣음.
 
 multiclass 라고 하면, x1...xn이 입력으로 주어지고, one-hot vector가 y 정답으로 주어진 게 샘플 1개.
+
+현재가 K번째 학습이라고 가정하면,
 미니배치로 샘플 32개 or 64개 정도를 동시에 넣고, 
 
-첫번째 레이어에서 z = wx + b 계산하고, (Batch Normalization 시행) 정규화 한 다음에 이미 정해져있는 베타랑 감마로 맛있는 위치로 보내고, ReLU에다가 넣고, 
+첫번째 레이어에서 z = wx + b 계산하고, (Batch Normalization 시행) 정규화 한 다음에 
+k-1번째 스텝에서 정해진 베타랑 감마로 맛있는 위치로 보내고, ReLU에다가 넣고, 
 
-두번째 레이어에서도 똑같이 z = wx + b계산하고, 정규화하고 이전 스텝에서 이미 정해진 베타랑 감마로 맛있는 위치로 보내고, ReLU에 넣는 과정을 마지막까지 반복한 후, 
+두번째 레이어에서도 똑같이 z = wx + b계산하고, 정규화하고 
+k-1번째 스텝에서 정해진 베타랑 감마로 맛있는 위치로 보내고, ReLU에 넣는 과정을 마지막까지 반복한 후, 
 
 마지막 출력층 layer에서 softmax로 꺼내고, 정답으로 주어진 y와 출력층에서 꺼낸 softmax값을 Cross Entropy Loss function에 넣고,
 
