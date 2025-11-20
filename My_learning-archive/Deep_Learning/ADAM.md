@@ -6,8 +6,7 @@
 # 학습 단계
 
 multiclass classification 이라고 하면, 
-x1...xn이 입력으로 주어짐.
-one-hot vector가 정답 y로 주어진 게 샘플 1개. 
+x1...xn이 입력으로, one-hot vector가 정답 y로 주어진 게 샘플 1개. 
 
 <국룰 조합을 가정>
 Loss function : Cross entropy (여기 한정 KL과 같음) 선택하고, 
