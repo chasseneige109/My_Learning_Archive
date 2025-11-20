@@ -34,7 +34,7 @@ output layer activation function: softmax 선택
 미니배치로 샘플 32개 or 64개 정도를 동시에 넣고, 
 
 첫번째 레이어에서 z = wx + b 계산하고, (물론 여기서는 BN 과정이 있어서 b는 의미를 잃으므로 아예 정의하지 않는 것 좋다.)
-Batch Normalization 시행: 평균 0 표준편차 1인 분포로 정규화 한 다음에 k-1번째 스텝에서 정해진 scale parameter (gamma)랑 shift parameter (beta)로 맛있는 위치로 보내고, ReLU에다가 넣기.
+Batch Normalization 시행: 평균 0 표준편차 1인 분포로 정규화 한 다음에 k-1번째 스텝에서 정해진 scale parameter (gamma)랑 shift parameter (beta)를 활용해 맛있는 위치로 보내고, ReLU에다가 넣기.
 
 두번째 레이어에서도 똑같이 z = wx + b계산하고, (물론 여기서는 BN 과정이 있어서 b는 의미를 잃으므로 아예 정의하지 않는 것이 좋다.)
 Batch Normalization 시행: 평균 0 표준편차 1인 분포로 정규화 한 다음에 k-1번째 스텝에서 정해진 scale parameter (gamma)랑 shift parameter (beta)로 맛있는 위치로 보내고, ReLU에 넣기... 
@@ -45,10 +45,10 @@ Batch Normalization 시행: 평균 0 표준편차 1인 분포로 정규화 한 �
 
 back propagation 실행: gradient를 오직 '계산'만 해놓고, 
 
-Momentum method로 k - 1 번째 1st moment 와 back propagation으로 계산한 이번 gradient를 학습전에 미리 정해놓은 비율 (Beta 1, 약 0.9) 로 가중합하여 이번 스텝의 1st moment를 구하고, 이번 1st moment를 저장한 후,
+Momentum method로 k - 1 번째 1st moment 와 back propagation으로 계산한 이번 gradient를 학습전에 미리 정해놓은 비율 (Beta 1, 약 0.9) 로 가중합하여 이번 스텝의 1st moment를 구하고, 이번 1st moment를 저장한 후, 
 bias correction in Momentum method  : 이번 1st moment를 1 - (Beta1)^k 으로 나눠 스케일링.
 
-RMS Prop으로 : k - 1번째 2nd moment와 back propagation으로 계산한 이번 gradient의 제곱을 학습 전에 미리 정해놓은 비율 (Beta 2, 약 0.999) 로 가중합하여 이번 스텝의 2nd moment를 구하고, 이번 2nd moment를 저장
+RMS Prop으로 : k - 1번째 2nd moment와 back propagation으로 계산한 이번 gradient의 제곱을 학습 전에 미리 정해놓은 비율 (Beta 2, 약 0.999) 로 가중합하여 이번 스텝의 2nd moment를 구하고, 이번 2nd moment를 저장한 후,
 bias correction in RMS Prop : 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링.
 
 마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k / sqrt(v_k + eps) )
