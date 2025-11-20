@@ -23,7 +23,7 @@ Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산(�
 
 두번째 레이어에서도 똑같이 z = wx + b계산하고, (물론 여기서는 BN 과정이 있어서 b는 의미를 잃으므로 아예 정의하지 않는 것이 좋다.)
 Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산(분산 + eps)으로 평균 0 표준편차 1로 정규화 한 다음에 k-1번째 스텝에서 정해진 scale parameter (gamma)랑 shift parameter (beta)를 활용해 맛있는 위치로 보내고, ReLU에다가 넣기.
-이 과정 중 뒤에서 몰래 나중에 추론 단계에서 사용할 'Running Mean / Running Variance'의 EMA를 저장함.
+이 과정 중 뒤에서 몰래 나중에 추론 단계에서 사용할 'Running Mean / Running Variance'을 EMA방식으로 저장함.
 
 이를 마지막 레이어까지 반복한 후, 
 
@@ -31,9 +31,9 @@ Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산(�
 
 back propagation 실행: gradient를 오직 '계산'만 해놓고, 
 
-Momentum method 실행: k - 1 번째 1st moment(m_k-1) 와 back propagation으로 계산한 이번 gradient를 학습전에 미리 정해놓은 비율 (Beta 1, 약 0.9)로 가중합하여 이번 스텝의 1st moment(m_k)를 구하고, 이번 1st moment를 저장. 
+Momentum method 실행: k - 1 번째 1st moment(m_k-1) 와 back propagation으로 계산한 이번 gradient를 학습전에 미리 정해놓은 비율 (Beta 1, 약 0.9)로 가중합(EMA)하여 이번 스텝의 1st moment(m_k)를 구하고, 이번 1st moment를 저장. 
 
-RMS Prop 실행: k - 1번째 2nd moment(v_k-1)와 back propagation으로 계산한 이번 gradient의 제곱을 학습 전에 미리 정해놓은 비율 (Beta 2, 약 0.999)로 가중합하여 이번 스텝의 2nd moment(v_k)를 구하고, 이번 2nd moment를 저장.
+RMS Prop 실행: k - 1번째 2nd moment(v_k-1)와 back propagation으로 계산한 이번 gradient의 제곱을 학습 전에 미리 정해놓은 비율 (Beta 2, 약 0.999)로 가중합(EMA)하여 이번 스텝의 2nd moment(v_k)를 구하고, 이번 2nd moment를 저장.
 
 bias correction 1: 이번 1st moment를 1 - (Beta1)^k 으로 나눠 스케일링. m_k(hat) 얻음.
 bias correction 2: 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링. v_k(hat) 얻음.
