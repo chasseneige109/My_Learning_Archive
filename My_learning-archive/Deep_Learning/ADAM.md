@@ -41,10 +41,10 @@ Momentum method 실행: k - 1 번째 1st moment(m_k-1) 와 back propagation으�
 
 RMS Prop 실행: k - 1번째 2nd moment(v_k-1)와 back propagation으로 계산한 이번 gradient의 제곱을 학습 전에 미리 정해놓은 비율 (Beta 2, 약 0.999)로 가중합하여 이번 스텝의 2nd moment(v_k)를 구하고, 이번 2nd moment를 저장.
 
-bias correction 1: 이번 1st moment를 1 - (Beta1)^k 으로 나눠 스케일링.
-bias correction 2: 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링.
+bias correction 1: 이번 1st moment를 1 - (Beta1)^k 으로 나눠 스케일링. m_k(hat) 얻음.
+bias correction 2: 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링. v_k(hat) 얻음.
 
-마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k / sqrt(v_k + eps) )
+마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k(hat) / sqrt(v_k(hat) + eps) )
 여기서 w는 가중치 w, scaling parameter (gamma), shift parameter(beta)가 모두 한 column에 나열된 M(가중치 수) + 2*N (BN이 붙은 뉴런 수) 차원의 column vector
 
 이 전체 과정을 gradient가 적정수준이상으로 작아질 때까지 반복.
