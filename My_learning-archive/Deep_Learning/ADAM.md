@@ -47,11 +47,12 @@ back propagation 실행: gradient를 오직 '계산'만 해놓고,
 
 Momentum method로 k - 1 번째 1st moment 와 back propagation으로 계산한 이번 gradient를 학습전에 미리 정해놓은 비율 (Beta 1, 약 0.9) 로 가중합하여 이번 스텝의 1st moment를 구하고,
 
-bias correction in Momentum method  : 이번 m을 1 - (Beta1)^k 으로 나눠주기 
+bias correction in Momentum method  : 이번 1st moment를 1 - (Beta1)^k 으로 나눠주기 
 
 RMS Prop으로 : k - 1번째 2nd moment와 back propagation으로 계산한 이번 gradient의 제곱을 학습 전에 미리 정해놓은 비율 (Beta 2, 약 0.999) 로 가중합하여 이번 스텝의 2nd moment를 구하고, 
-bias correction in RMS Prop : 1 - (Beta1)^k 으로 나눠주기
+bias correction in RMS Prop : 이번 2nd moment를 1 - (Beta1)^k 으로 나눠주기
 
+gradient 스텝 밟기: wk - learning rate / sqrt()
 
 
 
