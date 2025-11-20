@@ -24,12 +24,10 @@ output layer activation function: softmax 선택
 
 샘플 32, 64개 정도 한 번에 넣음.
 
-forward 계산 z = wx + b (아직 뒤죽박죽)
-
-Batch Normalization 실행 --> 뒤죽박죽인 z 정규화 (0,1)
+그러면 multiclass 라고 하면, x1...xn이 입력으로 주어지고, one-hot vector가 y 정답으로 주어진게 샘플 1개이고, 미니배치 32개를 넣고, 첫번째 레이어에서 z = wx + b 계산하고, (Batch Normalization 시행) 정규화 한 다음에 이미 정해져있는 베타랑 감마로 맛있는 위치로 보내고, ReLU에다가 넣고, 두번째 레이어에서도 똑같이 z = wx + b계산하고, 정규화하고 이전 스텝에서 이미 정해진 베타랑 감마로 맛있는 위치로 보내고, ReLU에 넣는 과정을 마지막까지 반복한 후, 마지막 출력층 layer에서 softmax로 꺼내고, 정답으로 주어진 y와 출력층에서 꺼낸 softmax값을 Cross Entropy Loss function에 넣고 back propagation 방식으로 쭉 계산만 해놓고, 이 전 스텝 크기와 현재의 gradient를 학습전에 미리 정해놓은 비율로 가중합하고, 한 스텝 딱 밟는건가
 
 
-그들의 평균 LOSS로 gradient descent 딱 Step 실행.
+
 
 
 ## !!디테일!!
