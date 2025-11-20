@@ -17,3 +17,7 @@ output layer activation function으로 softmax를 선택하는 국룰 조합으�
 
 샘플 32, 64개 정도 한 번에 넣어서
 평균 Loss를 가지고 SGD랑 같은짓 반복
+
+
+## !!디테일!!
+
