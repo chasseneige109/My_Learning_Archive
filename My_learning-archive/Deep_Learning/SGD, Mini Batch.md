@@ -30,7 +30,9 @@ output layer activation function: softmax 선택
 
 샘플 32, 64개 정도 한 번에 넣음.
 
-Linear한 forward 계산 z = wx + b
+forward 계산 z = wx + b (아직 뒤죽박죽)
+
+Batch Normalization 실행 --> 뒤죽박죽인 z 정규화 (0,1)
 
 
 그들의 평균 LOSS로 gradient descent 딱 Step 실행.
