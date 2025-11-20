@@ -19,7 +19,7 @@ output layer activation function: softmax 선택
 
 첫번째 레이어에서 z = wx + b 계산하고, (물론 여기서는 BN 과정이 있어서 b는 의미를 잃으므로 아예 정의하지 않는 것 좋다.)
 Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산을 그대로 써서 평균 0 표준편차 1로 정규화 한 다음에 k-1번째 스텝에서 정해진 scale parameter (gamma)랑 shift parameter (beta)를 활용해 맛있는 위치로 보내고, ReLU에다가 넣기.
-이 과정 중 뒤에서 몰래 나중에 추론 단계에서 사용할 '평균과 분산의 1st moment(Running Mean / Running Variance)'를 저장함. 파라미터는 약 0.9
+이 과정 중 뒤에서 몰래 나중에 추론 단계에서 사용할 '평균의 1st moment(Running Mean) / 분산의 2nd momentRunning Variance)'를 저장함. 파라미터는 약 0.9
 
 두번째 레이어에서도 똑같이 z = wx + b계산하고, (물론 여기서는 BN 과정이 있어서 b는 의미를 잃으므로 아예 정의하지 않는 것이 좋다.)
 Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산을 그대로 써서 평균 0 표준편차 1로 정규화 한 다음에 k-1번째 스텝에서 정해진 scale parameter (gamma)랑 shift parameter (beta)를 활용해 맛있는 위치로 보내고, ReLU에다가 넣기.
