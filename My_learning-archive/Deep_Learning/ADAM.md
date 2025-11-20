@@ -5,7 +5,7 @@
 
 # 학습 단계
 
-multiclass classification 이라고 하면, 
+multiclass classification 이라고 가정하고 설명. 
 x1...xn이 입력으로, one-hot vector가 정답 y로 주어진 게 샘플 1개. 
 
 <국룰 조합을 가정>
@@ -45,6 +45,8 @@ training loss / validation loss / metric이
 수렴하거나 더 이상 개선되지 않을 때까지 학습을 진행.
 
 
+
+## Activation 
 
 
 
