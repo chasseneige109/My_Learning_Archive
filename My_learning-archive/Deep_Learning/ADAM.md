@@ -39,9 +39,7 @@ bias correction 1: 이번 1st moment를 1 - (Beta1)^k 으로 나눠 스케일링
 bias correction 2: 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링. v_k(hat) 얻음.
 
 마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k(hat) / sqrt(v_k(hat) + eps) )
-여기서 w는 모든 weight M개와  
-모든 BN layer의 γ, β 파라미터(총합 2·N개)를 일렬로 나열한 column vector이다.  
-(N은 BN이 적용되는 모든 채널/뉴런의 총합)
+여기서 w는 모든 weight M개와  모든 BN layer의 γ, β 파라미터(총합 2·N개)를 일렬로 나열한 column vector이다. (N은 BN이 적용되는 모든 채널/뉴런의 총합)
 
 이 전체 과정을 여러 epoch 동안 반복하면서  
 training loss / validation loss / metric이  
