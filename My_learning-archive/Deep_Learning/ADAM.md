@@ -33,13 +33,15 @@ multiclass 라고 하면, x1...xn이 입력으로 주어지고, one-hot vector�
 Batch Normalization 시행: 평균 0 표준편차 1인 분포로 정규화 한 다음에 k-1번째 스텝에서 정해진 베타랑 감마로 맛있는 위치로 보내고, ReLU에다가 넣기.
 
 두번째 레이어에서도 똑같이 z = wx + b계산하고, 
-Batch Normalization 시행: 평균 0 표준편차 1인 분포로 정규화 한 다음에 k-1번째 스텝에서 정해진 베타랑 감마로 맛있는 위치로 보내고, ReLU에 넣는 과정을 마지막까지 반복한 후, 
+Batch Normalization 시행: 평균 0 표준편차 1인 분포로 정규화 한 다음에 k-1번째 스텝에서 정해진 베타랑 감마로 맛있는 위치로 보내고, ReLU에 넣기... 
+
+를 마지막 레이어까지 반복한 후, 
 
 마지막 출력층 layer에서 softmax로 꺼내고, 정답으로 주어진 y와 출력층에서 꺼낸 softmax값을 Cross Entropy Loss function에 넣고,
 
-back propagation 방식으로 gradient를 계산만 해놓고, 
+back propagation 실행: gradient를 오직 '계산'만 해놓고, 
 
-Momentum method로 직전 1st moment 와 back propagation으로 계산한 현재의 gradient를 학습전에 미리 정해놓은 비율 (Beta 1) 로 가중합하여 이번 스텝의 1st moment를 구하고,
+Momentum method로 직전 1st moment 와 back propagation으로 계산한 현재의 gradient를 학습전에 미리 정해놓은 비율 (Beta 1, 약) 로 가중합하여 이번 스텝의 1st moment를 구하고,
 bias correction : 1 - (Beta1)^k 으로 나눠주기 
 
 RMS Prop으로 직전 2nd moment와 back propagation으로 계산한 현재의 gradient의 제곱을 학습 전에 미리 정해놓은 비율 (Beta 2) 로 가중합하여 이번 스텝의 2nd moment를 구하고,
