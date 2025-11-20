@@ -37,7 +37,8 @@ back propagation 방식으로 gradient를 계산만 해놓고,
 
 Momentum method로 직전 1st moment 와 back propagation으로 계산한 현재의 gradient를 학습전에 미리 정해놓은 비율로 가중합하여 이번 스텝의 1st moment를 구하고,
 
-RMS Prop으로 직전 2nd moment와 back propagation으로 계산한 현재의 gradient의 제곱을 학습 전에 미리 정해놓은 비율로 가중합하여 이번 스텝의 2nd moment를 구하고
+RMS Prop으로 직전 2nd moment와 back propagation으로 계산한 현재의 gradient의 제곱을 학습 전에 미리 정해놓은 비율로 가중합하여 이번 스텝의 2nd moment를 구하고,
+
 
 
 
