@@ -46,7 +46,11 @@ training loss / validation loss / metric이
 
 
 
-## Activation 
+## Activation 함수
+
+sigmoid : binary classification
+softmax: multiclass classification (sigmoid의 generalized version)
+
 
 
 
