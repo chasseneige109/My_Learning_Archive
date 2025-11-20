@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "대학원가자/졸업 학점 및 GPA.md",
+                "file": "Deep_Learning/SGD, Mini Batch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "졸업 학점 및 GPA"
+              "title": "SGD, Mini Batch"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "대학원가자/졸업 학점 및 GPA.md",
+                "file": "Deep_Learning/SGD, Mini Batch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "졸업 학점 및 GPA 의 개요"
+              "title": "SGD, Mini Batch 의 개요"
             }
           },
           {
@@ -198,10 +198,10 @@
   },
   "active": "5eb214f21d1066d1",
   "lastOpenFiles": [
-    "Convex_Optimization/CVXPY/Solvers.md",
     "대학원가자/졸업 학점 및 GPA.md",
+    "Convex_Optimization/CVXPY/Solvers.md",
     "대학원가자",
-    "Deep_Learning/Mini Batch, RAdam.md",
+    "Deep_Learning/SGD, Mini Batch.md",
     "Deep_Learning/무제",
     "Deep_Learning",
     "AI 면접 질문",
