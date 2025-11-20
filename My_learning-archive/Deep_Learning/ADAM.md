@@ -6,7 +6,7 @@ input layer activation function으로 ReLU선택하고,
 output layer activation function으로 softmax를 선택하는 국룰 조합으로 가서, 
 
 
-### ADAM (Mini batch, RMS)
+### ADAM (Mini batch + RMS prop + momentum + bias correction)
 
 
 #### 학습 준비 단계
