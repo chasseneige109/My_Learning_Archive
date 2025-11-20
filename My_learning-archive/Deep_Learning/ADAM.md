@@ -37,7 +37,7 @@ back propagation 방식으로 gradient를 계산만 해놓고,
 
 Momentum method로 직전 Momentum과 back propagation으로 계산한 현재의 gradient를 학습전에 미리 정해놓은 비율로 가중합하고,
 
-RMS Prop으로 직전 
+RMS Prop으로 직전 2nd
 
 
 
