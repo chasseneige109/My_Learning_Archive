@@ -33,7 +33,7 @@ output layer activation function: softmax 선택
 현재가 K번째 학습이라고 가정하면,
 미니배치로 샘플 32개 or 64개 정도를 동시에 넣고, 
 
-첫번째 레이어에서 z = wx + b 계산하고, 
+첫번째 레이어에서 z = wx + b 계산하고, (물론 BN 과정에서 bㄴ)
 Batch Normalization 시행: 평균 0 표준편차 1인 분포로 정규화 한 다음에 k-1번째 스텝에서 정해진 베타랑 감마로 맛있는 위치로 보내고, ReLU에다가 넣기.
 
 두번째 레이어에서도 똑같이 z = wx + b계산하고, 
