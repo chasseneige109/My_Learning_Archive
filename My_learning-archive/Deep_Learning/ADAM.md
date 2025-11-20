@@ -33,10 +33,10 @@ back propagation 실행: gradient를 오직 '계산'만 해놓음.
 
 Momentum method 실행: k - 1 번째 1st moment(m_k-1) 와 back propagation으로 계산한 이번 gradient를 학습전에 미리 정해놓은 비율 (Beta 1, 약 0.9)로 지수이동평균(EMA)하여 이번 스텝의 1st moment(m_k)를 구하고, 이번 1st moment를 저장.
 
-RMS Prop 실행: k - 1 번째 1st moment(m_k-1) 와 back propagation으로 계산한 이번 gradient를 학습전에 미리 정해놓은 비율 (Beta 1, 약 0.9)로 지수이동평균(EMA)하여 이번 스텝의 1st moment(m_k)를 구하고, 이번 1st moment를 저장.
+RMS Prop 실행: k - 1 번째 2nd moment(m_k-1) 와 back propagation으로 계산한 이번 gradient를 학습전에 미리 정해놓은 비율 (Beta 1, 약 0.9)로 지수이동평균(EMA)하여 이번 스텝의 1st moment(m_k)를 구하고, 이번 1st moment를 저장.
 
-bias correction 1: 이번 1st moment를 1 - (Beta1)^k 으로 나눠 스케일링. m_k(hat) 얻음.
-bias correction 2: 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링. v_k(hat) 얻음.
+bias correction 1: 이번 m_k를 1 - (Beta1)^k 으로 나눠 스케일링. m_k(hat) 얻음.
+bias correction 2: 이번 v_k를 1 - (Beta2)^k 으로 나눠 스케일링. v_k(hat) 얻음.
 
 마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k(hat) / sqrt(v_k(hat) + eps) )
 여기서 w는 모든 weight M개와  모든 BN layer의 γ, β 파라미터(총합 2·N개)를 일렬로 나열한 column vector이다. (N은 BN이 적용되는 모든 채널/뉴런의 총합)
