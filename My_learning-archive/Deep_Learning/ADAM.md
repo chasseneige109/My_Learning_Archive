@@ -5,14 +5,8 @@ Loss function으로 KL을 선택하고,
 input layer activation function으로 ReLU선택하고,
 output layer activation function으로 softmax를 선택하는 국룰 조합으로 가서, 
 
-### SGD
 
-이 샘플 한개를 먹여서 gradient 한 스텝 밟고 (가중치 업데이트와 100% 동일한 말), 
-다른 거 한개맥여서 한스텝밟고 
-반복
-
-
-### mini-batch
+### ADAM (Mini batch, RMS)
 
 
 #### 학습 준비 단계
