@@ -13,6 +13,11 @@ output layer activation function으로 softmax를 선택하는 국룰 조합으�
 
 
 ### mini-batch
+multiclass 라고 하면, x1...xn이 입력으로 주어지고, 
+one-hot vector가 정답 y로 주어진게 샘플 1개이고, 
+Loss function으로 KL을 선택하고, 
+input layer activation function으로 ReLU선택하고,
+output layer activation function으로 softmax를 선택하는 국룰 조합 선택.
 
 샘플 32, 64개 정도 한 번에 넣어서
 평균 Loss를 가지고 SGD랑 같은짓 반복
