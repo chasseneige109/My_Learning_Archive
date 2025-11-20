@@ -9,9 +9,9 @@ multiclass classification 이라고 가정하고 설명.
 x1...xn이 입력으로, one-hot vector가 정답 y로 주어진 게 샘플 1개. 
 
 <국룰 조합을 가정>
-Loss function : Cross entropy (여기 한정 KL과 같음) 선택하고, 
+Loss function : Cross entropy (여기 한정 KL과 같음)
 hidden layer activation function : ReLU
-output layer activation function: softmax 선택
+output layer activation function: softmax
 
 현재가 K번째 학습이라고 가정하면,
 미니배치로 샘플 32개 or 64개 정도를 동시에 넣고, 
