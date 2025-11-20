@@ -22,7 +22,7 @@ Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산(�
 이 과정 중 뒤에서 몰래 나중에 추론 단계에서 사용할 'Running Mean / Running Variance'를 저장함.
 
 두번째 레이어에서도 똑같이 z = wx + b계산하고, (물론 여기서는 BN 과정이 있어서 b는 의미를 잃으므로 아예 정의하지 않는 것이 좋다.)
-Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산을 그대로 써서 평균 0 표준편차 1로 정규화 한 다음에 k-1번째 스텝에서 정해진 scale parameter (gamma)랑 shift parameter (beta)를 활용해 맛있는 위치로 보내고, ReLU에다가 넣기.
+Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산(분산 + eps)으로 평균 0 표준편차 1로 정규화 한 다음에 k-1번째 스텝에서 정해진 scale parameter (gamma)랑 shift parameter (beta)를 활용해 맛있는 위치로 보내고, ReLU에다가 넣기.
 이 과정 중 뒤에서 몰래 나중에 추론 단계에서 사용할 'Running Mean / Running Variance'를 저장함.
 
 이를 마지막 레이어까지 반복한 후, 
@@ -39,7 +39,9 @@ bias correction 1: 이번 1st moment를 1 - (Beta1)^k 으로 나눠 스케일링
 bias correction 2: 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링. v_k(hat) 얻음.
 
 마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k(hat) / sqrt(v_k(hat) + eps) )
-여기서 w는 가중치 w, scaling parameter (gamma), shift parameter(beta)가 모두 한 column에 나열된 M(가중치 수) + 2*N (BN이 붙은 뉴런 수) 차원의 column vector
+여기서 w는 모든 weight M개와  
+모든 BN layer의 γ, β 파라미터(총합 2·N개)를 일렬로 나열한 column vector이다.  
+(N은 BN이 적용되는 모든 채널/뉴런의 총합)
 
 이 전체 과정을 여러 epoch 동안 반복하면서  
 training loss / validation loss / metric이  
