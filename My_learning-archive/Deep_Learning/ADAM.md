@@ -27,7 +27,7 @@ multiclass 라고 하면, x1...xn이 입력으로 주어짐.
 one-hot vector가 정답 y로 주어진게 샘플 1개. 
 
 Loss function : Cross entropy (여기 한정 KL과 같음) 선택하고, 
-input layer activation function : ReLU
+hidden layer activation function : ReLU
 output layer activation function: softmax 선택
 
 현재가 K번째 학습이라고 가정하면,
@@ -49,7 +49,7 @@ Momentum method로 k - 1 번째 1st moment 와 back propagation으로 계산한 
 bias correction in Momentum method  : 이번 1st moment를 1 - (Beta1)^k 으로 나눠 스케일링.
 
 RMS Prop으로 : k - 1번째 2nd moment와 back propagation으로 계산한 이번 gradient의 제곱을 학습 전에 미리 정해놓은 비율 (Beta 2, 약 0.999) 로 가중합하여 이번 스텝의 2nd moment를 구하고, 이번 2nd moment를 저장
-bias correction in RMS Prop : 이번 2nd moment를 1 - (Beta1)^k 으로 나눠 스케일링.
+bias correction in RMS Prop : 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링.
 
 마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k / sqrt(v_k + eps) )
 
