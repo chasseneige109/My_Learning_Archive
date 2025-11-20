@@ -31,7 +31,11 @@ multiclass 라고 하면, x1...xn이 입력으로 주어지고, one-hot vector�
 
 두번째 레이어에서도 똑같이 z = wx + b계산하고, 정규화하고 이전 스텝에서 이미 정해진 베타랑 감마로 맛있는 위치로 보내고, ReLU에 넣는 과정을 마지막까지 반복한 후, 
 
-마지막 출력층 layer에서 softmax로 꺼내고, 정답으로 주어진 y와 출력층에서 꺼낸 softmax값을 Cross Entropy Loss function에 넣고 back propagation 방식으로 gradient를 계산만 해놓고, 이 전 스텝 크기와 현재의 gradient를 학습전에 미리 정해놓은 비율로 가중합하고, 한 스텝 딱 밟는건가
+마지막 출력층 layer에서 softmax로 꺼내고, 정답으로 주어진 y와 출력층에서 꺼낸 softmax값을 Cross Entropy Loss function에 넣고,
+
+back propagation 방식으로 gradient를 계산만 해놓고, 
+
+Momentum method로 직전 와 현재의 gradient를 학습전에 미리 정해놓은 비율로 가중합하고, 한 스텝 딱 밟는건가
 
 
 
