@@ -52,7 +52,7 @@ RMS Prop으로 : k - 1번째 2nd moment와 back propagation으로 계산한 이�
 bias correction in RMS Prop : 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링.
 
 마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k / sqrt(v_k + eps) )
-여기서 w는 가중치 w, scaling parameter (gamma), shift parameter(beta)가 모두 한 column에 나열된 M(가중치 수) + BN이 붙은 ㄴ 차원의 column vector
+여기서 w는 가중치 w, scaling parameter (gamma), shift parameter(beta)가 모두 한 column에 나열된 M(가중치 수) + 2*N (BN이 붙은 뉴런 수) 차원의 column vector
 
 이 전체 과정을 gradient가 적정수준이상으로 작아질 때까지 반복.
 
