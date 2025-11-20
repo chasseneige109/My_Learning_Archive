@@ -50,7 +50,7 @@ training loss / validation loss / metric이
 
 sigmoid : binary classification
 softmax: multiclass classification (sigmoid의 generalized version)
-
+RELU: hidden layer에서 국룰로쓰임
 
 
 
