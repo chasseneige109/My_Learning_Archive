@@ -41,7 +41,7 @@ Momentum method로 k - 1 번째 1st moment 와 back propagation으로 계산한 
 bias correction in Momentum method  : 이번 1st moment를 1 - (Beta1)^k 으로 나눠 스케일링.
 
 RMS Prop으로 : k - 1번째 2nd moment와 back propagation으로 계산한 이번 gradient의 제곱을 학습 전에 미리 정해놓은 비율 (Beta 2, 약 0.999) 로 가중합하여 이번 스텝의 2nd moment를 구하고, 이번 2nd moment를 저장한 후,
-bias correction in RMS Prop : 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링.
+bias correction: 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링.
 
 마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k / sqrt(v_k + eps) )
 여기서 w는 가중치 w, scaling parameter (gamma), shift parameter(beta)가 모두 한 column에 나열된 M(가중치 수) + 2*N (BN이 붙은 뉴런 수) 차원의 column vector
