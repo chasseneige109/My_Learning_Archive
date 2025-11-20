@@ -9,23 +9,13 @@ output layer activation function으로 softmax를 선택하는 국룰 조합으�
 ### ADAM (Mini batch + RMS prop + momentum + bias correction)
 
 
-#### 학습 준비 단계
+# 학습 단계
 
-multiclass 라고 하면, x1...xn이 입력으로 주어짐.
-
-one-hot vector가 정답 y로 주어진게 샘플 1개. 
-
-Loss function : Cross entropy (여기 한정 KL과 같음) 선택하고, 
-input layer activation function : ReLU
-output layer activation function: softmax 선택
------> 국룰 조합임.
-
-#### 학습 단계
-
-multiclass 라고 하면, x1...xn이 입력으로 주어짐.
+multiclass classification 이라고 하면, x1...xn이 입력으로 주어짐.
 
 one-hot vector가 정답 y로 주어진게 샘플 1개. 
 
+<국룰 조합을 가정>
 Loss function : Cross entropy (여기 한정 KL과 같음) 선택하고, 
 hidden layer activation function : ReLU
 output layer activation function: softmax 선택
@@ -41,7 +31,7 @@ Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산을
 Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산을 그대로 써서 평균 0 표준편차 1로 정규화 한 다음에 k-1번째 스텝에서 정해진 scale parameter (gamma)랑 shift parameter (beta)를 활용해 맛있는 위치로 보내고, ReLU에다가 넣기.
 이 과정 중 뒤에서 몰래 평균과 분산의 '1st moment'를 저장함. 파라미터는 약 0.9
 
-를 마지막 레이어까지 반복한 후, 
+이를 마지막 레이어까지 반복한 후, 
 
 마지막 출력층 layer에서 softmax로 꺼내고, 정답으로 주어진 y와 출력층에서 꺼낸 softmax값을 Cross Entropy Loss function에 넣고,
 
