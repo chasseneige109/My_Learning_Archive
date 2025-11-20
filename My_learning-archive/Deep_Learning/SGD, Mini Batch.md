@@ -16,5 +16,17 @@ output layer activation function으로 softmax를 선택하는
 
 ### mini-batch
 
-샘플 32, 64개 정도 한 번에 넣어서
-평균 Loss를 가지고 SGD랑 같은짓 반복
+
+1. **Batch (32개) 투입**
+    
+2. **Linear ($Wx+b$)** $\rightarrow$ 값들이 엉망진창
+    
+3. **BN Layer** $\rightarrow$ **강제로 줄 세우고($\mu, \sigma$), 적절히 재배치($\gamma, \beta$) + 족보 작성**
+    
+4. **Activation (ReLU/Softmax)** $\rightarrow$ 깔끔하게 비선형성 추가
+    
+5. **Loss 계산 (Cross Entropy)**
+    
+6. **Backpropagation** $\rightarrow$ $W, b$ 뿐만 아니라 **$\gamma, \beta$도 같이 업데이트**
+    
+7. **(반복)**
