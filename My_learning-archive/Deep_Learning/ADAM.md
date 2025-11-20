@@ -47,7 +47,9 @@ bias correction 2: 이번 2nd moment를 1 - (Beta2)^k 으로 나눠 스케일링
 마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k(hat) / sqrt(v_k(hat) + eps) )
 여기서 w는 가중치 w, scaling parameter (gamma), shift parameter(beta)가 모두 한 column에 나열된 M(가중치 수) + 2*N (BN이 붙은 뉴런 수) 차원의 column vector
 
-이 전체 과정을 gradient가 적정수준이상으로 작아질 때까지 반복.
+이 전체 과정을 여러 epoch 동안 반복하면서  
+training loss / validation loss / metric이  
+수렴하거나 더 이상 개선되지 않을 때까지 학습을 진행.
 
 
 
