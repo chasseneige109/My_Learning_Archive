@@ -27,9 +27,9 @@ Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산(�
 
 이를 마지막 레이어까지 반복한 후, 
 
-마지막 출력층 layer에서 softmax로 꺼내고, 정답으로 주어진 y와 출력층에서 꺼낸 softmax값을 Cross Entropy Loss function에 넣고,
+마지막 출력층 layer에서 softmax로 꺼내고, 정답으로 주어진 y와 출력층에서 꺼낸 softmax값을 Cross Entropy Loss function에 넣음.
 
-back propagation 실행: gradient를 오직 '계산'만 해놓고, 
+back propagation 실행: gradient를 오직 '계산'만 해놓음.
 
 Momentum method 실행: k - 1 번째 1st moment(m_k-1) 와 back propagation으로 계산한 이번 gradient를 학습전에 미리 정해놓은 비율 (Beta 1, 약 0.9)로 지수이동평균(EMA)하여 이번 스텝의 1st moment(m_k)를 구하고, 이번 1st moment를 저장.
 
