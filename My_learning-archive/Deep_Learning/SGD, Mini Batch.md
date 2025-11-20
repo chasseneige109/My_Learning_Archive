@@ -15,4 +15,4 @@ activation function으로 softmax를 선택하는 국룰조합으로 가서,
 ### mini-batch
 
 샘플 32, 64개 정도 한 번에 넣어서
-LOSS
+평균 Loss를 가지고 SGD랑 같은짓 반복
