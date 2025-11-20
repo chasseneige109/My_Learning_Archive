@@ -5,9 +5,9 @@
 
 # 학습 단계
 
-multiclass classification 이라고 하면, x1...xn이 입력으로 주어짐.
-
-one-hot vector가 정답 y로 주어진게 샘플 1개. 
+multiclass classification 이라고 하면, 
+x1...xn이 입력으로 주어짐.
+one-hot vector가 정답 y로 주어진 게 샘플 1개. 
 
 <국룰 조합을 가정>
 Loss function : Cross entropy (여기 한정 KL과 같음) 선택하고, 
@@ -38,7 +38,7 @@ RMS Prop 실행: k - 1 번째 2nd moment(v_k-1) 와 back propagation으로 계�
 bias correction 1: 이번 m_k를 1 - (Beta1)^k 으로 나눠 스케일링. m_k(hat) 얻음.
 bias correction 2: 이번 v_k를 1 - (Beta2)^k 으로 나눠 스케일링. v_k(hat) 얻음.
 
-마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k(hat) / sqrt(v_k(hat) + eps) )
+마지막으로 gradient 스텝 밟기: w_{k+1} = w_k - eta * ( m_k(hat) / (sqrt(v_k(hat)) + eps)
 여기서 w는 모든 weight M개와  모든 BN layer의 γ, β 파라미터(총합 2·N개)를 일렬로 나열한 column vector이다. (N은 BN이 적용되는 모든 채널/뉴런의 총합)
 
 이 전체 과정을 여러 epoch 동안 반복하면서  
