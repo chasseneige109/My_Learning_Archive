@@ -149,7 +149,7 @@ BN이 Gradient Vanishing을 막는 이유는 "Normalization(정규화) 그 자�
 ---
 
 
-### 근데 왜 기껏 (0,1)로 모아놓은 걸 다시 뿌려요?
+###  !!!!! 근데 왜 기껏 (0,1)로 모아놓은 걸 다시 뿌려요?
 
 **"기껏 0, 1로 모아놓고 왜 다시 $\gamma$(Scale)와 $\beta$(Shift)로 흩뿌리는가?"** 이것이 Batch Normalization의 가장 아이러니하면서도 **천재적인 부분**입니다.
 
