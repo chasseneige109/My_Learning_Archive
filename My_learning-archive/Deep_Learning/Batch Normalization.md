@@ -48,7 +48,9 @@ BN은 각 층(Layer)의 활성화 함수(Activation Function) 통과 전(또는 
 
 ---
 
-### 3. 현대적 해석: Optimization Landscape Smoothing (최적화 지형 평탄화)
+### 3. 현대적 해석
+
+#### Optimization Landscape Smoothing (최적화 지형 평탄화)
 
 그러나 2018년 MIT의 Santurkar 등이 발표한 논문 *"How Does Batch Normalization Help Optimization?"*은 **ICS가 BN의 주된 성공 요인이 아님**을 증명했습니다. (심지어 BN을 써도 ICS가 줄지 않는 경우도 발견됨).
 
