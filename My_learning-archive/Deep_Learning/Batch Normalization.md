@@ -1,6 +1,7 @@
 
 # 아직도 논쟁이 되는 주제이다!
---> 서로가 어떤 근거로 이런 주장을 하면서 
+--> 이걸로 면접 질문 같은 것이 들어온다면
+서로가 어떤 근거로 이런 주장을 하면서 논쟁을 하고있음을 이해하고 있다는 것만 보여주면 된다.
 
 Batch Normalization(BN)은 2015년 Ioffe & Szegedy의 논문 *"Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"*에서 처음 제안되었습니다.
 
