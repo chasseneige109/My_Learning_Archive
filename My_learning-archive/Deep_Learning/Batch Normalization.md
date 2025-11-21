@@ -109,9 +109,6 @@ $$\frac{\partial \hat{x}}{\partial x} \approx \frac{1}{\sigma} \left( I - \frac{
 
 ### 4. Scale Invariance
 
-BN의 또 다른 강력한 수학적 특성은 **가중치 스케일 불변성(Weight Scale Invariance)**과 이것이 역전파(Backpropagation)에 미치는 영향입니다.
-
-#### 가중치 불변성 (Invariance)
 
 어떤 가중치 행렬 $W$에 스칼라 $\alpha$를 곱한다고 가정해 봅시다 ($\tilde{W} = \alpha W$).
 
@@ -120,6 +117,8 @@ BN이 적용된 층의 출력은 다음과 같습니다.
 $$BN(\alpha W x) = BN(W x)$$
 
 분모의 표준편차 계산 과정에서 $\alpha$가 상쇄되기 때문입니다. 즉, 가중치의 크기(Magnitude)가 Forward pass의 값에 영향을 주지 않습니다.
+
+---> Exploding 중 Weight norm exploding을 막음
 
 
 ---
