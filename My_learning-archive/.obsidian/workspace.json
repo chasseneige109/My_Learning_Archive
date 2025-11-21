@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Batch Normalize.md",
+                "file": "Deep_Learning/Batch Normalization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Batch Normalize"
+              "title": "Batch Normalization"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Batch Normalize.md",
+                "file": "Deep_Learning/Batch Normalization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Batch Normalize 의 개요"
+              "title": "Batch Normalization 의 개요"
             }
           },
           {
@@ -213,7 +213,7 @@
   "active": "15bc25c9155f3411",
   "lastOpenFiles": [
     "Deep_Learning/ADAM.md",
-    "Deep_Learning/Batch Normalize.md",
+    "Deep_Learning/Batch Normalization.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Convex_Optimization/CVXPY/Solvers.md",
     "대학원가자",
