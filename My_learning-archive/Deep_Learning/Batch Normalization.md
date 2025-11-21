@@ -50,7 +50,7 @@ BN은 각 층(Layer)의 활성화 함수(Activation Function) 통과 전(또는 
 
 ### 3. 현대적 해석
 
-#### 3 - 1 Optimization Landscape Smoothing (최적화 지형 평탄화)
+#### 3 - 1. Optimization Landscape Smoothing (최적화 지형 평탄화)
 
 그러나 2018년 MIT의 Santurkar 등이 발표한 논문 *"How Does Batch Normalization Help Optimization?"*은 **ICS가 BN의 주된 성공 요인이 아님**을 증명했습니다. (심지어 BN을 써도 ICS가 줄지 않는 경우도 발견됨).
 
@@ -109,7 +109,7 @@ $$\frac{\partial \hat{x}}{\partial x} \approx \frac{1}{\sigma} \left( I - \frac{
 
 ---  
 
-#### 3 - 2 Scale Invariance
+#### 3 - 2. Scale Invariance
 
 
 어떤 가중치 행렬 $W$에 스칼라 $\alpha$를 곱한다고 가정해 봅시다 ($\tilde{W} = \alpha W$).
@@ -125,7 +125,7 @@ $$BN(\alpha W x) = BN(W x)$$
 
 ---
 
-#### 3 - 3 Gradient Vanishing / Exploding 방지
+#### 3 - 3. Gradient Vanishing / Exploding 방지
 
 BN이 Gradient Vanishing을 막는 이유는 "Normalization(정규화) 그 자체"**에 있습니다.
 
@@ -151,7 +151,7 @@ BN이 Gradient Vanishing을 막는 이유는 "Normalization(정규화) 그 자�
 ---
 
 
-###  !!!!! 근데 왜 기껏 (0,1)로 모아놓은 걸 다시 뿌려요?
+###  !!!!! 해석적인 해석: 근데 왜 기껏 (0,1)로 모아놓은 걸 다시 뿌려요?
 
 **"기껏 0, 1로 모아놓고 왜 다시 $\gamma$(Scale)와 $\beta$(Shift)로 흩뿌리는가?"** 이것이 Batch Normalization의 가장 아이러니하면서도 **천재적인 부분**입니다.
 
