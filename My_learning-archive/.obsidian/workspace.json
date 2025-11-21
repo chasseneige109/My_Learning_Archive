@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Dropout.md",
+                "file": "대학원가자/졸업 학점 및 GPA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dropout"
+              "title": "졸업 학점 및 GPA"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Dropout.md",
+                "file": "대학원가자/졸업 학점 및 GPA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dropout 의 개요"
+              "title": "졸업 학점 및 GPA 의 개요"
             }
           },
           {
@@ -226,8 +226,8 @@
   },
   "active": "3ed20c46059f7666",
   "lastOpenFiles": [
-    "Deep_Learning/ADAM.md",
     "Deep_Learning/Dropout.md",
+    "Deep_Learning/ADAM.md",
     "Deep_Learning/Batch Normalization.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Convex_Optimization/CVXPY/Solvers.md",
