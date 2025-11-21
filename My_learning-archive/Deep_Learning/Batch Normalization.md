@@ -54,7 +54,7 @@ BN은 각 층(Layer)의 활성화 함수(Activation Function) 통과 전(또는 
 
 그들이 제시한 진짜 이유는 **Loss Function의 지형(Landscape)을 부드럽게(Smoothing) 만든다**는 것입니다.
 
-#### 수학적 분석: Lipschitz Continuity & Beta-smoothness
+####    수학적 분석: Lipschitz Continuity & Beta-smoothness
 
 BN은 Loss function $\mathcal{L}$의 **Lipschitz 상수(Lipschitz constant)**를 낮춥니다.
 
