@@ -120,7 +120,7 @@ $$BN(\alpha W x) = BN(W x)$$
 
 분모의 표준편차 계산 과정에서 $\alpha$가 상쇄되기 때문입니다. 즉, 가중치의 크기(Magnitude)가 Forward pass의 값에 영향을 주지 않습니다.
 
-**---> Activation Exploding은 못막고, Weight norm exploding을 막음**
+**---> Scale invariance는 Activation Exploding이 아니라 , Weight norm exploding을 막음**
 
 
 ---
