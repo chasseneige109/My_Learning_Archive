@@ -144,4 +144,6 @@ $$\frac{\partial \mathcal{L}}{\partial (\alpha W)} = \frac{1}{\alpha} \frac{\par
 혹시 이 수학적 개념들을 시각적으로 더 직관적으로 이해하고 싶으시다면, **파이토치(PyTorch)로 BN 유무에 따른 Loss Landscape 변화를 시각화하는 코드**를 작성해 드릴까요?
 
 
-저도 ML/AI 이제 막 2달전에 시작한 조팝이라 현업자분들에 비하면 
+저도 ML/AI 이제 막 2달전에 시작한 조팝이라 현업자분들에 비하면 진짜 눈꼽만큼도모르지만
+제가 들었던, 듣고있는 수학/AI 메커니즘적으로 좋은 강의를 추천해드리자면..
+CMU 11785 - introduction to deep강의 좋습니다.
