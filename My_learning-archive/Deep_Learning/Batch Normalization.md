@@ -50,13 +50,13 @@ BN은 각 층(Layer)의 활성화 함수(Activation Function) 통과 전(또는 
 
 ### 3. 현대적 해석
 
-#### Optimization Landscape Smoothing (최적화 지형 평탄화)
+#### 3 - 1 Optimization Landscape Smoothing (최적화 지형 평탄화)
 
 그러나 2018년 MIT의 Santurkar 등이 발표한 논문 *"How Does Batch Normalization Help Optimization?"*은 **ICS가 BN의 주된 성공 요인이 아님**을 증명했습니다. (심지어 BN을 써도 ICS가 줄지 않는 경우도 발견됨).
 
 그들이 제시한 진짜 이유는 **Loss Function의 지형(Landscape)을 부드럽게(Smoothing) 만든다**는 것입니다.
 
-####    수학적 분석: Lipschitz Continuity & Beta-smoothness
+#####  수학적 분석: Lipschitz Continuity & Beta-smoothness
 
 BN은 Loss function $\mathcal{L}$의 **Lipschitz 상수(Lipschitz constant)**를 낮춥니다.
 
@@ -78,7 +78,7 @@ BN은 Loss function $\mathcal{L}$의 **Lipschitz 상수(Lipschitz constant)**를
 BN이 없는 경우, Loss Landscape는 매우 울퉁불퉁(Non-convex, rugged)하여 Local Minima에 빠지거나, Gradient Exploding이 발생하기 쉽습니다. BN은 이 지형을 평평하고 매끄럽게 다림질해주어, 더 큰 학습률(High Learning Rate)을 사용해도 발산하지 않고 최적해(Global Minima)로 빠르게 수렴하게 만듭니다.
 
 
-#### BN은 어떻게 립시츠(Lipschitz) 상수를 줄이고 Smoothing을 하는가?
+##### BN은 어떻게 립시츠(Lipschitz) 상수를 줄이고 Smoothing을 하는가?
 
 Santurkar et al. (2018) 논문의 핵심 증명입니다. 수식적으로 **Gradient의 크기 변화량**을 억제하는 과정을 봅니다.
 
@@ -109,7 +109,7 @@ $$\frac{\partial \hat{x}}{\partial x} \approx \frac{1}{\sigma} \left( I - \frac{
 
 ---  
 
-### 4. Scale Invariance
+#### 3 - 2 Scale Invariance
 
 
 어떤 가중치 행렬 $W$에 스칼라 $\alpha$를 곱한다고 가정해 봅시다 ($\tilde{W} = \alpha W$).
@@ -125,7 +125,7 @@ $$BN(\alpha W x) = BN(W x)$$
 
 ---
 
-### 5. Gradient Vanishing / Exploding 방지
+#### 3 - 3 Gradient Vanishing / Exploding 방지
 
 BN이 Gradient Vanishing을 막는 이유는 "Normalization(정규화) 그 자체"**에 있습니다.
 
