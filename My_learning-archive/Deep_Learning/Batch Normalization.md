@@ -96,7 +96,9 @@ $$\frac{\partial \hat{x}}{\partial x} \approx \frac{1}{\sigma} \left( I - \frac{
         
 
 결과적으로:
+
 입력 $x_1, x_2$가 서로 가까울 때, 출력의 변화량 $|\mathcal{L}(x_1) - \mathcal{L}(x_2)|$가 제한됩니다(Lipschitz Continuity). 이로 인해 Loss Landscape의 "협곡"이나 "절벽"이 완만해져(Smoothing), 최적화가 쉬워집니다.
+
 ---  
 
 ### 4. 깊이 있는 분석: Scale Invariance와 Backpropagation
