@@ -121,17 +121,37 @@ $$BN(\alpha W x) = BN(W x)$$
 
 분모의 표준편차 계산 과정에서 $\alpha$가 상쇄되기 때문입니다. 즉, 가중치의 크기(Magnitude)가 Forward pass의 값에 영향을 주지 않습니다.
 
-### 5. Gradient Vanishing, Exploding 방지
 
-역전파 시 $\alpha W$에 대한 그라디언트는 다음과 같이 됩니다.
+---
 
-$$\frac{\partial \mathcal{L}}{\partial (\alpha W)} = \frac{1}{\alpha} \frac{\partial \mathcal{L}}{\partial W}$$
+### 5. Gradient Vanishing / Exploding 방지
 
-- **직관적 해석:** 가중치 $W$의 값이 커지면(즉, $\alpha$가 크면), 그라디언트는 반대로 $\frac{1}{\alpha}$만큼 작아집니다.
+BN이 Gradient Vanishing을 막는 진짜 이유는 스케일 불변성이 아니라, **"Normalization(정규화) 그 자체"**에 있습니다.
+
+#### 핵심: 활성화 함수(Activation Function)의 '선형 구간'
+
+![sigmoid function derivative plot 이미지](https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTF_silWYcl2TtICwab2XlvTBpm4I_P5prkMiCER1z48oH0I8KTcW8eGrPTMLAUbdKU38QS4w7EH47uzwbYP6a4zSm0RFKZm5tGydpdgJzWRoCPmVU)
+
+Getty Images
+
+- 문제 상황 (BN 없음):
     
-- **효과:** 이는 마치 **적응형 학습률(Adaptive Learning Rate)**처럼 작동합니다. 가중치가 너무 커져서 발산하려 하면 그라디언트를 줄여 안정을 찾고, 가중치가 작으면 그라디언트를 키워 학습을 가속화합니다. 이것이 BN이 초기화에 덜 민감한 수학적 이유입니다.
+    네트워크가 깊어지면 입력값($x$)이 이리저리 곱해지면서 절대값이 엄청 커지거나($|x| \gg 1$), 한쪽으로 쏠릴 수 있습니다.
     
+    - 만약 **Sigmoid**나 **Tanh**를 쓴다면? 입력이 크면 기울기(미분값)가 거의 **0**이 됩니다. (Saturation 현상) $\rightarrow$ **Gradient Vanishing 발생!**
+        
+    - 만약 **ReLU**를 쓴다면? 입력이 음수로 쏠리면 미분값이 **0**이 됩니다. (Dead ReLU) $\rightarrow$ **Gradient Vanishing 발생!**
+        
+- BN의 해결책 (데이터 강제 정렬):
+    
+    BN은 입력 데이터를 강제로 평균 0, 분산 1인 분포로 끌고 옵니다.
+    
+    - 이렇게 되면 데이터의 대부분(약 95%)이 **[-2, +2]** 구간 안에 들어오게 됩니다.
+        
+    - 이 구간은 Sigmoid의 미분값이 가장 큰 구간이고, ReLU가 살아있는(양수) 구간일 확률을 높여줍니다.
+        
 
+> **결론 1:** Gradient Vanishing을 막는 것은 $\gamma, \beta$나 불변성이 아니라, 데이터를 **"기울기가 잘 나오는 구간(Sweet Spot)"으로 쑤셔 넣는 정규화 과정** 덕분입니다.
 ---
 
 ### 요약: Batch Normalization을 하는 "진짜" 이유
