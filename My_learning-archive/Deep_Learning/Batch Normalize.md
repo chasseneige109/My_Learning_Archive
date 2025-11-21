@@ -69,9 +69,8 @@ BN은 Loss function $\mathcal{L}$의 **Lipschitz 상수(Lipschitz constant)**를
 
 BN이 없는 경우, Loss Landscape는 매우 울퉁불퉁(Non-convex, rugged)하여 Local Minima에 빠지거나, Gradient Exploding이 발생하기 쉽습니다. BN은 이 지형을 평평하고 매끄럽게 다림질해주어, 더 큰 학습률(High Learning Rate)을 사용해도 발산하지 않고 최적해(Global Minima)로 빠르게 수렴하게 만듭니다.
 
----
 
-### 2. BN은 어떻게 립시츠(Lipschitz) 상수를 줄이고 Smoothing을 하는가?
+#### BN은 어떻게 립시츠(Lipschitz) 상수를 줄이고 Smoothing을 하는가?
 
 Santurkar et al. (2018) 논문의 핵심 증명입니다. 수식적으로 **Gradient의 크기 변화량**을 억제하는 과정을 봅니다.
 
