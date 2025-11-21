@@ -118,20 +118,15 @@ $$BN(\alpha W x) = BN(W x)$$
 
 분모의 표준편차 계산 과정에서 $\alpha$가 상쇄되기 때문입니다. 즉, 가중치의 크기(Magnitude)가 Forward pass의 값에 영향을 주지 않습니다.
 
----> **Activation Exploding은 못막고, Weight norm exploding을 막음**
+**---> Activation Exploding은 못막고, Weight norm exploding을 막음**
 
 
 ---
 
 ### 5. Gradient Vanishing / Exploding 방지
 
-BN이 Gradient Vanishing을 막는 진짜 이유는 스케일 불변성이 아니라, **"Normalization(정규화) 그 자체"**에 있습니다.
+BN이 Gradient Vanishing을 막는 이유는 "Normalization(정규화) 그 자체"**에 있습니다.
 
-#### 핵심: 활성화 함수(Activation Function)의 '선형 구간'
-
-![sigmoid function derivative plot 이미지](https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTF_silWYcl2TtICwab2XlvTBpm4I_P5prkMiCER1z48oH0I8KTcW8eGrPTMLAUbdKU38QS4w7EH47uzwbYP6a4zSm0RFKZm5tGydpdgJzWRoCPmVU)
-
-Getty Images
 
 - 문제 상황 (BN 없음):
     
