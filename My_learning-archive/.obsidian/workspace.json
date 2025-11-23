@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/ADAM.md",
+                "file": "대학원가자/졸업 학점 및 GPA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ADAM"
+              "title": "졸업 학점 및 GPA"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/ADAM.md",
+                "file": "대학원가자/졸업 학점 및 GPA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ADAM 의 개요"
+              "title": "졸업 학점 및 GPA 의 개요"
             }
           },
           {
@@ -226,10 +226,10 @@
   },
   "active": "3ed20c46059f7666",
   "lastOpenFiles": [
+    "Deep_Learning/ADAM.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Deep_Learning/Dropout.md",
     "Deep_Learning/Batch Normalization.md",
-    "Deep_Learning/ADAM.md",
     "Convex_Optimization/CVXPY/Solvers.md",
     "대학원가자",
     "무제",
