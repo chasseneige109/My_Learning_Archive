@@ -17,3 +17,31 @@ conv layer에 5x5x3 (RGB)짜리 가중치판이 32개가 옆으로 나란히 있
 - 커널 N개 (예: 32개)
 - - 비선형성(ReLU)
 - → 이 전체가 “레이어 1개”
+
+
+## 0. 전체 그림 한 방에 보기
+
+일반적인 이미지 CNN 파이프라인은 이렇게 생겼다고 보면 돼:
+
+> **입력 이미지 → 여러 번의 (Conv + ReLU + Pool) → (Flatten) → MLP(FC 층들) → Softmax**
+
+조금 풀면:
+
+1. **입력**: `H × W × C` (예: 100×100×3 RGB)
+    
+2. **Conv Layer 1**: 커널 N개로 feature map 추출
+    
+3. **ReLU**: 음수 잘라내고 양수만 통과
+    
+4. **Pooling (Max Pool)**: 해상도 줄이면서 중요한 값만 남김
+    
+5. **Conv/ReLU/Pool 반복**: 점점 더 추상적인 특징으로 변환
+    
+6. **Flatten**: 3D feature map → 1D 벡터
+    
+7. **Fully Connected(FC) Layer**: 일반 MLP처럼 동작
+    
+8. **Output (Softmax)**: 각 클래스 확률
+    
+
+이제 각 단계를 진짜 세세하게 뜯어보자.
