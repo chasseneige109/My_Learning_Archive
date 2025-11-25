@@ -13,11 +13,11 @@ conv layer에 5x5x3 (RGB)짜리 가중치판이 32개가 옆으로 나란히 있
 
 커널은 1층짜리 MLP와 완전히 동일하다.
 
-## 전체 구조
+# 전체 구조
 
-→ CNN → Flatten → Fully connected layers → Softmax → Output vector
+입력 이미지 -> CNN → Flatten → Fully connected layers → Softmax → Output vector
 
-## 예시)
+# 예시)
 
 커널은 5 x 5 x 3으로 설정. 주로 5칸짜리 커널을 많이쓰고, 3은 RGB
 layer1엔 커널 32개
