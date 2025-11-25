@@ -14,7 +14,7 @@ hidden layer activation function : ReLU
 output layer activation function: softmax
 
 현재가 K번째 학습이라고 가정하면,
-미니배치로 샘플 32개 or 64개 정도를 동시에 넣고, 
+미니배치로 샘플 32개 or 64개 정도를 동시에 넣고, (샘플 개수 x feature의 행렬 형태로 넣음)
 
 첫번째 레이어에서 z = wx + b 계산하고, (물론 여기서는 BN 과정이 있어서 b는 의미를 잃으므로 아예 정의하지 않는 것 좋다.)
 Batch Normalization 시행: 이번 배치의 32개 샘플의 평균과 분산(분산 + eps)으로 평균 0 표준편차 1로 정규화 한 다음에 k-1번째 스텝에서 정해진 scale parameter (gamma)랑 shift parameter (beta)를 활용해 맛있는 위치로 보내고, ReLU에다가 넣기.
