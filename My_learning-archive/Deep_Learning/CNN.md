@@ -87,3 +87,4 @@ layer1에서 100 x 100 x 3(RGB) 원본 이미지를 50 x 50 x 32(layer1 커널�
 - conv2는 이 전체 feature map을 받아서 모든 patch에 대해 계산
 - conv3도 그 결과를 받아 계산
 
+물론 실제론 GPU 병렬화가 쉬운 B만 쓰임
