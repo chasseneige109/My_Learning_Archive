@@ -59,6 +59,8 @@ layer1에서 만든 50 x 50 x 32 feature_map을 입력으로 받음.
 
 layer2에는 5 x 5 x 32짜리 커널을 64개로 설정해놓았음. 이 64개 또한 각각의 픽셀값은 Random 설정.
 
-layer1에서 100 x 100 x 3(RGB) 원본 이미지를 50 x 50 x 32(layer1 커널수) feature_map으로 만든 방법과 정확히 같은 방법으로 25 x 25 x 64(layer2 커널수) feature_map을 만 
+layer1에서 100 x 100 x 3(RGB) 원본 이미지를 50 x 50 x 32(layer1 커널수) feature_map으로 만든 방법과 정확히 같은 방법으로 25 x 25 x 64(layer2 커널수) feature_map을 만듦.
+
+
 
 
