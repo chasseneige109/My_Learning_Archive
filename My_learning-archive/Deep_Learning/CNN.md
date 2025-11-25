@@ -26,11 +26,12 @@ layer3엔 커널 128개 (점점 복잡한 feature를 표현하려면 커널 수�
 100 x 100 x 3(RGB) 이미지를 받고, zero - padding 해놓음.
 
 ### layer1 Conv:
+
 5 x 5 x 3 커널 32개가 옆으로 나열되어 있음.
+
 layer1의 커널1을 한 칸씩 움직이며 100 x 100번 스캔하여 convolution 연산을 함. 
-커널 각각의 가중치와 이미지 RGB 픽셀값을 가중합하고 Bias를 더
-100 x 100 x 3채널이었던 RGB이미지가 100 x 100 x 1채널이 됨. 
-이게 layer1의 커널1에서 나온 feature_map_1
+커널의 가중치와 이미지 RGB 픽셀값을 가중합하고 Bias를 더해서 연산함.
+100 x 100 x 3채널이었던 RGB이미지가 100 x 100 x 1짜리 feature_map_1이 됨.
 
 layer1의 커널2를 100 x 100번 스캔하여... 위와 같은 연산을 반복하여 layer1의 커널2에서 나온 feature_map을 만듦.
 
