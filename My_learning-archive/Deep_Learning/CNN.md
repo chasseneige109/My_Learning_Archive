@@ -68,8 +68,12 @@ layer1에서 100 x 100 x 3(RGB) 원본 이미지를 50 x 50 x 32(layer1 커널�
 
 
 
-## ! 아래 두 방식은 output이 완전히 같다.
-### Case A — 원래 방식
+
+
+
+
+#  ❗ 아래 두 방식은 output이 완전히 같다.
+## Case A — 원래 방식
 
 - conv layer1이 patch1 계산
 - conv layer2가 그 patch1 결과를 계산
@@ -77,29 +81,9 @@ layer1에서 100 x 100 x 3(RGB) 원본 이미지를 50 x 50 x 32(layer1 커널�
     → patch1의 결과 완성  
     → 다음 patch로 이동
     
-### Case B — 재배열 방식
+## Case B — 재배열 방식
 
 - conv1이 모든 patch를 먼저 계산해서 전체 feature map(예: 100×100×32)을 만들어 놓음
 - conv2는 이 전체 feature map을 받아서 모든 patch에 대해 계산
 - conv3도 그 결과를 받아 계산
-
-### Case A — 원래 방식
-
-- conv layer1이 patch1 계산
-    
-- conv layer2가 그 patch1 결과를 계산
-    
-- conv layer3가 그 patch1 결과 계산  
-    → patch1의 결과 완성  
-    → 다음 patch로 이동
-    
-
-### Case B — 재배열 방식
-
-- conv1이 모든 patch를 먼저 계산해서 전체 feature map(예: 100×100×32)을 만들어 놓음
-    
-- conv2는 이 전체 feature map을 받아서 모든 patch에 대해 계산
-    
-- conv3도 그 결과를 받아 계산
-    
 
