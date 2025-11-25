@@ -27,7 +27,7 @@ layer3엔 커널 128개 (점점 복잡한 feature를 표현하려면 커널 수�
 
 ### layer1 Conv:
 5 x 5 x 3 커널 32개가 옆으로 나열되어 있음.
-layer1의 커널1을 한 칸씩 움직이며 100 x 100번 스캔하여 convolution 연산을 함. 이때 100 x 100 x 3채널이었던 RGB이미지를 가중치와 RGB을 가중합하여 100 x 100 x 1채널로 만들어버림. 이게 layer1의 커널1에서 나온 feature_map_1 .
+layer1의 커널1을 한 칸씩 움직이며 100 x 100번 스캔하여 convolution 연산을 함. 이때 100 x 100 x 3채널이었던 RGB이미지를 가중치와 RGB을 가중합하여 100 x 100 x 1채널로 만들어버림. 이게 layer1의 커널1에서 나온 feature_map_1
 
 layer1의 커널2를 100 x 100번 스캔하여... 위와 같은 연산을 반복하여 layer1의 커널2에서 나온 feature_map을 만듦.
 
