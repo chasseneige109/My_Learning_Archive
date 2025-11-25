@@ -11,7 +11,11 @@ conv layer에 5x5x3 (RGB)짜리 가중치판이 32개가 옆으로 나란히 있
 그걸 ReLU로 더 빨리 결과가나오게한게아닐까 2 1 / 1 2보단 2 0 / 0 2가 더 확실하니
 
 
-커널은 1층짜리 MLP와 완전히 동일하다
+커널은 1층짜리 MLP와 완전히 동일하다.
+
+## 전체 구조
+
+→ CNN → Flatten → Fully connected layers → Softmax → Output vector
 
 ## 예시)
 
