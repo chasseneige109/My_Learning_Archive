@@ -45,7 +45,9 @@ layer1의 커널 32까지 반복한다.
 2 x 2 짜리 pooling window를 (stride = 2) 로 Pooling하여 (Max Pooling으로 가정) 
 100 x 100 x 32 feature_map을 50 x 50 x 32로 만듦.
 
-layer2: 입력
-layer2의 커널64개도 처음엔 랜덤으로 정해진 값이고, 그걸 또 32x32 내적한걸 100번 슬라이딩해서 layer1에서 RGB (3개)를 커널 수(32개)로 만들었듯이 스칼라 feature맵 100x100x(64 커널개수)로 만드나
+### layer2: 입력
+
+layer2에는 커널 64개로 설정해놓았음. 이 64개도 역시 각각 픽셀값은 Random 설정.
+그걸 또 32x32 내적한걸 100번 슬라이딩해서 layer1에서 RGB (3개)를 커널 수(32개)로 만들었듯이 스칼라 feature맵 100x100x(64 커널개수)로 만드나
 
 
