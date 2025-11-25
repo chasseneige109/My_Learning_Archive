@@ -34,7 +34,7 @@ layer1의 커널2를 100 x 100번 스캔하여... 위와 같은 연산을 반복
 layer1의 커널 32까지 반복한다.
 
 100 x 100 x 1짜리 feature_map이 커널마다 1개씩 나와서 32개가 생겼다.
-이를 100 x 100개의 점 각각에 32개의 feature 값을 준다고 생각하여 100 x 100 x 32 짜리 feature map하나를 만든다.
+이를 100 x 100개의 점 각각에 32개의 feature 값을 준다고 생각하자. 32개를 depth 방향으로 쌓아올려 100 x 100 x 32 짜리 feature map하나를 만든다.
 
 ### layer1: ReLU
 
@@ -49,7 +49,7 @@ layer1의 커널 32까지 반복한다.
 
 layer1에서 만든 50 x 50 x 32 feature_map을 
 
-layer2에는 5 x 5짜리 커널을 64개로 설정해놓았음. 이 64개 또한 각각의 픽셀값은 Random 설정.
+layer2에는 5 x 5 x 32짜리 커널을 64개로 설정해놓았음. 이 64개 또한 각각의 픽셀값은 Random 설정.
 
 layer1에서 100 x 100 x 3(RGB) 원본 이미지를 50 x 50 x 32(layer1 커널수) feature_map으로 만든 방법과 정확히 같은 방법으로 25 x 25 x 64(layer2 커널수) feature_map을 만듦 
 
