@@ -82,7 +82,8 @@ Layer 2는:
     이런 식으로 더 complex pattern을 학습함.
 
 - Layer1이 5x5 patch를 봄.
-- Layer2가 보는 patch 다음에 들어온 5x5짜리 feature map
+- Layer2가 보는 patch는 layer1에서 출력받은 5x5짜리 feature map임.
+  ---> 7x7 영역을 보는 효과!
 
 
 
