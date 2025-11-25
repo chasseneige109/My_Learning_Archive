@@ -83,7 +83,7 @@ Layer 2는:
 
 - Layer1이 5x5 patch를 봄.
 - Layer2가 보는 patch는 layer1에서 출력받은 5x5짜리 feature map임.
-  ---> 9x9 영역을 보는 효과!
+  ---> 9x9 영역을 보는 효과!  == Receptive field
 
 
 
