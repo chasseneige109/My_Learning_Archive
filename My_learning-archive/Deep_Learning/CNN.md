@@ -53,9 +53,9 @@ layer1의 커널 32까지 반복한다.
 
 ## layer2: 
 
-### layer입력 ~ Pooling
+### layer2 입력 ~ Pooling
 
-layer1에서 만든 50 x 50 x 32 feature_map을 
+layer1에서 만든 50 x 50 x 32 feature_map을 입력으로 받음.
 
 layer2에는 5 x 5 x 32짜리 커널을 64개로 설정해놓았음. 이 64개 또한 각각의 픽셀값은 Random 설정.
 
