@@ -29,7 +29,8 @@ layer3엔 커널 128개 (점점 복잡한 feature를 표현하려면 커널 수�
 ## Layer 1
 
 ### layer1 입력
-100 x 100 x 3(RGB) 이미지를 받고, zero - padding 해놓음.
+100 x 100 x 3(RGB) 이미지를 받고, zero - padding 해놓음. 
+이 이미지에 해당하는 정답 one - hot vector도 받음. (클래스 개수만큼의 길이를 가진 row vector)
 
 ### layer1 Conv:
 
