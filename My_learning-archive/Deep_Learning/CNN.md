@@ -103,3 +103,6 @@ Layer 2는:
 - conv3도 그 결과를 받아 계산
 
 물론 실제론 GPU 병렬화가 쉬운 B만 쓰임
+
+stride 2로 conv연산해서 feature map 만드는거랑, 
+그냥 일반적으로 conv연산 (stride = 한다음에 pooling할때 pooling 안하고 downsampling한거랑 같단거지? pooling을 할 경우는 또 다른거고
