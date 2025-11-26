@@ -104,5 +104,7 @@ Layer 2는:
 
 물론 실제론 GPU 병렬화가 쉬운 B만 쓰임
 
+# stride 2 conv = stride 1 conv + downsampling
 stride 2로 conv연산해서 feature map 만드는거랑, 
-그냥 일반적으로 conv연산 (stride = 한다음에 pooling할때 pooling 안하고 downsampling한거랑 같단거지? pooling을 할 경우는 또 다른거고
+그냥 일반적으로 conv연산 (stride = 1)한 다음에 pooling layer에서 pooling 안하고 downsampling한 거랑 완전히 동일하다.
+pooling을 할 경우는 또 다른거고
