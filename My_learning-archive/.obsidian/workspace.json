@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/CNN.md",
+                "file": "Deep_Learning/ADAM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CNN"
+              "title": "ADAM"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/CNN.md",
+                "file": "Deep_Learning/ADAM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CNN 의 개요"
+              "title": "ADAM 의 개요"
             }
           },
           {
@@ -183,8 +183,8 @@
   },
   "active": "024167c29cac04a3",
   "lastOpenFiles": [
-    "Deep_Learning/ADAM.md",
     "Deep_Learning/CNN.md",
+    "Deep_Learning/ADAM.md",
     "Deep_Learning/Batch Normalization.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Deep_Learning/Dropout.md",
