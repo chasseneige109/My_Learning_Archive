@@ -17,7 +17,7 @@ conv layer에 5x5x3 (RGB)짜리 가중치판이 32개가 옆으로 나란히 있
 
 입력 이미지 -> CNN → Flatten → Fully connected layers → Softmax → Output vector
 
-# 예시)
+# Conventional CNN 예시)
 
 커널은 5 x 5 x 3(RGB)으로 설정. 주로 3칸 or 5칸짜리 커널을 많이 씀. 
 layer1엔 커널 32개
