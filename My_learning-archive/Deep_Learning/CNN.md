@@ -70,7 +70,7 @@ layer1에서 100 x 100 x 3(RGB) 원본 이미지를 50 x 50 x 32(layer1 커널�
 
 
 
-# ✔ 직관: CNN deeper layer = “Feature들의 조합을 보는 MLP”
+# ✔ CNN deeper layer = “Feature들의 조합을 보는 MLP”
 
 Layer 2는:
 
