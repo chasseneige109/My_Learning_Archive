@@ -73,7 +73,7 @@ layer1에서 100 x 100 x 3(RGB) 원본 이미지를 50 x 50 x 32(layer1 커널�
 
 L x L x M(채널)의 input이있으면, 각 채널마다 하나씩 총 M개의 K x K x 1 커널을 만들고, 
 각각을 conv연산해서 (zero padding, stride 적절히 사용) L x L x 1 feature map을 M개 만들고
-(초기값은 random selected된) 1 x 1 conv kernel N개로 L x L x N(채널)의 feature map 출력?
+(초기값은 random selected된) 1 x 1 conv kernel N개로 L x L x N(채널)의 feature map 출력
 # ✔ CNN deeper layer = “Feature들의 조합을 보는 MLP”
 
 Layer 2는:
