@@ -13,11 +13,11 @@ conv layer에 5x5x3 (RGB)짜리 가중치판이 32개가 옆으로 나란히 있
 
 커널은 1층짜리 MLP와 완전히 동일하다.
 
-# 전체 구조
+# # ✔ 전체 구조
 
 입력 이미지 -> CNN → Flatten → Fully connected layers → Softmax → Output vector
 
-# Conventional CNN 예시)
+# # ✔ Conventional CNN 예시)
 
 커널은 5 x 5 x 3(RGB)으로 설정. 주로 3칸 or 5칸짜리 커널을 많이 씀. 
 layer1엔 커널 32개
@@ -69,7 +69,7 @@ layer1에서 100 x 100 x 3(RGB) 원본 이미지를 50 x 50 x 32(layer1 커널�
 
 
 
-# Depth-wise convolution
+# # ✔ Depth-wise convolution
 
 L x L x M(채널)의 input이있으면, 각 채널마다 하나씩 총 M개의 K x K x 1 커널을 만들고, 
 각각을 conv연산해서 (zero padding, stride 적절히 사용) L x L x 1 feature map을 M개 만들고
@@ -112,3 +112,34 @@ Layer 2는:
 stride 2로 conv연산해서 feature map 만드는거랑, 
 그냥 일반적으로 conv연산 (stride = 1)한 다음에 pooling layer에서 pooling 안하고 downsampling한 거랑 완전히 동일하다.
 pooling을 할 경우는 또 다른거고
+
+
+###  CNN의 역사 (The Hall of Fame)
+
+강의는 CNN의 발전을 이끈 주요 모델들을 시간 순서대로 훑습니다.
+
+1. **LeNet (1989, Yann LeCun):**
+    
+    - 최초의 성공적인 CNN. 우편번호(숫자) 인식에 쓰였습니다.
+        
+    - 이미지가 작아질수록(Pooling 거치며) **채널(Channel) 수를 늘려야 정보 손실을 막는다**는 원칙을 정립했습니다.
+        
+2. **AlexNet (2012, Hinton Lab):** **(가장 중요!)**
+    
+    - 딥러닝 붐을 일으킨 주인공입니다. ImageNet 대회에서 에러율을 25%에서 **15%대**로 획기적으로 낮췄습니다.
+        
+    - **핵심 기술:** ReLU 사용 (Sigmoid 버림), Dropout 도입, GPU 사용.
+        
+    - 이때부터 전 세계가 "와, 이거 된다!" 하고 딥러닝에 뛰어들었습니다.
+        
+3. **VGGNet & Inception (GoogLeNet):**
+    
+    - AlexNet 이후 더 깊게(Deep), 더 효율적으로 쌓는 경쟁이 붙으며 에러율을 7~6%대까지 낮췄습니다.
+        
+4. **ResNet (Residual Networks):**
+    
+    - 층이 너무 깊어지면 학습이 안 되는 문제를 해결했습니다.
+        
+    - **Skip Connection (입력을 출력에 더해주는 방식)**을 통해 "입력을 변환하는 게 아니라, 입력에 대한 보정값(Correction)을 학습"하도록 만들었습니다.
+        
+    - 이 덕분에 100층, 1000층까지 쌓을 수 있게 되었고 에러율을 **3.5%** (사람보다 잘함)까지 낮췄습니다.
