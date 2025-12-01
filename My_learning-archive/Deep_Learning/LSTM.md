@@ -26,3 +26,9 @@ h t-1과 xt를 보고 memory cell의 장기기억에서 지워도 될 내용을 
 
 Ct를 tanh로 -1 ~ 1에 꾹 눌러담아서
 저 시그모이드와 원소별 곱.
+
+
+# peephole connection
+
+원래 h(t-1), x(t)를 concatenate 했었는데,
+여기서 원본 C(t-1)도 맨 왼쪽에 같이함.
