@@ -6,6 +6,8 @@ h만 있으면 지금 당장 무엇을 출력해야하는가? 를 정하는 연�
 
 # forget gate
 
+h t-1과 xt를 보고 memory cell의 장기기억에서 지워도 
+
 # input gate
 
 # output gate
