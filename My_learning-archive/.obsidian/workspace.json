@@ -36,15 +36,17 @@
             }
           },
           {
-            "id": "38deecc71608eed9",
+            "id": "98e1cf1cfe3b3865",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "Deep_Learning/LSTM.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.10.6"
+              "icon": "lucide-file",
+              "title": "LSTM"
             }
           }
         ],
@@ -169,12 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Deep_Learning/LSTM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "LSTM 의 개요"
             }
           },
           {
@@ -207,13 +210,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "38deecc71608eed9",
+  "active": "98e1cf1cfe3b3865",
   "lastOpenFiles": [
+    "Deep_Learning/ADAM.md",
+    "Deep_Learning/LSTM.md",
     "Deep_Learning/CNN.md",
     "Deep_Learning/RNN.md",
     "Deep_Learning/Dropout.md",
     "Deep_Learning/Batch Normalization.md",
-    "Deep_Learning/ADAM.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Convex_Optimization/CVXPY/Solvers.md",
     "대학원가자",
@@ -244,7 +248,6 @@
     "Convex_Optimization/Distances.md",
     "Convex_Optimization/Löwner-John Ellipsoid.md",
     "Machine_Learning/무제/무제.md",
-    "자료구조/C++ 자료구조.md",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
