@@ -32,3 +32,5 @@ Ct를 tanh로 -1 ~ 1에 꾹 눌러담아서
 
 원래 h(t-1), x(t)를 concatenate 했었는데,
 여기서 원본 C(t-1)도 맨 왼쪽에 같이함.
+
+raw memory도 같이 보는게 좋대
