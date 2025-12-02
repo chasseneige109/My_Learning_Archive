@@ -21,7 +21,7 @@ CAT을 맞춘다고하자.
 
 :$$\alpha_t(s) = \left( \underbrace{\alpha_{t-1}(s)}_{\text{유지}} + \underbrace{\alpha_{t-1}(s-1)}_{\text{이전}} + \underbrace{\delta \cdot \alpha_{t-1}(s-2)}_{\text{건너뛰기 (조건부)}} \right) \times \underbrace{y_{\mathbf{l}'_s}^t}_{\text{현재 확률}}$$
 이걸 재귀적으로 반복.
-
+a 계산시, 계속 underflow되므로, log를 씌워서 크기 보존
 
 ### 요약: Forward 알고리즘의 흐름도
 
@@ -42,4 +42,4 @@ CAT을 맞춘다고하자.
 5. **결과:** 마지막 시간 $T$의 '마지막 빈칸'과 '마지막 글자'의 확률을 합침.
     
 
-이 $\alpha$ 값은 나중에 Backward 변수 $\beta$와 결합되어, **"이 시점에 이 문자가 정렬되는 것이 전체 정답 확률에 얼마나 기여했는가?"**를 미분하는 데 결정적인 역할을 합니다.
+이 $\alpha$ 값은 나중에 Backward 변수 $\beta$와 결합되어, "이 시점에 이 문자가 정렬되는 것이 전체 정답 확률에 얼마나 기여했는가?"를 미분하는 데 결정적인 역할을 합니다.
