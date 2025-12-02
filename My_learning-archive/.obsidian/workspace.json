@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/LSTM, bidirectional LSTM.md",
+                "file": "Deep_Learning/CTC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LSTM, bidirectional LSTM"
+              "title": "CTC"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/LSTM, bidirectional LSTM.md",
+                "file": "Deep_Learning/CTC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LSTM, bidirectional LSTM 의 개요"
+              "title": "CTC 의 개요"
             }
           },
           {
@@ -226,10 +226,10 @@
   },
   "active": "c0aa2030fca06e1d",
   "lastOpenFiles": [
-    "Deep_Learning/CTC.md",
     "Deep_Learning/LSTM, bidirectional LSTM.md",
-    "Deep_Learning/ADAM.md",
     "Deep_Learning/CNN.md",
+    "Deep_Learning/CTC.md",
+    "Deep_Learning/ADAM.md",
     "Deep_Learning/RNN.md",
     "Deep_Learning/Dropout.md",
     "Deep_Learning/Batch Normalization.md",
