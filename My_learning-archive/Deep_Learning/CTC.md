@@ -58,3 +58,5 @@ forward에서 (t-1)값들이 전부 이미 계산되어있는 것처럼.
 ## forward, backward 종합하기
 $$P(\pi_t = s | \mathbf{x}, \mathbf{l}) = \gamma_t(s) = \frac{\alpha_t(s) \cdot \beta_t(s)}{y_{\mathbf{l}'_s}^t \cdot P(\mathbf{l}|\mathbf{x})}$$y가 a,b에 중복해서 곱해서있어서 1번 나눔.
 
+* 감마는 CAT을 출력하는것에 성공할경우, t에서 상태s일 확률
+
