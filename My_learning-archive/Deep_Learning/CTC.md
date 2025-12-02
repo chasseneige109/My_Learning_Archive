@@ -49,4 +49,4 @@ a 계산시, 계속 underflow되므로, log를 씌워서 크기 보존
 forward와 기본적으로 예쁘게 대칭적임.
 Forward의 인덱스 방향만 반대
 
-$$\beta_t(s) = \left( \underbrace{\beta_{t+1}(s)}_{\text{유지}} + \underbrace{\beta_{t+1}(s+1)}_{\text{다음}} + \underbrace{\delta \cdot \beta_{t+1}(s+2)}_{\text{점프}} \right) \times \underbrace{y_{\mathbf{l}'_s}^t}_{\text{현재 확률}}$$그리고 (t+1)에서의 $beta$ 값
+$$\beta_t(s) = \left( \underbrace{\beta_{t+1}(s)}_{\text{유지}} + \underbrace{\beta_{t+1}(s+1)}_{\text{다음}} + \underbrace{\delta \cdot \beta_{t+1}(s+2)}_{\text{점프}} \right) \times \underbrace{y_{\mathbf{l}'_s}^t}_{\text{현재 확률}}$$그리고 (t+1)에서의 $beta$ 값들은 전부 이미 계산되어있음.
