@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/CTC.md",
+                "file": "C & C++/문법 & 테크닉/삼항 연산자.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CTC"
+              "title": "삼항 연산자"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/CTC.md",
+                "file": "C & C++/문법 & 테크닉/삼항 연산자.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CTC 의 개요"
+              "title": "삼항 연산자 의 개요"
             }
           },
           {
@@ -226,9 +226,14 @@
   },
   "active": "c0aa2030fca06e1d",
   "lastOpenFiles": [
+    "C & C++/문법 & 테크닉/비트 연산자.md",
+    "C & C++/문법 & 테크닉/값 전달.md",
+    "C & C++/문법 & 테크닉/값 교환.md",
+    "C & C++/문법 & 테크닉/2차원 '조합'으로 순회하기 테크닉.md",
+    "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
+    "Deep_Learning/CTC.md",
     "Deep_Learning/LSTM, bidirectional LSTM.md",
     "Deep_Learning/CNN.md",
-    "Deep_Learning/CTC.md",
     "Deep_Learning/ADAM.md",
     "Deep_Learning/RNN.md",
     "Deep_Learning/Dropout.md",
@@ -251,17 +256,12 @@
     "Convex_Optimization/CVXPY/DCP ruleset.md",
     "Invest/w.md",
     "Mathematics/정수론/MOD.md",
-    "Mathematics/정수론/페르마 소정리.md",
-    "Mathematics/정수론/유클리드 호제법.md",
-    "Mathematics/정수론/베르트랑 공준.md",
     "Linear Algebra",
     "Convex_Optimization/무제",
     "Machine_Learning/Calculate",
     "geometry/MVEE&MVIE",
     "geometry",
     "Convex_Optimization/distance",
-    "Convex_Optimization/Distances.md",
-    "Convex_Optimization/Löwner-John Ellipsoid.md",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",

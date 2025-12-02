@@ -80,7 +80,7 @@ $$\frac{\partial \mathcal{L}}{\partial u_k^t} = y_k^t - \sum_{s : \mathbf{l}'_s 
 
 ## 학습 후 추론 및 디코딩
 
-###  Beam Search Decoding (빔 서치)
+###  1. Beam Search Decoding (빔 서치)
 
 - **방법:** 매 시간 확률이 높은 **상위 K개(Beam Width)**의 경로를 살려두고 끝까지 가져갑니다.
     
@@ -88,4 +88,4 @@ $$\frac{\partial \mathcal{L}}{\partial u_k^t} = y_k^t - \sum_{s : \mathbf{l}'_s 
     
     - 예: "I ate an **apple**" vs "I ate an **appel**" $\to$ 언어 모델이 apple을 선택.
 
-### greedy algorithm.. ()
+### 2. greedy algorithm.. (don't use)
