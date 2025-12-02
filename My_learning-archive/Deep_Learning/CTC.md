@@ -80,7 +80,7 @@ $$\frac{\partial \mathcal{L}}{\partial u_k^t} = y_k^t - \sum_{s : \mathbf{l}'_s 
 
 ## 학습 후 추론 및 디코딩
 
-실전에서 모델을 쓸 때는 정답 레이블($\mathbf{l}$)을 모르기 때문에 $\beta$를 구할 수 없습니다. 그렇다고 모든 경로를 다 고려하며 가면 exponential한 시간복잡도를 가지기 때문에, 다음 방법들 중 하나를 씀.
+실전에서 추론할 때는 정답 레이블($\mathbf{l}$)을 모르기 때문에 $\beta$를 구할 수 없습니다. 그렇다고 모든 경로를 다 고려하며 가면 exponential한 시간복잡도를 가지기 때문에, 다음 방법들 중 하나를 씀.
 ###  1. Beam Search Decoding (빔 서치)
 
 - **방법:** 매 시간 확률이 높은 **상위 K개(Beam Width)**의 경로를 살려두고 끝까지 가져갑니다.
