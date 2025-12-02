@@ -52,4 +52,4 @@ Forward의 인덱스 방향만 반대
 $$\beta_t(s) = \left( \underbrace{\beta_{t+1}(s)}_{\text{유지}} + \underbrace{\beta_{t+1}(s+1)}_{\text{다음}} + \underbrace{\delta \cdot \beta_{t+1}(s+2)}_{\text{점프}} \right) \times \underbrace{y_{\mathbf{l}'_s}^t}_{\text{현재 확률}}$$
 T에서 1로 거슬러 올라가면서 계산하기 때문에,
 (t+1)에서의 $beta$ 값들은 전부 이미 계산되어있음.
-forward에서 (t-1)값들이 전부 이미 계산
+forward에서 (t-1)값들이 전부 이미 계산되어있는 것처럼.
