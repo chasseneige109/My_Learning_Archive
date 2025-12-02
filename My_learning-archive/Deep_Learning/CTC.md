@@ -75,4 +75,17 @@ $$\frac{\partial \mathcal{L}}{\partial u_k^t} = y_k^t - \sum_{s : \mathbf{l}'_s 
     
 - **$\sum \gamma$ (Target):** 전체 문맥을 고려했을 때, 여기서 'A'가 나왔어야 할 **진짜 확률**.
     
-**의미:** (내 예측) - (실제 정답 비율)
+의미: (내 예측) - (실제 정답 비율)
+
+
+## 학습 후 추론 및 디코딩
+
+###  Beam Search Decoding (빔 서치)
+
+- **방법:** 매 시간 확률이 높은 **상위 K개(Beam Width)**의 경로를 살려두고 끝까지 가져갑니다.
+    
+- **특징:** 언어 모델(Language Model, 예: 단어 사전) 점수를 추가로 반영할 수 있어, 발음은 비슷하지만 문법적으로 맞는 단어를 찾아낼 수 있습니다.
+    
+    - 예: "I ate an **apple**" vs "I ate an **appel**" $\to$ 언어 모델이 apple을 선택.
+
+### greedy algorithm.. ()
