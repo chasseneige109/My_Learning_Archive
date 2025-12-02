@@ -53,3 +53,7 @@ $$\beta_t(s) = \left( \underbrace{\beta_{t+1}(s)}_{\text{유지}} + \underbrace{
 T에서 1로 거슬러 올라가면서 계산하기 때문에,
 (t+1)에서의 $beta$ 값들은 전부 이미 계산되어있음.
 forward에서 (t-1)값들이 전부 이미 계산되어있는 것처럼.
+
+
+## forward, backward 종합하기
+$$P(\pi_t = s | \mathbf{x}, \mathbf{l}) = \gamma_t(s) = \frac{\alpha_t(s) \cdot \beta_t(s)}{y_{\mathbf{l}'_s}^t \cdot P(\mathbf{l}|\mathbf{x})}$$
