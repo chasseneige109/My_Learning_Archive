@@ -61,3 +61,18 @@ $$P(\pi_t = s | \mathbf{x}, \mathbf{l}) = \gamma_t(s) = \frac{\alpha_t(s) \cdot 
 * 감마는 CAT을 출력하는것에 성공할경우, t에서 상태s일 확률
 
 $$\gamma_t(s) = \frac{\alpha_t(s) \cdot \beta_t(s) / y_{\mathbf{l}'_s}^t}{\alpha_T(|\mathbf{l}'|) + \alpha_T(|\mathbf{l}'|-1)}$$ 이렇게도 표현가능
+
+
+## backpropagation
+
+이건 뭐.. 걍 해라
+
+## gradient descent
+
+$$\frac{\partial \mathcal{L}}{\partial u_k^t} = y_k^t - \sum_{s : \mathbf{l}'_s = k} \gamma_t(s)$$
+
+- **$y_k^t$ (Prediction):** 모델이 지금 'A'라고 생각하는 확률.
+    
+- **$\sum \gamma$ (Target):** 전체 문맥을 고려했을 때, 여기서 'A'가 나왔어야 할 **진짜 확률**.
+    
+**의미:** (내 예측) - (실제 정답 비율)
