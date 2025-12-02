@@ -90,3 +90,12 @@ $$\frac{\partial \mathcal{L}}{\partial u_k^t} = y_k^t - \sum_{s : \mathbf{l}'_s 
     - 예: "I ate an **apple**" vs "I ate an **appel**" $\to$ 언어 모델이 apple을 선택.
 
 ### 2. greedy algorithm.. (don't use)
+
+
+
+# 단점
+
+1. 이론적 단점: 조건부 독립 가정의 문제 이론적 단점: 조건부 독립 가정의 문제 🧠
+2. 실용적 단점: 복잡한 추론 과정과 비효율성 ⚙️
+3. 출력 길이의 제약 (L ≤ T)
+4. 구조적 단점: 빈칸 심볼의 비효율성 💨
