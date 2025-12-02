@@ -60,3 +60,4 @@ $$P(\pi_t = s | \mathbf{x}, \mathbf{l}) = \gamma_t(s) = \frac{\alpha_t(s) \cdot 
 
 * 감마는 CAT을 출력하는것에 성공할경우, t에서 상태s일 확률
 
+$$\gamma_t(s) = \frac{\alpha_t(s) \cdot \beta_t(s) / y_{\mathbf{l}'_s}^t}{\alpha_T(|\mathbf{l}'|) + \alpha_T(|\mathbf{l}'|-1)}$$ 이렇게도 표현가능
