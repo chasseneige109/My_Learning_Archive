@@ -9,6 +9,10 @@
 이건 one-hot의 근본적 한계.
 (이건 나중에 subword tokenization으로 해결된다.)
 
+
+
+---
+
 ### 0. 셋팅 (The Setup) 🛠️
 
 먼저 행렬들의 크기(Dimension)를 정의합시다.
