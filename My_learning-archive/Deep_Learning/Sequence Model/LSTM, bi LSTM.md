@@ -49,4 +49,12 @@ LSTM은 순방향으로만 학습이 가능함.
 
 - 실시간성 부족: 역방향으로도 학습해야하기 때문에, 문장 전체를 입력 받고 나서야 역방향 학습이 가능함.
 - 계산 비용: $t-1$의 계산이 끝나야 $t$의 계산을 시작할 수 있는 순환(Recurrent) 구조
-- 
+
+
+# ✔ Batch Normalization은 안씀
+
+- LayerNorm (가장 많이 씀)
+    
+- WeightNorm
+    
+- 혹은 normalization 없이 기본 LSTM
