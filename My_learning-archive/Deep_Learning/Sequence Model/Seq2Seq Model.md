@@ -159,7 +159,7 @@ $$\mathbf{W} \leftarrow \mathbf{W} - \eta \cdot \text{Gradient}$$
 
 ### Phase 3: 추론 단계 (Inference) - Generation 🔮
 
-학습 완료 후, 모델에게 "I"만 주고 문장을 생성하게 합니다. (**Autoregression**)
+(**Autoregression**)
 
 **Time 0: 초기화**
 
