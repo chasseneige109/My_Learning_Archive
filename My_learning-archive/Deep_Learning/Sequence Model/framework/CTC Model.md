@@ -105,7 +105,8 @@ $$\frac{\partial \mathcal{L}}{\partial u_k^t} = y_k^t - \sum_{s : \mathbf{l}'_s 
 
 ### 2. greedy algorithm.. (don't use)
 
-
+### 3. Random selection
+확률이 제일 높은 단어만 뽑는 것(Greedy)보다, 확률 분포에 따라 **랜덤하게 뽑는 것(Sampling)**이 오히려 더 사람 같고 창의적인 문장을 만들 때가 많다.
 
 # 단점
 
