@@ -1,4 +1,5 @@
-# one-hot 기반 embedding 단점
+
+## one-hot 기반 embedding 단점
 
 1. vocabulary를 **미리 고정**해야 한다
     
