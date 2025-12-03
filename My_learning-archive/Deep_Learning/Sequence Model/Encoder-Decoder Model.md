@@ -112,6 +112,7 @@ $$\mathbf{P}_t = \text{Softmax}(\mathbf{logits}_t) = \frac{e^{\mathbf{logits}_t}
 #### Step 5. 손실 계산 (Loss Calculation)
 
 실제 정답은 **'AI'** (인덱스 900)입니다. 예측 확률 벡터 $\mathbf{P}_t$에서 900번째 값만 확인합니다.
+dlog(d/y) 에서 d = 1, y = p 넣은거임.
 
 $$\text{Loss}_t = -\log(P_{t, 900})$$
 
