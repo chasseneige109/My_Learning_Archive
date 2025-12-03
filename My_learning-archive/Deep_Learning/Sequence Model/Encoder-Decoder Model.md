@@ -1,24 +1,4 @@
 
-## one-hot 기반 embedding 단점
-
-1. vocabulary를 **미리 고정**해야 한다
-    
-2. 새 단어 추가가 불가능함 (차원을 늘려야 하므로)
-    
-
-이건 one-hot의 근본적 한계.
-
-그래서 embedding 자체가 잘 작동해도  
-one-hot이라는 기반 representation은 여전히 불편함.
-
-(이건 나중에 subword tokenization으로 해결된다.)
-
-
-네, **언어 모델(Language Model)**, 특히 **LSTM 기반의 다음 단어 예측(Next Word Prediction) 모델**이 어떻게 학습되고 추론하는지, **행렬 연산(Matrix Operation) 수준**에서 A부터 Z까지 해부해 드리겠습니다.
-
-우리의 목표는 **"I love AI"**라는 문장을 학습하고, 다시 생성해내는 것입니다.
-
----
 
 ### 0. 셋팅 (The Setup) 🛠️
 
@@ -234,3 +214,20 @@ $$\mathbf{W} \leftarrow \mathbf{W} - \eta \cdot \text{Gradient}$$
 6. **(학습 시)** 정답과 비교해 **Backprop**.
     
 7. **(추론 시)** 가장 높은 거 뽑아서 **다음 단계 입력으로 재사용 (Loop)**.
+
+
+
+
+## one-hot 기반 embedding 단점
+
+1. vocabulary를 **미리 고정**해야 한다
+    
+2. 새 단어 추가가 불가능함 (차원을 늘려야 하므로)
+    
+
+이건 one-hot의 근본적 한계.
+
+그래서 embedding 자체가 잘 작동해도  
+one-hot이라는 기반 representation은 여전히 불편함.
+
+(이건 나중에 subword tokenization으로 해결된다.)
