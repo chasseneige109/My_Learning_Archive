@@ -49,9 +49,7 @@ $$\mathbf{x}_t = \mathbf{E}[450]$$
 
 입력 $\mathbf{x}_t$와 이전 상태 $\mathbf{h}_{t-1}$ ($1 \times 256$)이 들어옵니다.
 
-1. 선형 결합 (Linear Combination):
-
-4개의 게이트($f, i, g, o$)를 위해 한 번에 계산합니다.
+1. 4개의 게이트($f, i, g, o$)를 위해 한 번에 계산합니다.
 
 $$\mathbf{z} = \mathbf{x}_t \cdot \mathbf{W}_{x} + \mathbf{h}_{t-1} \cdot \mathbf{W}_{h} + \mathbf{b}_{lstm}$$
 
@@ -60,9 +58,7 @@ $$\mathbf{z} = \mathbf{x}_t \cdot \mathbf{W}_{x} + \mathbf{h}_{t-1} \cdot \mathb
 - **결과**: $\mathbf{z}$는 $(1 \times 1024)$ 크기의 벡터입니다.
     
 
-2. 게이트 분할 및 활성화 (Split & Activate):
-
-$\mathbf{z}$를 256개씩 4조각으로 쪼갭니다.
+2. $\mathbf{z}$를 256개씩 4조각으로 쪼갭니다.
 
 - $\mathbf{f}_t = \sigma(\mathbf{z}_{0:256})$ (망각 게이트)
     
