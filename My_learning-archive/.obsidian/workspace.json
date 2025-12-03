@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/CTC.md",
+                "file": "Deep_Learning/CNN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CTC"
+              "title": "CNN"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/CTC.md",
+                "file": "Deep_Learning/CNN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CTC 의 개요"
+              "title": "CNN 의 개요"
             }
           },
           {
@@ -226,13 +226,13 @@
   },
   "active": "c0aa2030fca06e1d",
   "lastOpenFiles": [
+    "Deep_Learning/CTC.md",
     "C & C++/문법 & 테크닉/삼항 연산자.md",
     "C & C++/문법 & 테크닉/비트 연산자.md",
     "C & C++/문법 & 테크닉/값 전달.md",
     "C & C++/문법 & 테크닉/값 교환.md",
     "C & C++/문법 & 테크닉/2차원 '조합'으로 순회하기 테크닉.md",
     "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
-    "Deep_Learning/CTC.md",
     "Deep_Learning/LSTM, bidirectional LSTM.md",
     "Deep_Learning/CNN.md",
     "Deep_Learning/ADAM.md",
