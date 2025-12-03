@@ -108,7 +108,7 @@ $$\mathbf{h}_t = \mathbf{o}_t \odot \tanh(\mathbf{C}_t)$$
 
 256차원의 은닉 상태를 다시 10,000개의 단어 확률 공간으로 확장합니다.
 h_t: 지금까지 읽은 모든 단어의 맥락(Context)을 256개의 실수로 압축한 정보
-logits: 각 단어 1개씩의 점수 벡터
+logits_t: 각 단어 1개씩의 점수 벡터 / t+1번째 단어에 대한 점수
 
 $$\mathbf{logits}_t = \mathbf{h}_t \cdot \mathbf{W}_{proj} + \mathbf{b}_{proj}$$
 
