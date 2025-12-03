@@ -240,10 +240,10 @@
   },
   "active": "29f226a8f870f8cc",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/CTC.md",
+    "Deep_Learning/Sequence Model/Language Seq2Seq Model.md",
     "Deep_Learning/Sequence Model/RNN.md",
     "Deep_Learning/Sequence Model/LSTM, bi LSTM.md",
-    "Deep_Learning/Sequence Model/Language Seq2Seq Model.md",
-    "Deep_Learning/Sequence Model/CTC.md",
     "Deep_Learning/Sequence Model",
     "Deep_Learning/CNN.md",
     "C & C++/문법 & 테크닉/삼항 연산자.md",
