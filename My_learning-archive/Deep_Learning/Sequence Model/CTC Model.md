@@ -28,7 +28,7 @@ CAT을 맞춘다고하자.
 :$$\alpha_t(s) = \left( \underbrace{\alpha_{t-1}(s)}_{\text{유지}} + \underbrace{\alpha_{t-1}(s-1)}_{\text{이전}} + \underbrace{\delta \cdot \alpha_{t-1}(s-2)}_{\text{건너뛰기 (조건부)}} \right) \times \underbrace{y_{\mathbf{l}'_s}^t}_{\text{현재 확률}}$$
 이걸 재귀적으로 반복.
 a 계산시, 계속 underflow되므로, log를 씌워서 크기 보존
-
+(단어별 확률들은 LSTM, RNN, GRU 등 인코더에서 구함.)
 ### 요약: Forward 알고리즘의 흐름도
 
 1. **확장:** 정답 `CAT` $\to$ `_ C _ A _ T _`
