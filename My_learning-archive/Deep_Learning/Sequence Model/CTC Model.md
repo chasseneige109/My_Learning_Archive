@@ -1,3 +1,6 @@
+
+인코더 + LSTM
+
 # 목표
 : 음성 인식, 필기 인식: **어느 시점에** 문자가 나와야 하는지 알 수 없음.
 # Connectionist Temporal Classification
