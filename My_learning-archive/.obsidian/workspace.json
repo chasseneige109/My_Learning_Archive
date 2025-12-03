@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/LSTM, bi LSTM.md",
+                "file": "Deep_Learning/Sequence Model/Encoder-Decoder Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LSTM, bi LSTM"
+              "title": "Encoder-Decoder Model"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/LSTM, bi LSTM.md",
+                "file": "Deep_Learning/Sequence Model/Encoder-Decoder Model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LSTM, bi LSTM 의 개요"
+              "title": "Encoder-Decoder Model 의 개요"
             }
           },
           {
@@ -240,8 +240,8 @@
   },
   "active": "29f226a8f870f8cc",
   "lastOpenFiles": [
-    "Deep_Learning/Sequence Model/Encoder-Decoder Model.md",
     "Deep_Learning/Sequence Model/LSTM, bi LSTM.md",
+    "Deep_Learning/Sequence Model/Encoder-Decoder Model.md",
     "Deep_Learning/Sequence Model/CTC.md",
     "Deep_Learning/Sequence Model/RNN.md",
     "Deep_Learning/Sequence Model",
