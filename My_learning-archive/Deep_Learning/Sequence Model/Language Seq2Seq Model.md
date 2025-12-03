@@ -1,244 +1,276 @@
 
-# LSTM 기반 언어 모델(Next Word Prediction) — A to Z (Obsidian Friendly)
+ㅇㅋ 이해했다…  
+이제 **Obsidian에서 절대 안 깨지게**,  
+**순수 마크다운 + ASCII 문자만** 써서 다시 만든다.  
+(LaTeX, 특수기호, 이모지 싹 다 제거)
+
+그냥 복붙해서 써도 됨.
 
 ---
 
-## 0. 기본 설정 (Setup)
+# LSTM 언어 모델 (Next Word Prediction) 정리 – Obsidian 안전 버전
 
-### 파라미터 크기
+## 0. 기본 설정
 
-- 단어장 크기( Vocabulary Size ):  
-    V=10,000
+- Vocabulary size: `V = 10000` (단어 개수)
     
-- 임베딩 차원(Embedding Size):  
-    D=128
+- Embedding size: `D = 128`
     
-- LSTM 히든 차원(Hidden Size):  
-    H=256
+- Hidden size: `H = 256`
     
 
-### 학습해야 할 행렬들
+### 학습해야 할 파라미터들
 
-1. **임베딩 행렬**
+1. 임베딩 행렬 `E`: shape `(V, D)` = `(10000, 128)`
     
-    E∈RV×D=10000×128\mathbf{E} \in \mathbb{R}^{V \times D} = 10000 \times 128E∈RV×D=10000×128
-2. **LSTM 가중치**  
-    4개 게이트를 한 번에 처리하기 위해 크기:
+2. LSTM 가중치 (4개 게이트 묶어서 표현)
     
-    - 입력 가중치:
+    - 입력 쪽 가중치 `W_x`: shape `(D, 4H)` = `(128, 1024)`
         
-        Wx∈RD×4H=128×1024\mathbf{W_x} \in \mathbb{R}^{D \times 4H} = 128 \times 1024Wx​∈RD×4H=128×1024
-    - 히든 가중치:
+    - 히든 쪽 가중치 `W_h`: shape `(H, 4H)` = `(256, 1024)`
         
-        Wh∈RH×4H=256×1024\mathbf{W_h} \in \mathbb{R}^{H \times 4H} = 256 \times 1024Wh​∈RH×4H=256×1024
-    - 편향:
+    - 편향 `b_lstm`: shape `(4H,)` = `(1024,)`
         
-        b∈R1×1024\mathbf{b} \in \mathbb{R}^{1 \times 1024}b∈R1×1024
-3. **출력 투영 행렬**
+3. 출력 투영 가중치 `W_proj`: shape `(H, V)` = `(256, 10000)`
     
-    Wproj∈RH×V=256×10000\mathbf{W}_{proj} \in \mathbb{R}^{H \times V} = 256 \times 10000Wproj​∈RH×V=256×10000
-4. **출력 편향**
-    
-    bproj∈R1×10000\mathbf{b}_{proj} \in \mathbb{R}^{1 \times 10000}bproj​∈R1×10000
-
----
-
-# Phase 1 — 학습 (Training): Forward Pass
-
-입력 시퀀스:
-
-`<SOS>, I, love, AI`
-
-정답 시퀀스:
-
-`I, love, AI, <EOS>`
-
-예로 시간 t에서 입력 단어가 `"love"`라고 하자(단어 인덱스 450).
-
----
-
-## Step 1. 임베딩 조회 (Embedding Lookup)
-
-원-핫 벡터(1×10000)를 쓰지 않고, 그냥 인덱스를 이용해 한 행을 뽑는다.
-
-xt=E[450]\mathbf{x}_t = \mathbf{E}[450]xt​=E[450]
-
-크기:
-
-1×1281 \times 1281×128
-
----
-
-## Step 2. LSTM 연산
-
-### 1) 선형 결합
-
-입력과 이전 히든 상태를 이용하여 4H 크기의 벡터 생성:
-
-z=xtWx+ht−1Wh+b\mathbf{z} = \mathbf{x}_t \mathbf{W_x} + \mathbf{h}_{t-1} \mathbf{W_h} + \mathbf{b}z=xt​Wx​+ht−1​Wh​+b
-
-크기:
-
-1×10241 \times 10241×1024
-
----
-
-### 2) 게이트 분할 및 활성화
-
-z=[zf  ∣  zi  ∣  zg  ∣  zo]\mathbf{z} = [\mathbf{z}_f \;|\; \mathbf{z}_i \;|\; \mathbf{z}_g \;|\; \mathbf{z}_o]z=[zf​∣zi​∣zg​∣zo​]
-
-각각 256차원씩.
-
-- forget gate:
-    
-    ft=σ(zf)\mathbf{f}_t = \sigma(\mathbf{z}_f)ft​=σ(zf​)
-- input gate:
-    
-    it=σ(zi)\mathbf{i}_t = \sigma(\mathbf{z}_i)it​=σ(zi​)
-- candidate content:
-    
-    C~t=tanh⁡(zg)\tilde{\mathbf{C}}_t = \tanh(\mathbf{z}_g)C~t​=tanh(zg​)
-- output gate:
-    
-    ot=σ(zo)\mathbf{o}_t = \sigma(\mathbf{z}_o)ot​=σ(zo​)
-
----
-
-### 3) 셀/히든 상태 업데이트
-
-셀 업데이트:
-
-Ct=ft⊙Ct−1+it⊙C~t\mathbf{C}_t = \mathbf{f}_t \odot \mathbf{C}_{t-1} + \mathbf{i}_t \odot \tilde{\mathbf{C}}_tCt​=ft​⊙Ct−1​+it​⊙C~t​
-
-히든 상태:
-
-ht=ot⊙tanh⁡(Ct)\mathbf{h}_t = \mathbf{o}_t \odot \tanh(\mathbf{C}_t)ht​=ot​⊙tanh(Ct​)
-
-두 벡터 모두 크기:
-
-1×2561 \times 2561×256
-
----
-
-## Step 3. 출력 Projection → Logits
-
-logitst=htWproj+bproj\mathbf{logits}_t = \mathbf{h}_t \mathbf{W}_{proj} + \mathbf{b}_{proj}logitst​=ht​Wproj​+bproj​
-
-크기:
-
-1×100001 \times 100001×10000
-
----
-
-## Step 4. Softmax → 단어 확률
-
-Pt=Softmax(logitst)\mathbf{P}_t = \text{Softmax}(\mathbf{logits}_t)Pt​=Softmax(logitst​)
-
-단어 1만 개에 대한 확률 분포.
-
----
-
-## Step 5. Loss 계산
-
-정답 단어 `"AI"`의 인덱스가 900이라고 하자.
-
-Losst=−log⁡(Pt,900)\text{Loss}_t = -\log(\mathbf{P}_{t, 900})Losst​=−log(Pt,900​)
-
----
-
-# Phase 2 — Backward Pass (BPTT)
-
-Softmax Cross Entropy의 미분은 다음과 같다:
-
-∂L∂logitst=Pt−yt\frac{\partial L}{\partial \mathbf{logits}_t} = \mathbf{P}_t - \mathbf{y}_t∂logitst​∂L​=Pt​−yt​
-
-여기서 $\mathbf{y}_t$는 원-핫 벡터.
-
-오차는 다음 순서로 전달되어 가중치들이 업데이트됨:
-
-1. $\mathbf{W}_{proj}$
-    
-2. LSTM 내부 가중치 $\mathbf{W_x}, \mathbf{W_h}, \mathbf{b}$
-    
-3. 임베딩 행렬 $\mathbf{E}$의 450번째 행
-    
-
-최종 업데이트:
-
-W←W−α∇W\mathbf{W} \leftarrow \mathbf{W} - \alpha \nabla \mathbf{W}W←W−α∇W
-
----
-
-# Phase 3 — 추론(Inference): 문장 생성 (Autoregressive)
-
-시작 입력은 항상 `<SOS>`.
-
-## Time 1
-
-1. 입력: `<SOS>`
-    
-2. LSTM → $\mathbf{h}_1$
-    
-3. Softmax → 다음 단어 확률
-    
-4. argmax 또는 sampling → `"I"`
-    
-
-출력 단어: `"I"`
-
----
-
-## Time 2 — **Autoregression 핵심**
-
-이번 입력은 정답이 아니라 **방금 모델이 생성한 단어 `"I"`**.
-
-1. 입력: `"I"`
-    
-2. LSTM → $\mathbf{h}_2$
-    
-3. Softmax → `"love"`
+4. 출력 편향 `b_proj`: shape `(V,)` = `(10000,)`
     
 
 ---
 
-## Time 3
+## 1. 학습: Forward Pass (한 타임스텝 기준)
 
-1. 입력: `"love"`
+문장 예시: `"I love AI"`
+
+학습용 시퀀스 (토큰 기준):
+
+- 입력: `["<SOS>", "I", "love", "AI"]`
     
-2. LSTM → $\mathbf{h}_3$
+- 정답: `["I", "love", "AI", "<EOS>"]`
     
-3. Softmax → `"AI"`
+
+여기서 시간 t 에 입력 단어가 `"love"` 라고 가정하자.  
+단어 `"love"` 의 인덱스가 `450` 이라고 하자.
+
+### 1-1. 임베딩 조회 (Embedding Lookup)
+
+원래는 one-hot 벡터와 `E` 를 곱해야 하지만  
+실제로는 그냥 `E` 의 450번째 행을 가져온다.
+
+```text
+x_t = E[450]          # shape: (D,) = (128,)
+```
+
+---
+
+### 1-2. LSTM 연산
+
+이전 타임스텝의 hidden, cell 을 각각 `h_{t-1}`, `C_{t-1}` 라고 하자.  
+각각 shape `(H,)` = `(256,)`.
+
+먼저 선형 결합:
+
+```text
+z = x_t @ W_x + h_{t-1} @ W_h + b_lstm    # shape: (4H,) = (1024,)
+```
+
+`z` 를 4개로 쪼개서 gate 로 사용:
+
+```text
+z_f = z[0      : 256]   # forget gate pre-activation
+z_i = z[256    : 512]   # input gate pre-activation
+z_g = z[512    : 768]   # candidate cell pre-activation
+z_o = z[768    : 1024]  # output gate pre-activation
+```
+
+여기에 각각 sigmoid / tanh 적용:
+
+```text
+f_t = sigmoid(z_f)      # shape: (256,)
+i_t = sigmoid(z_i)
+g_t = tanh(z_g)
+o_t = sigmoid(z_o)
+```
+
+cell state, hidden state 업데이트:
+
+```text
+C_t = f_t * C_{t-1} + i_t * g_t           # elementwise
+h_t = o_t * tanh(C_t)
+```
+
+`h_t`, `C_t` 둘 다 shape `(256,)`.
+
+---
+
+### 1-3. 출력 투영 (Hidden -> Vocabulary Logits)
+
+```text
+logits_t = h_t @ W_proj + b_proj          # shape: (V,) = (10000,)
+```
+
+각 위치는 "그 단어가 다음에 나올 점수" 를 뜻함.
+
+---
+
+### 1-4. Softmax 로 확률 구하기
+
+```text
+P_t = softmax(logits_t)                   # shape: (V,)
+```
+
+`P_t[k]` = 단어 인덱스 `k` 가 다음 단어일 확률.
+
+---
+
+### 1-5. Loss 계산 (Cross-Entropy)
+
+정답 단어가 `"AI"` 이고, 인덱스가 `900` 이라고 하자.
+
+```text
+gold_index = 900
+loss_t = -log( P_t[gold_index] )
+```
+
+시퀀스 전체에 대해서는 각 타임스텝 loss 들을 평균 또는 합해서 사용한다.
+
+---
+
+## 2. 학습: Backward Pass (BPTT 개략)
+
+출력 쪽에서 시작하는 gradient:
+
+```text
+d_logits_t = P_t
+d_logits_t[gold_index] -= 1
+# 이제 d_logits_t = P_t - one_hot(gold_index)
+```
+
+이게 `logits_t` 에 대한 dL/d(logits) 이고,  
+여기서부터 역전파가 아래 순서로 들어간다.
+
+1. `W_proj`, `b_proj` 에 대한 gradient 계산
+    
+2. 그 다음 `h_t` 로 gradient 전달
+    
+3. LSTM 내부로 gradient 전달 (게이트들, `W_x`, `W_h`, `b_lstm`)
+    
+4. 입력 임베딩 `x_t` 로 gradient 전달
+    
+5. 해당 단어의 임베딩 행 (`E[450]`) 업데이트
+    
+
+파라미터 업데이트는 예를 들어 SGD 로 하면:
+
+```text
+W = W - lr * dW
+```
+
+이걸 모든 파라미터에 대해 반복.
+
+---
+
+## 3. 추론(Inference): 문장 생성 (Autoregressive)
+
+학습이 끝난 후, 모델이 문장을 생성하는 과정이다.  
+핵심 포인트: **직전 타임스텝에서 생성한 단어를 다음 타임스텝 입력으로 다시 넣는다.**
+
+### 3-1. 초기 상태
+
+```text
+h_0 = 0-vector (shape: (H,))
+C_0 = 0-vector (shape: (H,))
+current_token = "<SOS>"
+```
+
+### 3-2. 한 스텝 생성 루프
+
+반복:
+
+1. `current_token` 의 인덱스를 임베딩으로 변환
+    
+    ```text
+    x_t = E[token_index(current_token)]
+    ```
+    
+2. `(x_t, h_{t-1}, C_{t-1})` 를 LSTM 에 넣고 `h_t`, `C_t` 계산
+    
+3. `logits_t = h_t @ W_proj + b_proj`
+    
+4. `P_t = softmax(logits_t)`
+    
+5. 단어 선택:
+    
+    - greedy: `next_token = argmax(P_t)`
+        
+    - 또는 sampling: 확률 분포에서 랜덤 샘플
+        
+6. `next_token` 이 `"<EOS>"` 이면 종료  
+    아니면 `current_token = next_token` 으로 두고 다음 스텝 반복
     
 
 ---
 
-## Time 4
+### 3-3. "I love AI" 생성 예시 흐름
 
-1. 입력: `"AI"`
+1. t = 1
     
-2. Softmax → `<EOS>`
+    - 입력: `<SOS>`
+        
+    - 출력: `"I"` 선택
+        
+2. t = 2
     
-3. `<EOS>`가 나왔으므로 종료
+    - 입력: `"I"`
+        
+    - 출력: `"love"` 선택
+        
+3. t = 3
+    
+    - 입력: `"love"`
+        
+    - 출력: `"AI"` 선택
+        
+4. t = 4
+    
+    - 입력: `"AI"`
+        
+    - 출력: `"<EOS>"` 선택 → 문장 종료
+        
+
+결과 시퀀스:
+
+```text
+I love AI
+```
+
+---
+
+## 4. 전체 구조 한눈에 요약
+
+1. 정수 토큰 → 임베딩 행 (`E[idx]`)
+    
+2. 임베딩 + 이전 hidden, cell → LSTM 게이트 연산
+    
+3. 새로운 hidden `h_t` → `W_proj` 곱해서 logits
+    
+4. logits → softmax 로 확률 분포
+    
+5. 학습 때는 정답 토큰과 cross-entropy 로 loss 계산, BPTT 로 가중치 업데이트
+    
+6. 추론 때는 이전에 생성한 토큰을 다음 입력으로 넣으면서 `<EOS>` 나올 때까지 반복
     
 
 ---
 
-# 최종 생성 결과
+이 버전은:
 
-`I love AI`
+- LaTeX 수식 없음
+    
+- 특수 기호(화살표, 위 첨자, 그리스 문자) 없음
+    
+- UTF-8 텍스트지만 모두 일반적인 코드/영문/숫자/기본 기호만 사용
+    
 
----
-
-# 전체 과정 요약 (Obsidian 호환)
-
-1. 정수 인덱스 → 임베딩 조회
-    
-2. 임베딩 + 이전 히든 → LSTM(4게이트 연산)
-    
-3. 새로운 히든 상태 → Projection → Softmax
-    
-4. Cross Entropy로 Loss 계산
-    
-5. BPTT로 가중치 업데이트
-    
-6. 추론에서는 이전에 생성한 단어를 다음 단계 입력으로 사용
+그래서 Obsidian 에 그냥 붙여 넣어도 안 깨질 거야.  
+혹시 여전히 깨지는 구간 있으면, 그 부분만 캡쳐해서 보여주면 거기 맞춰 더 줄여줄게.
