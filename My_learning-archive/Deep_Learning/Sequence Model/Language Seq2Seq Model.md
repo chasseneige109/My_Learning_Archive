@@ -38,11 +38,11 @@ one-hot이라는 기반 representation은 여전히 불편함.
 2. **LSTM 가중치 $\mathbf{W}_{lstm}$:** 입력과 은닉 상태를 처리하는 4개의 게이트용 가중치 통합본.
     
     - 입력 처리용: $(D \times 4H) = (128 \times 1024)$
-        
+        (x_t)
     - 은닉 처리용: $(H \times 4H) = (256 \times 1024)$
-        
+        (h_t-1)
     - 편향 $\mathbf{b}_{lstm}$: $(1 \times 4H) = (1 \times 1024)$
-        
-3. **출력 투영 행렬 $\mathbf{W}_{proj}$:** $(H \times V) = (256 \times 10000)$
+    --> 4개의 게이트 각각이 각자의 W_x와 W_h를 가지고있
+1. **출력 투영 행렬 $\mathbf{W}_{proj}$:** $(H \times V) = (256 \times 10000)$
     
-4. **출력 편향 $\mathbf{b}_{proj}$:** $(1 \times V) = (1 \times 10000)$
+2. **출력 편향 $\mathbf{b}_{proj}$:** $(1 \times V) = (1 \times 10000)$
