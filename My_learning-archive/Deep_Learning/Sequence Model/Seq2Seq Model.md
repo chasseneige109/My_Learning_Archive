@@ -5,7 +5,7 @@
     
 - **디코더 (Decoder):** Seq2Seq 모델의 **출력 생성 부분**을 담당합니다. 인코더가 전달한 문맥 벡터를 바탕으로 출력 시퀀스를 단어 하나씩 생성합니다 (**자기회귀**).
 
-
+# 실행 절차
 ### 0. 셋팅 (The Setup) 🛠️
 
 먼저 행렬들의 크기(Dimension)를 정의합시다.
@@ -228,12 +228,11 @@ $$\mathbf{W} \leftarrow \mathbf{W} - \eta \cdot \text{Gradient}$$
 
 
 
-## one-hot 기반 embedding 단점
+# one-hot 기반 embedding 단점
 
-1. vocabulary를 **미리 고정**해야 한다
-    
-2. 새 단어 추가가 불가능함 (차원을 늘려야 하므로)
-    
+ vocabulary를 **미리 고정**해야 한다
+
+새 단어 추가가 불가능함 (차원을 늘려야 하므로)
 
 이건 one-hot의 근본적 한계.
 
@@ -243,9 +242,7 @@ one-hot이라는 기반 representation은 여전히 불편함.
 (이건 나중에 subword tokenization으로 해결된다.)
 
 
-## 구조도 학습했다
-
-우리는 인코더가 "압축한다"고만 했지만, 강의자는 **"구조(Syntactic Structure)의 보존"**을 시각적으로 보여주었습니다.
+# 구조도 학습했다
 
 - **강의 내용:**
     
