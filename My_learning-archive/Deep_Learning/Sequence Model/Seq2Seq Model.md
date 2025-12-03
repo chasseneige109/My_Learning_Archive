@@ -1,5 +1,5 @@
 
-
+## Encoder
 ### 0. 셋팅 (The Setup) 🛠️
 
 먼저 행렬들의 크기(Dimension)를 정의합시다.
