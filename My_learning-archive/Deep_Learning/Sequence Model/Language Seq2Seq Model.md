@@ -96,7 +96,7 @@ $\mathbf{z}$를 256개씩 4조각으로 쪼갭니다.
 3. 상태 업데이트 (Cell Update):
 
 원소별 곱셈($\odot$)과 덧셈을 수행합니다.
-(Nvidia가 최적화 해둔 GPU병렬화로 계산됨.)
+(PyTorch LSTM은 cuDNN 커널을 씀.
 $$\mathbf{C}_t = \mathbf{f}_t \odot \mathbf{C}_{t-1} + \mathbf{i}_t \odot \tilde{\mathbf{C}}_t$$
 
 $$\mathbf{h}_t = \mathbf{o}_t \odot \tanh(\mathbf{C}_t)$$
