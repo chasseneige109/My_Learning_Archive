@@ -241,3 +241,16 @@ $$\mathbf{W} \leftarrow \mathbf{W} - \eta \cdot \text{Gradient}$$
 one-hot이라는 기반 representation은 여전히 불편함.
 
 (이건 나중에 subword tokenization으로 해결된다.)
+
+
+## 구조도 학습했다
+
+우리는 인코더가 "압축한다"고만 했지만, 강의자는 **"구조(Syntactic Structure)의 보존"**을 시각적으로 보여주었습니다.
+
+- **강의 내용:**
+    
+    - "John admires Mary"와 "Mary admires John"은 단어 구성이 같지만 의미가 다릅니다.
+        
+    - 인코더가 만든 벡터를 시각화(PCA 등)해보면, 주어와 목적어를 뒤집었을 때 벡터 공간 상에서의 **위치 관계(화살표 방향)**가 일정하게 유지됨을 보여줍니다.
+        
+    - 이는 인코더가 단순 단어 집합이 아니라 **문장의 구조적 의미(능동/수동 등)**를 실제로 학습했다는 증거로 제시됩니다.
