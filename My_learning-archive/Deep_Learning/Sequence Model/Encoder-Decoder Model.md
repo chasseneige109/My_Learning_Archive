@@ -86,8 +86,11 @@ $$\mathbf{h}_t = \mathbf{o}_t \odot \tanh(\mathbf{C}_t)$$
 
 #### Step 3. 출력 투영 (Projection to Logits)
 
-256차원의 은닉 상태를 다시 10,000개의 단어 확률 공간으로 확장합니다.
+- 256차원의 은닉 상태를 다시 10,000개의 단어 확률 공간으로 확장합니다.
+- 지금 내 머릿속의 생각($\mathbf{h}_t$)이 사전(Dictionary)에 있는 10,000개의 단어 중 누구와 가장 비슷한지 점수를 매기는 채점 과정
+
 h_t: 지금까지 읽은 모든 단어의 맥락(Context)을 256개의 실수로 압축한 정보
+W_proj : 단어 10000개에 대해, 각 단어 당 256개의 문맥 정보를 담고 있는 행렬
 logits_t: 각 단어 1개씩의 점수 벡터 / t+1번째 단어에 대한 점수
 
 $$\mathbf{logits}_t = \mathbf{h}_t \cdot \mathbf{W}_{proj} + \mathbf{b}_{proj}$$
