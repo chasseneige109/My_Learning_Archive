@@ -95,6 +95,8 @@ W_proj : 단어 10000개에 대해, 각 단어 당 256개의 문맥 정보를 �
 
 logits_t: 각 단어 1개씩의 점수 벡터 / t+1번째 단어에 대한 점수
 (1 x 10000)
+
+b_proj : 바이어스. 각 단어가 기본적으로 얼마나 자주 나오는 지를 미리 설정. ex) 'the'는 당연히 기본적으로 높은 bias !
 $$\mathbf{logits}_t = \mathbf{h}_t \cdot \mathbf{W}_{proj} + \mathbf{b}_{proj}$$
 
 - **크기**: $(1 \times 10000)$
