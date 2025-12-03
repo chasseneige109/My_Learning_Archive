@@ -94,6 +94,14 @@ $$\frac{\partial \mathcal{L}}{\partial u_k^t} = y_k^t - \sum_{s : \mathbf{l}'_s 
 - **특징:** 언어 모델(Language Model, 예: 단어 사전) 점수를 추가로 반영할 수 있어, 발음은 비슷하지만 문법적으로 맞는 단어를 찾아낼 수 있습니다.
     
     - 예: "I ate an **apple**" vs "I ate an **appel**" $\to$ 언어 모델이 apple을 선택.
+    
+
+- 빔 서치는 확률의 곱($P_1 \times P_2 \times \dots$)을 점수로 사용합니다.
+- 확률은 항상 1보다 작으므로, 곱할수록 값은 계속 작아집니다.
+- 
+- **문제점:** 따라서 빔 서치는 본질적으로 "짧은 문장"을 선호하게 됩니다. (5단어 문장의 확률 곱 > 20단어 문장의 확률 곱).
+    
+- **해결책:** 이를 보정하기 위한 별도의 휴리스틱(Heuristic, 예: 길이 보정)이 실무적으로 반드시 필요
 
 ### 2. greedy algorithm.. (don't use)
 
