@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Attention.md",
+                "file": "Deep_Learning/Sequence Model/framework/Attention.md",
                 "mode": "source",
                 "source": false
               },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Attention.md",
+                "file": "Deep_Learning/Sequence Model/framework/Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -252,10 +252,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e46dc28096c9a741",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
-    "Deep_Learning/Sequence Model/Seq2Seq Model.md",
-    "Deep_Learning/Sequence Model/Attention.md",
+    "Deep_Learning/Sequence Model/framework/Seq2Seq Model.md",
+    "Deep_Learning/Sequence Model/framework/Attention.md",
     "Deep_Learning/Sequence Model/framework/CTC Model.md",
     "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
     "geometry/MVEE&MVIE/H - V representations.md",
