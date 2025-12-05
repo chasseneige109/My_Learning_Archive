@@ -268,9 +268,9 @@
   },
   "active": "f8127a8dd02c346b",
   "lastOpenFiles": [
-    "Deep_Learning/Sequence Model/framework/Seq2Seq Model.md",
-    "Deep_Learning/Sequence Model/framework/Attention.md",
     "Deep_Learning/Sequence Model/framework/Scheduled Sampling.md",
+    "Deep_Learning/Sequence Model/framework/Attention.md",
+    "Deep_Learning/Sequence Model/framework/Seq2Seq Model.md",
     "Deep_Learning/Sequence Model/framework/CTC Model.md",
     "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
     "geometry/MVEE&MVIE/H - V representations.md",
