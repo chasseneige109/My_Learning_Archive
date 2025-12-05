@@ -186,4 +186,9 @@
 > **Teacher Forcing Ratio**
 
 비율을 점점 줄여서  
-“아빠가 점점 손을 놓는 것처럼” 만드는 것.
+“아빠가 자전거에서 점점 손을 놓는 것처럼” 만드는 것.
+
+## 문제점: 확률적 샘플링이므로, indifferentiable
+
+
+## 대안: Gumbel Noise Trick” (Gumbel-Softmax)
