@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/framework/CTC Model.md",
+                "file": "Deep_Learning/Sequence Model/framework/Attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CTC Model"
+              "title": "Attention"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/framework/CTC Model.md",
+                "file": "Deep_Learning/Sequence Model/framework/Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CTC Model 의 개요"
+              "title": "Attention 의 개요"
             }
           },
           {
@@ -268,8 +268,10 @@
   },
   "active": "f8127a8dd02c346b",
   "lastOpenFiles": [
-    "Deep_Learning/Sequence Model/framework/Scheduled Sampling.md",
+    "Deep_Learning/Sequence Model/Core Engine/RNN.md",
+    "Deep_Learning/Sequence Model/Core Engine/LSTM.md",
     "Deep_Learning/Sequence Model/framework/CTC Model.md",
+    "Deep_Learning/Sequence Model/framework/Scheduled Sampling.md",
     "Deep_Learning/Sequence Model/framework/Attention.md",
     "Deep_Learning/Sequence Model/framework/Seq2Seq Model.md",
     "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
@@ -278,8 +280,6 @@
     "Deep_Learning/Learning Method/ADAM.md",
     "Deep_Learning/Image Model",
     "Deep_Learning/Learning Method",
-    "Deep_Learning/Sequence Model/Core Engine/LSTM.md",
-    "Deep_Learning/Sequence Model/Core Engine/RNN.md",
     "Deep_Learning/Sequence Model/framework",
     "Deep_Learning/Sequence Model/Core Engine",
     "Deep_Learning/Sequence Model",
