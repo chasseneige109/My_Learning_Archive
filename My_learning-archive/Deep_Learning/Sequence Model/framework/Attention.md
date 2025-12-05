@@ -154,8 +154,11 @@
 
 
 
+# Teacher forcing의 문제
 
-# **Scheduled Sampling**
+학습땐 계속 정답 넣어주다가, 추론땐 자기꺼 시키니까, 환경이 달라짐. 결과가 안좋음.
+
+## **Scheduled Sampling**
 
 - 처음엔 **Teacher Forcing 100%**
     
@@ -173,7 +176,7 @@
 비율을 점점 줄여서  
 “아빠가 자전거에서 점점 손을 놓는 것처럼” 만드는 것.
 
-## 문제점: 확률적 샘플링이므로, indifferentiable
+### 문제점: 확률적 샘플링이므로, indifferentiable
 
 
 ##  그래서 “Gumbel Noise Trick” (Gumbel-Softmax)를 사용
