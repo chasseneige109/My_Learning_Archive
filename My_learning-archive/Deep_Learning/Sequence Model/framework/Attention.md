@@ -191,4 +191,31 @@
 ## 문제점: 확률적 샘플링이므로, indifferentiable
 
 
-## 대안: Gumbel Noise Trick” (Gumbel-Softmax)
+##  그래서 “Gumbel Noise Trick” (Gumbel-Softmax)를 사용
+
+> 확률 분포에서 샘플링한 것처럼 보이지만  
+> 미분은 가능한 연속적인 방식으로 바꾸는 기법.
+
+### 핵심 아이디어
+
+- 샘플링 대신  
+    **log probability + Gumbel noise**  
+    를 이용해 “샘플처럼 행동하는 값”을 만든다.
+    
+- 그리고 softmax를 씌워서  
+    “연속적이고 differentiable한 샘플”을 얻는다.
+    
+
+이 방식은:
+
+- 결과는 "샘플처럼" 동작하고
+    
+- 수학적으로는 미분이 가능해서 역전파도 됨.
+    
+
+즉,
+
+> "확률적으로 뽑는 것처럼 보이게 하면서도  
+> 미분 가능하게 만드는 트릭"
+
+Transformer 이전의 많은 Seq2Seq 연구에서 사용됨.
