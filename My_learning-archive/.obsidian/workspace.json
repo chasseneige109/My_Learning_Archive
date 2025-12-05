@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/framework/Attention.md",
+                "file": "Deep_Learning/Learning Method/ADAM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attention"
+              "title": "ADAM"
             }
           }
         ],
@@ -241,13 +241,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/framework/Attention.md",
+                "file": "Deep_Learning/Learning Method/ADAM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Attention 의 개요"
+              "title": "ADAM 의 개요"
             }
           },
           {
@@ -282,8 +282,8 @@
   },
   "active": "2454e651a0a49750",
   "lastOpenFiles": [
-    "Deep_Learning/Sequence Model/framework/before transformer.md",
     "Deep_Learning/Sequence Model/framework/Attention.md",
+    "Deep_Learning/Sequence Model/framework/before transformer.md",
     "Deep_Learning/Gumbell Noise.md",
     "무제",
     "Deep_Learning/Sequence Model/Core Engine/RNN.md",
