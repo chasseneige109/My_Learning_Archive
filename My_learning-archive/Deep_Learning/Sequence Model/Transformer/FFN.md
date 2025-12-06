@@ -5,11 +5,11 @@ FFN(x)=W2​σ(W1​x+b1​)+b2​
 
 - x: attention을 끝낸 각 토큰의 벡터
     
-- W1​: **projection up** (차원 up)
+- W1​: **projection up** (차원 up, 학습가능)
     
 - σ: ReLU 또는 GELU
     
-- W2​: **projection down** (차원 down)
+- W2​: **projection down** (차원 down, 학습가능능)
     
 
 📌 **중요**
@@ -51,7 +51,7 @@ GPT류 모델에서:
 
 ### 🔹 Step 3: Projection DOWN
 
-3072  →  7683072 \;\rightarrow\; 7683072→768
+3072  →  768
 
 `y = W2 h' + b2 W2 ∈ ℝ⁷⁶⁸ˣ³⁰⁷²`
 
