@@ -20,4 +20,6 @@ q1과 k0 ~ kN을 내적해서 query 1에 대한...
 
 d_model = d_k x H (head개수) 임.
 
-위에서 어등ㄴ
+위에서 얻은 O1, O2... OH들을 열 방향으로 concatenate 해서
+
+위로 단어길이 L 만큼 쌓고, 
