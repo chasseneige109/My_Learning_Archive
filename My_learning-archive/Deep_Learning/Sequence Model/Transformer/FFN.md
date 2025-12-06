@@ -5,11 +5,11 @@ FFN(x)=W2​σ(W1​x+b1​)+b2​
 
 - x: attention을 끝낸 각 토큰의 벡터
     
-- W1​: **projection up**
+- W1​: **projection up** (차원 up)
     
 - σ: ReLU 또는 GELU
     
-- W2​: **projection down**
+- W2​: **projection down** (차원 down)
     
 
 📌 **중요**
