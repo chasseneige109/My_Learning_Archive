@@ -14,8 +14,10 @@ q1과 k0 ~ kN을 내적해서 query 1에 대한...
 이하 동문. O1을 얻음.
 (물론 벡터로 설명했지만 실제로는 행렬로 한 번에 처리됨.)
 
+계속 반복.
+
 # multi - head attention
 
 d_model = d_k x H (head개수) 임.
 
-ㅇ
+위에서 어등ㄴ
