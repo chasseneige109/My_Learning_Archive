@@ -33,3 +33,4 @@ $$y_{i j} = \gamma_j \hat{x}_{i j} + \beta_j$$
 | **통계량 계산 축** | **피처 차원 ($D$)** $\rightarrow$ (샘플 내) | **배치 차원 ($N$)** $\downarrow$ (피처 간)  |
 | **의존성**      | **배치 크기에 독립적**                       | 배치 크기에 의존적 (배치가 작으면 성능 저하)           |
 | **주요 사용처**   | **RNN, Transformer** (가변 길이 시퀀스)     | CNN, Fully Connected Layer           |
+batch norm과 달리 SGD에도 적용할수있겠죠
