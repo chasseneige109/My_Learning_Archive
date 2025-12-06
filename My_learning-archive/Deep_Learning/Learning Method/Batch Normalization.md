@@ -8,7 +8,6 @@ Batch Normalization(BN)은 2015년 Ioffe & Szegedy의 논문 *"Batch Normalizati
 
 이 기법이 왜 딥러닝 학습 성능을 비약적으로 향상시키는지에 대해서는 **초기 저자들의 주장(Internal Covariate Shift)**과 **최근의 수학적 분석(Optimization Landscape Smoothing)** 사이의 간극을 이해하는 것이 핵심입니다.
 
-수학적 수식과 최신 논문의 해석을 바탕으로 깊이 있게 설명해 드리겠습니다.
 
 ---
 
