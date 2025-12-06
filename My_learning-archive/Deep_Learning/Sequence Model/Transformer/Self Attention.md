@@ -15,3 +15,7 @@ q1과 k0 ~ kN을 내적해서 query 1에 대한...
 
 
 # multi - head attention
+
+d_model = d_k x H (head개수) 임.
+
+ㅇ
