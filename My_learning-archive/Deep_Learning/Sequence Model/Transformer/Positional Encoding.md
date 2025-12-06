@@ -11,12 +11,6 @@
 - Distance == Rotation이 됨.
 - p1^T * p2 = cos (theta1 - theta2)    --> 내적이 두 각도의 차이만으로 표현됨.
 
-논문에서 썼던 방식은 **사인/코사인**을 이용한 수식이에요:
-
-- 각 위치마다 **고정된 패턴의 벡터**가 생김
-- 학습으로 바뀌지 않는 **deterministic(고정)** 인코딩
-- 위치 차이가 수학적으로 잘 반영되도록 설계됨
-
 장점:
 
 - **문장 길이가 길어져도** 계속 계산해서 쓸 수 있음
@@ -27,7 +21,7 @@
 - 너무 수학적으로 설계된 느낌이라,  
 **학습된 embedding처럼 유연하진 않음**
 
-#  Learned Positional Embedding (학습되는 위치 임베딩)
+#  ✅ Learned Positional Embedding (학습되는 위치 임베딩)
 
 요즘 많이 쓰는 방식:
 
@@ -42,7 +36,7 @@
 
 
 
-# 상대 위치 인코딩 (Relative Positional Encoding)
+# ✅상대 위치 인코딩 (Relative Positional Encoding)
 
 위의 것들은 다 **“이 단어는 문장에서 n번째입니다”** 같은 **절대 위치** 정보.
 
