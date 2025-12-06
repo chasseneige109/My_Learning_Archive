@@ -1,8 +1,8 @@
-### 3-1. 절대 위치 인코딩 (Absolute Positional Encoding)
+#### 절대 위치 인코딩 (Absolute Positional Encoding)
 
 각 위치에 대해 **“이 위치는 0번, 1번, 2번…”**처럼 절대적인 번호를 쓰는 방식.
 
-#### (1) Sinusoidal Positional Encoding (Transformer 원 논문 방식)
+#### Sinusoidal Positional Encoding (Transformer 원 논문 방식)
 
 논문에서 썼던 방식은 **사인/코사인**을 이용한 수식이에요:
 
@@ -25,7 +25,7 @@
 - 너무 수학적으로 설계된 느낌이라,  
     **학습된 embedding처럼 유연하진 않음**
 
-#### (2) Learned Positional Embedding (학습되는 위치 임베딩)
+####  Learned Positional Embedding (학습되는 위치 임베딩)
 
 요즘 많이 쓰는 방식:
 
@@ -40,7 +40,7 @@
 
 
 
-### 3-2. 상대 위치 인코딩 (Relative Positional Encoding)
+#### 상대 위치 인코딩 (Relative Positional Encoding)
 
 위의 것들은 다 **“이 단어는 문장에서 n번째입니다”** 같은 **절대 위치** 정보.
 
@@ -55,7 +55,7 @@
     
 - 길이가 달라져도 “거리 개념”은 유지됨
 
-## 4. RoPE (Rotary Position Embedding) 한 줄 설명
+#### RoPE (Rotary Position Embedding) 한 줄 설명
 
 요즘 LLM(GPT류)에서 많이 쓰는 방식 중 하나가 **RoPE**예요.
 
@@ -75,7 +75,7 @@
 (완전 수식 들어가면 길어지니 여기선 감만.)
 
 
-## 5. 결국 모델에서 어떻게 쓰이냐?
+#### 결국 모델에서 어떻게 쓰이냐?
 
 
 - **self-attention이 “어디를 볼지” 결정할 때**
