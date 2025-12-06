@@ -9,7 +9,7 @@
 회전 각도로만 표현되도록 강제함.
 
 - Distance == Rotation이 됨.
-- cos (theta1 - theta2)
+- p1^T * p2 = cos (theta1 - theta2)    --> 내적이 두 각도의 차이만으로 표현됨.
 
 논문에서 썼던 방식은 **사인/코사인**을 이용한 수식이에요:
 
