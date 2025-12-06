@@ -91,22 +91,24 @@ MLP는:
 - **봤을 때 무엇으로 해석할지** 정함 (computation)
     
 
-그래서:
+Attention이 문맥을 통해 "그것(it)"이 "사과(apple)"라는 것을 알아냈다면(Context mixing), FFN은 "사과"라는 벡터를 보고 내부 파라미터($W_1, W_2$)에 저장된 지식인 "빨갛다", "과일이다", "맛있다"라는 속성을 꺼내서 벡터에 추가해주는 역할을 합니다.
 
-- 특정 패턴 → 특정 의미 변환
+그래서 LLM이 학습한 **"사실적 지식(Fact)"의 대부분은 Attention이 아니라 FFN의 가중치($W_1, W_2$) 안에 저장**되어 있다고 봅니다.
+
+## 수학적 역할: 랭크 붕괴 방지 (Rank Collapse Prevention)
+
+선형대수학 관점에서의 매우 중요한 역할입니다. (질문자님이 좋아하실 부분입니다)
+
+- Attention의 한계:
     
-- 문법 규칙
+    Attention 연산 $Z = \sum A_{ij} V_j$는 결국 다른 벡터들의 **선형 결합(Linear Combination)**입니다.
     
-- 개념 결합
+    수학적으로, 여러 벡터의 선형 결합(볼록 결합)을 반복하면 결과 행렬의 랭크(Rank)가 줄어드는 경향이 있습니다. 즉, 모든 토큰의 벡터가 서로 비슷비슷해지는(smoothing) 현상이 발생합니다. 이를 Rank Collapse라고 합니다.
     
-
-🧠 이게 전부 **W₁, W₂ 안에 분산 저장**됨
-
----
-
-## 5️⃣ 코드로 보면 (Transformer 표준)
-
-`def transformer_ffn(x):     h = W1 @ x + b1      # projection up     h = gelu(h)         # activation     y = W2 @ h + b2     # projection down     return y`
-
-✅ 이 연산은 **각 토큰마다 독립적으로** 수행됨  
-✅ Self-attention만이 토큰 간 정보 교환을 담당
+- FFN의 해결책:
+    
+    FFN은 **비선형 활성화 함수(ReLU)**를 포함하고 있으며, 차원을 확장했다가 줄입니다.
+    
+    이 과정은 벡터 공간을 비선형적으로 비틀어버리기 때문에, 줄어들 뻔한 **Full Rank를 회복(Restoration)**시켜 줍니다.
+    
+    즉, Attention이 "평균"을 만들어 뭉뚱그린 정보를, FFN이 다시 "개성"을 부여해 분리해 줍니다.
