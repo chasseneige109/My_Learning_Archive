@@ -11,7 +11,7 @@ q0 와 k0 ~ kN을 내적해서 query0 에 대한 softmax에 넣음.
 
 q1과 k0 ~ kN을 내적해서 query 1에 대한...
 
-이하 동문.
+이하 동문. O1을 얻음.
 
 
 # multi - head attention
