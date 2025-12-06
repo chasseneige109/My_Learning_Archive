@@ -22,4 +22,4 @@ d_model = d_k x H (head개수) 임.
 
 위에서 얻은 O1, O2... OH들을 열 방향으로 concatenate 해서
 
-위로 단어길이 L 만큼 쌓고, 
+위로 단어길이 L 만큼 쌓고, dk씩 H개가 붙은 L x (d_k x H) 차원 행렬 생성.
