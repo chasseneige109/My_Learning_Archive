@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/framework/Seq2Seq Model.md",
+                "file": "Deep_Learning/Image Model/CNN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Seq2Seq Model"
+              "title": "CNN"
             }
           }
         ],
@@ -241,13 +241,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/framework/Seq2Seq Model.md",
+                "file": "Deep_Learning/Image Model/CNN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Seq2Seq Model 의 개요"
+              "title": "CNN 의 개요"
             }
           },
           {
@@ -282,7 +282,9 @@
   },
   "active": "2454e651a0a49750",
   "lastOpenFiles": [
+    "Deep_Learning/Learning Method/Batch Normalization.md",
     "Deep_Learning/Sequence Model/framework/CTC Model.md",
+    "Deep_Learning/Sequence Model/framework/Seq2Seq Model.md",
     "Deep_Learning/Sequence Model/Core Engine/RNN.md",
     "Deep_Learning/Sequence Model/Core Engine/LSTM.md",
     "Deep_Learning/Sequence Model/framework/Attention.md",
@@ -290,7 +292,6 @@
     "Deep_Learning/Learning Method/ADAM.md",
     "Deep_Learning/Sequence Model/framework/before transformer.md",
     "무제",
-    "Deep_Learning/Sequence Model/framework/Seq2Seq Model.md",
     "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
     "geometry/MVEE&MVIE/H - V representations.md",
     "geometry/MVEE&MVIE/Faces to Vertices Method.md",
@@ -307,7 +308,6 @@
     "C & C++/문법 & 테크닉/2차원 '조합'으로 순회하기 테크닉.md",
     "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
     "Deep_Learning/Dropout.md",
-    "Deep_Learning/Learning Method/Batch Normalization.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Convex_Optimization/CVXPY/Solvers.md",
     "대학원가자",
