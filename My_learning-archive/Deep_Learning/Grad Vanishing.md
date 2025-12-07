@@ -36,10 +36,18 @@ QK^T 내적하고 root(d_K)로 나누기
 - 희귀 파라미터 업데이트 보정
 
 ✅ Learning rate warmup:
-
 - 초반 gradient 폭발 방지
-    
 
 ✅ Gradient clipping:
-
 - local explosion 방지
+
+## 6. 대충 정리 (이거 말고도 많은 Method들 있음.)
+
+| 위험 지점       | 문제                 | 해결 장치          |     |
+| ----------- | ------------------ | -------------- | --- |
+| Linear 연쇄   | 분산 붕괴 / 폭발         | LayerNorm      |     |
+| 비선형 변환      | Jacobian < 1       | Residual       |     |
+| Dot-product | softmax saturation | Scaling (1/√d) |     |
+| 긴 depth     | 곱셈 사슬              | Identity path  |     |
+| 토큰 혼합       | gradient 쏠림        | Multi-head     |     |
+| 전체 학습       | 불안정                | Adam, warmup   |     |
