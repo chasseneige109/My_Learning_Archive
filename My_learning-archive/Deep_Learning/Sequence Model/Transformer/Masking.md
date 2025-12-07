@@ -21,31 +21,20 @@
 > 길이를 강제로 맞추는 장치가 필요 → 그게 `padding token`.
 
 ---
-
-## 2. “그럼 그냥 한 문장씩 처리하면 되지 않나요?”
-
-이론적으로는 가능해요. 하지만:
-
-1. **GPU 병렬처리 효율이 박살납니다**
-    
-    - 딥러닝은 `batch` 단위로 행렬 곱을 돌리면서 GPU를 꽉 채워야 빠름.
-        
-    - 문장 하나씩 넣으면 연산량이 너무 작아서 GPU가 노는 시간이 많아짐.
-        
-2. **통계적으로도 배치 학습이 유리**
-    
-    - Batch Normalization이나 LayerNorm, gradient estimation 등
-        
-    - 여러 샘플의 손실을 평균내며 미니배치 단위로 학습하는 것이 안정적임.
-        
-
-그래서 현실적인 선택은:
-
-> “**여러 문장을 한 텐서에 넣어야 한다 → 길이를 맞춰야 한다**”
-
-그리고 길이를 맞추기 위한 가장 단순·일반적인 해결책:
-
-> **짧은 문장의 뒤를 ‘의미 없는 토큰’으로 채운다 → padding token**
+## 
+[Embedding + PE]
+      ↓
+✅ Encoder Self-Attention  ← Padding Mask
+      ↓
+[Add & Norm]
+      ↓
+[FFN]
+      ↓
+✅ Decoder Masked Self-Attention ← Padding Mask + Causal Mask
+      ↓
+✅ Decoder Cross-Attention ← Padding Mask (Encoder 쪽)
+      ↓
+[FFN]
 
 ## ✅ 필수 조건 1. Key PAD mask
 
