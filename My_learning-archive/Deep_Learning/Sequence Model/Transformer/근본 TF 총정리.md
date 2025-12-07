@@ -13,7 +13,7 @@
 
 - **문제:** 트랜스포머는 병렬 처리(Parallel)를 하므로, "I love AI"와 "AI love I"를 구분하지 못합니다. (순서 정보 부재)
     
-- **해결:** 사인(Sine), 코사인(Cosine) 함수를 이용해 각 위치(pos)마다 고유한 패턴을 가진 벡터를 만듭니다.
+- **해결:** 사인(Sine), 코사인(Cosine) 함수를 이용해 각 위치(pos)마다 고유한 패턴을 가진 벡터를 만듭니다. (논문 원문의 sinusodial 방법. 다른 방법도 많이 나와있음. Rope 등...)
     
 - **연산:** `Input Embedding + Positional Encoding` (Concatenate가 아니라 **Element-wise Sum**입니다).
     
