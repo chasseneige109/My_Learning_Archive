@@ -37,7 +37,7 @@
       ↓
 [FFN]
 
-## ✅ 필수 조건 1. Key PAD mask
+## 1️⃣ Encoder – Multi-Head Self-Attention
 
 ### 어떻게 적용?
 
@@ -49,32 +49,17 @@ Attention = softmax(Scores)
 
 ---
 
-## ✅ 필수 조건 2. Loss mask (이게 제일 중요)
-
-> PAD 위치에서는 **절대 loss를 계산하지 않음**
-
-`loss = (token_loss * (labels != PAD)).sum() / valid_token_count`
-
-이게 없으면 모든 게 무너짐.
-
----
-
-## ✅ 필수 조건 3. (권장) Embedding layer에서 padding_idx 지정
-
-`nn.Embedding(vocab_size, d, padding_idx=PAD)`
-
-- PAD embedding은 gradient 자체가 0
-- “실수 방지용 안전장치”
-### Embedding 만으로 안되고, (1번) Attention_Mask도 해야하는 이유
-
-- **이유:** Embedding layer에서 0 벡터로 만들어도, 이후 **Layer Normalization**이나 Linear Layer의 **Bias(편향)** 가 더해지면 **0이 아니게 됩니다.**
-
-- 따라서 **Attention 연산 단계에서 `input_ids != PAD` 마스크로 확실하게 끊어주는 것(Score를 $-\infty$로 보냄)**이 필수입니다.
-
----
+## 2️⃣ Decoder – Masked Self-Attention
 
 
---- 
+- 목적: **Encoder와 동일**
+    
+- 짧은 문장의 PAD 무시
+
+Scores += PaddingMask
+Scores += CausalMask (얘도 같이씀.)
+
+
 # Causal Mask
 
 ## 시작점: 정보 유출 문제
