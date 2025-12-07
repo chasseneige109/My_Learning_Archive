@@ -23,15 +23,10 @@ Pr⁡(y=i) = pi
 
 즉,
 
-> **Gumbel noise + argmax = categorical sampling**
+> **Gumbel noise + argmax = categorical sampling** 이 기가막히게도..! 성립함.
 
-하지만…
 
-❌ 여전히 `argmax` → 미분 불가
 
----
-
-## 
 $$y_i = \frac{\exp((\log(\pi_i) + g_i) / \tau)}{\sum_{j=1}^{K} \exp((\log(\pi_j) + g_j) / \tau)}$$
 - $\pi_i$: 기존 Logit의 확률값
     
