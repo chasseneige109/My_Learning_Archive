@@ -25,7 +25,7 @@ Pr⁡(y=i) = pi
 
 > **Gumbel noise + argmax = categorical sampling** 이 기가막히게도..! 성립함.
 
-
+- Argmax를 softmax + log p + Gumbel noise 로 근사함.
 
 $$y_i = \frac{\exp((\log(\pi_i) + g_i) / \tau)}{\sum_{j=1}^{K} \exp((\log(\pi_j) + g_j) / \tau)}$$
 - $\pi_i$: 기존 Logit의 확률값
