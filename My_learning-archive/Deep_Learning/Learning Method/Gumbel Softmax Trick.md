@@ -72,7 +72,12 @@ $$y_i = \frac{\exp((\log(\pi_i) + g_i) / \tau)}{\sum_{j=1}^{K} \exp((\log(\pi_j)
 
 ## ✅ 언제 쓰는가? (Use Cases)
 
-사용자님이 관심을 가질 만한 분야 위주로 정리했습니다.
+“Gumbel-Softmax는 softmax보다 더 one-hot에 가까운 출력을 만들어  
+이산 선택을 연속적으로 근사한다.  
+이 출력은 downstream loss에서 정답과 비교될 수 있지만,  
+언어모델처럼 분포 자체를 학습하는 문제에는 필요하지 않다.
+대신 모델 내부에서 ‘무조건 하나를 골라야 하는’  
+명확한 이산 결정 문제가 있을 때 사용된다.”
 
 1. **Text GANs (Generative Adversarial Networks):**
     
@@ -89,4 +94,3 @@ $$y_i = \frac{\exp((\log(\pi_i) + g_i) / \tau)}{\sum_{j=1}^{K} \exp((\log(\pi_j)
 4. **Neural Architecture Search (NAS):**
     
     - 네트워크의 연결 구조를 "연결한다/안 한다(0 or 1)"로 선택하는 과정을 미분 가능하게 만들어 경사 하강법으로 구조를 찾을 때.
-- 
