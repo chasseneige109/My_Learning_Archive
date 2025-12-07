@@ -1,5 +1,5 @@
 # Padding Mask
-## 1. 시작점: 자연어 시퀀스의 근본적인 문제
+## 시작점: 자연어 시퀀스의 근본적인 문제
 
 자연어 문장은 **길이가 제각각**이에요.
 
@@ -21,7 +21,8 @@
 > 길이를 강제로 맞추는 장치가 필요 → 그게 `padding token`.
 
 ---
-## 
+## 들어가는 위치
+
 [Embedding + PE]
       ↓
 ✅ Encoder Self-Attention  ← Padding Mask
@@ -38,11 +39,9 @@
 
 ## ✅ 필수 조건 1. Key PAD mask
 
-> 정상 token이 PAD를 보지 못하게 막음
-
-`attention_mask = (input_ids != PAD)  # key 기준`
-
-이건 **항상 필요**.
+Scores = QKᵀ / √d_k
+Scores += PaddingMask   ← 여기
+Attention = softmax(Scores)
 
 ---
 
