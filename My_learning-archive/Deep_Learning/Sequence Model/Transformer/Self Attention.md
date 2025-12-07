@@ -20,7 +20,7 @@ q1과 k0 ~ kN을 내적해서 query 1에 대한...
 
 d_model = d_k x H (head개수) 임. (보통 이렇게 설계함)
 
-위에서 얻은 O1, O2... OH들을 열 방향으로 concatenate 해서
+각 self - attention에서 얻은 O1, O2... OH들을 열 방향으로 concatenate 해서
 
 위로 단어길이 L 만큼 쌓고, dk씩 H개가 붙은 L x (d_k x H) 차원의 O_concat 행렬 생성.
 
