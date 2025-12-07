@@ -83,6 +83,8 @@
 
 ## ✅ 권장 조건 4. Encoder/Decoder 모두에서 mask 일관성 유지
 
+
+### 학습시:
 - **Encoder Self-Attention:**
     
     - Padding Mask: **YES** (PAD 무시)
@@ -102,6 +104,8 @@
     - 여기서는 **Encoder 쪽의 Padding Mask**를 적용해야 합니다. (Decoder가 Encoder의 PAD를 보지 않도록)
         
     - Causal Mask는 적용하지 않습니다. (이미 완성된 Encoder의 문장은 다 봐도 되니까요.)
+
+### 추론시:
 
 --- 
 # Causal Mask
