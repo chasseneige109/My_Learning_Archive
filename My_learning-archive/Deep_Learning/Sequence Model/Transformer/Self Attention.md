@@ -7,11 +7,10 @@ hi마다 하나씩 qi , ki, vi를 Wq, Wk, Wv라는 (d_model x dk) 차원의 가�
 
 q0 와 k0 ~ kN을 내적한 후 root(d_k)로 나누어 분산을 1로 맞추고,
 Causal masking을 적용함.
-query0에 대한 softmax에 넣음.
+query0에 대한 softmax에 넣음. 
 그 softmax를 가중치로 써서 v0~vN을 가중합하여 O0을 얻음.
 
 q1과 k0 ~ kN을 내적해서 query 1에 대한...
-
 이하 동문. O1을 얻음. 계속 반복.
 (물론 벡터로 설명했지만 실제로는 행렬로 한 번에 처리됨.)
 
