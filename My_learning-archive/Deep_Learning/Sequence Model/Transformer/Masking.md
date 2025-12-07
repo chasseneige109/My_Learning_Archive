@@ -105,3 +105,17 @@ mask 없이 self-attention을 하면:
 
 loss는 잘 줄어드는데,  
 실제로 생성(inference)할 땐 미래가 없어서 모델이 무너짐.
+
+## Causal Mask의 정확한 역할
+
+> **“t번째 토큰은, t 이전까지만 볼 수 있다”**
+
+이를 attention score 차원에서 강제함.
+
+i\j   1   2   3   4   5
+-----------------------
+1     O   X   X   X   X
+2     O   O   X   X   X
+3     O   O   O   X   X
+4     O   O   O   O   X
+5     O   O   O   O   O
