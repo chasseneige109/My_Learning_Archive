@@ -83,17 +83,27 @@
 
 ## ✅ 권장 조건 4. Encoder/Decoder 모두에서 mask 일관성 유지
 
-- Encoder self-attention
+- **Encoder Self-Attention:**
     
-- Decoder self-attention
+    - Padding Mask: **YES** (PAD 무시)
+        
+    - Causal Mask: **NO** (번역할 때 문장 전체를 다 봐야 문맥을 아니까요.)
+        
+- **Decoder Self-Attention:**
     
-- Cross-attention
+    - Padding Mask: **YES**
+        
+    - Causal Mask: **YES** (생성할 때 미래를 보면 안 됨.) -> **보통 이 둘을 합쳐서 하나의 마스크로 만듭니다.**
+        
+- **Cross-Attention (Decoder가 Encoder를 볼 때):**
     
+    - Query(Decoder), Key/Value(Encoder)
+        
+    - 여기서는 **Encoder 쪽의 Padding Mask**를 적용해야 합니다. (Decoder가 Encoder의 PAD를 보지 않도록)
+        
+    - Causal Mask는 적용하지 않습니다. (이미 완성된 Encoder의 문장은 다 봐도 되니까요.)
 
-👉 **모든 attention block에서 PAD mask 적용**
-
-
-
+--- 
 # Causal Mask
 
 ## 시작점: 정보 유출 문제
@@ -129,4 +139,4 @@ Self attention 단계에서 QK^T 를 내적하고 softmax에 넣기 직전에 + 
 
 최종 X_att = softmax(QK^T / root(d_k) + M) * V
 
-softmax 에 들어가면
+
