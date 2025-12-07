@@ -2,8 +2,13 @@
 
 $$\text{Output} = X + F(X)$$
 - 원래 입력 x를 **그대로 통과시키는 길(=identity path)** 을 하나 깔아 두고,
-    
 - 그 위에 F(x)로 **“수정값(delta)”** 만 더하는 구조.
+
+
+- X : multihead attent들어가기전에 딱 embedding이랑 PE만 된 X임.
+- $X_{\text{Input}} = \text{Embedding} + \text{PE}$
+
+- F(X)
 
 ----> 📌 Residual connection에서는 딱 이거 더하기 하나밖에 안함.
 

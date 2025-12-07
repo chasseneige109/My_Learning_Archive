@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multi head Self Attention"
+              "title": "(ADD) Residual Connection"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Multi head Self Attention 의 개요"
+              "title": "(ADD) Residual Connection 의 개요"
             }
           },
           {
@@ -183,9 +183,9 @@
   },
   "active": "d35898ab268f496d",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/📌 근본 TF 총정리.md",
     "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
-    "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Embedding.md",
