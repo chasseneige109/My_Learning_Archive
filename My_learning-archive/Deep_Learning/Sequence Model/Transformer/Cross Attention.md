@@ -86,7 +86,9 @@ $$\text{Score} = \frac{\mathbf{Q} \cdot \mathbf{K}^T}{\sqrt{d_k}}$$
         
 
 ---
+### 3.5 Padding Mask
 
+$$\text{Attention}(Q, K, V) = \text{Softmax}\left(\frac{Q K^T}{\sqrt{d_k}} + \mathbf{M}\right) V$$
 ### 4. 소프트맥스 (Softmax)
 
 각 디코더 토큰(행)에 대해 확률값(합이 1)으로 변환합니다.
