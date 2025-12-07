@@ -10,7 +10,7 @@ Causal masking 을 적용함.
 query0에 대한 softmax에 넣음. 
 그 softmax를 가중치로 써서 v0~vN을 가중합하여 O0을 얻음.
 
-X_att = softmax(QK^T / root(d_k) + M) * V
+- X_att (Q, K, V) = softmax(QK^T / root(d_k) + M) * V
 
 q1과 k0 ~ kN을 내적해서 query 1에 대한...
 이하 동문. O1을 얻음. 계속 반복.
