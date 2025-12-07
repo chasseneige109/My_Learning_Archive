@@ -67,6 +67,7 @@ $$y_i = \frac{\exp((\log(\pi_i) + g_i) / \tau)}{\sum_{j=1}^{K} \exp((\log(\pi_j)
 `y_i = softmax( (z_i + g_i) / τ )`
 
  이 softmax 출력이 바로 **Gumbel-Softmax 샘플**
+- Gumbel softmax 를 정답과 함께 Loss에 넣음.
 
 
 ## ✅ 언제 쓰는가? (Use Cases)
