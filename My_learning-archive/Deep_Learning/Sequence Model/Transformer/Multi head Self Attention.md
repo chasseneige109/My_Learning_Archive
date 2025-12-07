@@ -20,6 +20,8 @@ q1과 k0 ~ kN을 내적해서 query 1에 대한...
 
 # multi - head attention 
 
+- 📌 Encoder/Decoder의 첫 번째 Sublayer
+
 d_model = d_k x H (head개수) 임. (보통 이렇게 설계함)
 
 각 self - attention에서 얻은 O1, O2... OH들을 열 방향으로 concatenate 해서
