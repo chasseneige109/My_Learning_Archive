@@ -5,10 +5,10 @@ $$\text{Output} = X + F(X)$$
 - 그 위에 F(x)로 **“수정값(delta)”** 만 더하는 구조.
 
 
-- X : multihead attent들어가기전에 딱 embedding이랑 PE만 된 X임.
+- X : multihead attention layer 들어가기 전에 딱 embedding이랑 PE만 된 X
 - $X_{\text{Input}} = \text{Embedding} + \text{PE}$
 
-- F(X)
+- F(X): multihead 들어갔다나온 X_att
 
 ----> 📌 Residual connection에서는 딱 이거 더하기 하나밖에 안함.
 
