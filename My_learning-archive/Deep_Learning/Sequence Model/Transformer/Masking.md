@@ -37,6 +37,9 @@
       ↓
 [FFN]
 
+--- 
+
+
 ## 1️⃣ Encoder – Multi-Head Self-Attention
 
 ### 어떻게 적용?
