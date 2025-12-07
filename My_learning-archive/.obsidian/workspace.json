@@ -249,7 +249,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Gumbell Noise.md",
+                "file": "Deep_Learning/Math & Statistics/Gumbell Noise.md",
                 "mode": "source",
                 "source": false
               },
@@ -379,7 +379,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Gumbell Noise.md",
+                "file": "Deep_Learning/Math & Statistics/Gumbell Noise.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -418,10 +418,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9a9c202be7f3d49e",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
     "Deep_Learning/Sequence Model/Transformer/근본 TF 총정리.md",
-    "Deep_Learning/Sequence Model/Transformer/Gumbell Noise.md",
+    "Deep_Learning/Math & Statistics/Gumbell Noise.md",
     "Deep_Learning/Grad Vanishing.md",
     "무제.md",
     "Pasted image 20251207145052.png",
