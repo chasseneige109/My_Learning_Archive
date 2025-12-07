@@ -58,6 +58,7 @@ $$y_i = \frac{\exp((\log(\pi_i) + g_i) / \tau)}{\sum_{j=1}^{K} \exp((\log(\pi_j)
 
 `p_i = exp(z_i) / Σ_j exp(z_j)`
 
+- softmax 씌운 걸, 정답과 함께 Loss에 넣음.
 ### 2. Gumbel-Softmax를 쓰는 경우 (샘플이 필요할 때)
 
 > 🎯 **목적: 단어를 “뽑으면서도” gradient를 흘리고 싶다**
