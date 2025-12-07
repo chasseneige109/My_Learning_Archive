@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Masking.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Masking"
+              "title": "Self Attention"
             }
           }
         ],
@@ -325,13 +325,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Masking.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Masking 의 개요"
+              "title": "Self Attention 의 개요"
             }
           },
           {
@@ -366,16 +366,16 @@
   },
   "active": "1b8ca0c937c50037",
   "lastOpenFiles": [
+    "Deep_Learning/Learning Method/Layer Normalization.md",
     "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Masking.md",
-    "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Sequence Model/Transformer/Attention.md",
+    "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Learning Method/ADAM.md",
     "Deep_Learning/Image Model/CNN.md",
     "Deep_Learning/Sequence Model/Core Engine/LSTM.md",
     "Deep_Learning/Learning Method/Batch Normalization.md",
-    "Deep_Learning/Learning Method/Layer Normalization.md",
     "Deep_Learning/Sequence Model/Core Engine/RNN.md",
     "Deep_Learning/Math & Statistics/Variance.md",
     "Deep_Learning/Sequence Model/CTC Model.md",
