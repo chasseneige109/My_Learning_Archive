@@ -11,14 +11,12 @@
             "id": "d35898ab268f496d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
-                "mode": "source",
-                "source": false
+                "file": "Deep_Learning/Sequence Model/Transformer/Pasted image 1.png"
               },
-              "icon": "lucide-file",
-              "title": "(ADD) Residual Connection"
+              "icon": "lucide-image",
+              "title": "Pasted image 1"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/Pasted image 1.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(ADD) Residual Connection 의 개요"
+              "title": "Pasted image 1 의 개요"
             }
           },
           {
@@ -183,13 +181,13 @@
   },
   "active": "d35898ab268f496d",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
+    "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/📌 근본 TF 총정리.md",
-    "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Embedding.md",
-    "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Sequence Model/Transformer/Pasted image 1.png",
     "Deep_Learning/Sequence Model/Transformer/Post_LN TF.md",
     "Deep_Learning/Sequence Model/Transformer/Masking.md",
