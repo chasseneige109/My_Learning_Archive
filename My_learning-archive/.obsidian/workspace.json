@@ -11,12 +11,14 @@
             "id": "d35898ab268f496d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Pasted image 20251207145052.png"
+                "file": "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251207145052"
+              "icon": "lucide-file",
+              "title": "Multi head Self Attention"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Pasted image 20251207145052.png",
+                "file": "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20251207145052 의 개요"
+              "title": "Multi head Self Attention 의 개요"
             }
           },
           {
@@ -181,11 +183,12 @@
   },
   "active": "d35898ab268f496d",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
+    "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
+    "Deep_Learning/Sequence Model/Transformer/Post_LN TF.md",
+    "Deep_Learning/Sequence Model/Transformer/Pasted image 20251207145052.png",
     "Deep_Learning/Sequence Model/Transformer/Masking.md",
     "Deep_Learning/Sequence Model/Transformer/근본 TF 총정리.md",
-    "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
-    "Deep_Learning/Sequence Model/Transformer/Pasted image 20251207145052.png",
-    "Deep_Learning/Sequence Model/Transformer/Post_LN TF.md",
     "Deep_Learning/Sequence Model/Transformer/Embedding.md",
     "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Math & Statistics/Variance.md",
@@ -197,7 +200,6 @@
     "Deep_Learning/Image Model/CNN.md",
     "Deep_Learning/Sequence Model/Non_transformer/LSTM.md",
     "Deep_Learning/Learning Method/ADAM.md",
-    "무제.md",
     "Deep_Learning/Sequence Model/Pre_LN_transformer",
     "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
     "Deep_Learning/Math & Statistics/Gumbell Noise.md",
