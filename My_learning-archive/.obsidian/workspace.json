@@ -11,14 +11,12 @@
             "id": "d35898ab268f496d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Masking.md",
-                "mode": "source",
-                "source": false
+                "file": "Deep_Learning/Sequence Model/Transformer/Pasted image 20251207145052.png"
               },
-              "icon": "lucide-file",
-              "title": "Masking"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251207145052"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Masking.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/Pasted image 20251207145052.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Masking 의 개요"
+              "title": "Pasted image 20251207145052 의 개요"
             }
           },
           {
@@ -183,6 +181,7 @@
   },
   "active": "d35898ab268f496d",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/Transformer/Masking.md",
     "Deep_Learning/Sequence Model/Transformer/근본 TF 총정리.md",
     "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Pasted image 20251207145052.png",
@@ -190,7 +189,6 @@
     "Deep_Learning/Sequence Model/Transformer/Embedding.md",
     "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Math & Statistics/Variance.md",
-    "Deep_Learning/Sequence Model/Transformer/Masking.md",
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
