@@ -35,14 +35,12 @@
 - **결과:** 문맥 정보가 반영된 벡터 시퀀스.
     
 
-#### 4. Add (Residual Connection)
+#### 4,5 Add (Residual Connection & Layer Normalization)
 
 - **동작:** `Attention 결과 + 원래 입력(3번 들어가기 전)`
     
 - **이유:** 기울기 소실(Vanishing Gradient) 방지 및 정보 보존. "변화된 정보만 학습해라"라는 의미.
-    
 
-#### 5. Layer Normalization
 
 - **동작:** 각 샘플(토큰) 별로 평균과 분산을 구해 정규화합니다. ($\frac{x - \mu}{\sigma}$)
     
