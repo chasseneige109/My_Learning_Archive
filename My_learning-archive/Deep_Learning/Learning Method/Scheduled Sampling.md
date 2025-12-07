@@ -48,8 +48,3 @@
 ## 3. 갈래 B: Scheduled Sampling을 “미분 가능하게 고쳐보자”
 
 👉 **여기서 Gumbel trick이 등장**
-
-### 아이디어:
-
-> “그럼 argmax 대신  
-> **미분 가능한 ‘soft sample’**을 쓰면 되지 않나?”
