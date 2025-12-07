@@ -34,7 +34,7 @@
 - **Masking:** **Padding Mask** 적용 (문장의 빈 공간인 `<PAD>` 토큰은 점수를 0으로 만들어 무시).
     --> 위치는 softmax 적용하기 직전!
 - **결과:** 문맥 정보가 반영된 벡터 시퀀스.
-    
+    --> X_att = O_concat * W_O 
 
 #### 4,5 Add (Residual Connection & Layer Normalization)
 
