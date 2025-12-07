@@ -8,7 +8,8 @@ $$\text{Output} = X + F(X)$$
 - X : multihead attention layer 들어가기 전에 딱 embedding이랑 PE만 된 X
 - $X_{\text{Input}} = \text{Embedding} + \text{PE}$
 
-- F(X): multihead 들어갔다나온 X_att
+- (FFN전 ADD의 경우) F(X): multihead 들어갔다 나온 X_att
+- (FFN후 ADD의 경우) F(X): FFN 들어갔다 나온
 
 ----> 📌 Residual connection에서는 딱 이거 더하기 하나밖에 안함.
 
