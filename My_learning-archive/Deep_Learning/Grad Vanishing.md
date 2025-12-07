@@ -16,3 +16,30 @@
 ## 3. Self-Attention 자체의 안정화 설계
 
 QK^T 내적하고 root(d_K)로 나누기
+
+## 4. Position Embedding / Embedding Layer에서도 발생하는 문제
+
+### ❌ 문제
+
+- 입력 embedding 분산이 크거나 작으면
+- 초반 layer부터 saturation
+
+### ✅ 해결
+
+- embedding scaling (`√d_model`)
+
+## 5. Optimizer 차원의 해결책 (Block 외부)
+
+
+✅ Adam 
+- gradient norm 안정화
+- 희귀 파라미터 업데이트 보정
+
+✅ Learning rate warmup:
+
+- 초반 gradient 폭발 방지
+    
+
+✅ Gradient clipping:
+
+- local explosion 방지
