@@ -32,7 +32,7 @@
 - -> Q,K,V 만들고, 내적, masking, softmax, 내적, concatenate... 섞기... 등등
 	
 - **Masking:** **Padding Mask** 적용 (문장의 빈 공간인 `<PAD>` 토큰은 점수를 0으로 만들어 무시).
-    
+    --> 위치는 softmax 적용하기 직전!
 - **결과:** 문맥 정보가 반영된 벡터 시퀀스.
     
 

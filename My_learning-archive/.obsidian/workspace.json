@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/근본 TF 총정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(PE) Positional Encoding"
+              "title": "근본 TF 총정리"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/근본 TF 총정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(PE) Positional Encoding 의 개요"
+              "title": "근본 TF 총정리 의 개요"
             }
           },
           {
@@ -183,6 +183,7 @@
   },
   "active": "d35898ab268f496d",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
@@ -193,7 +194,6 @@
     "Deep_Learning/Sequence Model/Transformer/Embedding.md",
     "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Math & Statistics/Variance.md",
-    "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
     "Deep_Learning/Learning Method/Layer Normalization.md",
     "Deep_Learning/Sequence Model/Non_transformer/CTC Model.md",
