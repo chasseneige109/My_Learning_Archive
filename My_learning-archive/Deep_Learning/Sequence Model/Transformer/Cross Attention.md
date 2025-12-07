@@ -22,7 +22,7 @@
 
 두 개의 서로 다른 소스에서 입력이 들어옵니다.
 
-1. **Decoder Input ($\mathbf{X}_{\text{dec}}$):** 디코더의 이전 서브레이어(Self-Attention + Add & Norm) 출력입니다.
+1. **Decoder Input ($\mathbf{X}_{\text{dec}}$):** 디코더의 이전 sublayer(Self-Attention + Add & Norm) 출력
     
     - **행렬 크기:** $(L_{\text{dec}} \times d_{\text{model}})$
         
