@@ -1,5 +1,5 @@
 
-## Gumbel 분포
+## ✅ Gumbel 분포
 
 ### 정의
 
@@ -11,7 +11,7 @@ G=−log⁡(−log⁡(U)), U∼Uniform(0,1)
 
 ---
 
-## Gumbel-Max Trick (이산 샘플링)
+## ✅ Gumbel-Max Trick (이산 샘플링)
 
 다음은 **정확한 categorical sampling**입니다:
 
@@ -50,7 +50,7 @@ $$y_i = \frac{\exp((\log(\pi_i) + g_i) / \tau)}{\sum_{j=1}^{K} \exp((\log(\pi_j)
 이산적인 선택(Discrete Choice)**을 흉내 낼 수 있습니다.
 
 
-## Gumbel trick이 들어가는 위치 / 순서
+## ✅ Gumbel trick이 들어가는 위치 / 순서
 
 ### 1. 일반 Language Model 학습 (Softmax + CE)
 
@@ -58,9 +58,17 @@ $$y_i = \frac{\exp((\log(\pi_i) + g_i) / \tau)}{\sum_{j=1}^{K} \exp((\log(\pi_j)
 
 `p_i = exp(z_i) / Σ_j exp(z_j)`
 
+### 2. Gumbel-Softmax를 쓰는 경우 (샘플이 필요할 때)
+
+> 🎯 **목적: 단어를 “뽑으면서도” gradient를 흘리고 싶다**
+
+`h → logits z   → z + gumbel_noise   → (z + g) / τ   → softmax   → y (soft sample)`
+`y_i = softmax( (z_i + g_i) / τ )`
+
+ 이 softmax 출력이 바로 **Gumbel-Softmax 샘플**
 
 
-## 언제 쓰는가? (Use Cases)
+## ✅ 언제 쓰는가? (Use Cases)
 
 사용자님이 관심을 가질 만한 분야 위주로 정리했습니다.
 
