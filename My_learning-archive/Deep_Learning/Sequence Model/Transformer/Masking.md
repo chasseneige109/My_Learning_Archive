@@ -1,4 +1,4 @@
-# Pad Masking
+# Padding Mask
 ## 1. 시작점: 자연어 시퀀스의 근본적인 문제
 
 자연어 문장은 **길이가 제각각**이에요.
@@ -88,3 +88,5 @@
     
 
 👉 **모든 attention block에서 PAD mask 적용**
+
+
