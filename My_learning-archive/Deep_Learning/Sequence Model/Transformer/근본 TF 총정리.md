@@ -26,7 +26,7 @@
 
 #### 3. Multi-Head Self-Attention (Encoder)
 
-- **입력:** Phase 1의 결과물.
+- **입력:** Phase 1의 결과물 (input을 embedding + PE ㅎ).
     
 - **동작:** 입력 문장 내의 단어들끼리 서로의 관계(Attention Score)를 계산합니다.
     
