@@ -61,7 +61,18 @@ Scores += CausalMask (얘도 같이씀.)
 
 ## 3️⃣ Decoder – Cross Attention
 
+- Query: **Decoder 토큰**
+    
+- Key / Value: **Encoder 출력**
+    
 
+👉 따라서 **Encoder 쪽 Padding Mask** 사용
+
+Scores = QKᵀ / √d_k
+Scores += EncoderPaddingMask   ← 여기
+Attention = softmax(Scores)
+
+---
 # Causal Mask
 
 ## 시작점: 정보 유출 문제
