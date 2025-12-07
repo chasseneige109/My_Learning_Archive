@@ -91,7 +91,7 @@
 
 
 
-# Casual Mask
+# Causal Mask
 
 ## 시작점: 정보 유출 문제
 
