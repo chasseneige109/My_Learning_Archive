@@ -3,7 +3,7 @@
 
 각 단어마다 hi를 하나씩 만듦.
 
-hi마다 하나씩 qi , ki, vi를 Wq, Wk, Wv라는 (d_model x dk) 차원의 가중치 행렬로 projection하여 만듦. W는 학습가능한 파라미터 행렬.
+hi마다 하나씩 qi , ki, vi를 Wq, Wk, Wv라는 (d_model x dk) 차원의 가중치 행렬로 projection하여 만듦. W는 학습가능한 파라미터 행렬이며, 한 self - attention layer에 있는 W는 모든 단어에 대해 같은 W를 씀.
 
 q0 와 k0 ~ kN을 내적한 후 root(d_k)로 나누어 분산을 1로 맞추고 
 query0 에 대한 softmax에 넣음.
