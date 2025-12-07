@@ -120,4 +120,6 @@ loss는 잘 줄어드는데,
 4     O   O   O   O   X
 5     O   O   O   O   O
 
-QK^T 를 내적하고 softmax에 넣기
+Self attention 단계에서 QK^T 를 내적하고 softmax에 넣기 직전에 + M (masking)을 함.
+
+최종 X_att = softmax(QK^T / root(d_k) + M) * V
