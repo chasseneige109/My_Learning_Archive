@@ -90,3 +90,18 @@
 👉 **모든 attention block에서 PAD mask 적용**
 
 
+
+# Casual Mask
+
+## 시작점: 정보 유출 문제
+
+문장: `나는 밥을 먹었다`
+
+mask 없이 self-attention을 하면:
+
+- "나는" 위치에서 "먹었다"의 embedding을 **이미 보고 있음**
+
+> **정답을 미리 보고 문제를 푸는 꼴 (data leakage)**
+
+loss는 잘 줄어드는데,  
+실제로 생성(inference)할 땐 미래가 없어서 모델이 무너짐.
