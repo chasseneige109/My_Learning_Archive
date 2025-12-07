@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Post_LN TF.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/근본 TF 총정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Post_LN TF"
+              "title": "근본 TF 총정리"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Post_LN TF.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/근본 TF 총정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Post_LN TF 의 개요"
+              "title": "근본 TF 총정리 의 개요"
             }
           },
           {
@@ -183,6 +183,9 @@
   },
   "active": "d35898ab268f496d",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
+    "Deep_Learning/Sequence Model/Transformer/Masking.md",
+    "Deep_Learning/Sequence Model/Transformer/Post_LN TF.md",
     "Deep_Learning/Sequence Model/Transformer/근본 TF 총정리.md",
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
@@ -190,14 +193,11 @@
     "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Pasted image 20251207145052.png",
-    "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
-    "Deep_Learning/Sequence Model/Transformer/Masking.md",
     "Deep_Learning/Learning Method/Layer Normalization.md",
     "Deep_Learning/Sequence Model/Non_transformer/CTC Model.md",
     "Deep_Learning/Image Model/CNN.md",
     "Deep_Learning/Sequence Model/Non_transformer/LSTM.md",
     "Deep_Learning/Learning Method/ADAM.md",
-    "Deep_Learning/Sequence Model/Transformer/Post_LN TF.md",
     "무제.md",
     "Deep_Learning/Sequence Model/Pre_LN_transformer",
     "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
