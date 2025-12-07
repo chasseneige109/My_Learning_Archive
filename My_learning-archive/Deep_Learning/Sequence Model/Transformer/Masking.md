@@ -1,6 +1,5 @@
-# Padding Mask
-## 시작점: 자연어 시퀀스의 근본적인 문제
 
+## ## Padding mask
 자연어 문장은 **길이가 제각각**이에요.
 
 - “Hi” → 길이 2
@@ -37,9 +36,6 @@
       ↓
 [FFN]
 
---- 
-
-
 ## 1️⃣ Encoder – Multi-Head Self-Attention
 
 ### 어떻게 적용?
@@ -75,7 +71,7 @@ Scores = QKᵀ / √d_k
 Scores += EncoderPaddingMask   ← 여기
 Attention = softmax(Scores)
 
----
+
 # Causal Mask
 
 ## 시작점: 정보 유출 문제
