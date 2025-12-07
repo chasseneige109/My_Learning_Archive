@@ -236,7 +236,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Andrew",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -364,7 +364,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1b8ca0c937c50037",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
     "Deep_Learning/Sequence Model/Transformer/Masking.md",
     "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",

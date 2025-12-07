@@ -6,9 +6,11 @@
 hi마다 하나씩 qi , ki, vi를 Wq, Wk, Wv라는 (d_model x dk) 차원의 가중치 행렬로 projection하여 만듦. W는 학습가능한 파라미터 행렬이며, 같은 self - attention layer에 있는 W는 모든 단어에 대해 같은 W를 씀. 
 
 q0 와 k0 ~ kN을 내적한 후 root(d_k)로 나누어 분산을 1로 맞추고,
-Causal masking을 적용함.
+Causal masking 을 적용함.
 query0에 대한 softmax에 넣음. 
 그 softmax를 가중치로 써서 v0~vN을 가중합하여 O0을 얻음.
+
+X_att = softmax(QK^T / root(d_k) + M) * V
 
 q1과 k0 ~ kN을 내적해서 query 1에 대한...
 이하 동문. O1을 얻음. 계속 반복.
