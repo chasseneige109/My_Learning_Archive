@@ -119,3 +119,5 @@ loss는 잘 줄어드는데,
 3     O   O   O   X   X
 4     O   O   O   O   X
 5     O   O   O   O   O
+
+QK^T 를 내적하고 softmax에 넣기
