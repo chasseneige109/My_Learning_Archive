@@ -26,10 +26,11 @@
 
 #### 3. Multi-Head Self-Attention (Encoder)
 
-- **입력:** Phase 1의 결과물 (input을 embedding + PE ㅎ).
+- **입력:** Phase 1의 결과물 (input을 embedding + PE 한 결과물).
     
 - **동작:** 입력 문장 내의 단어들끼리 서로의 관계(Attention Score)를 계산합니다.
-    
+- -> Q,K,V 만들고, 내적, softmax ... 등등
+	
 - **Masking:** **Padding Mask** 적용 (문장의 빈 공간인 `<PAD>` 토큰은 점수를 0으로 만들어 무시).
     
 - **결과:** 문맥 정보가 반영된 벡터 시퀀스.
