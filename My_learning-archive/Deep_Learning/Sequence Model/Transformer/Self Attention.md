@@ -29,8 +29,9 @@ d_model = d_k x H (head개수) 임. (보통 이렇게 설계함)
 - 마지막 FC (output projection)
 이제 한 번 더 **선형변환**으로 head들을 섞어준다: W_O 행렬 (d_model x d_model)로
 X_att = O_concat x W_O 
-결과 : L x d_model
+최종 출력 결과 : X_att: L x d_model
 
+이게 곧장 ADD & NORM으로 들어감.
 
 
 # 직관적인 이해
