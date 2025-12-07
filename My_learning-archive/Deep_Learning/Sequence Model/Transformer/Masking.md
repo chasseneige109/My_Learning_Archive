@@ -59,6 +59,8 @@ Attention = softmax(Scores)
 Scores += PaddingMask
 Scores += CausalMask (얘도 같이씀.)
 
+## 3️⃣ Decoder – Cross Attention
+
 
 # Causal Mask
 
