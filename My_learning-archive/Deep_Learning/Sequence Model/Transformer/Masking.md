@@ -72,9 +72,13 @@
 `nn.Embedding(vocab_size, d, padding_idx=PAD)`
 
 - PAD embedding은 gradient 자체가 0
-    
 - “실수 방지용 안전장치”
+### Embedding 만으로 안되고, Attention Masking도 해야하는 이유
+- **이유:** Embedding layer에서 0 벡터로 만들어도, 이후 **Layer Normalization**이나 Linear Layer의 **Bias(편향)** 가 더해지면 **0이 아니게 됩니다.**
     
+- 즉, 네트워크를 통과하다 보면 PAD 토큰 위치의 값들이 다시 '쓰레기 값'으로 살아나서 정보를 전파할 수 있습니다.
+    
+- 따라서 **Attention 연산 단계에서 `input_ids != PAD` 마스크로 확실하게 끊어주는 것(Score를 $-\infty$로 보냄)**이 필수입니다.
 
 ---
 
