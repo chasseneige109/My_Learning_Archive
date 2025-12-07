@@ -122,4 +122,8 @@ loss는 잘 줄어드는데,
 
 Self attention 단계에서 QK^T 를 내적하고 softmax에 넣기 직전에 + M (masking)을 함.
 
+- M에는 통상적으로 음의 무한대 값을 넣어서, softmax에 들어갔을 때 0으로 수렴해버리게 함.
+
 최종 X_att = softmax(QK^T / root(d_k) + M) * V
+
+softmax 에 들어가면
