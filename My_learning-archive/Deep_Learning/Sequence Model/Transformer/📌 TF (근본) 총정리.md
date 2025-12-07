@@ -62,7 +62,7 @@ $$\text{Output} = X_{\text{input}} + \text{SubLayer}(\text{LayerNorm}(X_{\text{i
 
 #### 7. Add & LayerNorm
 
-- FFN의 결과에 다시 **Residual Connection(Add)**을 하고 **LayerNorm**을 수행합니다.
+- FFN의 결과에 다시 **Residual Connection(Add)** 및 **LayerNorm**을 수행합니다.
     
 - **★ Encoder 최종 출력:** 이 결과값($K, V$)은 Decoder로 전달됩니다.
     
