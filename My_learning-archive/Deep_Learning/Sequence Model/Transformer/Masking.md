@@ -39,6 +39,10 @@
 
 ## ✅ 필수 조건 1. Key PAD mask
 
+### 어떻게 적용?
+
+- **Key 위치의 PAD 를 가림
+
 Scores = QKᵀ / √d_k
 Scores += PaddingMask   ← 여기
 Attention = softmax(Scores)
