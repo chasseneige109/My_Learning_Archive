@@ -5,8 +5,8 @@ $$\text{Output} = X + F(X)$$
 - 그 위에 F(x)로 **“수정값(delta)”** 만 더하는 구조.
 
 
-- X : multihead attention layer 들어가기 전에 딱 embedding이랑 PE만 된 X
-- $X_{\text{Input}} = \text{Embedding} + \text{PE}$
+- (FFN전 ADD의 경우) X : multihead 들어가기 전에 딱 embedding이랑 PE만 된 X
+- (FFN후 ADD의 경우) X: multihead 들어갔다 나온 X
 
 - (FFN전 ADD의 경우) F(X): multihead 들어갔다 나온 X_att
 - (FFN후 ADD의 경우) F(X): FFN 들어갔다 나온

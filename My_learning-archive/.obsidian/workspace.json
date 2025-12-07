@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(ADD) Residual Connection"
+              "title": "📌 TF (근본) 총정리"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(ADD) Residual Connection 의 개요"
+              "title": "📌 TF (근본) 총정리 의 개요"
             }
           },
           {
@@ -183,6 +183,7 @@
   },
   "active": "d35898ab268f496d",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
     "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
@@ -191,7 +192,6 @@
     "Deep_Learning/Sequence Model/Transformer/Pasted image 1.png",
     "Deep_Learning/Sequence Model/Transformer/Masking.md",
     "Deep_Learning/Sequence Model/Transformer/Embedding.md",
-    "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Math & Statistics/Variance.md",
     "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
