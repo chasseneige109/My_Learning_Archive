@@ -50,7 +50,17 @@ $$y_i = \frac{\exp((\log(\pi_i) + g_i) / \tau)}{\sum_{j=1}^{K} \exp((\log(\pi_j)
 이산적인 선택(Discrete Choice)**을 흉내 낼 수 있습니다.
 
 
-## 4. 언제 쓰는가? (Use Cases)
+## Gumbel trick이 들어가는 위치 / 순서
+
+### 1. 일반 Language Model 학습 (Softmax + CE)
+
+`h → logits z → softmax → p(word)`
+
+`p_i = exp(z_i) / Σ_j exp(z_j)`
+
+
+
+## 언제 쓰는가? (Use Cases)
 
 사용자님이 관심을 가질 만한 분야 위주로 정리했습니다.
 
@@ -69,3 +79,4 @@ $$y_i = \frac{\exp((\log(\pi_i) + g_i) / \tau)}{\sum_{j=1}^{K} \exp((\log(\pi_j)
 4. **Neural Architecture Search (NAS):**
     
     - 네트워크의 연결 구조를 "연결한다/안 한다(0 or 1)"로 선택하는 과정을 미분 가능하게 만들어 경사 하강법으로 구조를 찾을 때.
+- 
