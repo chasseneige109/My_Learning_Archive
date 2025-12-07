@@ -209,12 +209,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(ADD) Residual Connection"
+              "title": "FFN (MLP)"
             }
           }
         ],
@@ -339,13 +339,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(ADD) Residual Connection 의 개요"
+              "title": "FFN (MLP) 의 개요"
             }
           },
           {
@@ -380,9 +380,9 @@
   },
   "active": "8cd19f2793e202c5",
   "lastOpenFiles": [
-    "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
-    "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
+    "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
+    "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
     "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Sequence Model/Transformer/Gumbell Noise.md",
     "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
