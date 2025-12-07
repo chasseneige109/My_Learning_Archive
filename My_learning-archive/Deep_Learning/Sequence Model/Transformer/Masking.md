@@ -110,9 +110,9 @@ loss는 잘 줄어드는데,
 
 > **“t번째 토큰은, t 이전까지만 볼 수 있다”**
 
-이를 attention score 차원에서 강제함.
+이를 attention score 차원에서 강제함. ( X : 차단 )
 
-i\j   1   2   3   4   5
+ i/j   1    2   3   4   5
 -----------------------
 1     O   X   X   X   X
 2     O   O   X   X   X
