@@ -1,5 +1,7 @@
 
-## ## Padding mask
+# Padding mask
+
+
 자연어 문장은 **길이가 제각각**이에요.
 
 - “Hi” → 길이 2
