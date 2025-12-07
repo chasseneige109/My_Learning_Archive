@@ -46,7 +46,9 @@
 - **특징:** 배치 크기(Batch size)와 무관하게 동작하며 학습을 안정화합니다.
 
 원래는 RC -> LN이 원문 논문 방식이나,
-최근 모델들을 LN -> RC를 
+최근 모델들을 LN -> RC를 택함.
+
+$$\text{Output} = X_{\text{input}} + \text{SubLayer}(\text{LayerNorm}(X_{\text{input}}))$$
 
 #### 6. Position-wise Feed-Forward Network (FFN)
 
