@@ -249,12 +249,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Gumbell Noise.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/근본 TF 총정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gumbell Noise"
+              "title": "근본 TF 총정리"
             }
           }
         ],
@@ -379,13 +379,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Gumbell Noise.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/근본 TF 총정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gumbell Noise 의 개요"
+              "title": "근본 TF 총정리 의 개요"
             }
           },
           {
@@ -420,6 +420,7 @@
   },
   "active": "9a9c202be7f3d49e",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/Transformer/Gumbell Noise.md",
     "Deep_Learning/Grad Vanishing.md",
     "무제.md",
     "Pasted image 20251207145052.png",
@@ -429,7 +430,6 @@
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
-    "Deep_Learning/Sequence Model/Transformer/Gumbell Noise.md",
     "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Masking.md",
     "Deep_Learning/Math & Statistics/Variance.md",
