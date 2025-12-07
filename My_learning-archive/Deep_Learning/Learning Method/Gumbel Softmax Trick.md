@@ -17,9 +17,9 @@ G=−log⁡(−log⁡(U)), U∼Uniform(0,1)
 
 y = arg⁡max⁡i (log⁡pi + gi) , gi ∼ Gumbel (0,1)
 
-✅ 놀랍게도:
+✅ 매우매우 놀랍게도:
 
-Pr⁡(y=i)=pi\Pr(y = i) = p_iPr(y=i)=pi​
+Pr⁡(y=i) = pi
 
 즉,
 
@@ -36,7 +36,7 @@ Pr⁡(y=i)=pi\Pr(y = i) = p_iPr(y=i)=pi​
 ### 아이디어
 
 > `argmax`를 `softmax`로 치환하자  
-> 그리고 temperature τ\tauτ로 sharpness를 조절하자
+> 그리고 temperature τ로 sharpness를 조절하자
 
 ---
 
