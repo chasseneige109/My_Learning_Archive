@@ -88,6 +88,8 @@ $$\text{Score} = \frac{\mathbf{Q} \cdot \mathbf{K}^T}{\sqrt{d_k}}$$
 ---
 ### 3.5 Padding Mask
 
+**Key(인코더 출력)** 쪽의 패딩 위치를 가립니다.
+* V쪽은 Key 가중치에서 어차피 0됨.
 $$\text{Attention}(Q, K, V) = \text{Softmax}\left(\frac{Q K^T}{\sqrt{d_k}} + \mathbf{M}\right) V$$
 ### 4. 소프트맥스 (Softmax)
 
