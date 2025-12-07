@@ -37,15 +37,16 @@
 
 #### 4,5 Add (Residual Connection & Layer Normalization)
 
-- **동작:** `Attention 결과 + 원래 입력(3번 들어가기 전)`
+- **동작:** `Attention 결과 + 원래 입력`
     
 - **이유:** 기울기 소실(Vanishing Gradient) 방지 및 정보 보존. "변화된 정보만 학습해라"라는 의미.
-
 
 - **동작:** 각 샘플(토큰) 별로 평균과 분산을 구해 정규화합니다. ($\frac{x - \mu}{\sigma}$)
     
 - **특징:** 배치 크기(Batch size)와 무관하게 동작하며 학습을 안정화합니다.
-    
+
+원래는 RC -> LN이 원문 논문 방식이나,
+최근 모델들을 LN -> RC를 
 
 #### 6. Position-wise Feed-Forward Network (FFN)
 
