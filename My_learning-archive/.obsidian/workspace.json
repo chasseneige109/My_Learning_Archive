@@ -270,9 +270,23 @@
               "icon": "lucide-file",
               "title": "Self Attention"
             }
+          },
+          {
+            "id": "4988a7f40674069f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Attention"
+            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -393,13 +407,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
+                "file": "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Self Attention 의 개요"
+              "title": "Attention 의 개요"
             }
           },
           {
@@ -432,8 +446,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0433dd6e400f7362",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "Post_LN TF.md",
+    "Deep_Learning/Sequence Model/Pre",
+    "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
     "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
     "Deep_Learning/Math & Statistics/Gumbell Noise.md",
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
@@ -448,7 +465,6 @@
     "Deep_Learning/Grad Vanishing.md",
     "Pasted image 20251207145052.png",
     "Pasted image 20251207144430.png",
-    "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Masking.md",
     "Deep_Learning/Math & Statistics/Variance.md",
     "Deep_Learning/Learning Method/Layer Normalization.md",
@@ -461,17 +477,14 @@
     "Deep_Learning/Math & Statistics",
     "geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
     "geometry/MVEE&MVIE/H - V representations.md",
-    "geometry/MVEE&MVIE/Faces to Vertices Method.md",
     "Deep_Learning/Image Model",
     "Deep_Learning/Learning Method",
     "Deep_Learning/Sequence Model/Transformer",
     "Deep_Learning/Sequence Model/Non_transformer",
     "Deep_Learning/Sequence Model",
-    "C & C++/문법 & 테크닉/삼항 연산자.md",
     "대학원가자",
     "Deep_Learning",
     "AI 면접 질문",
-    "Linear Algebra",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
