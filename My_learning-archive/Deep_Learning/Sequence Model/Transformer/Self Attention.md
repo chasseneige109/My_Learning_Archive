@@ -29,3 +29,9 @@ d_model = d_k x H (head개수) 임. (보통 이렇게 설계함)
 - 마지막 FC (output projection)
 이제 한 번 더 **선형변환**으로 head들을 섞어준다: W_O 행렬 (d_model x d_model)로
 X_att = O_concat x W_O (L x d_model)
+
+
+
+# 직관적인 이해
+
+CNN이 커널 하나당 특징 하나씩 담당해서 conv layer를 여러 겹 쌓으면 특징들끼리 결합되는거처럼, Attention블록도 여러번쌓으면 집중해야하는 포인트들 끼리 결합되어서, " I는 주어인데, 뒤에 and you가 나오면 뒤에 is가 아니라 are을 쓴다" 같은 복합적인 특징이 추출되는건가

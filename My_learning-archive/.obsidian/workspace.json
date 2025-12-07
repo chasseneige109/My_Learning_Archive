@@ -263,12 +263,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gumbel Softmax Trick"
+              "title": "Self Attention"
             }
           }
         ],
@@ -393,13 +393,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/Self Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gumbel Softmax Trick 의 개요"
+              "title": "Self Attention 의 개요"
             }
           },
           {
@@ -434,11 +434,11 @@
   },
   "active": "0433dd6e400f7362",
   "lastOpenFiles": [
+    "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
     "Deep_Learning/Math & Statistics/Gumbell Noise.md",
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Learning Method/Scheduled Sampling.md",
-    "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
     "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
     "Deep_Learning/Sequence Model/Non_transformer/CTC Model.md",
     "Deep_Learning/Sequence Model/Non_transformer/LSTM.md",
