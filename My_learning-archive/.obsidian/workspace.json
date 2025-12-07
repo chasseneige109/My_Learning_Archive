@@ -263,12 +263,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Learning Method/Gumbell Trick.md",
+                "file": "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gumbell Trick"
+              "title": "Gumbel Softmax Trick"
             }
           }
         ],
@@ -393,13 +393,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Learning Method/Gumbell Trick.md",
+                "file": "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gumbell Trick 의 개요"
+              "title": "Gumbel Softmax Trick 의 개요"
             }
           },
           {
@@ -435,7 +435,7 @@
   "active": "0433dd6e400f7362",
   "lastOpenFiles": [
     "Deep_Learning/Learning Method/Scheduled Sampling.md",
-    "Deep_Learning/Learning Method/Gumbell Trick.md",
+    "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
