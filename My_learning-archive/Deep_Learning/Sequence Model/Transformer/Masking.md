@@ -1,3 +1,4 @@
+# Pad Masking
 ## 1. 시작점: 자연어 시퀀스의 근본적인 문제
 
 자연어 문장은 **길이가 제각각**이에요.
@@ -45,3 +46,45 @@
 그리고 길이를 맞추기 위한 가장 단순·일반적인 해결책:
 
 > **짧은 문장의 뒤를 ‘의미 없는 토큰’으로 채운다 → padding token**
+
+## ✅ 필수 조건 1. Key PAD mask
+
+> 정상 token이 PAD를 보지 못하게 막음
+
+`attention_mask = (input_ids != PAD)  # key 기준`
+
+이건 **항상 필요**.
+
+---
+
+## ✅ 필수 조건 2. Loss mask (이게 제일 중요)
+
+> PAD 위치에서는 **절대 loss를 계산하지 않음**
+
+`loss = (token_loss * (labels != PAD)).sum() / valid_token_count`
+
+✅ 이게 없으면 모든 게 무너짐.
+
+---
+
+## ✅ 필수 조건 3. (권장) Embedding layer에서 padding_idx 지정
+
+`nn.Embedding(vocab_size, d, padding_idx=PAD)`
+
+- PAD embedding은 gradient 자체가 0
+    
+- “실수 방지용 안전장치”
+    
+
+---
+
+## ✅ 권장 조건 4. Encoder/Decoder 모두에서 mask 일관성 유지
+
+- Encoder self-attention
+    
+- Decoder self-attention
+    
+- Cross-attention
+    
+
+👉 **모든 attention block에서 PAD mask 적용**
