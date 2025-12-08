@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Masked_Self Attention"
+              "title": "📌 TF (근본) 총정리"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Masked_Self Attention 의 개요"
+              "title": "📌 TF (근본) 총정리 의 개요"
             }
           },
           {
@@ -198,11 +198,11 @@
   },
   "active": "8aa5d17ee9b79a51",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/Transformer/Cross Attention.md",
+    "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
-    "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
-    "Deep_Learning/Sequence Model/Transformer/Cross Attention.md",
     "Deep_Learning/Math & Statistics/Variance.md",
     "Deep_Learning/Math & Statistics/Gumbell Noise.md",
     "Deep_Learning/Learning Method/Layer Normalization.md",
