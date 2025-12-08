@@ -29,7 +29,7 @@ d_model = d_k x H (head개수) 임. (보통 이렇게 설계함)
 위로 단어길이 L 만큼 쌓고, dk씩 H개가 붙은 L x (d_k x H) 차원의 O_concat 행렬 생성.
 
 - 마지막 FC (output projection)
-이제 한 번 더 **선형변환**으로 head들을 섞어준다: W_O 행렬 (d_model x d_model)로
+이제 한 번 더 **선형변환**으로 head들을 섞어준다: W_O 행렬 ((d_k x H) x d_model)로
 X_att = O_concat x W_O 
 최종 출력 결과 : X_att: L x d_model
 
