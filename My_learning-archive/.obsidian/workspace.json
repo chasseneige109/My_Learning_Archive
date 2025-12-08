@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
+                "file": "Deep_Learning/Sequence Model/Transformer/Cross Attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FFN (MLP)"
+              "title": "Cross Attention"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
+                "file": "Deep_Learning/Sequence Model/Transformer/Cross Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FFN (MLP) 의 개요"
+              "title": "Cross Attention 의 개요"
             }
           },
           {
@@ -198,13 +198,14 @@
   },
   "active": "8aa5d17ee9b79a51",
   "lastOpenFiles": [
+    "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
+    "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
     "Deep_Learning/Learning Method/Layer Normalization.md",
     "Deep_Learning/Learning Method/Scheduled Sampling.md",
     "Deep_Learning/Learning Method/ADAM.md",
     "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
     "Deep_Learning/Sequence Model/Transformer/Masking.md",
-    "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
     "Deep_Learning/Image Model/CNN.md",
     "C & C++/문법 & 테크닉/중복값 삭제.md",
     "C & C++/문법 & 테크닉/삼항 연산자.md",
@@ -213,7 +214,6 @@
     "회계및세무/무제 2/내국신용장.md",
     "Deep_Learning/Sequence Model/Transformer/Cross Attention.md",
     "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
-    "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Post_LN TF.md",
     "Deep_Learning/Sequence Model/Transformer/Pasted image 1.png",
