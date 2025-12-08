@@ -164,5 +164,3 @@ $$\text{Output} = X_{\text{input}} + \text{SubLayer}(\text{LayerNorm}(X_{\text{i
     
 5. **PE(위치 인코딩)**은 입력 벡터에 "더해지는" 것이지 붙이는(Concat) 게 아닙니다.
     
-
-이 순서가 머릿속에 파이프라인처럼 연결되어 흐르면 Transformer 구조를 완벽하게 장악하신 겁니다.
