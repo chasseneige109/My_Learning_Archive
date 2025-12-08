@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gumbel Softmax Trick"
+              "title": "FFN (MLP)"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
+                "file": "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gumbel Softmax Trick 의 개요"
+              "title": "FFN (MLP) 의 개요"
             }
           },
           {
@@ -198,8 +198,12 @@
   },
   "active": "8aa5d17ee9b79a51",
   "lastOpenFiles": [
-    "Deep_Learning/Sequence Model/Transformer/Masking.md",
     "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
+    "Deep_Learning/Learning Method/Layer Normalization.md",
+    "Deep_Learning/Learning Method/Scheduled Sampling.md",
+    "Deep_Learning/Learning Method/ADAM.md",
+    "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
+    "Deep_Learning/Sequence Model/Transformer/Masking.md",
     "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
     "Deep_Learning/Image Model/CNN.md",
     "C & C++/문법 & 테크닉/중복값 삭제.md",
@@ -217,14 +221,10 @@
     "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Math & Statistics/Variance.md",
     "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
-    "Deep_Learning/Learning Method/Layer Normalization.md",
     "Deep_Learning/Sequence Model/Non_transformer/CTC Model.md",
     "Deep_Learning/Sequence Model/Non_transformer/LSTM.md",
-    "Deep_Learning/Learning Method/ADAM.md",
     "Deep_Learning/Sequence Model/Pre_LN_transformer",
-    "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
     "Deep_Learning/Math & Statistics/Gumbell Noise.md",
-    "Deep_Learning/Learning Method/Scheduled Sampling.md",
     "Deep_Learning/Sequence Model/Non_transformer/Dropout.md",
     "Pasted image 20251207144430.png",
     "Deep_Learning/Math & Statistics",
