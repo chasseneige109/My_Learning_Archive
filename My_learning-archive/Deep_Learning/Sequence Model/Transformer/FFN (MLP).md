@@ -11,7 +11,7 @@ FFN(x)=W2​σ(W1​x+b1​)+b2​ = Y
     
 - σ: ReLU 또는 GELU
     
-- W2​: **projection down** (차원 down, 학습가능능)
+- W2​: **projection down** (차원 down, 학습가능)
     
 
 📌 **중요**
