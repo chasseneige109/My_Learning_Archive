@@ -199,6 +199,7 @@
   "active": "8aa5d17ee9b79a51",
   "lastOpenFiles": [
     "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
+    "Deep_Learning/Sequence Model/Transformer/Cross Attention.md",
     "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
     "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
     "Deep_Learning/Learning Method/Layer Normalization.md",
@@ -212,7 +213,6 @@
     "C & C++/문법 & 테크닉/값 치환하기.md",
     "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
     "회계및세무/무제 2/내국신용장.md",
-    "Deep_Learning/Sequence Model/Transformer/Cross Attention.md",
     "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
     "Deep_Learning/Sequence Model/Transformer/Post_LN TF.md",
