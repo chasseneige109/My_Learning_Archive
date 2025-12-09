@@ -100,3 +100,7 @@ $$\text{Linear Attention}(Q, K, V) = \phi(Q) \left( \phi(K)^T V \right)$$
 2. **훈련 불안정:** $\phi(\cdot)$ 함수 선택에 따라 학습이 불안정해질 수 있습니다.
     
 3. **Causal Masking의 어려움:** Decoder-only 모델에서 미래를 가리는 Causal Masking을 적용하려면, 순차적으로 계산해야 하므로 병렬화 이점이 줄어들고 구현이 복잡해질 수 있습니다. (RNN처럼 동작하게 됨)
+
+   -> 원래 QK^T먼저해서 L x L을 먼저 만드는 경우에는 상삼각행렬 지우기만하면 됐는데, 
+   kV먼저해서 dxd 행렬 돼버리니까 순서를 한 번에 처리할 방법이 없다.
+   
