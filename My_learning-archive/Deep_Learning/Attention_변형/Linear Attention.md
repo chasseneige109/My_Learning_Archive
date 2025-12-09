@@ -42,8 +42,8 @@ $$(A \times B) \times C = A \times (B \times C)$$
 하지만, 'Softmax'가 문제입니다.
 
 Softmax 함수는 비선형 함수($e^x$)이므로 행렬 곱셈 사이에 끼어 있으면 결합 법칙을 적용할 수 없습니다.
-
 $$\text{softmax}(QK^T)V \neq Q(\text{softmax}(K^T)V)$$
+
 ---
 
 ### 3. Linear Attention의 핵심: 커널 트릭 (Kernel Trick)
