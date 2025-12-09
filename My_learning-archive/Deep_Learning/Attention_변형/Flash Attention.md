@@ -93,7 +93,7 @@ $$O_{new} = \text{diag}(e^{m_{old} - m_{new}}) \times O_{old} + e^{S_{new} - m_{
 
 ### 4. FlashAttention 동작 과정 (Forward Pass)
 
-1. **Load:** HBM에서 $Q$의 블록($Q_i$), $K, V$의 블록($K_j, V_j$)을 SRAM으로 가져옵니다.
+1. **Load:** HBM에서 $Q$,$K, V$의 블록($Q_i$, $K_j, V_j$)을 SRAM으로 가져옵니다.
     
 2. **Compute:** SRAM 내에서 점곱($Q_i K_j^T$)을 수행합니다.
     
