@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
+                "file": "Deep_Learning/Transformer/📌 TF (근본) 총정리.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
+                "file": "Deep_Learning/Transformer/📌 TF (근본) 총정리.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Tokenization.md",
+                "file": "Deep_Learning/Transformer/Tokenization.md",
                 "mode": "source",
                 "source": false
               },
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Sequence Model/Transformer/Tokenization.md",
+                "file": "Deep_Learning/Transformer/Tokenization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -210,41 +210,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92f4b9d653774630",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
-    "Deep_Learning/Sequence Model/Transformer/📌 TF (근본) 총정리.md",
-    "Deep_Learning/Sequence Model/Transformer/Tokenization.md",
-    "Deep_Learning/Sequence Model/Transformer/Pasted image 1.png",
-    "Deep_Learning/Sequence Model/Transformer/Masking.md",
-    "Deep_Learning/Sequence Model/Transformer/Masked_Self Attention.md",
-    "Deep_Learning/Sequence Model/Transformer/(ADD) Residual Connection.md",
-    "Deep_Learning/Sequence Model/Transformer/(PE) Positional Encoding.md",
-    "Deep_Learning/Sequence Model/Transformer/FFN (MLP).md",
-    "Deep_Learning/Sequence Model/Transformer/Multi head Self Attention.md",
-    "Deep_Learning/Sequence Model/Transformer/Cross Attention.md",
+    "Deep_Learning/무제",
+    "Deep_Learning/Transformer/📌 TF (근본) 총정리.md",
+    "Deep_Learning/Transformer/Tokenization.md",
+    "Deep_Learning/Transformer/Pasted image 1.png",
+    "Deep_Learning/Transformer/Masking.md",
+    "Deep_Learning/Transformer/Masked_Self Attention.md",
+    "Deep_Learning/Transformer/(ADD) Residual Connection.md",
+    "Deep_Learning/Transformer/(PE) Positional Encoding.md",
+    "Deep_Learning/Transformer/FFN (MLP).md",
+    "Deep_Learning/Transformer/Multi head Self Attention.md",
+    "Deep_Learning/Transformer/Cross Attention.md",
     "Deep_Learning/Math & Statistics/Variance.md",
     "Deep_Learning/Math & Statistics/Gumbell Noise.md",
     "Deep_Learning/Learning Method/Layer Normalization.md",
     "Deep_Learning/Learning Method/Scheduled Sampling.md",
     "Deep_Learning/Learning Method/ADAM.md",
     "Deep_Learning/Learning Method/Gumbel Softmax Trick.md",
-    "Deep_Learning/Image Model/CNN.md",
+    "Deep_Learning/CNN/CNN.md",
     "C & C++/문법 & 테크닉/중복값 삭제.md",
     "C & C++/문법 & 테크닉/삼항 연산자.md",
     "C & C++/문법 & 테크닉/값 치환하기.md",
     "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
     "회계및세무/무제 2/내국신용장.md",
-    "Deep_Learning/Sequence Model/Transformer/Post_LN TF.md",
+    "Deep_Learning/Transformer/Post_LN TF.md",
     "Deep_Learning/Sequence Model/Transformer/Embedding.md",
-    "Deep_Learning/Sequence Model/Non_transformer/Attention.md",
-    "Deep_Learning/Sequence Model/Non_transformer/CTC Model.md",
-    "Deep_Learning/Sequence Model/Non_transformer/LSTM.md",
+    "Deep_Learning/Sequence Model/Attention.md",
+    "Deep_Learning/Sequence Model/CTC Model.md",
     "Deep_Learning/Sequence Model/Pre_LN_transformer",
     "Pasted image 20251207144430.png",
     "Deep_Learning/Math & Statistics",
-    "Deep_Learning/Image Model",
+    "Deep_Learning/CNN",
     "Deep_Learning/Learning Method",
-    "Deep_Learning/Sequence Model/Transformer",
+    "Deep_Learning/Transformer",
     "Deep_Learning/Sequence Model/Non_transformer",
     "Deep_Learning/Sequence Model",
     "대학원가자",
