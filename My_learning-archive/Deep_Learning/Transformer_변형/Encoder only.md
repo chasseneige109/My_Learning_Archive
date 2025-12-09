@@ -1,13 +1,11 @@
 ### 1. 핵심 철학: "양방향(Bidirectional) 문맥 파악"
 
-Encoder-only 모델의 가장 큰 특징은 텍스트를 읽는 방식입니다.
-
 - **Decoder (GPT):** "나는 밥을..." 다음에는? (왼쪽에서 오른쪽으로만 봄, **Left-to-Right**)
     
 - **Encoder (BERT):** "어제 [MASK] 먹었어."의 빈칸은? (문장의 앞과 뒤를 동시에 봄, **Bidirectional**)
     
 
-이 모델은 문장의 처음부터 끝까지 모든 단어를 한 번에 입력받아, 단어들 사이의 상호 관계를 파악합니다. 이를 위해 Self-Attention 메커니즘에서 **마스킹(Look-ahead Mask)을 제거**했습니다. 즉, 자기 자신을 포함해 문장 내 모든 단어가 서로를 '참조(Attend)'할 수 있습니다.
+Self-Attention 메커니즘에서 **마스킹(Look-ahead Mask)을 제거**했습니다. 즉, 자기 자신을 포함해 문장 내 모든 단어가 서로를 '참조(Attend)'할 수 있습니다.
 
 ---
 
