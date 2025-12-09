@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_변형/Decoder_only/GPT.md",
+                "file": "Deep_Learning/Transformer_변형/Encoder_Decoder/Encoder - Decoder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GPT"
+              "title": "Encoder - Decoder"
             }
           }
         ],
@@ -297,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_변형/Decoder_only/GPT.md",
+                "file": "Deep_Learning/Transformer_변형/Encoder_Decoder/Encoder - Decoder.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GPT 의 개요"
+              "title": "Encoder - Decoder 의 개요"
             }
           },
           {
@@ -338,6 +338,8 @@
   },
   "active": "0f85da9d6a50a3db",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_변형/Decoder_only/GPT.md",
+    "Deep_Learning/Transformer_변형/Decoder_only/Decoder only.md",
     "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Attention_변형/Linear Attention.md",
     "Deep_Learning/Transformer/Masking.md",
@@ -347,8 +349,6 @@
     "Deep_Learning/Attention_변형",
     "Deep_Learning/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Transformer/(ADD) Residual Connection.md",
-    "Deep_Learning/Transformer_변형/Decoder_only/GPT.md",
-    "Deep_Learning/Transformer_변형/Decoder_only/Decoder only.md",
     "Deep_Learning/Transformer_변형/Encoder_Decoder/T5, BART.md",
     "Deep_Learning/Transformer_변형/Encoder_Decoder/Encoder - Decoder.md",
     "Deep_Learning/Transformer_변형/Decoder_only",
