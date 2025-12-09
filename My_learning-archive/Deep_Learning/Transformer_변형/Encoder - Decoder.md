@@ -1,5 +1,5 @@
-입력을 완전히 이해한 후(Encoder), 새로운 출력으로 변환(Decoder)하는 **
-Seq2Seq(Sequence-to-Sequence)** 구조입니다. 
+입력을 완전히 이해한 후(Encoder), 
+새로운 출력으로 변환(Decoder)하는 Seq2Seq(Sequence-to-Sequence) 구조입니다. 
 트랜스포머의 원조 논문("Attention is All You Need")이 제안한 형태입니다.
 
 - **대표 모델:** **Original Transformer**, T5, BART
