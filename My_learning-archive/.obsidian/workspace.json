@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_변형/Encoder - Decoder.md",
+                "file": "Deep_Learning/Transformer_변형/Encoder only.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Encoder - Decoder"
+              "title": "Encoder only"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_변형/Encoder - Decoder.md",
+                "file": "Deep_Learning/Transformer_변형/Encoder only.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Encoder - Decoder 의 개요"
+              "title": "Encoder only 의 개요"
             }
           },
           {
@@ -254,8 +254,8 @@
   },
   "active": "adb99c2cc37bae5d",
   "lastOpenFiles": [
-    "Deep_Learning/Transformer_변형/Encoder only.md",
     "Deep_Learning/Transformer_변형/Encoder - Decoder.md",
+    "Deep_Learning/Transformer_변형/Encoder only.md",
     "Deep_Learning/Transformer_변형/Decoder only.md",
     "Deep_Learning/Grad Vanishing.md",
     "Deep_Learning/Transformer/Tokenization.md",
