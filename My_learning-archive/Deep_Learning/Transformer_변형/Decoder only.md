@@ -1,6 +1,12 @@
 
 
 **자기회귀(Autoregressive) 학습** / **티처 포싱(Teacher Forcing)**
+
+|**위치 (Index)**|**1**|**2**|**3**|**4**|**5**|**6**|
+|---|---|---|---|---|---|---|
+|**입력 시퀀스 (X, Context)**|`[CLS]`|`나는`|`어제`|`마트에`|`갔다`|`.`|
+|**모델의 예측**|$\rightarrow$ `나는`|$\rightarrow$ `어제`|$\rightarrow$ `마트에`|$\rightarrow$ `갔다`|$\rightarrow$ `.`|$\rightarrow$ `[SEP]`|
+|**정답 시퀀스 (Y, Target)**|`나는`|`어제`|`마트에`|`갔다`|`.`|`[SEP]`|
 ### **1단계: 입력 구성 (Input Embedding)**
 
 GPT 같은 Decoder 모델은 보통 문장 구분(Segment Embedding) 없이 **토큰**과 **위치**만 사용합니다.
