@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_변형/Encoder_Decoder/T5.md",
+                "file": "Deep_Learning/Transformer_변형/Encoder_Decoder/T5, BART.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "T5"
+              "title": "T5, BART"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_변형/Encoder_Decoder/T5.md",
+                "file": "Deep_Learning/Transformer_변형/Encoder_Decoder/T5, BART.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "T5 의 개요"
+              "title": "T5, BART 의 개요"
             }
           },
           {
@@ -269,7 +269,7 @@
   "active": "d83705449d3e7e36",
   "lastOpenFiles": [
     "Deep_Learning/Transformer_변형/Encoder_Decoder/Encoder - Decoder.md",
-    "Deep_Learning/Transformer_변형/Encoder_Decoder/T5.md",
+    "Deep_Learning/Transformer_변형/Encoder_Decoder/T5, BART.md",
     "Deep_Learning/Transformer_변형/Decoder_only",
     "Deep_Learning/Transformer_변형/Encoder_only",
     "Deep_Learning/Transformer_변형/Encoder_Decoder",
