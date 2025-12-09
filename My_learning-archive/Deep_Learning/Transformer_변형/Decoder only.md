@@ -1,4 +1,4 @@
-
+대표적으로 **GPT**
 
 **자기회귀(Autoregressive) 학습** / **티처 포싱(Teacher Forcing)**
 
