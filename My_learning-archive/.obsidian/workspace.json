@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_변형/Decoder only.md",
+                "file": "Deep_Learning/Transformer_변형/Encoder only.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decoder only"
+              "title": "Encoder only"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_변형/Decoder only.md",
+                "file": "Deep_Learning/Transformer_변형/Encoder only.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Decoder only 의 개요"
+              "title": "Encoder only 의 개요"
             }
           },
           {
@@ -255,8 +255,8 @@
   "active": "adb99c2cc37bae5d",
   "lastOpenFiles": [
     "Deep_Learning/Transformer_변형/Encoder - Decoder.md",
-    "Deep_Learning/Transformer_변형/Encoder only.md",
     "Deep_Learning/Transformer_변형/Decoder only.md",
+    "Deep_Learning/Transformer_변형/Encoder only.md",
     "Deep_Learning/Transformer/Tokenization.md",
     "Deep_Learning/Transformer_변형",
     "Deep_Learning/Transformer/📌 TF (근본) 총정리.md",
