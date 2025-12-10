@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Vision Transformer/📌 Vision_Transformer 총정리.md",
+                "file": "Deep_Learning/Transformer_Vision/📌 Vision_Transformer 총정리.md",
                 "mode": "source",
                 "source": false
               },
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Vision Transformer/CLS Token/CLS.md",
+                "file": "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
                 "mode": "source",
                 "source": false
               },
@@ -240,14 +240,15 @@
   },
   "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_Audio",
     "Pasted image 20251210205211.png",
     "Pasted image 20251210205159.png",
     "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Learning/Grad Vanishing.md",
-    "Deep_Learning/Vision Transformer/PE for VIT.md",
-    "Deep_Learning/Vision Transformer/📌 Vision_Transformer 총정리.md",
-    "Deep_Learning/Vision Transformer/📌VIT 전체 그림.md",
-    "Deep_Learning/Vision Transformer/CLS Token/CLS_Variations.md",
+    "Deep_Learning/Transformer_Vision/PE for VIT.md",
+    "Deep_Learning/Transformer_Vision/📌 Vision_Transformer 총정리.md",
+    "Deep_Learning/Transformer_Vision/📌VIT 전체 그림.md",
+    "Deep_Learning/Transformer_Vision/CLS Token/CLS_Variations.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
     "Convex_Optimization/geometry/MVEE&MVIE/Faces to Vertices Method.md",
@@ -256,10 +257,10 @@
     "Deep_Learning/Learning/Scheduled Sampling.md",
     "Deep_Learning/Learning/ADAM.md",
     "Deep_Learning/CNN/CNN.md",
-    "Deep_Learning/Vision Transformer/CLS Token/CLS.md",
+    "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
     "Deep_Learning/Transformer/📌 TF 전체 그림.png",
     "Deep_Learning/Transformer/📌 TF (근본) 총정리.md",
-    "Deep_Learning/Vision Transformer/CLS Token",
+    "Deep_Learning/Transformer_Vision/CLS Token",
     "Deep_Learning/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Transformer/(PE) Positional Encoding.md",
     "Deep_Learning/Transformer/Post_LN TF.md",
@@ -267,7 +268,7 @@
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
     "Deep_Learning/Attention_변형/KV Caching.md",
     "Deep_Learning/Transformer_변형/Decoder_only/GPT.md",
-    "Deep_Learning/Vision Transformer",
+    "Deep_Learning/Transformer_Vision",
     "Deep_Learning/Transformer_변형/Decoder_only/Decoder only.md",
     "Deep_Learning/Transformer/Multi head Self Attention.md",
     "Deep_Learning/Attention_변형",
