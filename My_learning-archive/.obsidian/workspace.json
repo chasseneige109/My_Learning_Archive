@@ -111,7 +111,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제 2.md",
+                "file": "Deep_Learning/Transformer_Audio/무제 2.md",
                 "mode": "source",
                 "source": false
               },
@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
+                "file": "Deep_Learning/Transformer_Vision/📌VIT 전체 그림.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📌 Speech Transformer 이미지"
+              "title": "📌VIT 전체 그림"
             }
           }
         ],
@@ -269,13 +269,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
+                "file": "Deep_Learning/Transformer_Vision/📌VIT 전체 그림.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📌 Speech Transformer 이미지 의 개요"
+              "title": "📌VIT 전체 그림 의 개요"
             }
           },
           {
@@ -310,15 +310,16 @@
   },
   "active": "9d404b1a1c458799",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
+    "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
+    "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
+    "Pasted image 20251210214240.png",
     "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
     "Pasted image 20251210214414.png",
     "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
     "Pasted image 20251210214357.png",
-    "무제 3.md",
-    "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
-    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
-    "Pasted image 20251210214240.png",
-    "무제 2.md",
+    "Deep_Learning/Transformer_Audio/무제 3.md",
+    "Deep_Learning/Transformer_Audio/무제 2.md",
     "Pasted image 20251210205159.png",
     "Deep_Learning/Transformer_Audio",
     "Pasted image 20251210205211.png",
@@ -337,7 +338,6 @@
     "Deep_Learning/Learning/ADAM.md",
     "Deep_Learning/CNN/CNN.md",
     "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
-    "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
     "Deep_Learning/Transformer_Vision/CLS Token",
     "Deep_Learning/Transformer_Basic/(ADD) Residual Connection.md",
     "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
