@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Vision Transformer/PE for VIT.md",
+                "file": "Deep_Learning/Attention_변형/KV Caching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PE for VIT"
+              "title": "KV Caching"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Vision Transformer/PE for VIT.md",
+                "file": "Deep_Learning/Attention_변형/KV Caching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PE for VIT 의 개요"
+              "title": "KV Caching 의 개요"
             }
           },
           {
@@ -212,14 +212,14 @@
   },
   "active": "9684dc52c33b9ff6",
   "lastOpenFiles": [
-    "Deep_Learning/Learning/Inductive Bias.md",
+    "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
     "Deep_Learning/Vision Transformer/PE for VIT.md",
+    "Deep_Learning/Learning/Inductive Bias.md",
     "Deep_Learning/Vision Transformer/📌 Vision_Transformer 총정리.md",
     "Deep_Learning/Transformer/📌 TF (근본) 총정리.md",
     "Deep_Learning/Transformer_변형/Decoder_only/GPT.md",
     "Deep_Learning/Vision Transformer",
     "Deep_Learning/Transformer_변형/Decoder_only/Decoder only.md",
-    "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
     "Deep_Learning/Transformer/Multi head Self Attention.md",
     "Deep_Learning/Attention_변형/KV Caching.md",
     "Deep_Learning/Attention_변형/Flash Attention.md",
