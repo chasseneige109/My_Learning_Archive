@@ -160,9 +160,23 @@
               "icon": "lucide-file",
               "title": "📌 TF (근본) 총정리"
             }
+          },
+          {
+            "id": "3fbb281258677051",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Transformer_Audio/전처리.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "전처리"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -283,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
+                "file": "Deep_Learning/Transformer_Audio/전처리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📌 TF (근본) 총정리 의 개요"
+              "title": "전처리 의 개요"
             }
           },
           {
@@ -322,10 +336,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d020573bf1d6d36d",
+  "active": "3fbb281258677051",
   "lastOpenFiles": [
-    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
+    "Deep_Learning/Transformer_Audio/전처리.md",
+    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Transformer_Audio/Speech Transformer.md",
     "Deep_Learning/Transformer_Audio/Conformer.md",
     "Deep_Learning/Transformer_Audio/AST.md",
