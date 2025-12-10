@@ -1,0 +1,366 @@
+{
+  "main": {
+    "id": "5f2fc2ffa6e6f3d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d89f60e3483c30da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4de39fa7835475ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Transformer_Vision/📌 Vision_Transformer 총정리.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📌 Vision_Transformer 총정리"
+            }
+          },
+          {
+            "id": "c214d1c87fe270e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Learning/Inductive Bias.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inductive Bias"
+            }
+          },
+          {
+            "id": "9684dc52c33b9ff6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Transformer_Basic/(ADD) Residual Connection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(ADD) Residual Connection"
+            }
+          },
+          {
+            "id": "2705fa857281d2cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLS"
+            }
+          },
+          {
+            "id": "8083ba81a97fd2b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "대학원가자/졸업 학점 및 GPA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "졸업 학점 및 GPA"
+            }
+          },
+          {
+            "id": "5adfc8f55a9048fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📌AST 이미지"
+            }
+          },
+          {
+            "id": "ad7ef40acc2b57a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📌Conformer 이미지"
+            }
+          },
+          {
+            "id": "b6e5b504e0403306",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제 2"
+            }
+          },
+          {
+            "id": "d06f546d5c85c3e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📌 Speech Transformer 이미지"
+            }
+          },
+          {
+            "id": "9d404b1a1c458799",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📌 Speech Transformer 이미지"
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ea01f2e9be27cfe5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f527b7d25e50952b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1784a1b9aff380e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "6090a71ce926d0fa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "002ea8868ac5a5f7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 307.5
+  },
+  "right": {
+    "id": "89bed21d02ecaaa8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c16baf8d9dee3ee3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a22b56d871e7d63",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "히스토그램 문제.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "히스토그램 문제 의 백링크"
+            }
+          },
+          {
+            "id": "86cb75d2ef7c9c03",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C & C++/문법 & 테크닉/값 교환.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "값 교환 의 나가는 링크"
+            }
+          },
+          {
+            "id": "15d69cbdeec3232d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "2bc800c123f30062",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "📌 Speech Transformer 이미지 의 개요"
+            }
+          },
+          {
+            "id": "76cce2b472c10099",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "9d404b1a1c458799",
+  "lastOpenFiles": [
+    "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
+    "Pasted image 20251210214414.png",
+    "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
+    "Pasted image 20251210214357.png",
+    "무제 3.md",
+    "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
+    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
+    "Pasted image 20251210214240.png",
+    "무제 2.md",
+    "Pasted image 20251210205159.png",
+    "Deep_Learning/Transformer_Audio",
+    "Pasted image 20251210205211.png",
+    "Deep_Learning/Attention_변형/Flash Attention.md",
+    "Deep_Learning/Learning/Grad Vanishing.md",
+    "Deep_Learning/Transformer_Vision/PE for VIT.md",
+    "Deep_Learning/Transformer_Vision/📌 Vision_Transformer 총정리.md",
+    "Deep_Learning/Transformer_Vision/📌VIT 전체 그림.md",
+    "Deep_Learning/Transformer_Vision/CLS Token/CLS_Variations.md",
+    "대학원가자/졸업 학점 및 GPA.md",
+    "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
+    "Convex_Optimization/geometry/MVEE&MVIE/Faces to Vertices Method.md",
+    "Convex_Optimization/geometry/MVEE&MVIE/H - V representations.md",
+    "Convex_Optimization/geometry/MVEE&MVIE/Löwner–John Ellipsoid.md",
+    "Deep_Learning/Learning/Scheduled Sampling.md",
+    "Deep_Learning/Learning/ADAM.md",
+    "Deep_Learning/CNN/CNN.md",
+    "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
+    "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
+    "Deep_Learning/Transformer_Vision/CLS Token",
+    "Deep_Learning/Transformer_Basic/(ADD) Residual Connection.md",
+    "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
+    "Deep_Learning/Transformer_Basic/Post_LN TF.md",
+    "Deep_Learning/Learning/Inductive Bias.md",
+    "Deep_Learning/Transformer_Vision",
+    "Deep_Learning/Attention_변형",
+    "Deep_Learning/Transformer_변형/Decoder_only",
+    "Deep_Learning/Transformer_변형/Encoder_only",
+    "Deep_Learning/Transformer_변형/Encoder_Decoder",
+    "Deep_Learning/Transformer_변형",
+    "Deep_Learning/Sequence Model/Pre_LN_transformer",
+    "Pasted image 20251207144430.png",
+    "Deep_Learning/Math & Statistics",
+    "무제.canvas",
+    "무제 1.canvas",
+    "Untitled 8.canvas",
+    "Untitled 9.canvas",
+    "Untitled 7.canvas",
+    "Untitled 6.canvas",
+    "Untitled 5.canvas",
+    "Untitled 4.canvas",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas"
+  ]
+}
