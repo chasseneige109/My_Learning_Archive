@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_Audio/AST.md",
+                "file": "Deep_Learning/Transformer_Audio/Conformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AST"
+              "title": "Conformer"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Audio/AST.md",
+                "file": "Deep_Learning/Transformer_Audio/Conformer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AST 의 개요"
+              "title": "Conformer 의 개요"
             }
           },
           {
@@ -183,6 +183,7 @@
   },
   "active": "4c39fb70b7d11ded",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_Audio/AST.md",
     "Deep_Learning/Transformer_Audio/Conformer.md",
     "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
     "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
@@ -193,7 +194,6 @@
     "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
     "Deep_Learning/Transformer_Basic/(ADD) Residual Connection.md",
     "Deep_Learning/Learning/Inductive Bias.md",
-    "Deep_Learning/Transformer_Audio/AST.md",
     "Deep_Learning/Transformer_Vision/📌 Vision_Transformer 총정리.md",
     "Deep_Learning/Transformer_Audio/전처리.md",
     "Deep_Learning/Transformer_Audio/Speech Transformer.md",
