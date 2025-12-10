@@ -21,8 +21,6 @@ Inductive Bias가 없다면, 모델은 훈련 데이터에 있는 것만 기억�
 
 ### 3. CNN vs. ViT의 비교 (가장 대표적인 예시)
 
-사용자님께서 ViT에 대해 질문하셨으므로, CNN과 ViT를 통해 Inductive Bias의 차이를 극명하게 볼 수 있습니다.
-
 |**구분**|**CNN (Convolutional Neural Network)**|**ViT (Vision Transformer)**|
 |---|---|---|
 |**Inductive Bias**|**강함 (Strong)**|**약함 (Weak)**|
