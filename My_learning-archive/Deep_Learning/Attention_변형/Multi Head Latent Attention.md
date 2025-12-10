@@ -30,7 +30,7 @@ MLA는 **압축(Down-projection)**과 **복원(Up-projection)** 과정을 거치
 $$c_{KV} = h \times W_{down} \quad (\text{차원: 매우 작음})$$
 
 - 이 **$c_{KV}$**만 KV Cache에 저장합니다. 이것이 메모리 절약의 핵심입니다. 
-    ---> d_k x (down) 차원
+    ---> 1 x d_c
 
 #### ② 어텐션 계산 시의 '흡수(Absorption)' 트릭 **(중요)**
 
