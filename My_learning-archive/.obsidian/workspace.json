@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_Audio/무제 2.md",
+                "file": "Deep_Learning/Transformer_Audio/Conformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제 2"
+              "title": "Conformer"
             }
           },
           {
@@ -146,9 +146,23 @@
               "icon": "lucide-file",
               "title": "📌VIT 전체 그림"
             }
+          },
+          {
+            "id": "d020573bf1d6d36d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Transformer_Audio/Speech Transformer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Speech Transformer"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -269,13 +283,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Vision/📌VIT 전체 그림.md",
+                "file": "Deep_Learning/Transformer_Audio/Speech Transformer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📌VIT 전체 그림 의 개요"
+              "title": "Speech Transformer 의 개요"
             }
           },
           {
@@ -308,18 +322,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9d404b1a1c458799",
+  "active": "d020573bf1d6d36d",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_Audio/Conformer.md",
+    "Deep_Learning/Transformer_Audio/AST.md",
+    "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
+    "Deep_Learning/Transformer_Audio/Speech Transformer.md",
+    "z Pasted Image",
+    "Deep_Learning/Transformer_Vision/📌VIT 전체 그림.md",
+    "z Pasted Image/Pasted image 20251210214811.png",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
     "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
     "Pasted image 20251210214240.png",
     "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
-    "Pasted image 20251210214414.png",
-    "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
-    "Pasted image 20251210214357.png",
-    "Deep_Learning/Transformer_Audio/무제 3.md",
-    "Deep_Learning/Transformer_Audio/무제 2.md",
+    "z Pasted Image/Pasted image 20251210214414.png",
+    "z Pasted Image/Pasted image 20251210214357.png",
     "Pasted image 20251210205159.png",
     "Deep_Learning/Transformer_Audio",
     "Pasted image 20251210205211.png",
@@ -327,7 +345,6 @@
     "Deep_Learning/Learning/Grad Vanishing.md",
     "Deep_Learning/Transformer_Vision/PE for VIT.md",
     "Deep_Learning/Transformer_Vision/📌 Vision_Transformer 총정리.md",
-    "Deep_Learning/Transformer_Vision/📌VIT 전체 그림.md",
     "Deep_Learning/Transformer_Vision/CLS Token/CLS_Variations.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
@@ -342,7 +359,6 @@
     "Deep_Learning/Transformer_Basic/(ADD) Residual Connection.md",
     "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
     "Deep_Learning/Transformer_Basic/Post_LN TF.md",
-    "Deep_Learning/Learning/Inductive Bias.md",
     "Deep_Learning/Transformer_Vision",
     "Deep_Learning/Attention_변형",
     "Deep_Learning/Transformer_변형/Decoder_only",
@@ -351,7 +367,6 @@
     "Deep_Learning/Transformer_변형",
     "Deep_Learning/Sequence Model/Pre_LN_transformer",
     "Pasted image 20251207144430.png",
-    "Deep_Learning/Math & Statistics",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
