@@ -13,8 +13,6 @@
 3. **단순 더하기:** 이 위치 벡터를 패치 임베딩 벡터에 요소별로 더합니다(Element-wise Sum).
     
     - $\text{Input} = \text{Patch Embedding} + \text{Positional Embedding}$
-        
-4. **학습 (Backpropagation):** 모델을 학습시키면서, 이 랜덤했던 $E_{pos}$ 값들도 **경사 하강법(Gradient Descent)에 의해 업데이트**됩니다.
 
 ### 2. 의문점: "1D로 폈는데 위아래(2D) 관계를 어떻게 알아?"
 
