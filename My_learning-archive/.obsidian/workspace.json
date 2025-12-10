@@ -67,12 +67,14 @@
             "id": "8083ba81a97fd2b1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer/Pasted image 1.png"
+                "file": "Deep_Learning/Vision Transformer/📌 Vision_Transformer 총정리.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 1"
+              "icon": "lucide-file",
+              "title": "📌 Vision_Transformer 총정리"
             }
           }
         ],
@@ -197,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer/Pasted image 1.png",
+                "file": "Deep_Learning/Vision Transformer/📌 Vision_Transformer 총정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 1 의 개요"
+              "title": "📌 Vision_Transformer 총정리 의 개요"
             }
           },
           {
@@ -236,23 +238,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8083ba81a97fd2b1",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
-    "Deep_Learning/Vision Transformer/전체 그림.md",
-    "Pasted image 20251210205211.png",
     "Deep_Learning/Vision Transformer/CLS Token/CLS.md",
+    "Deep_Learning/Vision Transformer/📌VIT 전체 그림.md",
+    "Deep_Learning/Transformer/📌 TF 전체 그림.png",
+    "Deep_Learning/Transformer/📌 TF (근본) 총정리.md",
+    "Pasted image 20251210205211.png",
     "Pasted image 20251210205159.png",
     "Deep_Learning/Vision Transformer/CLS Token",
     "Deep_Learning/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Transformer/(PE) Positional Encoding.md",
-    "Deep_Learning/Transformer/Pasted image 1.png",
     "Deep_Learning/Transformer/Post_LN TF.md",
     "Deep_Learning/Vision Transformer/📌 Vision_Transformer 총정리.md",
     "Deep_Learning/Learning/Inductive Bias.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
     "Deep_Learning/Attention_변형/KV Caching.md",
     "Deep_Learning/Vision Transformer/PE for VIT.md",
-    "Deep_Learning/Transformer/📌 TF (근본) 총정리.md",
     "Deep_Learning/Transformer_변형/Decoder_only/GPT.md",
     "Deep_Learning/Vision Transformer",
     "Deep_Learning/Transformer_변형/Decoder_only/Decoder only.md",
