@@ -1,8 +1,8 @@
-**Multi-Head Latent Attention (MLA)**는 최근 **DeepSeek-V2** 모델에서 제안된 획기적인 어텐션 구조로, 기존의 메모리 효율화 방식인 **MQA/GQA와는 접근 방식 자체가 다릅니다.**
 
-사용자님께서 말씀하신 대로 **"K, V의 개수를 줄이는 것(GQA)"**이 아니라, **"K, V 자체를 압축(Compression)하는 것"**이 핵심입니다. 이를 기술적으로 **Low-Rank Key-Value Joint Compression**이라고 부릅니다.
+최근 **DeepSeek-V2** 모델에서 제안된 획기적인 어텐션 구조로, 
+기존의 메모리 효율화 방식인 **MQA/GQA와는 접근 방식 자체가 다릅니다.**
 
-이 복잡한 메커니즘을 3가지 핵심 파트로 나누어 아주 상세히 설명해 드리겠습니다.
+**"K, V의 개수를 줄이는 것(GQA)" 이 아니라, "K, V 자체를 압축(Compression)하는 것"이 핵심입니다. 이를 기술적으로 Low-Rank Key-Value Joint Compression**이라고 부릅니다.
 
 ---
 
