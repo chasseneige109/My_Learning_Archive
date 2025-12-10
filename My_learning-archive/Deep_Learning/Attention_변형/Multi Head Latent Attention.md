@@ -39,9 +39,9 @@ $$c_{KV} = h \times W_{down} \quad (\text{차원: 매우 작음})$$
 하지만 MLA는 수학적 트릭을 써서 풀어내는 과정을 Query($Q$) 쪽으로 넘겨버립니다.
 
 - **원래 식:** $\text{Score} = Q \times K^T = Q \times (c_{KV} \times W_{up})^T$
-    --> 1 x d_q
+    --> L x d_k x d_k x L
 - **변형 식:** $\text{Score} = (Q \times W_{up}^T) \times c_{KV}^T$
-    
+    --> (L x d_k x )
 
 즉, 추론 시에는 Query 벡터 $Q$를 미리 변환시켜 놓으면, 압축된 $c_{KV}$와 직접 연산할 수 있습니다.
 
