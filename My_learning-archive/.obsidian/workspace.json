@@ -39,14 +39,12 @@
             "id": "9684dc52c33b9ff6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Deep_Learning/Vision Transformer/📌 Vision_Transformer 총정리.md",
-                "mode": "source",
-                "source": false
+                "file": "Deep_Learning/Transformer/Pasted image 1.png"
               },
-              "icon": "lucide-file",
-              "title": "📌 Vision_Transformer 총정리"
+              "icon": "lucide-image",
+              "title": "Pasted image 1"
             }
           }
         ],
@@ -171,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Vision Transformer/📌 Vision_Transformer 총정리.md",
+                "file": "Deep_Learning/Transformer/Pasted image 1.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📌 Vision_Transformer 총정리 의 개요"
+              "title": "Pasted image 1 의 개요"
             }
           },
           {
@@ -212,8 +210,10 @@
   },
   "active": "9684dc52c33b9ff6",
   "lastOpenFiles": [
-    "Deep_Learning/Learning/Inductive Bias.md",
+    "Deep_Learning/Transformer/Post_LN TF.md",
+    "Deep_Learning/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Vision Transformer/📌 Vision_Transformer 총정리.md",
+    "Deep_Learning/Learning/Inductive Bias.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
     "Deep_Learning/Attention_변형/KV Caching.md",
     "Deep_Learning/Vision Transformer/PE for VIT.md",
@@ -230,7 +230,6 @@
     "Deep_Learning/Sequence Model/Attention.md",
     "Deep_Learning/Attention_변형",
     "Deep_Learning/Transformer/(PE) Positional Encoding.md",
-    "Deep_Learning/Transformer/(ADD) Residual Connection.md",
     "Deep_Learning/Transformer_변형/Encoder_Decoder/T5, BART.md",
     "Deep_Learning/Transformer_변형/Decoder_only",
     "Deep_Learning/Transformer_변형/Encoder_only",
@@ -244,7 +243,6 @@
     "Deep_Learning/Transformer/FFN (MLP).md",
     "Deep_Learning/Transformer/Cross Attention.md",
     "Deep_Learning/Math & Statistics/Variance.md",
-    "Deep_Learning/Learning/Layer Normalization.md",
     "Deep_Learning/Sequence Model/Pre_LN_transformer",
     "Pasted image 20251207144430.png",
     "Deep_Learning/Math & Statistics",
