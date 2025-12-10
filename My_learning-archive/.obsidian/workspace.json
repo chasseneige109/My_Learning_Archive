@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Attention_변형/KV Caching.md",
+                "file": "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KV Caching"
+              "title": "Multi Head Latent Attention"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Attention_변형/KV Caching.md",
+                "file": "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "KV Caching 의 개요"
+              "title": "Multi Head Latent Attention 의 개요"
             }
           },
           {
@@ -212,6 +212,7 @@
   },
   "active": "9684dc52c33b9ff6",
   "lastOpenFiles": [
+    "Deep_Learning/Attention_변형/KV Caching.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
     "Deep_Learning/Vision Transformer/PE for VIT.md",
     "Deep_Learning/Learning/Inductive Bias.md",
@@ -221,7 +222,6 @@
     "Deep_Learning/Vision Transformer",
     "Deep_Learning/Transformer_변형/Decoder_only/Decoder only.md",
     "Deep_Learning/Transformer/Multi head Self Attention.md",
-    "Deep_Learning/Attention_변형/KV Caching.md",
     "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Math & Statistics/Gumbell Noise.md",
     "Deep_Learning/Transformer_변형/Encoder_Decoder/Encoder - Decoder.md",
