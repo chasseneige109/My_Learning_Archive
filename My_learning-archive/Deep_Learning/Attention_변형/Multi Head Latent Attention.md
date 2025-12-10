@@ -39,7 +39,7 @@ $$c_{KV} = h \times W_{down} \quad (\text{차원: 매우 작음})$$
 하지만 MLA는 수학적 트릭을 써서 풀어내는 과정을 Query($Q$) 쪽으로 넘겨버립니다.
 
 - **원래 식:** $\text{Score} = Q \times K^T = Q \times (c_{KV} \times W_{up})^T$
-    
+    --> 
 - **변형 식:** $\text{Score} = (Q \times W_{up}^T) \times c_{KV}^T$
     
 
