@@ -1,6 +1,7 @@
-###  Audio Spectrogram Transformer (AST)
+### Audio Spectrogram Transformer (AST)
 
-"이미지랑 똑같은데, 그냥 ViT 쓰면 안 돼?"라는 아이디어입니다. CNN 없이 순수 Attention만 씁니다.
+"이미지랑 똑같은데, 그냥 ViT 쓰면 안 돼?"라는 아이디어입니다. 
+CNN 없이 순수 Attention만 씁니다.
 
 #### (1) Patch Partitioning (패치 자르기)
 
