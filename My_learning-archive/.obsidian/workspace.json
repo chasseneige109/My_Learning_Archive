@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
+                "file": "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prefix Tuning"
+              "title": "CLS"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
+                "file": "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Prefix Tuning 의 개요"
+              "title": "CLS 의 개요"
             }
           },
           {
@@ -240,16 +240,16 @@
   },
   "active": "e08203604d77208f",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_Vision/CLS Token/CLS_Variations.md",
+    "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
+    "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
     "Deep_Learning/Fine Tuning/무제 3.md",
     "Deep_Learning/Fine Tuning/무제 2.md",
     "Deep_Learning/Fine Tuning/무제 1.md",
-    "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
-    "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
     "Deep_Learning/Fine Tuning",
     "Deep_Learning/Fine Tuning/PEFT",
     "무제",
     "Deep_Learning/Transformer_Vision/📌 Vision_Transformer 총정리.md",
-    "Deep_Learning/Transformer_Vision/CLS Token/CLS_Variations.md",
     "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
     "Deep_Learning/Transformer_Audio/Conformer.md",
     "Deep_Learning/Transformer_Audio/AST.md",
