@@ -28,7 +28,7 @@
     $$\text{Attention}(Q, K', V') = \text{Softmax}\left(\frac{Q K'^\top}{\sqrt{d_k}}\right) V'$$
     
 
-**핵심:** 오직 **$K_{\text{prefix}}$와 $V_{\text{prefix}}$**에 해당하는 벡터만 학습되고, 나머지 $K_{\text{input}}, V_{\text{input}}$를 만드는 원래 Transformer의 가중치($W_K, W_V$)는 **고정됩니다.**
+**핵심:** **Update Only Prefix:** 역전파(Backpropagation)를 할 때, $W$로는 그라디언트가 흐르지 않고, 오직 **Prefix 벡터들만 수정**됩니다.**
 
 ### 3. Prefix Tuning이 작동하는 이유 (Soft Prompt)
 
