@@ -67,12 +67,14 @@
             "id": "e08203604d77208f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png"
+                "file": "Deep_Learning/Learning/ADAM.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "📌 TF 전체 그림"
+              "icon": "lucide-file",
+              "title": "ADAM"
             }
           }
         ],
@@ -197,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
+                "file": "Deep_Learning/Learning/ADAM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📌 TF 전체 그림 의 개요"
+              "title": "ADAM 의 개요"
             }
           },
           {
@@ -238,6 +240,7 @@
   },
   "active": "e08203604d77208f",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Transformer_Basic/Masked_Self Attention.md",
     "Deep_Learning/Transformer_Basic/Masking.md",
     "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
@@ -266,8 +269,6 @@
     "Deep_Learning/Learning/Inductive Bias.md",
     "Deep_Learning/Transformer_Audio/전처리.md",
     "Deep_Learning/Transformer_Audio/Speech Transformer.md",
-    "Deep_Learning/CNN/CNN.md",
-    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "z Pasted Image",
     "z Pasted Image/Pasted image 20251210214811.png",
     "Pasted image 20251210214240.png",
