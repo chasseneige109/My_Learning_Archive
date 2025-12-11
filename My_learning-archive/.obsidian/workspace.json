@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
+                "file": "Deep_Learning/Transformer_Vision/📌 Vision_Transformer 총정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLS"
+              "title": "📌 Vision_Transformer 총정리"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
+                "file": "Deep_Learning/Transformer_Vision/📌 Vision_Transformer 총정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CLS 의 개요"
+              "title": "📌 Vision_Transformer 총정리 의 개요"
             }
           },
           {
@@ -240,8 +240,9 @@
   },
   "active": "e08203604d77208f",
   "lastOpenFiles": [
-    "Deep_Learning/Transformer_Vision/CLS Token/CLS_Variations.md",
+    "Deep_Learning/Transformer_Vision/📌VIT 전체 그림.md",
     "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
+    "Deep_Learning/Transformer_Vision/CLS Token/CLS_Variations.md",
     "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
     "Deep_Learning/Fine Tuning/무제 3.md",
     "Deep_Learning/Fine Tuning/무제 2.md",
@@ -255,7 +256,6 @@
     "Deep_Learning/Transformer_Audio/AST.md",
     "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
     "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
-    "Deep_Learning/Transformer_Vision/📌VIT 전체 그림.md",
     "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Deep_Learning/Transformer_Basic/(ADD) Residual Connection.md",
