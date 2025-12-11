@@ -1,6 +1,8 @@
 **Adapters(어댑터)**는 거대한 사전 학습 모델을 수정할 때, **"수도관(모델)의 중간중간에 작은 정수 필터(Adapter)를 끼워 넣는 것"**과 같습니다.
+(Residual connection 느낌)
 
 작성자님께서 언급하신 **Down-proj → Non-linear → Up-proj** 구조는 이 필터가 효율적으로 작동하기 위한 **"병목(Bottleneck) 설계"**의 핵심입니다.
+(Multihead latent attention 느낌)
 
 이를 행렬 연산과 최적화 관점에서 깊게 뜯어보겠습니다. (Houlsby et al., 2019 논문 기반)
 
