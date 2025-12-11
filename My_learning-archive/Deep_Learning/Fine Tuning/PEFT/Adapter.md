@@ -83,7 +83,7 @@ Adapter를 학습시킬 때, 보통 **$W_{up}$을 0에 가깝게 초기화(Near-
 
 ### 4. 최적화 관점: 내재적 차원 (Intrinsic Dimension)
 
-작성자님이 공부하시는 Convex Optimization과 관련된 흥미로운 가설이 있습니다.
+Convex Optimization과 관련된 흥미로운 가설이 있습니다.
 
 - **가설:** 수천억 개의 파라미터를 가진 거대 모델이 새로운 Task를 배울 때, 실제로 파라미터 공간 전체를 탐색할 필요가 없다.
     
