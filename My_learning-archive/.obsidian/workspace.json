@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Attention_변형/Flash Attention.md",
+                "file": "Deep_Learning/Attention_변형/KV Caching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flash Attention"
+              "title": "KV Caching"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Attention_변형/Flash Attention.md",
+                "file": "Deep_Learning/Attention_변형/KV Caching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Flash Attention 의 개요"
+              "title": "KV Caching 의 개요"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "e08203604d77208f",
   "lastOpenFiles": [
+    "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Attention_변형/KV Caching.md",
     "Deep_Learning/Fine Tuning/PEFT/Prompt Tuning.md",
     "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
@@ -269,7 +270,6 @@
     "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
     "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
     "대학원가자/졸업 학점 및 GPA.md",
-    "Deep_Learning/Transformer_Basic/(ADD) Residual Connection.md",
     "z Pasted Image",
     "z Pasted Image/Pasted image 20251210214811.png",
     "Pasted image 20251210214240.png",
