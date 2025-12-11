@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/Tokenization.md",
+                "file": "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tokenization"
+              "title": "Adapter"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/Tokenization.md",
+                "file": "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Tokenization 의 개요"
+              "title": "Adapter 의 개요"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "e08203604d77208f",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_Basic/Tokenization.md",
     "Deep_Learning/Transformer_Vision/CLS Token/CLS_Variations.md",
     "Deep_Learning/Transformer_Vision/📌 Vision_Transformer 총정리.md",
     "Deep_Learning/Transformer_Basic/Masked_Self Attention.md",
@@ -250,7 +251,6 @@
     "Deep_Learning/Sequence Model/CTC Model.md",
     "Deep_Learning/Transformer_변형/Encoder_only/Encoder only.md",
     "Deep_Learning/Transformer_Basic/Cross Attention.md",
-    "Deep_Learning/Transformer_Basic/Tokenization.md",
     "Deep_Learning/Fine Tuning/PEFT/LORA.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
     "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
