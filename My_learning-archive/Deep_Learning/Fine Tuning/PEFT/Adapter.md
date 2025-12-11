@@ -47,9 +47,7 @@ $$h_{out} = h + W_{up} \cdot \sigma(W_{down} \cdot h)$$
 
 ---
 
-### 2. "살짝 수정"의 비밀: 초기화 (Initialization)
-
-작성자님께서 **"원래 레이어의 표현을 크게 깨지지 않게"**라고 하신 부분은 **초기화 전략**에 숨어 있습니다.
+### 2. 초기화 (Initialization)
 
 Adapter를 학습시킬 때, 보통 **$W_{up}$을 0에 가깝게 초기화(Near-Zero Initialization)**합니다.
 
