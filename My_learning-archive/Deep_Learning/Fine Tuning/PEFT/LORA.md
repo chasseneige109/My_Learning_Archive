@@ -148,3 +148,83 @@ Transformer 구조에서 LoRA는 주로 **Self-Attention 모듈의 가중치 행
     
 
 작성자님께서 나중에 로보틱스 연구를 하실 때, **"로봇에게 설거지를 가르치는 LoRA"**, **"청소를 가르치는 LoRA"**를 따로 만들어서 베이스 모델에 붙였다 뗐다 하는 식으로 활용하게 될 기술입니다.
+
+
+**LoRA (Low-Rank Adaptation)**의 전체 메커니즘을 엔지니어링 및 수학적 관점에서 군더더기 없이 깔끔하게 정리해 드립니다.
+
+---
+
+### 1. 기본 가설 (Hypothesis)
+
+- 내재적 순위 가설 (Intrinsic Rank Hypothesis):
+    
+    거대 모델의 가중치 변화량 $\Delta W$는 실제로 매우 낮은 순위(Low-Rank)를 가진다. 즉, $\Delta W$는 두 개의 작은 행렬의 곱으로 충분히 근사 가능하다.
+    
+
+### 2. 행렬 정의 (Matrix Definitions)
+
+입력 차원 $d_{in}$, 출력 차원 $d_{out}$을 가지는 선형 레이어(Linear Layer)에 대해:
+
+- **$W_0 \in \mathbb{R}^{d_{out} \times d_{in}}$**: 사전 학습된 가중치 (**Frozen**, 학습 안 됨)
+    
+- **$\Delta W \in \mathbb{R}^{d_{out} \times d_{in}}$**: 우리가 학습하려는 변화량
+    
+- **$A \in \mathbb{R}^{r \times d_{in}}$**: Down-projection 행렬 (**Trainable**)
+    
+- **$B \in \mathbb{R}^{d_{out} \times r}$**: Up-projection 행렬 (**Trainable**)
+    
+- **$r$**: LoRA Rank (Hyperparameter, $r \ll \min(d_{in}, d_{out})$)
+    
+- **$\alpha$**: Scaling Factor (상수)
+    
+
+---
+
+### 3. 학습 시 (Training Forward Pass)
+
+입력 벡터 $x \in \mathbb{R}^{d_{in} \times 1}$에 대한 Forward Pass 수식은 다음과 같습니다.
+
+$$h = W_0 x + \Delta W x = W_0 x + \frac{\alpha}{r} (B A x)$$
+
+- **Frozen Path:** $W_0 x$ (기존 지식 유지)
+    
+- **Trainable Path:** $B(Ax)$ (새로운 지식 학습, 차원 축소 $\to$ 복원)
+    
+- **Scaling:** $\frac{\alpha}{r}$은 $r$이 변해도 학습률(Learning Rate)을 재조정하지 않도록 스케일을 맞춰줍니다.
+    
+
+### 4. 초기화 전략 (Initialization)
+
+학습 시작 시점($t=0$)에서 모델의 출력이 사전 학습 모델과 동일하도록 설정합니다.
+
+$$A \sim \mathcal{N}(0, \sigma^2) \quad (\text{Random Gaussian})$$
+
+$$B = 0 \quad (\text{Zero Matrix})$$
+
+$$\therefore \Delta W_{init} = B \cdot A = 0 \cdot A = 0$$
+
+$$\Rightarrow h_{init} = W_0 x + 0 = W_0 x$$
+
+### 5. 추론 시 (Inference / Merge)
+
+학습이 끝난 후, 추론 단계에서는 지연 시간(Latency)을 없애기 위해 행렬을 하나로 합칩니다.
+
+$$W_{merged} = W_0 + \frac{\alpha}{r} B A$$
+
+- 최종 가중치 $W_{merged}$는 $W_0$와 동일한 차원($d_{out} \times d_{in}$)을 가집니다.
+    
+- **결과:** 추론 시에는 $h = W_{merged} x$ 연산만 수행하므로, **LoRA 적용 전과 연산량 및 속도가 100% 동일**합니다.
+    
+
+---
+
+### 6. 파라미터 효율성 (Efficiency)
+
+- **Full Fine-tuning:** $d_{out} \times d_{in}$ 개 학습
+    
+- **LoRA:** $r \times (d_{in} + d_{out})$ 개 학습
+    
+
+$$\text{Efficiency Ratio} \approx \frac{2r}{d_{model}} \quad (\text{if } d_{in}=d_{out})$$
+
+(예: $d=4096, r=8$일 때, 파라미터 수는 약 **0.39%**로 감소)
