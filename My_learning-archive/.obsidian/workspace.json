@@ -67,14 +67,12 @@
             "id": "e08203604d77208f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
-                "mode": "source",
-                "source": false
+                "file": "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png"
               },
-              "icon": "lucide-file",
-              "title": "(PE) Positional Encoding"
+              "icon": "lucide-image",
+              "title": "📌 TF 전체 그림"
             }
           }
         ],
@@ -199,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
+                "file": "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(PE) Positional Encoding 의 개요"
+              "title": "📌 TF 전체 그림 의 개요"
             }
           },
           {
@@ -240,6 +238,9 @@
   },
   "active": "e08203604d77208f",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_Basic/Masked_Self Attention.md",
+    "Deep_Learning/Transformer_Basic/Masking.md",
+    "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
     "Deep_Learning/Transformer_변형/Encoder_Decoder/Encoder - Decoder.md",
     "Deep_Learning/Transformer_변형/Decoder_only/GPT.md",
     "Deep_Learning/Transformer_변형/Decoder_only/Decoder only.md",
@@ -275,9 +276,6 @@
     "Pasted image 20251210205159.png",
     "Deep_Learning/Transformer_Audio",
     "Pasted image 20251210205211.png",
-    "Deep_Learning/Attention_변형/Flash Attention.md",
-    "Deep_Learning/Learning/Grad Vanishing.md",
-    "Deep_Learning/Transformer_Vision/PE for VIT.md",
     "Deep_Learning/Transformer_Vision/CLS Token",
     "Deep_Learning/Transformer_Vision",
     "Deep_Learning/Attention_변형",
