@@ -72,7 +72,8 @@
 - 아이디어:
     
     - Query, Key 벡터의 각 2차원쌍에 대해 **회전 변환(Rotation)** 적용
-        
+        $$R_{m\theta_i} = \begin{pmatrix} \cos(m\theta_i) & -\sin(m\theta_i) \\ \sin(m\theta_i) & \cos(m\theta_i) \end{pmatrix}$$
+$$\begin{aligned} q_m'^\top k_n' &= (R_{m\theta_i} q_m^{(i)})^\top (R_{n\theta_i} k_n^{(i)}) \\ &= q_m^{(i)^\top} R_{m\theta_i}^\top R_{n\theta_i} k_n^{(i)} \\ &= q_m^{(i)^\top} R_{(n-m)\theta_i} k_n^{(i)} \end{aligned}$$
     - 위치 t에 있는 벡터는 **t·θ만큼 회전**  
         예: dog가 1번째 위치면 1θ, 네 번째면 4θ만큼 회전
         
