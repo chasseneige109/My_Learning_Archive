@@ -83,16 +83,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Learning/Zero, Few - shot.md",
+                "file": "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zero, Few - shot"
+              "title": "Prefix Tuning"
+            }
+          },
+          {
+            "id": "16a3038568c1e65b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning_그림.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prefix Tuning_그림"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -213,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Learning/Zero, Few - shot.md",
+                "file": "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning_그림.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Zero, Few - shot 의 개요"
+              "title": "Prefix Tuning_그림 의 개요"
             }
           },
           {
@@ -252,10 +266,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c83402597330453",
+  "active": "2bc800c123f30062",
   "lastOpenFiles": [
-    "Deep_Learning/Fine Tuning/PEFT/LORA.md",
+    "Pasted image 20251212014329.png",
+    "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
+    "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning_그림.md",
     "Deep_Learning/Learning/Zero, Few - shot.md",
+    "Deep_Learning/Fine Tuning/PEFT/LORA.md",
     "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
     "Deep_Learning/Transformer_Basic/Tokenization.md",
     "Deep_Learning/Transformer_Vision/CLS Token/CLS_Variations.md",
@@ -268,7 +285,6 @@
     "Deep_Learning/Transformer_변형/Encoder_only/Encoder only.md",
     "Deep_Learning/Transformer_Basic/Cross Attention.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
-    "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
     "Deep_Learning/Fine Tuning/PEFT/Prompt Tuning.md",
     "Deep_Learning/Attention_변형/Linear Attention.md",
     "Deep_Learning/Learning/Grad Vanishing.md",
@@ -279,8 +295,6 @@
     "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
     "Deep_Learning/Transformer_변형/Encoder_Decoder/Encoder - Decoder.md",
     "Deep_Learning/Transformer_변형/Decoder_only/GPT.md",
-    "Deep_Learning/Transformer_변형/Decoder_only/Decoder only.md",
-    "Deep_Learning/Transformer_Vision/📌VIT 전체 그림.md",
     "Deep_Learning/Fine Tuning",
     "Deep_Learning/Fine Tuning/PEFT",
     "무제",
