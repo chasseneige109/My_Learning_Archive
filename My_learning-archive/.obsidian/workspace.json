@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Fine Tuning/PEFT/LoRA_그림.md",
+                "file": "Deep_Learning/Fine Tuning/PEFT/LORA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LoRA_그림"
+              "title": "LORA"
             }
           }
         ],
@@ -269,13 +269,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Fine Tuning/PEFT/LoRA_그림.md",
+                "file": "Deep_Learning/Fine Tuning/PEFT/LORA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LoRA_그림 의 개요"
+              "title": "LORA 의 개요"
             }
           },
           {
@@ -308,11 +308,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "86b7f49db9d702c0",
   "lastOpenFiles": [
+    "Deep_Learning/Fine Tuning/PEFT/LoRA_그림.md",
     "z Pasted Image/Pasted image 20251212014603.png",
     "Deep_Learning/Fine Tuning/PEFT/Adapter_그림.md",
-    "Deep_Learning/Fine Tuning/PEFT/LoRA_그림.md",
     "z Pasted Image/Pasted image 20251212014531.png",
     "Deep_Learning/Fine Tuning/PEFT/Prompt Tuning.md",
     "Deep_Learning/Fine Tuning/PEFT/Prompt Tuning_그림.md",
@@ -350,7 +350,6 @@
     "z Pasted Image/Pasted image 20251210214357.png",
     "Pasted image 20251210205159.png",
     "Deep_Learning/Transformer_Audio",
-    "Pasted image 20251210205211.png",
     "Deep_Learning/Transformer_Vision/CLS Token",
     "Deep_Learning/Transformer_Vision",
     "Deep_Learning/Attention_변형",
