@@ -209,12 +209,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/AutoEncoder/Linear Autoencoder.md",
+                "file": "Deep_Learning/AutoEncoder/AutoEncoder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Autoencoder"
+              "title": "AutoEncoder"
             }
           }
         ],
@@ -339,13 +339,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/AutoEncoder/Linear Autoencoder.md",
+                "file": "Deep_Learning/AutoEncoder/AutoEncoder.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linear Autoencoder 의 개요"
+              "title": "AutoEncoder 의 개요"
             }
           },
           {
