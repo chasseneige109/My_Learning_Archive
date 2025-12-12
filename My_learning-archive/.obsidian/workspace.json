@@ -308,8 +308,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "86b7f49db9d702c0",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "무제 1",
     "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
     "Deep_Learning/Transformer_Audio/AST.md",
     "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
@@ -339,7 +340,6 @@
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
     "Deep_Learning/Attention_변형/Linear Attention.md",
     "Deep_Learning/Learning/Grad Vanishing.md",
-    "Deep_Learning/Learning/Batch Normalization.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Fine Tuning",
     "Deep_Learning/Fine Tuning/PEFT",
