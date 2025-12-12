@@ -146,9 +146,37 @@
               "icon": "lucide-file",
               "title": "📌Conformer 이미지"
             }
+          },
+          {
+            "id": "9a206e796dbb45ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Post_training/RLHF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RLHF"
+            }
+          },
+          {
+            "id": "42b85dd7e9685165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Post_training/SFT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SFT"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -269,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
+                "file": "Deep_Learning/Post_training/SFT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📌Conformer 이미지 의 개요"
+              "title": "SFT 의 개요"
             }
           },
           {
@@ -308,8 +336,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "42b85dd7e9685165",
   "lastOpenFiles": [
+    "Deep_Learning/Post_training/RLHF.md",
+    "Deep_Learning/Post_training/SFT.md",
+    "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
     "Deep_Learning/Pre_training",
     "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
     "Deep_Learning/Transformer_Audio/AST.md",
@@ -338,8 +369,6 @@
     "Deep_Learning/Transformer_변형/Encoder_only/Encoder only.md",
     "Deep_Learning/Transformer_Basic/Cross Attention.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
-    "Deep_Learning/Attention_변형/Linear Attention.md",
-    "Deep_Learning/Learning/Grad Vanishing.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Fine Tuning",
     "Deep_Learning/Fine Tuning/PEFT",
@@ -355,7 +384,6 @@
     "Deep_Learning/Transformer_Vision",
     "Deep_Learning/Attention_변형",
     "Deep_Learning/Transformer_변형/Decoder_only",
-    "Deep_Learning/Transformer_변형/Encoder_only",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
