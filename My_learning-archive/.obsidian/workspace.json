@@ -167,16 +167,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convex_Optimization/CVXPY/Solvers.md",
+                "file": "Convex_Optimization/Schur Complement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Solvers"
+              "title": "Schur Complement"
+            }
+          },
+          {
+            "id": "bc71507d76c80207",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/AutoEncoder/AutoEncoder.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AutoEncoder"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -297,13 +311,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convex_Optimization/CVXPY/Solvers.md",
+                "file": "Deep_Learning/AutoEncoder/AutoEncoder.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Solvers 의 개요"
+              "title": "AutoEncoder 의 개요"
             }
           },
           {
@@ -336,8 +350,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "42b85dd7e9685165",
+  "active": "bc71507d76c80207",
   "lastOpenFiles": [
+    "Convex_Optimization/Schur Complement.md",
+    "Deep_Learning/AutoEncoder/AutoEncoder.md",
+    "Deep_Learning/AutoEncoder",
     "Convex_Optimization/CVXPY/Basic Syntax.md",
     "Convex_Optimization/CVXPY/DCP ruleset.md",
     "Convex_Optimization/CVXPY/Solvers.md",
@@ -366,9 +383,7 @@
     "Deep_Learning/Fine Tuning/PEFT/Prompt Tuning.md",
     "Deep_Learning/Fine Tuning/PEFT/Prompt Tuning_그림.md",
     "z Pasted Image/Pasted image 20251212014421.png",
-    "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning_그림.md",
     "z Pasted Image/Pasted image 20251212014329.png",
-    "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Fine Tuning",
     "Deep_Learning/Fine Tuning/PEFT",
@@ -383,7 +398,6 @@
     "Deep_Learning/Transformer_Vision/CLS Token",
     "Deep_Learning/Transformer_Vision",
     "Deep_Learning/Attention_변형",
-    "Deep_Learning/Transformer_변형/Decoder_only",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
