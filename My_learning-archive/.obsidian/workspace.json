@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_변형/Encoder_only/Encoder only.md",
+                "file": "C & C++/문법 & 테크닉/자료형 변환.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Encoder only"
+              "title": "자료형 변환"
             }
           }
         ],
@@ -297,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_변형/Encoder_only/Encoder only.md",
+                "file": "C & C++/문법 & 테크닉/자료형 변환.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Encoder only 의 개요"
+              "title": "자료형 변환 의 개요"
             }
           },
           {
@@ -338,8 +338,11 @@
   },
   "active": "42b85dd7e9685165",
   "lastOpenFiles": [
-    "Deep_Learning/Transformer_Basic/Tokenization.md",
+    "C & C++/문법 & 테크닉/아스키코드.md",
+    "C & C++/문법 & 테크닉/자료형 변환.md",
+    "C & C++/문법 & 테크닉/소수 판별 함수.md",
     "Deep_Learning/Transformer_변형/Encoder_only/Encoder only.md",
+    "Deep_Learning/Transformer_Basic/Tokenization.md",
     "Deep_Learning/Learning/ADAM.md",
     "Deep_Learning/Post_training/SFT.md",
     "Deep_Learning/Post_training/RLHF.md",
@@ -366,9 +369,6 @@
     "Deep_Learning/Transformer_Basic/Masked_Self Attention.md",
     "Deep_Learning/Transformer_Basic/FFN (MLP).md",
     "Deep_Learning/Attention_변형/Flash Attention.md",
-    "Deep_Learning/Attention_변형/KV Caching.md",
-    "Deep_Learning/Sequence Model/CTC Model.md",
-    "Deep_Learning/Transformer_Basic/Cross Attention.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Fine Tuning",
     "Deep_Learning/Fine Tuning/PEFT",
