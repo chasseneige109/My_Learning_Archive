@@ -307,12 +307,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/무제.md",
+                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 전체 과정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "VAE 전체 과정"
             }
           }
         ],
@@ -437,13 +437,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/무제.md",
+                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 전체 과정.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 의 개요"
+              "title": "VAE 전체 과정 의 개요"
             }
           },
           {
@@ -479,7 +479,7 @@
   "active": "dc6fcba664c46167",
   "lastOpenFiles": [
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
-    "Deep_Learning/Generative_Model/Variational AutoEncoder/무제.md",
+    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 전체 과정.md",
     "z Pasted Image/Pasted image 20251213220152.png",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
     "Deep_Learning/Learning/Loss Function/KL div.md",
