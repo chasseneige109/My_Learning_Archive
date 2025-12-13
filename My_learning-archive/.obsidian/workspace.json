@@ -265,12 +265,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/AutoEncoder/Variational AutoEncoder.md",
+                "file": "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variational AutoEncoder"
+              "title": "아주 간단히 정리"
             }
           }
         ],
@@ -395,13 +395,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/AutoEncoder/Variational AutoEncoder.md",
+                "file": "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Variational AutoEncoder 의 개요"
+              "title": "아주 간단히 정리 의 개요"
             }
           },
           {
@@ -436,8 +436,8 @@
   },
   "active": "4fb708412b4af61d",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
     "Deep_Learning/Generative_Model/AutoEncoder/Variational AutoEncoder.md",
+    "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
     "Deep_Learning/Generative_Model/AutoEncoder/PCA.md",
     "Deep_Learning/Generative_Model/AutoEncoder/알고보니.. 생성 모델.md",
     "DataSet/MNIST.md",
