@@ -237,12 +237,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Fine Tuning/PEFT/LORA.md",
+                "file": "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LORA"
+              "title": "Adapter"
             }
           }
         ],
@@ -367,13 +367,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Fine Tuning/PEFT/LORA.md",
+                "file": "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LORA 의 개요"
+              "title": "Adapter 의 개요"
             }
           },
           {
@@ -408,6 +408,7 @@
   },
   "active": "795472ceeb0070b2",
   "lastOpenFiles": [
+    "Deep_Learning/Fine Tuning/PEFT/LORA.md",
     "Deep_Learning/Fine Tuning/PEFT/LoRA_그림.md",
     "Deep_Learning/Attention_변형/Linear Attention.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
@@ -438,7 +439,6 @@
     "C & C++/문법 & 테크닉/아스키코드.md",
     "C & C++/문법 & 테크닉/소수 판별 함수.md",
     "Deep_Learning/Transformer_변형/Encoder_only/Encoder only.md",
-    "Deep_Learning/Transformer_Basic/Tokenization.md",
     "Deep_Learning/Pre_training",
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251212014531.png",
