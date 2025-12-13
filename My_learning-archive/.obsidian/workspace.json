@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
+                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAE 수학적 증명 및 해석"
+              "title": "VAE 사진"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
+                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VAE 수학적 증명 및 해석 의 개요"
+              "title": "VAE 사진 의 개요"
             }
           },
           {
@@ -183,8 +183,9 @@
   },
   "active": "5f26dc40b083b35c",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
+    "Deep_Learning/Fine Tuning/PEFT/LORA.md",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
+    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 전체 과정.md",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE의 한계.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
@@ -201,7 +202,6 @@
     "Deep_Learning/Fine Tuning/PEFT/Prompt Tuning_그림.md",
     "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning_그림.md",
     "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning.md",
-    "Deep_Learning/Fine Tuning/PEFT/LORA.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token/CLS.md",
     "Deep_Learning/Generative_Model/Diffusion Model",
     "Deep_Learning/Generative_Model/무제",
