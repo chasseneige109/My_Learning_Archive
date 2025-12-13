@@ -251,12 +251,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/간단 정리.md",
+                "file": "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "간단 정리"
+              "title": "아주 간단히 정리"
             }
           }
         ],
@@ -381,13 +381,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/간단 정리.md",
+                "file": "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "간단 정리 의 개요"
+              "title": "아주 간단히 정리 의 개요"
             }
           },
           {
@@ -422,8 +422,8 @@
   },
   "active": "fc2ae73b77879ec1",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/AutoEncoder/Variational AutoEncoder.md",
     "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
-    "Deep_Learning/Generative_Model/간단 정리.md",
     "Deep_Learning/Fine Tuning/PEFT/LORA.md",
     "Deep_Learning/Fine Tuning/PEFT/LoRA_그림.md",
     "Deep_Learning/Attention_변형/Linear Attention.md",
@@ -434,7 +434,7 @@
     "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token/CLS.md",
     "Math & Statistics/Statistics",
     "Deep_Learning/Vision_Model/Vision_Transformer",
-    "Deep_Learning/Generative_Model/AutoEncoder/무제.md",
+    "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
     "Deep_Learning/Generative_Model",
     "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
     "Deep_Learning/Generative_Model/AutoEncoder/AutoEncoder.md",
