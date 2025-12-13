@@ -53,11 +53,10 @@ VAE의 Forward Pass 과정을 행렬 차원(Dimension)과 연산 위주로 간�
     (Element-wise 연산)
     
 5. Noise Sampling:
-    
+    **몬테카를로 근사
     $$\epsilon \sim \mathcal{N}(0, I) \in \mathbb{R}^{B \times Z}$$
     
     (표준정규분포에서 랜덤 추출)
-    몬테카를
     
 6. Latent Vector $Z$:
     
