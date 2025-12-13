@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Attention_변형/Flash Attention.md",
+                "file": "Deep_Learning/Attention_변형/KV Caching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flash Attention"
+              "title": "KV Caching"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Attention_변형/Flash Attention.md",
+                "file": "Deep_Learning/Attention_변형/KV Caching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Flash Attention 의 개요"
+              "title": "KV Caching 의 개요"
             }
           },
           {
@@ -183,6 +183,7 @@
   },
   "active": "5f26dc40b083b35c",
   "lastOpenFiles": [
+    "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Attention_변형/KV Caching.md",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
     "Deep_Learning/Fine Tuning/PEFT/LORA.md",
@@ -190,7 +191,6 @@
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 전체 과정.md",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE의 한계.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
-    "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
     "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
     "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
