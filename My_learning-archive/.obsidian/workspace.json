@@ -237,12 +237,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Attention_변형/Flash Attention.md",
+                "file": "Deep_Learning/Fine Tuning/PEFT/LORA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flash Attention"
+              "title": "LORA"
             }
           }
         ],
@@ -367,13 +367,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Attention_변형/Flash Attention.md",
+                "file": "Deep_Learning/Fine Tuning/PEFT/LORA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Flash Attention 의 개요"
+              "title": "LORA 의 개요"
             }
           },
           {
@@ -408,8 +408,11 @@
   },
   "active": "795472ceeb0070b2",
   "lastOpenFiles": [
-    "Deep_Learning/Attention_변형/KV Caching.md",
+    "Deep_Learning/Fine Tuning/PEFT/LoRA_그림.md",
+    "Deep_Learning/Attention_변형/Linear Attention.md",
+    "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
     "Deep_Learning/Attention_변형/Flash Attention.md",
+    "Deep_Learning/Attention_변형/KV Caching.md",
     "Math & Statistics/Statistics/Variance.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token/CLS.md",
     "Math & Statistics/Statistics",
@@ -436,9 +439,6 @@
     "C & C++/문법 & 테크닉/소수 판별 함수.md",
     "Deep_Learning/Transformer_변형/Encoder_only/Encoder only.md",
     "Deep_Learning/Transformer_Basic/Tokenization.md",
-    "Deep_Learning/Learning/ADAM.md",
-    "Deep_Learning/Post_training/SFT.md",
-    "Deep_Learning/Post_training/RLHF.md",
     "Deep_Learning/Pre_training",
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251212014531.png",
