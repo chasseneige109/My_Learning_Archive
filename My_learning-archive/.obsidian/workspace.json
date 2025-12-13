@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 전체 과정.md",
+                "file": "Deep_Learning/Learning/Gumbel Softmax Trick.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAE 전체 과정"
+              "title": "Gumbel Softmax Trick"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 전체 과정.md",
+                "file": "Deep_Learning/Learning/Gumbel Softmax Trick.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VAE 전체 과정 의 개요"
+              "title": "Gumbel Softmax Trick 의 개요"
             }
           },
           {
@@ -183,10 +183,10 @@
   },
   "active": "5f26dc40b083b35c",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE의 한계.md",
-    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 전체 과정.md",
-    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
+    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
+    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 전체 과정.md",
+    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE의 한계.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
     "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Attention_변형/Linear Attention.md",
