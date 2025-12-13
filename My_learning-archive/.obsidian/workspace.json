@@ -265,7 +265,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/AutoEncoder/Variational AutoEncoder.md",
+                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder.md",
                 "mode": "source",
                 "source": false
               },
@@ -395,7 +395,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/AutoEncoder/Variational AutoEncoder.md",
+                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -434,10 +434,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4fb708412b4af61d",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
     "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
-    "Deep_Learning/Generative_Model/AutoEncoder/Variational AutoEncoder.md",
+    "Deep_Learning/Generative_Model/Variational AutoEncoder.md",
     "Deep_Learning/Generative_Model/AutoEncoder/PCA.md",
     "Deep_Learning/Generative_Model/AutoEncoder/알고보니.. 생성 모델.md",
     "DataSet/MNIST.md",
