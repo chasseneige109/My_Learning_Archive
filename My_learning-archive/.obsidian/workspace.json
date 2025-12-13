@@ -265,12 +265,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/Variational AutoEncoder.md",
+                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variational AutoEncoder"
+              "title": "VAE 수학적 증명 및 해석"
             }
           },
           {
@@ -279,12 +279,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/Variational AutoEncoder.md",
+                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variational AutoEncoder"
+              "title": "VAE 수학적 증명 및 해석"
             }
           },
           {
@@ -293,12 +293,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/Variational AutoEncoder.md",
+                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variational AutoEncoder"
+              "title": "VAE 수학적 증명 및 해석"
             }
           }
         ],
@@ -423,13 +423,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/Variational AutoEncoder.md",
+                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Variational AutoEncoder 의 개요"
+              "title": "VAE 수학적 증명 및 해석 의 개요"
             }
           },
           {
@@ -466,7 +466,7 @@
   "lastOpenFiles": [
     "z Pasted Image/Pasted image 20251213220152.png",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
-    "Deep_Learning/Generative_Model/Variational AutoEncoder/Variational AutoEncoder.md",
+    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
     "Deep_Learning/Learning/Loss Function/KL div.md",
     "Deep_Learning/Learning/Loss Function",
     "z Pasted Image/Pasted image 20251213215457.png",
