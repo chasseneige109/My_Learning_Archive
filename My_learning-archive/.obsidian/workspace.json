@@ -230,9 +230,23 @@
               "icon": "lucide-file",
               "title": "(PE) Positional Encoding"
             }
+          },
+          {
+            "id": "795472ceeb0070b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -353,13 +367,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
+                "file": "무제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(PE) Positional Encoding 의 개요"
+              "title": "무제 의 개요"
             }
           },
           {
@@ -392,8 +406,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f50704a31da9a33e",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model",
+    "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
+    "무제.md",
     "Deep_Learning/AutoEncoder/AutoEncoder.md",
     "Deep_Learning/AutoEncoder/Linear Autoencoder.md",
     "Deep_Learning/AutoEncoder/PCA.md",
@@ -420,9 +437,6 @@
     "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
     "Deep_Learning/Pre_training",
     "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
-    "Deep_Learning/Transformer_Audio/AST.md",
-    "Deep_Learning/Transformer_Audio/📌 Speech Transformer 이미지.md",
-    "Deep_Learning/Fine Tuning/PEFT/LORA.md",
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251212014531.png",
     "z Pasted Image/Pasted image 20251212014421.png",
