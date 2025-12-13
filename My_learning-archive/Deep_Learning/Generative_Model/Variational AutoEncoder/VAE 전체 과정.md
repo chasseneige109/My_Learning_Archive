@@ -81,7 +81,7 @@ VAE의 Forward Pass 과정을 행렬 차원(Dimension)과 연산 위주로 간�
     
     (여기서 $W_4 \in \mathbb{R}^{H \times D}$)
     
-    (데이터가 실수 범위라면 Sigmoid 대신 Identity나 데이터 전처리에 따라 tanh사용 가능)
+    (데이터가 Binary라면 Sigmoid, 실수범위라면 Identity나 데이터에 따라 tanh사용 가능)
     
 
 ---
