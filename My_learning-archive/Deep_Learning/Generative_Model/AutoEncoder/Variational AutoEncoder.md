@@ -1,0 +1,1 @@
+X  --(Encoder)-->   Z   --(Decoder)-->   X
