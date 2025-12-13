@@ -9,6 +9,12 @@
 
 ### 1. Reconstruction Error
 
+-encoder로부터 z를 sampling하고, 다시 이 z로부터 decoder를 활용해서 p(x|z)를 계산함으로써 계산할 수 있다. 그리고 두 번째 있는 항은 q와 p가 둘 다 정규분포이기 때문에, 정규분포 두 개 사이의 KL divergence는 쉽게 계산이 가능하다. 하지만 **세 번째 항은 우리가 p(z|x)를 알 수가 없기 때문에 계산하는 것이 불가능**
+
+
+
+
+
 
 
 
