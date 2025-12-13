@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_Vision/CLS Token/CLS.md",
+                "file": "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token/CLS.md",
                 "mode": "source",
                 "source": false
               },
@@ -139,7 +139,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
+                "file": "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
                 "mode": "source",
                 "source": false
               },
@@ -237,12 +237,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token/CLS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "CLS"
             }
           }
         ],
@@ -367,13 +367,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제.md",
+                "file": "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token/CLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 의 개요"
+              "title": "CLS 의 개요"
             }
           },
           {
@@ -408,9 +408,10 @@
   },
   "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "Deep_Learning/Vision_Model/Vision_Transformer",
+    "무제.md",
     "Deep_Learning/Generative_Model",
     "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
-    "무제.md",
     "Deep_Learning/AutoEncoder/AutoEncoder.md",
     "Deep_Learning/AutoEncoder/Linear Autoencoder.md",
     "Deep_Learning/AutoEncoder/PCA.md",
@@ -434,9 +435,9 @@
     "Deep_Learning/Learning/ADAM.md",
     "Deep_Learning/Post_training/SFT.md",
     "Deep_Learning/Post_training/RLHF.md",
-    "Deep_Learning/Transformer_Audio/📌Conformer 이미지.md",
+    "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
     "Deep_Learning/Pre_training",
-    "Deep_Learning/Transformer_Audio/📌AST 이미지.md",
+    "Deep_Learning/Audio_Model/📌AST 이미지.md",
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251212014531.png",
     "z Pasted Image/Pasted image 20251212014421.png",
@@ -451,9 +452,8 @@
     "z Pasted Image/Pasted image 20251210214414.png",
     "z Pasted Image/Pasted image 20251210214357.png",
     "Pasted image 20251210205159.png",
-    "Deep_Learning/Transformer_Audio",
-    "Deep_Learning/Transformer_Vision/CLS Token",
-    "Deep_Learning/Transformer_Vision",
+    "Deep_Learning/Audio_Model",
+    "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
