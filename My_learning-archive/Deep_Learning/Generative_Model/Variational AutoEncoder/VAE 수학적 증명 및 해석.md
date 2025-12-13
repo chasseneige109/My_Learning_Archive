@@ -64,7 +64,8 @@ $$\therefore \mathcal{L}_{recon} \approx - \text{BCE}(x, \hat{x})$$
 
 $$\mathcal{L}_{KL} = D_{KL}(q_\phi(z|x) \| p(z))$$
 
-두 분포가 모두 **다변량 정규분포(Multivariate Gaussian)**일 때, 적분 없이 닫힌 해(Closed-form)로 계산 가능합니다.
+두 분포를 모두 **다변량 정규분포(Multivariate Gaussian)**
+적분 없이 닫힌 해(Closed-form)로 계산 가능합니다.
 
 - $q_\phi(z|x) = \mathcal{N}(\mu, \text{diag}(\sigma^2))$ (Encoder 출력)
     

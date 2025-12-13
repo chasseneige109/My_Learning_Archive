@@ -153,7 +153,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Post_training/RLHF.md",
+                "file": "Deep_Learning/Learning/Post_training/RLHF.md",
                 "mode": "source",
                 "source": false
               },
@@ -462,7 +462,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "98029d364828d075",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
     "z Pasted Image/Pasted image 20251213220152.png",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
@@ -500,7 +500,7 @@
     "Convex_Optimization/CVXPY/DCP ruleset.md",
     "Convex_Optimization/CVXPY/Solvers.md",
     "C & C++/문법 & 테크닉/find 함수.md",
-    "Deep_Learning/Pre_training",
+    "Deep_Learning/Learning/Pre_training",
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251212014531.png",
     "z Pasted Image/Pasted image 20251212014421.png",
