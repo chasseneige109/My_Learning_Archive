@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Audio_Model/Conformer.md",
+                "file": "Deep_Learning/Sequence Model/Dropout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conformer"
+              "title": "Dropout"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Audio_Model/Conformer.md",
+                "file": "Deep_Learning/Sequence Model/Dropout.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Conformer 의 개요"
+              "title": "Dropout 의 개요"
             }
           },
           {
@@ -183,8 +183,14 @@
   },
   "active": "5f26dc40b083b35c",
   "lastOpenFiles": [
-    "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
+    "Deep_Learning/Sequence Model/Attention.md",
+    "Deep_Learning/Sequence Model/CTC Model.md",
+    "Deep_Learning/Sequence Model/Dropout.md",
+    "Deep_Learning/Sequence Model/LSTM.md",
+    "Deep_Learning/Sequence Model/RNN.md",
+    "Deep_Learning/Sequence Model/Seq2Seq Model.md",
     "Deep_Learning/Audio_Model/Conformer.md",
+    "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
     "Deep_Learning/Audio_Model/AST.md",
     "Deep_Learning/Audio_Model/전처리.md",
     "Deep_Learning/Attention_변형/Multi Head Latent Attention.md",
@@ -203,12 +209,6 @@
     "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
     "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
     "Deep_Learning/Generative_Model/AutoEncoder/Linear Autoencoder.md",
-    "Deep_Learning/Generative_Model/AutoEncoder/AutoEncoder.md",
-    "Convex_Optimization/Schur Complement.md",
-    "Deep_Learning/Learning/Post_training/RLHF.md",
-    "Deep_Learning/Fine Tuning/PEFT/Adapter_그림.md",
-    "Deep_Learning/Fine Tuning/PEFT/Prompt Tuning_그림.md",
-    "Deep_Learning/Fine Tuning/PEFT/Prefix Tuning_그림.md",
     "Deep_Learning/Generative_Model/Diffusion Model",
     "Deep_Learning/Generative_Model/무제",
     "z Pasted Image/Pasted image 20251213220152.png",
