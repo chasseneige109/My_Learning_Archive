@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Attention_변형/KV Caching.md",
+                "file": "Deep_Learning/Attention_변형/Linear Attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KV Caching"
+              "title": "Linear Attention"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Attention_변형/KV Caching.md",
+                "file": "Deep_Learning/Attention_변형/Linear Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "KV Caching 의 개요"
+              "title": "Linear Attention 의 개요"
             }
           },
           {
@@ -183,8 +183,8 @@
   },
   "active": "5f26dc40b083b35c",
   "lastOpenFiles": [
-    "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Attention_변형/KV Caching.md",
+    "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
     "Deep_Learning/Fine Tuning/PEFT/LORA.md",
     "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
