@@ -9,7 +9,7 @@
     - “진짜=1, 가짜=0” 목표는 그대로 두되,
         
     - loss를 **L2(least squares)** 로 바꾼다.
-        
+        마지막 Sigmoid도 삭제.
 - 장점:
     
     - 손실 landscape가 더 부드럽고, gradient가 덜 saturate.
