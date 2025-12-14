@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Learning/Loss Function/Wasserstein.md",
+                "file": "Deep_Learning/Generative_Model/GAN/WGAN/WGAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wasserstein"
+              "title": "WGAN"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Learning/Loss Function/Wasserstein.md",
+                "file": "Deep_Learning/Generative_Model/GAN/WGAN/WGAN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Wasserstein 의 개요"
+              "title": "WGAN 의 개요"
             }
           },
           {
@@ -212,8 +212,8 @@
   },
   "active": "d6238b4c80a1381e",
   "lastOpenFiles": [
+    "Deep_Learning/Learning/Loss Function/Wasserstein Distance.md",
     "Deep_Learning/Generative_Model/GAN/WGAN/WGAN.md",
-    "Deep_Learning/Learning/Loss Function/Wasserstein.md",
     "Deep_Learning/Generative_Model/GAN/WGAN/Kantorovich-Rubinstein Duality.md",
     "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
     "Optimization/Optimal Transport(OT) 문제.md",
