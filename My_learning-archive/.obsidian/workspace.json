@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
+                "file": "대학원가자/논문 읽기/논문 선정 기준/논문 선정 기준.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAE 전체 과정"
+              "title": "논문 선정 기준"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
+                "file": "대학원가자/논문 읽기/논문 선정 기준/논문 선정 기준.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VAE 전체 과정 의 개요"
+              "title": "논문 선정 기준 의 개요"
             }
           },
           {
@@ -212,6 +212,7 @@
   },
   "active": "d6238b4c80a1381e",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Learning/Loss Function/Wasserstein Distance.md",
     "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
@@ -242,7 +243,6 @@
     "Math & Statistics/Statistics/Change of Variables Formula.md",
     "Deep_Learning/Learning/Loss Function/Jensen-Shannon Divergence.md",
     "Deep_Learning/Sequence Model/CTC Model.md",
-    "Deep_Learning/Learning/ADAM.md",
     "Deep_Learning/Generative_Model/Diffusion Model",
     "Deep_Learning/Generative_Model/GAN",
     "z Pasted Image/Pasted image 20251213220152.png",
