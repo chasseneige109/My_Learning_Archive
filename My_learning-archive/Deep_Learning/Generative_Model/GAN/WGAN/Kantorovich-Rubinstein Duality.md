@@ -42,7 +42,7 @@ $$\begin{aligned} \mathcal{L}(\gamma, f, g) &= \underbrace{\int \|x - y\| d\gamm
 이 식을 $\gamma$와 관련된 항과 그렇지 않은 항으로 묶어서 정리하면:
 
 $$\mathcal{L}(\gamma, f, g) = \int_{X \times Y} \underbrace{\left( \|x - y\| - f(x) - g(y) \right)}_{(*)} \, d\gamma(x, y) + \int_X f(x) dP_r(x) + \int_Y g(y) dP_g(y)$$
-
+나
 ---
 
 ### 3. Dual Function 유도
@@ -61,8 +61,6 @@ $$\sup_{f, g} \inf_{\gamma \ge 0} \mathcal{L}(\gamma, f, g)$$
 
 - 우리는 $\gamma(x, y)$를 무한대로 키워서 전체 값을 $-\infty$로 만들 수 있습니다. (최소화 문제이므로)
     
-
-따라서, 유의미한 최솟값(infimum)이 존재하려면(Dual Feasibility), **$\gamma$의 계수가 모든 곳에서 0 이상**이어야 합니다.
 
 $$\|x - y\| - f(x) - g(y) \ge 0 \quad \iff \quad f(x) + g(y) \le \|x - y\|$$
 
