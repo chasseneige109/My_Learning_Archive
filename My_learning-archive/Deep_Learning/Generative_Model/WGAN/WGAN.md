@@ -91,3 +91,5 @@ WGAN-GP(Gradient Penalty)를 사용할 때 $f(x)$ 내부 레이어 구성에도 
         
 - **대안:** 대신 **Layer Normalization**이나 **Instance Normalization**을 사용합니다. (이들은 샘플끼리 섞이지 않으니까요.)
 
+
+### 📈 
