@@ -1,4 +1,5 @@
 ## DRAGAN (Discriminative Regularization for Adversarial Networks)
+---
 
 ### 사전 요약
 $$L_{Total} = \underbrace{L_{Original\_GAN}}_{\text{원래 하던 일}} + \underbrace{\lambda \cdot R_{DRAGAN}}_{\text{추가된 족쇄}}$$
@@ -11,14 +12,15 @@ $$L_{Total} = \underbrace{L_{Original\_GAN}}_{\text{원래 하던 일}} + \under
         
 2. **추가된 족쇄 ($R_{DRAGAN}$):**
     
-    - **"단, 진짜 데이터($x_{real}$)에 노이즈를 섞은 위치($\hat{x}$)에서는 기울기($\nabla$)가 0(또는 $k$)이 되어야 한다."**
+    - **"단, 진짜 데이터($x_{real}$)에 노이즈를 섞은 위치($\hat{x}$)에서는 기울기($\nabla$)를 k로 맞춰라**
+	    
         
     - 이것이 바로 질문하신 **"진짜 데이터만 n개 샘플링하여 구한 정규화항"**입니다.
 
 
 
 
-
+---
 ### 1. DRAGAN의 핵심 목표와 배경
 
 DRAGAN이 해결하려는 핵심 문제는 다음과 같습니다:
