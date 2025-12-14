@@ -18,7 +18,7 @@ DRAGAN이 해결하려는 핵심 문제는 다음과 같습니다:
 
 DRAGAN은 기존 GAN의 목적 함수 $\min_G \max_D V(G, D)$에 **Discriminative Regularization (DR)** 항을 추가하여 $D$를 훈련합니다.
 
-#### Discriminator의 목적 함수 (최대화):
+#### DRAGAN Discriminator의 목적 함수 (최대화):
 
 $D$는 다음의 목적 함수 $L_D$를 최대화합니다.
 
