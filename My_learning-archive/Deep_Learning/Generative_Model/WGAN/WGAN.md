@@ -30,11 +30,33 @@ Dual Form 수식에서 $W(P, Q)$가 되려면, $\sup$ (최댓값)을 찾는 함�
     - $f$의 출력값 차이가 입력 공간의 거리($\|x_1 - x_2\|$)와 비례하도록 묶어주어, **$f$가 두 분포 사이의 거리를 측정하는 '정확한 자(Ruler)' 역할을 하도록 강제**합니다.
         
 
-### 3. 📈 
+### 3. 📈 WGAN의 손실 함수
 
-WGAN의 최종 $W(P_r, P_g)$ 최소화 과정은 다음과 같은 두 단계의 반복입니다.
 
-1. **Critic($f$) 학습:** Critic을 $L_D$를 이용해 여러 번 업데이트하여 $W$를 정확히 **측정(Maximize)**합니다.
+
+#### (1) 기존 GAN (Discriminator)
+
+- **마지막 레이어:** Fully Connected Layer $\rightarrow$ **Sigmoid Activation**
+    
+- **수식:** $D(x) = \sigma(W \cdot h + b)$
+    
+- **출력 범위:** $[0, 1]$ (확률)
+    
+- **의미:** "이 이미지가 진짜일 확률은 70%다."
+    
+
+#### (2) WGAN (Critic $f$)
+
+- **마지막 레이어:** Fully Connected Layer $\rightarrow$ **(아무것도 없음)**
+    
+- **수식:** $f(x) = W \cdot h + b$ (Linear Activation)
+    
+- **출력 범위:** $(-\infty, \infty)$ (모든 실수)
+    
+- **의미:** "이 이미지는 10.5점짜리 리얼함(Realness)을 가졌다."
+    
+
+> **핵심:** $f(x)$의 마지막은 활성화 함수가 없는 **선형(Linear) 레이어**입니다. 그래서 $f$의 출력값은 제한 없이 커지거나 작아질 수 있습니다.
     
 2. **Generator($G$) 학습:** Critic이 측정한 $W$를 $L_G$를 이용해 한 번 업데이트하여 $W$를 **최소화(Minimize)**합니다.
 
