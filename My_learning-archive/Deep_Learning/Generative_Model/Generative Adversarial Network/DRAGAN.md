@@ -1,4 +1,4 @@
-## DRAGAN (Discriminative Regularization for Adversarial Networks)의 수학적 설명
+## DRAGAN (Discriminative Regularization for Adversarial Networks)
 
 Discriminator의 손실 함수에 **Gradient Penalty (기울기 페널티)** 항을 추가하여 
 **실제 데이터 분포 근처에서 Discriminator 함수가 부드럽게(Smooth) 되도록 강제**하는 방법입니다.
