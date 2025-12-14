@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Learning/Loss Function/Jensen-Shannon Divergence.md",
+                "file": "Deep_Learning/Learning/Loss Function/Wasserstein Distance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jensen-Shannon Divergence"
+              "title": "Wasserstein Distance"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Learning/Loss Function/Jensen-Shannon Divergence.md",
+                "file": "Deep_Learning/Learning/Loss Function/Wasserstein Distance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Jensen-Shannon Divergence 의 개요"
+              "title": "Wasserstein Distance 의 개요"
             }
           },
           {
@@ -212,6 +212,7 @@
   },
   "active": "d6238b4c80a1381e",
   "lastOpenFiles": [
+    "Deep_Learning/Learning/Loss Function/Jensen-Shannon Divergence.md",
     "z Pasted Image/Pasted image 20251213220152.png",
     "z Pasted Image/Pasted image 20251213210821.png",
     "z Pasted Image/Pasted image 20251212014531.png",
@@ -257,7 +258,6 @@
     "z Pasted Image/Pasted image 20251212014421.png",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "z Pasted Image/Pasted image 20251210214811.png",
-    "Pasted image 20251210214240.png",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
