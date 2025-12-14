@@ -4,7 +4,7 @@ GAN의 Value Function $V(G, D)$는 다음과 같이 정의됩니다.
 
 $$V(G, D) = \mathbb{E}_{x \sim p_{data}(x)}[\log D(x)] + \mathbb{E}_{z \sim p_{z}(z)}[\log(1 - D(G(z)))]$$
 
-Generator $G$가 고정되어 있다고 가정하고, $D$를 최대화하는 최적의 $D^*$를 찾습니다. 두 번째 항의 기대값을 $x$에 대한 적분으로 변환하기 위해 $x = G(z)$로 치환하면, 생성된 데이터의 분포는 $p_g$를 따르게 되므로 식은 다음과 같이 변형됩니다.
+Generator $G$가 고정되어 있다고 가정하고, $D$를 최대화하는 최적의 $D^*$를 찾습니다. 두 번째 항의 기대값을 $x$에 대한 적분으로 변환하기 위해 $x = G(z)$로 치환하면, 생성된 데이터의 분포는 $p_g$를 따르게 되므로 식은 다음과 같이 변형됩니다. (확률론: Change of Variables Formula)
 
 $$V(G, D) = \int_x \left[ p_{data}(x) \log D(x) + p_g(x) \log(1 - D(x)) \right] dx$$
 
