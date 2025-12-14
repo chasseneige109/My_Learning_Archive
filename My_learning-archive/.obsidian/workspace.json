@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
+                "file": "Deep_Learning/Generative_Model/Generative Adversarial Network/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAE 수학적 증명 및 해석"
+              "title": "무제"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
+                "file": "Deep_Learning/Generative_Model/Generative Adversarial Network/무제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VAE 수학적 증명 및 해석 의 개요"
+              "title": "무제 의 개요"
             }
           },
           {
@@ -226,6 +226,7 @@
   },
   "active": "643e1532b1e26c5f",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 수학적 증명 및 해석.md",
     "Deep_Learning/Generative_Model/Generative Adversarial Network/무제.md",
     "무제 2.md",
     "무제 1.md",
@@ -251,7 +252,6 @@
     "Math & Statistics/Statistics/Gumbell Noise.md",
     "Deep_Learning/Transformer_Basic/Cross Attention.md",
     "Deep_Learning/Learning/Gumbel Softmax Trick.md",
-    "Deep_Learning/Generative_Model/Variational AutoEncoder/VAE 사진.md",
     "Deep_Learning/Generative_Model/Diffusion Model",
     "Deep_Learning/Generative_Model/Generative Adversarial Network",
     "z Pasted Image/Pasted image 20251213220152.png",
