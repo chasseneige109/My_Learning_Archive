@@ -254,6 +254,8 @@
   },
   "active": "584cd64efbb7c0c4",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
+    "Deep_Learning/Generative_Model/WGAN/c_transform.md",
     "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
     "Deep_Learning/Generative_Model/GAN/GAN 간단한 구조.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/Instance Noise.md",
@@ -261,8 +263,6 @@
     "Deep_Learning/Generative_Model/GAN/GAN_변형/Least squares GAN.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/DRAGAN.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/C-GAN (Consensus GAN).md",
-    "Deep_Learning/Generative_Model/WGAN/c_transform.md",
-    "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
     "Optimization/Dual Problem/Dual Problem 성질.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_Min_Max_Game.md",

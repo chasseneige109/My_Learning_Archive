@@ -16,7 +16,7 @@ C-변환($c$-transform)은 **최적 수송 이론(Optimal Transport)**에서 사
     
     - **$\inf_x$ (Infimum):** 변환된 값($\phi^c(y)$)을 최소화하는 $x$를 찾아야 합니다.
         
-3. **역할 (쌍대성):** 이 변환은 **칸토로비치 쌍대성(Kantorovich Duality)**의 이론적 기반이 됩니다.
+1. **역할 (쌍대성):** 이 변환은 [[Kantorovich-Rubinstein Duality]]의 이론적 기반이 됩니다.
     
     - 최적 수송 문제의 Dual Form에 등장하는 두 함수 $\phi$와 $\psi$는 서로 $c$-변환 관계($\psi = \phi^c$)를 만족해야만 최적 해가 될 수 있습니다.
         
