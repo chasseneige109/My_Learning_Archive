@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN_Min_Max_Game.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WGAN_Min_Max_Game"
+              "title": "WGAN"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN_Min_Max_Game.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "WGAN_Min_Max_Game 의 개요"
+              "title": "WGAN 의 개요"
             }
           },
           {
@@ -240,8 +240,8 @@
   },
   "active": "1f1311c1ad29bdaf",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_Min_Max_Game.md",
+    "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
     "Deep_Learning/Learning/Loss Function/Wasserstein Distance.md",
