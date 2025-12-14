@@ -1,6 +1,7 @@
 ### 1. 🧙‍♂️ Primal $\rightarrow$ Dual Form 
 
 WGAN이론의 시작은 [[Wasserstein Distance]]**의 원래 정의(Primal Form)에서 비롯됩니다.
+수학적 증명은 여기를 참고! [[Kantorovich-Rubinstein Duality]]
 
 $$W(P, Q) = \inf_{\gamma \in \Pi} \mathbb{E}_{(x, y) \sim \gamma} [\|x - y\|]$$
 
