@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/GAN/WGAN/WGAN.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/GAN/WGAN/WGAN.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/GAN/WGAN/WGAN.md",
+                "file": "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WGAN"
+              "title": "VAE 전체 과정"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/GAN/WGAN/WGAN.md",
+                "file": "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "WGAN 의 개요"
+              "title": "VAE 전체 과정 의 개요"
             }
           },
           {
@@ -212,9 +212,9 @@
   },
   "active": "d6238b4c80a1381e",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Learning/Loss Function/Wasserstein Distance.md",
-    "Deep_Learning/Generative_Model/GAN/WGAN/WGAN.md",
-    "Deep_Learning/Generative_Model/GAN/WGAN/Kantorovich-Rubinstein Duality.md",
+    "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
     "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
     "Optimization/Optimal Transport(OT) 문제.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/DRAGAN.md",
@@ -225,7 +225,7 @@
     "Deep_Learning/Generative_Model/GAN/GAN 간단한 구조.md",
     "Deep_Learning/Learning/Batch Normalization.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형",
-    "Deep_Learning/Generative_Model/GAN/WGAN",
+    "Deep_Learning/Generative_Model/WGAN",
     "Machine_Learning/Regression.md",
     "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
     "Optimization/Dual Problem/Dual Problem 성질.md",
