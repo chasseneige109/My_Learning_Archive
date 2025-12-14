@@ -89,7 +89,6 @@ $$g(y) \le \|x - y\| - f(x)$$
 
 우리는 목적 함수(Maximize)를 최대화하고 싶으므로, $g(y)$를 가능한 한 크게 설정해야 합니다. 주어진 $f$에 대해 가장 큰 $g(y)$는 상한(infimum)을 취한 값입니다. (이를 $c$-transform이라고 합니다.)
 
-$$g(y) = \inf_x (\|x - y\| - f(x))$$
 
 여기서 아주 교묘한 대칭성을 이용합니다. 만약 우리가 $g(y) = -f(y)$라고 둔다면 어떻게 될까요?
 
@@ -99,6 +98,7 @@ $$f(x) - f(y) \le \|x - y\| \quad \iff \quad f(x) - f(y) \le |x - y|$$
 
 이 식은 정확히 Lipschitz 연속성(Lipschitz Continuity)의 정의 ($K=1$)입니다.
 
+$$g(y) = \inf_x (\|x - y\| - f(x))$$
 $$\frac{|f(x) - f(y)|}{|x - y|} \le 1$$
 
 즉, $f$가 1-Lipschitz 함수이면 $g = -f$로 두었을 때 위 제약 조건을 만족하며, 수학적으로 $c(x, y) = |x-y|$인 거리 공간(Metric Space)에서는 $g = -f$인 경우가 최적해를 포함한다는 것이 증명되어 있습니다.
