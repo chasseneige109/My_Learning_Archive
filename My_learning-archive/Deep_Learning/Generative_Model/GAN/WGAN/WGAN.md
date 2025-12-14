@@ -1,6 +1,6 @@
-### 1. 🧙‍♂️ 마법의 변환: Primal $\rightarrow$ Dual Form
+### 1. 🧙‍♂️ Primal $\rightarrow$ Dual Form 
 
-WGAN이론의 시작은 #Wasserstein Distance**의 원래 정의(Primal Form)에서 비롯됩니다.
+WGAN이론의 시작은 [[Wasserstein Distance]]**의 원래 정의(Primal Form)에서 비롯됩니다.
 
 $$W(P, Q) = \inf_{\gamma \in \Pi} \mathbb{E}_{(x, y) \sim \gamma} [\|x - y\|]$$
 
