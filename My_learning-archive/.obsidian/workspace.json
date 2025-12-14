@@ -39,12 +39,14 @@
             "id": "d6238b4c80a1381e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "z Pasted Image/Pasted image 20251213220152.png"
+                "file": "Deep_Learning/Learning/Loss Function/Jensen-Shannon Divergence.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251213220152"
+              "icon": "lucide-file",
+              "title": "Jensen-Shannon Divergence"
             }
           }
         ],
@@ -169,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z Pasted Image/Pasted image 20251213220152.png",
+                "file": "Deep_Learning/Learning/Loss Function/Jensen-Shannon Divergence.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20251213220152 의 개요"
+              "title": "Jensen-Shannon Divergence 의 개요"
             }
           },
           {
@@ -210,6 +212,7 @@
   },
   "active": "d6238b4c80a1381e",
   "lastOpenFiles": [
+    "z Pasted Image/Pasted image 20251213220152.png",
     "z Pasted Image/Pasted image 20251213210821.png",
     "z Pasted Image/Pasted image 20251212014531.png",
     "z Pasted Image/Pasted image 20251212014329.png",
@@ -246,11 +249,10 @@
     "Deep_Learning/Generative_Model/AutoEncoder/AutoEncoder.md",
     "Deep_Learning/Generative_Model/Diffusion Model",
     "Deep_Learning/Generative_Model/GAN",
-    "z Pasted Image/Pasted image 20251213220152.png",
     "Deep_Learning/Learning/Loss Function",
     "z Pasted Image/Pasted image 20251213215457.png",
     "Deep_Learning/Generative_Model/VAE",
-    "DataSet",
+    "Machine_Learning/DataSet",
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251212014421.png",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
