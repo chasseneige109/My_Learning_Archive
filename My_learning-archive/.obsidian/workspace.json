@@ -254,6 +254,8 @@
   },
   "active": "584cd64efbb7c0c4",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
+    "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
     "Deep_Learning/Generative_Model/WGAN/c_transform.md",
     "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
@@ -264,9 +266,7 @@
     "Deep_Learning/Generative_Model/GAN/GAN_변형/DRAGAN.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/C-GAN (Consensus GAN).md",
     "Optimization/Dual Problem/Dual Problem 성질.md",
-    "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_Min_Max_Game.md",
-    "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
     "Deep_Learning/Learning/Loss Function/Wasserstein Distance.md",
     "Deep_Learning/Learning/Loss Function/Jensen-Shannon Divergence.md",
     "z Pasted Image/Pasted image 20251213220152.png",
