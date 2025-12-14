@@ -32,34 +32,6 @@ Dual Form 수식에서 $W(P, Q)$가 되려면, $\sup$ (최댓값)을 찾는 함�
 
 ### 3. 📈 WGAN의 손실 함수
 
+#### 3 - 1: Critic(f) 학습
 
-
-#### (1) 기존 GAN (Discriminator)
-
-- **마지막 레이어:** Fully Connected Layer $\rightarrow$ **Sigmoid Activation**
-    
-- **수식:** $D(x) = \sigma(W \cdot h + b)$
-    
-- **출력 범위:** $[0, 1]$ (확률)
-    
-- **의미:** "이 이미지가 진짜일 확률은 70%다."
-    
-
-#### (2) WGAN (Critic $f$)
-
-- **마지막 레이어:** Fully Connected Layer $\rightarrow$ **(아무것도 없음)**
-    
-- **수식:** $f(x) = W \cdot h + b$ (Linear Activation)
-    
-- **출력 범위:** $(-\infty, \infty)$ (모든 실수)
-    
-- **의미:** "이 이미지는 10.5점짜리 리얼함(Realness)을 가졌다."
-    
-
-> **핵심:** $f(x)$의 마지막은 활성화 함수가 없는 **선형(Linear) 레이어**입니다. 그래서 $f$의 출력값은 제한 없이 커지거나 작아질 수 있습니다.
-    
-2. **Generator($G$) 학습:** Critic이 측정한 $W$를 $L_G$를 이용해 한 번 업데이트하여 $W$를 **최소화(Minimize)**합니다.
-
-**직관:** Critic이 1-Lipschitz 제약을 지키며 열심히 점수 차이를 벌리면, 그 최대 점수 차이가 바로 **두 분포를 일치시키기 위해 필요한 최소한의 작업량(Wasserstein Distance)**이 됩니다. Generator는 이 거리를 좁히는 방향으로 움직여 학습이 안정적으로 진행됩니다.
-
-추가적인 궁금증이 있으신가요?
+discriminator에서 마지막에 sigmoid
