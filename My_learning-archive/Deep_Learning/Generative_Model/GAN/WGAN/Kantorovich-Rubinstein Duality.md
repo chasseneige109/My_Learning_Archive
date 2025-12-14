@@ -17,9 +17,9 @@ $$\min_{\gamma} \int_{X \times Y} \|x - y\| \, d\gamma(x, y)$$
     
 2. **주변 분포(Marginal) 보존:**
     
-    - $x$에 대해 적분하면 $P_r$이 나와야 함: $\int_Y d\gamma(x, y) = dP_r(x)$
+    - $y$에 대해 적분하면 $P_r$이 나와야 함: $\int_Y d\gamma(x, y) = dP_r(x)$
         
-    - $y$에 대해 적분하면 $P_g$가 나와야 함: $\int_X d\gamma(x, y) = dP_g(y)$
+    - $x$에 대해 적분하면 $P_g$가 나와야 함: $\int_X d\gamma(x, y) = dP_g(y)$
         
 
 이것은 전형적인 **수송 문제(Transportation Problem)**이며, 변수 $\gamma$에 대한 선형 함수이므로 LP입니다.
@@ -28,7 +28,7 @@ $$\min_{\gamma} \int_{X \times Y} \|x - y\| \, d\gamma(x, y)$$
 
 ### 2. 라그랑주(Lagrangian) 도입
 
-제약 조건이 있는 최적화 문제를 풀기 위해 **라그랑주 승수(Lagrange Multiplier)**를 도입합니다. 여기서는 제약 조건이 함수 형태(모든 $x, y$에 대해 성립)이므로, 승수도 함수 형태인 $f(x)$와 $g(y)$가 됩니다.
+제약 조건이 있는 최적화 문제를 풀기 위해 **라그랑주 승수(Lagrange Multiplier)**를 도입합니다. 여기서는 제약 조건이 함수 형태(모든 $x, y$에 대해 성립)이므로, 승수도 함수 형태인 $f(x)$와 $g(y)$가 됩니다. (원랜 내적이지만, 무한히 많은 제약이므로 적분)
 
 - 제약 조건 1에 대한 승수: $f(x)$
     
