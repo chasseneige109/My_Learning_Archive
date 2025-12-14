@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Dual Problem/Dual Problem 성질.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dual Problem 성질"
+              "title": "Kantorovich-Rubinstein Duality"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Optimization/Dual Problem/Dual Problem 성질.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dual Problem 성질 의 개요"
+              "title": "Kantorovich-Rubinstein Duality 의 개요"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "1f1311c1ad29bdaf",
   "lastOpenFiles": [
+    "Optimization/Dual Problem/Dual Problem 성질.md",
     "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_Min_Max_Game.md",
@@ -269,7 +270,6 @@
     "Deep_Learning/Generative_Model/WGAN",
     "Machine_Learning/Regression.md",
     "Machine_Learning/Calculate/BLAS Levels & Matrix Structure.md",
-    "Optimization/Dual Problem/Dual Problem 성질.md",
     "Optimization/Dual Problem",
     "Optimization/무제",
     "Optimization",
