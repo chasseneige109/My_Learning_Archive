@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "WGAN"
             }
+          },
+          {
+            "id": "c8c983f288254b80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WGAN"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -252,9 +266,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "584cd64efbb7c0c4",
+  "active": "c8c983f288254b80",
   "lastOpenFiles": [
     "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
+    "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
     "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_Min_Max_Game.md",
     "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
@@ -289,7 +304,6 @@
     "Optimization/Dual Problem",
     "Optimization/무제",
     "Optimization",
-    "Deep_Learning/Generative_Model/AutoEncoder/PCA.md",
     "Deep_Learning/Generative_Model/Diffusion Model",
     "Deep_Learning/Generative_Model/GAN",
     "Deep_Learning/Learning/Loss Function",
