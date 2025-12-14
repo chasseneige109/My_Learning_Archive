@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WGAN"
+              "title": "Spectral Normalization (SN)"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "WGAN 의 개요"
+              "title": "Spectral Normalization (SN) 의 개요"
             }
           },
           {
@@ -268,9 +268,9 @@
   },
   "active": "c8c983f288254b80",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
     "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
-    "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_Min_Max_Game.md",
     "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
     "Deep_Learning/Generative_Model/WGAN/c_transform.md",
