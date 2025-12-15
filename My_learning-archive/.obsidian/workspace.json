@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math & Statistics/Statistics/Gaussian Distribution/Gaussian Distribution.md",
+                "file": "Math & Statistics/Statistics/Gaussian Distribution/Gaussian 합체 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Gaussian 합체 규칙"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math & Statistics/Statistics/Gaussian Distribution/Covariance.md",
+                "file": "Math & Statistics/Statistics/Gaussian Distribution/Covariance 유형.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Covariance"
+              "title": "Covariance 유형"
             }
           },
           {
@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math & Statistics/Statistics/Gaussian Distribution/Multivariate Gaussian.md",
+                "file": "Math & Statistics/Statistics/Gaussian Distribution/Gaussian 합체 규칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multivariate Gaussian"
+              "title": "Gaussian 합체 규칙"
+            }
+          },
+          {
+            "id": "7a2b7cbdbc4be49d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math & Statistics/Statistics/Gaussian Distribution/Multivariate Gaussian.md",
+                "file": "무제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Multivariate Gaussian 의 개요"
+              "title": "무제 의 개요"
             }
           },
           {
@@ -210,11 +224,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "15db5ab4f3503a61",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
-    "Math & Statistics/Statistics/Gaussian Distribution/Covariance.md",
+    "Math & Statistics/Statistics/Gaussian Distribution/Gaussian 합체 규칙.md",
+    "무제.md",
+    "Math & Statistics/Statistics/Gaussian Distribution/Covariance 유형.md",
     "Math & Statistics/Statistics/Gaussian Distribution/Multivariate Gaussian.md",
-    "Math & Statistics/Statistics/Gaussian Distribution/Gaussian Distribution.md",
     "Math & Statistics/Statistics/Gaussian Distribution",
     "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
@@ -240,7 +255,6 @@
     "Deep_Learning/Transformer_Basic/(ADD) Residual Connection.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Transformer_Basic/Multi head Self Attention.md",
-    "Deep_Learning/Transformer_Basic/Masked_Self Attention.md",
     "z Pasted Image/Pasted image 20251213220152.png",
     "z Pasted Image/Pasted image 20251213210821.png",
     "z Pasted Image/Pasted image 20251212014531.png",
