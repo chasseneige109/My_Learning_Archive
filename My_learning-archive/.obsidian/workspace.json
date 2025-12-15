@@ -8,175 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1011c0eb5ce24c35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WGAN"
-            }
-          },
-          {
-            "id": "fa273d8c152c17a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WGAN"
-            }
-          },
-          {
-            "id": "d6238b4c80a1381e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WGAN"
-            }
-          },
-          {
-            "id": "f0dd00928c61bb10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WGAN"
-            }
-          },
-          {
-            "id": "1f1311c1ad29bdaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kantorovich-Rubinstein Duality"
-            }
-          },
-          {
-            "id": "584cd64efbb7c0c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WGAN"
-            }
-          },
-          {
-            "id": "c8c983f288254b80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Spectral Normalization (SN)"
-            }
-          },
-          {
-            "id": "6d054a28de538ab0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Diffusion"
-            }
-          },
-          {
-            "id": "2ebc4ae5806f0fe3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/HVAE/HVAE 전체 과정, LOSS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HVAE 전체 과정, LOSS"
-            }
-          },
-          {
-            "id": "9bdc3a6c6169a05b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Forward Process"
-            }
-          },
-          {
-            "id": "86580b2f447745e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Forward Process"
-            }
-          },
-          {
             "id": "3bd39ea086cb433e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math & Statistics/Statistics/Gaussin.md",
+                "file": "Math & Statistics/Statistics/Gaussian Rule.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gaussin"
+              "title": "Gaussian Rule"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -297,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math & Statistics/Statistics/Gaussin.md",
+                "file": "Math & Statistics/Statistics/Gaussian Rule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gaussin 의 개요"
+              "title": "Gaussian Rule 의 개요"
             }
           },
           {
@@ -339,7 +184,7 @@
   "active": "3bd39ea086cb433e",
   "lastOpenFiles": [
     "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
-    "Math & Statistics/Statistics/Gaussin.md",
+    "Math & Statistics/Statistics/Gaussian Rule.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
     "Deep_Learning/Generative_Model/VAE/VAE 사진.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
