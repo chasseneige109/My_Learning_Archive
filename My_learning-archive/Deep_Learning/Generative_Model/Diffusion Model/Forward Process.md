@@ -37,19 +37,16 @@ $$x_t = \sqrt{1 - \beta_t} \mathbf{x}_{t-1} + \sqrt{\beta_t} \boldsymbol{\epsilo
 ### 3. 임의 시점 전이 (Anytime Transition) - 핵심
 
 매번 $t$번의 루프를 돌려 노이즈를 더하는 것은 비효율적입니다. 다행히 가우시안 분포의 성질 덕분에, **$x_0$에서 바로 $x_t$를 계산하는 닫힌 해(Closed-form)**를 행렬 식으로 유도할 수 있습니다.
-
-새로운 변수를 정의합니다:
+[[Anytime Transition]] <--- 여기에서 증명!
 
 - $\alpha_t = 1 - \beta_t$
     
 - $\bar{\alpha}_t = \prod_{i=1}^t \alpha_i$ (누적 곱)
     
 
-이 변수들을 사용하여 $x_0$와 $x_t$의 관계를 한 번의 행렬 연산으로 표현하면 다음과 같습니다.
-
 $$q(x_t | x_0) = \mathcal{N}(x_t; \sqrt{\bar{\alpha}_t} x_0, (1 - \bar{\alpha}_t) \mathbf{I})$$
 
-이를 **선형 대수적 수식**으로 표현하면 가장 중요한 공식이 나옵니다:
+- 가장 중요한 공식:
 
 $$x_t = \underbrace{\sqrt{\bar{\alpha}_t} \mathbf{x}_0}_{\text{Signal}} + \underbrace{\sqrt{1 - \bar{\alpha}_t} \boldsymbol{\epsilon}}_{\text{Noise}}$$
 
