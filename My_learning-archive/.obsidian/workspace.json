@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📌Conformer 이미지"
+              "title": "WGAN"
             }
           }
         ],
@@ -241,13 +241,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/WGAN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📌Conformer 이미지 의 개요"
+              "title": "WGAN 의 개요"
             }
           },
           {
@@ -282,22 +282,23 @@
   },
   "active": "6d054a28de538ab0",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
+    "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
+    "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
     "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
     "Deep_Learning/Transformer_Basic/(ADD) Residual Connection.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Transformer_Basic/Multi head Self Attention.md",
     "Deep_Learning/Transformer_Basic/Masked_Self Attention.md",
     "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
     "Math & Statistics/Statistics/Change of Variables Formula.md",
     "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
     "Deep_Learning/Generative_Model/GAN/GAN 간단한 구조.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/C-GAN (Consensus GAN).md",
-    "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
     "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_Min_Max_Game.md",
-    "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
     "Deep_Learning/Generative_Model/WGAN/c_transform.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/Instance Noise.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/Unrolled GAN.md",
@@ -313,7 +314,6 @@
     "z Pasted Image/Pasted image 20251210214357.png",
     "Math & Statistics/Statistics/Variance.md",
     "Math & Statistics/Statistics/Gumbell Noise.md",
-    "대학원가자/논문 읽기/논문 선정 기준/논문 선정 기준.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형",
     "Deep_Learning/Generative_Model/WGAN",
     "Optimization/Dual Problem",
