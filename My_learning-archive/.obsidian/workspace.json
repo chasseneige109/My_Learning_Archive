@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAE 전체 과정"
+              "title": "WGAN_GP"
             }
           }
         ],
@@ -241,13 +241,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
+                "file": "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VAE 전체 과정 의 개요"
+              "title": "WGAN_GP 의 개요"
             }
           },
           {
@@ -282,12 +282,13 @@
   },
   "active": "6d054a28de538ab0",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
+    "Deep_Learning/Generative_Model/WGAN/WGAN.md",
+    "Deep_Learning/Generative_Model/GAN/GAN_변형/DRAGAN.md",
     "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
+    "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
     "Deep_Learning/Generative_Model/VAE/VAE 사진.md",
     "Deep_Learning/Generative_Model/WGAN/c_transform.md",
-    "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
     "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
@@ -307,7 +308,6 @@
     "Deep_Learning/Generative_Model/GAN/GAN_변형/Instance Noise.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/Unrolled GAN.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/Least squares GAN.md",
-    "Deep_Learning/Generative_Model/GAN/GAN_변형/DRAGAN.md",
     "Optimization/Dual Problem/Dual Problem 성질.md",
     "z Pasted Image/Pasted image 20251213220152.png",
     "z Pasted Image/Pasted image 20251213210821.png",
