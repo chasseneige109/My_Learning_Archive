@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
+                "file": "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAE 수학적 증명 및 해석"
+              "title": "VAE 수학적 원리, 한계"
             }
           }
         ],
@@ -241,13 +241,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
+                "file": "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VAE 수학적 증명 및 해석 의 개요"
+              "title": "VAE 수학적 원리, 한계 의 개요"
             }
           },
           {
@@ -280,11 +280,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6d054a28de538ab0",
+  "active": "2bc800c123f30062",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/VAE/VAE의 한계.md",
     "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
+    "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
     "Deep_Learning/Generative_Model/VAE/VAE 사진.md",
     "Deep_Learning/Generative_Model/WGAN/c_transform.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN.md",
