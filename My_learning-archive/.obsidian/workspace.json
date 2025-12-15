@@ -109,14 +109,12 @@
             "id": "6d054a28de538ab0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
-                "mode": "source",
-                "source": false
+                "file": "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png"
               },
-              "icon": "lucide-file",
-              "title": "📌 TF (근본) 총정리"
+              "icon": "lucide-image",
+              "title": "📌 TF 전체 그림"
             }
           }
         ],
@@ -241,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
+                "file": "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📌 TF (근본) 총정리 의 개요"
+              "title": "📌 TF 전체 그림 의 개요"
             }
           },
           {
@@ -282,6 +280,9 @@
   },
   "active": "6d054a28de538ab0",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_Basic/Multi head Self Attention.md",
+    "Deep_Learning/Transformer_Basic/Masked_Self Attention.md",
+    "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
     "Math & Statistics/Statistics/Change of Variables Formula.md",
     "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
@@ -310,11 +311,8 @@
     "대학원가자/논문 읽기/논문 선정 기준/논문 선정 기준.md",
     "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
     "Optimization/Optimal Transport(OT) 문제.md",
-    "Deep_Learning/Learning/Loss Function/KL div.md",
-    "Deep_Learning/Learning/Batch Normalization.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형",
     "Deep_Learning/Generative_Model/WGAN",
-    "Machine_Learning/Regression.md",
     "Optimization/Dual Problem",
     "Optimization/무제",
     "Optimization",
