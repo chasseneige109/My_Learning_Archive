@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
+                "file": "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GAN 수학 증명, 문제점"
+              "title": "📌 TF (근본) 총정리"
             }
           }
         ],
@@ -241,13 +241,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
+                "file": "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GAN 수학 증명, 문제점 의 개요"
+              "title": "📌 TF (근본) 총정리 의 개요"
             }
           },
           {
@@ -280,12 +280,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "6d054a28de538ab0",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
+    "Math & Statistics/Statistics/Change of Variables Formula.md",
+    "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
     "Deep_Learning/Generative_Model/GAN/GAN 간단한 구조.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/C-GAN (Consensus GAN).md",
-    "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
     "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
     "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
@@ -306,7 +307,6 @@
     "z Pasted Image/Pasted image 20251210214357.png",
     "Math & Statistics/Statistics/Variance.md",
     "Math & Statistics/Statistics/Gumbell Noise.md",
-    "Math & Statistics/Statistics/Change of Variables Formula.md",
     "대학원가자/논문 읽기/논문 선정 기준/논문 선정 기준.md",
     "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
     "Optimization/Optimal Transport(OT) 문제.md",
