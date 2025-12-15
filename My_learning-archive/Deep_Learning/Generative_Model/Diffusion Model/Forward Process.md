@@ -13,7 +13,9 @@ Forward Process는 이전 상태 $x_{t-1}$에 의해서만 현재 상태 $x_t$�
 
 ### 2. 단일 스텝 전이 (Single Step Transition)
 
-시점 $t-1$에서 $t$로 갈 때, 데이터에 노이즈를 조금 섞습니다. 이를 조건부 확률분포로 표현하면 다음과 같습니다.
+시점 $t-1$에서 $t$로 갈 때, 데이터에 노이즈를 조금 섞습니다. 
+이를 조건부 확률분포로 표현하면 다음과 같습니다.
+[[Variance Preserving]] <--- 왜 하필 이렇게 섞을까
 
 $$q(x_t | x_{t-1}) = \mathcal{N}(x_t; \sqrt{1 - \beta_t} x_{t-1}, \beta_t \mathbf{I})$$
 
