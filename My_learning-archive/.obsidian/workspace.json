@@ -111,16 +111,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WGAN_GP"
+              "title": "Diffusion"
+            }
+          },
+          {
+            "id": "2ebc4ae5806f0fe3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Learning/Generative_Model/HVAE/HVAE 전체 과정.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HVAE 전체 과정"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -241,13 +255,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
+                "file": "Deep_Learning/Generative_Model/HVAE/HVAE 전체 과정.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "WGAN_GP 의 개요"
+              "title": "HVAE 전체 과정 의 개요"
             }
           },
           {
@@ -280,8 +294,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "2ebc4ae5806f0fe3",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
+    "Deep_Learning/Generative_Model/HVAE/HVAE 전체 과정.md",
+    "Deep_Learning/Generative_Model/HVAE",
+    "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/DRAGAN.md",
     "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
@@ -291,7 +309,6 @@
     "Deep_Learning/Generative_Model/WGAN/c_transform.md",
     "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
     "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
     "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
     "Deep_Learning/Transformer_Basic/(PE) Positional Encoding.md",
     "Deep_Learning/Transformer_Basic/(ADD) Residual Connection.md",
@@ -303,12 +320,10 @@
     "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
     "Deep_Learning/Generative_Model/GAN/GAN 간단한 구조.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/C-GAN (Consensus GAN).md",
-    "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_Min_Max_Game.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/Instance Noise.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/Unrolled GAN.md",
     "Deep_Learning/Generative_Model/GAN/GAN_변형/Least squares GAN.md",
-    "Optimization/Duality/Dual Problem 성질.md",
     "z Pasted Image/Pasted image 20251213220152.png",
     "z Pasted Image/Pasted image 20251213210821.png",
     "z Pasted Image/Pasted image 20251212014531.png",
@@ -324,7 +339,6 @@
     "Deep_Learning/Learning/Loss Function",
     "z Pasted Image/Pasted image 20251213215457.png",
     "Deep_Learning/Generative_Model/VAE",
-    "Machine_Learning/DataSet",
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251212014421.png",
     "z Pasted Image/Pasted image 20251210214811.png",
