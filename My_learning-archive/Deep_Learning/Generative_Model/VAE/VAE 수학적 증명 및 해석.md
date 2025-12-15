@@ -17,7 +17,6 @@
 
 $$\log P(x) = \underbrace{\mathbb{E}_{Q}[\log P(x|z)]}_{\text{1번 항}} - \underbrace{D_{KL}(Q(z|x) \| P(z))}_{\text{2번 항}} + \underbrace{D_{KL}(Q(z|x) \| P(z|x))}_{\text{3번 항}}$$
 
-질문자님의 해석을 하나씩 짚어보겠습니다.
 
 ---
 
