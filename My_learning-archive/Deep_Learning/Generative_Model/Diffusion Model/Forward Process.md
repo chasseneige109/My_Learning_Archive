@@ -41,6 +41,8 @@ $$x_t = \sqrt{1 - \beta_t} \mathbf{x}_{t-1} + \sqrt{\beta_t} \boldsymbol{\epsilo
 매번 $t$번의 루프를 돌려 노이즈를 더하는 것은 비효율적입니다. 다행히 가우시안 분포의 성질 덕분에, **$x_0$에서 바로 $x_t$를 계산하는 닫힌 해(Closed-form)**를 행렬 식으로 유도할 수 있습니다.
 [[Anytime Transition]] <--- 여기에서 증명!
 
+- $\beta_t$ 값들은 인간이 미리 정해둠.
+
 - $\alpha_t = 1 - \beta_t$
     
 - $\bar{\alpha}_t = \prod_{i=1}^t \alpha_i$ (누적 곱)
