@@ -95,5 +95,32 @@ $$\log P(x) = \underbrace{\mathbb{E}_{q}[\log P(x|z)] - D_{KL}(Q(z|x) || P(z))}_
 | **샘플 이미지의 품질 저하 (흐릿함).** | 디코더가 **평균적인 이미지**를 생성하는 경향이 있으며, 노이즈를 $\mathcal{N}(0, I)$라는 구조 없는 가우시안으로 가정했기 때문. | **단순한 $P(z)$ Prior를 여러 단계로 점진적으로 복잡하게** 만들어 실제 데이터 분포에 가까워지도록 함. |
 | **핵심**                   | $P(z)$ (Prior)가 너무 단순하여, 복잡한 데이터 분포까지 한 번에 도약하기 어려움. $\rightarrow$ 평균적인 해석 초래.    | $\Downarrow$                                                     |
 | **다음 모델**                |                                                                                   | **Diffusion Model** (다음 단계 모델)                                   |
+#### 3. Posterior Collapse (후측 붕괴)
 
-VAE는 생성 모델의 중요한 기반을 다졌으나, 위 두 가지 한계를 극복하기 위해 **Normalizing Flow**와 **Diffusion Model**이라는 새로운 방법론이 발전하게 됩니다.
+앞서 Diffusion 설명 때 잠깐 언급된 내용입니다. **Decoder가 너무 강력하면 Encoder가 무시당하는 현상**입니다.
+
+- **현상:**
+    
+    - 만약 Decoder로 성능 좋은 RNN이나 PixelCNN(주변 픽셀을 보고 다음 픽셀 맞추기 고수)을 쓴다면?
+        
+    - Decoder가 생각합니다. "굳이 Encoder가 주는 $z$ 안 봐도, 내가 알아서 이전 픽셀 보고 다음 픽셀 잘 그리는데?"
+        
+    - 결국 Encoder는 $z$에 아무 정보도 담지 않게 되고, $KL$ Divergence 항은 0이 되어버립니다.
+        
+- **결과:**
+    
+    - $z$가 아무 쓸모가 없어지니, $z$를 조작해서 이미지를 편집하는 VAE의 장점이 사라지고 단순한 자동회귀(Auto-regressive) 모델이 되어버립니다.
+        
+
+#### 4. ELBO의 한계 (Tightness of Bound)
+
+VAE는 진짜 $P(x)$(Likelihood)를 최대화하는 게 아니라, 그 **하한선인 ELBO**를 최대화합니다.
+
+$$\log P(x) = \text{ELBO} + D_{KL}(Q(z|x) || P(z|x))$$
+
+- **문제점:**
+    
+    - 우리가 열심히 ELBO를 높여도, 뒤의 $D_{KL}$ 항(Gap)이 크다면 실제 $P(x)$는 별로 안 높아질 수도 있습니다.
+        
+    - 즉, "최적화 목표(ELBO)"와 "진짜 목표(Likelihood)" 사이에 괴리가 있어서, 이론상 최적점이 실제 최적 품질을 보장하지 않습니다.
+VAE는 생성 모델의 중요한 기반을 다졌으나, 위 한계를 극복하기 위해 **Normalizing Flow**와 **Diffusion Model**이라는 새로운 방법론이 발전하게 됩니다.
