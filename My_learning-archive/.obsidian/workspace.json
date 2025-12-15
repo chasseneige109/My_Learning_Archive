@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math & Statistics/Statistics/Gaussian Distribution/무제.md",
+                "file": "Math & Statistics/Statistics/Gaussian Distribution/Covariance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "Covariance"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math & Statistics/Statistics/Gaussian Distribution/무제 1.md",
+                "file": "Math & Statistics/Statistics/Gaussian Distribution/Multivariate Gaussian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제 1"
+              "title": "Multivariate Gaussian"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math & Statistics/Statistics/Gaussian Distribution/무제 1.md",
+                "file": "Math & Statistics/Statistics/Gaussian Distribution/Multivariate Gaussian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 1 의 개요"
+              "title": "Multivariate Gaussian 의 개요"
             }
           },
           {
@@ -212,8 +212,8 @@
   },
   "active": "15db5ab4f3503a61",
   "lastOpenFiles": [
-    "Math & Statistics/Statistics/Gaussian Distribution/무제.md",
-    "Math & Statistics/Statistics/Gaussian Distribution/무제 1.md",
+    "Math & Statistics/Statistics/Gaussian Distribution/Covariance.md",
+    "Math & Statistics/Statistics/Gaussian Distribution/Multivariate Gaussian.md",
     "Math & Statistics/Statistics/Gaussian Distribution/Gaussian Distribution.md",
     "Math & Statistics/Statistics/Gaussian Distribution",
     "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
