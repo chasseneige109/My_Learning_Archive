@@ -15,7 +15,7 @@ Forward Process는 이전 상태 $x_{t-1}$에 의해서만 현재 상태 $x_t$�
 
 시점 $t-1$에서 $t$로 갈 때, 데이터에 노이즈를 조금 섞습니다. 
 이를 조건부 확률분포로 표현하면 다음과 같습니다.
-[[Proof) Variance Preserving]] **<--- 왜 하필 이렇게 섞을까??**
+[[M) Variance Preserving]] **<--- 왜 하필 이렇게 섞을까??**
 
 $$q(x_t | x_{t-1}) = \mathcal{N}(x_t; \sqrt{1 - \beta_t} x_{t-1}, \beta_t \mathbf{I})$$
 
@@ -39,7 +39,7 @@ $$x_t = \sqrt{1 - \beta_t} \mathbf{x}_{t-1} + \sqrt{\beta_t} \boldsymbol{\epsilo
 ### 3. 임의 시점 전이 (Anytime Transition) - 핵심
 
 매번 $t$번의 루프를 돌려 노이즈를 더하는 것은 비효율적입니다. 다행히 가우시안 분포의 성질 덕분에, **$x_0$에서 바로 $x_t$를 계산하는 닫힌 해(Closed-form)**를 행렬 식으로 유도할 수 있습니다.
-[[Proof) Anytime Transition]] <--- 여기에서 증명!
+[[M) Anytime Transition]] <--- 여기에서 증명!
 
 - $\beta_t$ 값들은 인간이 미리 정해둠.
 

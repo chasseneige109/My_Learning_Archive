@@ -8,76 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3bd39ea086cb433e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math & Statistics/Statistics/Gaussian Distribution/Gaussian 합체 규칙.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gaussian 합체 규칙"
-            }
-          },
-          {
-            "id": "65de298cd2b6ebb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math & Statistics/Statistics/Gaussian Distribution/Covariance 유형.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Covariance 유형"
-            }
-          },
-          {
-            "id": "15db5ab4f3503a61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math & Statistics/Statistics/Gaussian Distribution/Gaussian 합체 규칙.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gaussian 합체 규칙"
-            }
-          },
-          {
-            "id": "7a2b7cbdbc4be49d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Forward Process"
-            }
-          },
-          {
-            "id": "6955ffffbff51f62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Forward Process"
-            }
-          },
-          {
             "id": "aa429ca38e25ee83",
             "type": "leaf",
             "state": {
@@ -97,16 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
+                "file": "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reverse Process"
+              "title": "GAN 수학 증명, 문제점"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
+                "file": "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Reverse Process 의 개요"
+              "title": "GAN 수학 증명, 문제점 의 개요"
             }
           },
           {
@@ -268,13 +198,13 @@
   },
   "active": "e8a55c47c63fb08c",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/Diffusion Model/Which Covariance.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/M) Variance Preserving.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/M) Mean 구하기.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/M) Covariance Selection.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/M) Anytime Transition.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Proof) Anytime Transition.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Proof) Mean 구하기.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Proof) Variance Preserving.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
     "Deep_Learning/Generative_Model/HVAE/HVAE 전체 과정, LOSS.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
