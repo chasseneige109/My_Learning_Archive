@@ -16,10 +16,7 @@ $$q(x_{t-1} | x_t, x_0) = \mathcal{N}(x_{t-1}; {\tilde{\mu}_t(x_t, x_0)}, {\tild
 
 $$\tilde{\mu}_t(x_t, x_0) = \underbrace{\frac{\sqrt{\alpha_t}(1-\bar{\alpha}_{t-1})}{1-\bar{\alpha}_t} \mathbf{x}_t}_{\text{현재 상태 반영}} + \underbrace{\frac{\sqrt{\bar{\alpha}_{t-1}}\beta_t}{1-\bar{\alpha}_t} \mathbf{x}_0}_{\text{원본 정답 반영}}$$
 
-- **행렬 관점:** $t$ 시점의 이미지 행렬 $\mathbf{x}_t$와 원본 이미지 행렬 $\mathbf{x}_0$를 스칼라 값(복잡한 계수들)으로 **선형 결합(Linear Combination/Mixing)** 한 것입니다.
-    
 - **문제점:** 우리는 생성(Generation) 할 때 **정답 $\mathbf{x}_0$를 모릅니다.** (알면 생성할 필요가 없으니까요.)
-    
 
 ---
 
