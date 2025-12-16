@@ -1,102 +1,122 @@
-**Reverse Diffusion (역확산)** 과정은 "완전한 노이즈($x_T$)"에서 시작하여 한 단계씩 "노이즈를 걷어내며" 원본 데이터($x_0$)로 돌아가는 과정입니다.
+**Denoising Process (Sampling)**는 학습이 완료된 AI 모델($\epsilon_\theta$)을 사용하여, 완전한 무질서($x_T$)에서 질서($x_0$)를 찾아내는 과정입니다.
 
-이를 행렬(벡터) 연산 단위로 아주 정밀하게 해부해 보겠습니다. 전체 과정은 크게 **1. 목표 설정 (이상적인 분포)**, **2. 현실적 타협 (신경망의 개입)**, **3. 최종 연산 (샘플링)**으로 나뉩니다.
+이 과정은 $t=T$에서 $t=0$까지 시간을 거꾸로 돌리는 **Reverse Markov Chain**이며, 수학적으로 엄밀하게 유도된 **단 하나의 점화식(Recurrence Formula)**을 반복하는 행렬 연산입니다.
 
----
-
-### 1. 목표 설정: "이상적인 되감기" ($q$)
-
-우리가 하고 싶은 것은 $q(x_{t-1} | x_t)$를 알아내는 것입니다. 즉, 현재의 노이즈 상태 $x_t$를 보고 바로 전 단계 $x_{t-1}$이 무엇이었을지 맞추는 것입니다.
-
-베이즈 정리를 쓰면, 만약 **정답 $x_0$를 알고 있다는 가정하에** 이상적인 역방향 분포를 구할 수 있습니다.
-
-$$q(x_{t-1} | x_t, x_0) = \mathcal{N}(x_{t-1}; {\tilde{\mu}_t(x_t, x_0)}, {\tilde{\beta}_t \mathbf{I}})$$
-
-여기서 가장 중요한 **평균 벡터 $\tilde{\mu}_t$**는 행렬 연산으로 다음과 같이 정의됩니다. 
-
-$$\tilde{\mu}_t(x_t, x_0) = \underbrace{\frac{\sqrt{\alpha_t}(1-\bar{\alpha}_{t-1})}{1-\bar{\alpha}_t} \mathbf{x}_t}_{\text{현재 상태 반영}} + \underbrace{\frac{\sqrt{\bar{\alpha}_{t-1}}\beta_t}{1-\bar{\alpha}_t} \mathbf{x}_0}_{\text{원본 정답 반영}}$$
-
-- **문제점:** 우리는 생성(Generation) 할 때 **정답 $\mathbf{x}_0$를 모릅니다.** (알면 생성할 필요가 없으니까요.)
+이 과정을 단계별 행렬/벡터 수식으로 완벽하게 해부해 드리겠습니다.
 
 ---
 
-### 2. 현실적 타협: "정답 대신 예측값 쓰기"
+### 1. 초기화 (Initialization)
 
-$x_0$를 모르니까, **신경망(U-Net)을 시켜서 $x_0$를 예측하거나, 관련된 무언가를 예측하게** 해야 합니다.
+모든 것은 완전한 가우시안 노이즈에서 시작합니다.
 
-#### (1) $x_0$를 $x_t$와 $\epsilon$으로 치환하기
-
-우리는 Forward process 공식에서 다음 관계를 알고 있습니다.
-
-$$x_t = \sqrt{\bar{\alpha}_t}x_0 + \sqrt{1-\bar{\alpha}_t}\epsilon$$
-
-이를 $x_0$에 대해 정리하면:
-
-$$x_0 = \frac{x_t - \sqrt{1-\bar{\alpha}_t}\epsilon}{\sqrt{\bar{\alpha}_t}}$$
-
-#### (2) 평균 식 $\tilde{\mu}_t$에 대입하기
-
-위의 $x_0$ 식을 아까 본 복잡한 평균 식 $\tilde{\mu}_t(x_t, x_0)$에 쑤겨 넣고 정리하면, 놀랍게도 $x_0$는 사라지고 **노이즈 $\epsilon$만 남습니다.**
-
-$$\mathbf{\mu}_\theta(x_t, t) = \frac{1}{\sqrt{\alpha_t}} \left( \mathbf{x}_t - \frac{\beta_t}{\sqrt{1-\bar{\alpha}_t}} \mathbf{\epsilon}_\theta(x_t, t) \right)$$
-
-- **$\mathbf{x}_t$:** 현재 우리가 가지고 있는 노이즈 낀 이미지 (Input)
+- **상태:** $\mathbf{x}_T \sim \mathcal{N}(\mathbf{0}, \mathbf{I})$
     
-- **$\mathbf{\epsilon}_\theta(x_t, t)$:** **신경망이 예측해야 할 유일한 미지수.** (신경망아, 지금 $x_t$에 껴있는 노이즈가 뭐니?)
+- **차원:** $\mathbf{x}_T \in \mathbb{R}^D$ (이미지를 1차원 벡터로 가정, $D = H \times W \times C$)
+    
+- **의미:** 모든 픽셀값이 평균 0, 분산 1로 독립적인 랜덤 상태입니다.
     
 
 ---
 
-### 3. 최종 연산: "샘플링 (Denoising Step)"
+### 2. Denoising 루프 (Iterative Refinement)
 
-이제 실제로 이미지를 생성하는 한 스텝($x_t \to x_{t-1}$)을 행렬 연산으로 수행합니다.
+$t = T, T-1, \dots, 1$ 순서로 다음 과정을 반복합니다.
 
-$$\mathbf{x}_{t-1} = \color{blue}{\frac{1}{\sqrt{\alpha_t}} \left( \mathbf{x}_t - \frac{1-\alpha_t}{\sqrt{1-\bar{\alpha}_t}} \mathbf{\epsilon}_\theta(\mathbf{x}_t, t) \right)} + \color{red}{\sigma_t \mathbf{z}}$$
+목표는 $p_\theta(\mathbf{x}_{t-1} | \mathbf{x}t)$의 분포에서 샘플링하여 $\mathbf{x}{t-1}$을 구하는 것입니다.
 
-이 식을 **행렬(텐서) 연산 순서**대로 뜯어보겠습니다. (이미지 크기 $64 \times 64$ 가정)
+이 분포는 가우시안으로 근사됩니다:
 
-1. **입력 ($\mathbf{x}_t$):** $64 \times 64$ 행렬이 준비됩니다.
+$$p_\theta(\mathbf{x}_{t-1} | \mathbf{x}_t) = \mathcal{N}(\mathbf{x}_{t-1}; \boldsymbol{\mu}_\theta(\mathbf{x}_t, t), \boldsymbol{\Sigma}_\theta(\mathbf{x}_t, t))$$
+
+이때, **평균 벡터 $\boldsymbol{\mu}_\theta$**와 **공분산 행렬 $\boldsymbol{\Sigma}_\theta$**를 결정하는 엄밀한 과정을 서술합니다.
+
+#### Step 2-1. AI 모델의 노이즈 예측 (Prediction)
+
+현재 상태 $\mathbf{x}_t$를 입력받아, 포함된 노이즈를 예측합니다.
+
+$$\hat{\boldsymbol{\epsilon}} = \epsilon_\theta(\mathbf{x}_t, t)$$
+
+- $\epsilon_\theta$: 학습된 Neural Network (U-Net)
     
-2. **노이즈 예측 ($\mathbf{\epsilon}_\theta$):**
+- $\hat{\boldsymbol{\epsilon}} \in \mathbb{R}^D$: 예측된 노이즈 벡터
     
-    - U-Net에 $\mathbf{x}_t$와 시간 $t$를 넣습니다.
-        
-    - U-Net은 입력과 똑같은 크기($64 \times 64$)의 **노이즈 맵**을 출력합니다.
-        
-3. **뺄셈 (Denoising):**
+
+#### Step 2-2. 원본 데이터 추정 (Estimation of $x_0$)
+
+앞서 Forward Process 식을 역이용하여, 현재 노이즈 예측값을 바탕으로 **"잠정적인 원본 $\hat{\mathbf{x}}_0$"**를 추정합니다. (이 과정은 수식 내부에 내재되어 있지만, 유도를 위해 명시합니다.)
+
+$$\hat{\mathbf{x}}_0 = \frac{1}{\sqrt{\bar{\alpha}_t}}(\mathbf{x}_t - \sqrt{1 - \bar{\alpha}_t}\hat{\boldsymbol{\epsilon}})$$
+
+#### Step 2-3. 후위 평균 벡터 결정 (Posterior Mean Calculation)
+
+가장 중요한 단계입니다. 베이즈 정리로 유도했던 **이상적인 평균 $\tilde{\boldsymbol{\mu}}_t$** 공식에, 방금 구한 **추정된 원본 $\hat{\mathbf{x}}_0$**를 대입합니다.
+
+$$\boldsymbol{\mu}_\theta(\mathbf{x}_t, t) = \tilde{\boldsymbol{\mu}}_t(\mathbf{x}_t, \hat{\mathbf{x}}_0)$$
+
+이 식을 $\epsilon_\theta$에 대한 식으로 정리하면 **실제 사용되는 최종 업데이트 공식**이 나옵니다:
+
+$$\boldsymbol{\mu}_\theta(\mathbf{x}_t, t) = \frac{1}{\sqrt{\alpha_t}} \left( \mathbf{x}_t - \frac{1 - \alpha_t}{\sqrt{1 - \bar{\alpha}_t}} \epsilon_\theta(\mathbf{x}_t, t) \right)$$
+
+- **$\frac{1}{\sqrt{\alpha_t}}$:** 전체 스케일 보정 (Scaling Factor)
     
-    - 원본 $\mathbf{x}_t$에서 예측된 노이즈 $\mathbf{\epsilon}_\theta$에 적절한 계수($\frac{1-\alpha}{\dots}$)를 곱한 값을 뺍니다.
-        
-    - **의미:** "노이즈라고 생각되는 부분을 지우개로 지운다."
-        
-4. **스케일링:**
+- **$\mathbf{x}_t$:** 현재 이미지
     
-    - 전체에 $\frac{1}{\sqrt{\alpha_t}}$를 곱해줍니다. (노이즈를 뺐으니 전체적인 픽셀 값의 크기가 작아진 것을 다시 원래대로 복구하는 역할)
-        
-5. **랜덤 노이즈 추가 ($\mathbf{z}$):** [중요!]
+- **$\frac{1 - \alpha_t}{\sqrt{1 - \bar{\alpha}_t}}$:** 예측된 노이즈를 얼마나 뺄지 결정하는 계수
     
-    - 새로운 랜덤 가우시안 노이즈 $\mathbf{z} \sim \mathcal{N}(0, I)$ ($64 \times 64$)를 아주 조금($\sigma_t$) 더해줍니다.
+
+#### Step 2-4. 공분산 행렬과 노이즈 주입 (Langevin Step)
+
+샘플링의 다양성을 위해 확률적인 요소를 추가합니다.
+
+- **공분산 행렬:** $\boldsymbol{\Sigma}_\theta(x_t, t) = \sigma_t^2 \mathbf{I}$
+    
+    - 보통 $\sigma_t^2 = \beta_t$ (Forward process variance) 혹은 $\tilde{\beta}_t$ (Posterior variance)를 사용합니다. 두 값은 거의 비슷합니다.
         
-    - **이유:** $x_{t-1}$은 확정된 값 하나가 아니라 **확률 분포**입니다. 분포에서 샘플링을 하려면 랜덤성이 필요합니다. (이게 없으면 이미지가 밋밋해집니다.)
-        
+- **랜덤 노이즈 샘플링:** $\mathbf{z} \sim \mathcal{N}(\mathbf{0}, \mathbf{I})$ (단, $t=1$일 때는 $\mathbf{z}=\mathbf{0}$)
+    
 
 ---
 
-### 요약: 행렬 단위 프로세스
+### 3. 최종 업데이트 수식 (The Single Equation)
 
-Reverse Diffusion의 한 스텝은 결국 다음과 같은 **벡터 연산(Vector Arithmetic)**입니다.
+위의 모든 과정을 합치면, 컴퓨터가 $t$ 시점에서 수행하는 **단 한 줄의 행렬 연산**은 다음과 같습니다.
 
-$$\text{Next Image} = \text{Scale} \times (\text{Current Image} - \text{Scale}' \times \text{Predicted Noise}) + \text{Small Random Noise}$$
+$$\mathbf{x}_{t-1} = \underbrace{\frac{1}{\sqrt{\alpha_t}} \left( \mathbf{x}_t - \frac{1 - \alpha_t}{\sqrt{1 - \bar{\alpha}_t}} \epsilon_\theta(\mathbf{x}_t, t) \right)}_{\text{Deterministic Term (Denoising)}} + \underbrace{\sigma_t \mathbf{z}}_{\text{Stochastic Term (Noise Injection)}}$$
 
-- **입력:** 노이즈 낀 덩어리
+이 식을 행렬 관점에서 해석하면:
+
+1. **방향 수정 (Direction):** 예측된 노이즈 벡터 $\epsilon_\theta$ 방향의 반대 방향으로 벡터를 이동시킵니다. (노이즈 제거)
     
-- **핵심 연산:** 신경망이 "이게 노이즈야"라고 찾아낸 부분을 **행렬 뺄셈**으로 제거.
+2. **스케일 조정 (Scaling):** $\frac{1}{\sqrt{\alpha_t}}$ 스칼라를 곱해 데이터의 분산 크기를 맞춥니다.
     
-- **출력:** 조금 더 선명해진 덩어리
+3. **요동 (Fluctuation):** $\sigma_t \mathbf{z}$ 벡터를 더해, 결정론적인 궤적이 아닌 확률 분포를 따르도록 미세하게 흔들어줍니다. 이것이 생성 결과의 다양성을 보장합니다.
     
 
-이 과정을 $T=1000$번 반복하면, 처음의 완전한 노이즈 행렬이 의미 있는 이미지 행렬로 바뀌게 됩니다.
+---
 
-Would you like me to ...
+### 4. 최종 출력 (Final Output)
 
-혹시 이 과정에서 사용되는 **U-Net 구조(Attention 등)**가 노이즈를 예측하기 위해 행렬 내부에서 구체적으로 어떤 연산을 하는지 설명해 드릴까요?
+$t=1$까지 루프가 끝나면 $\mathbf{x}_0$를 얻게 됩니다.
+
+이 벡터는 실수(Real number) 값이므로, 이미지 포맷에 맞게 처리합니다.
+
+- **Clipping:** 픽셀 값 범위를 $[-1, 1]$ 또는 $[0, 255]$로 자릅니다.
+    
+- **Reshaping:** $D$차원 벡터를 $(H, W, C)$ 텐서로 변환하여 이미지를 완성합니다.
+    
+
+### 요약: 수학적 알고리즘
+
+1. $\mathbf{x}_T \leftarrow \text{Sample from } \mathcal{N}(\mathbf{0}, \mathbf{I})$
+    
+2. **for** $t = T, \dots, 1$ **do**
+    
+    - $\mathbf{z} \leftarrow \text{Sample from } \mathcal{N}(\mathbf{0}, \mathbf{I})$ if $t > 1$ else $\mathbf{0}$
+        
+    - $\mathbf{x}_{t-1} \leftarrow \frac{1}{\sqrt{\alpha_t}} (\mathbf{x}_t - \frac{1-\alpha_t}{\sqrt{1-\bar{\alpha}_t}}\epsilon_\theta(\mathbf{x}_t, t)) + \sigma_t \mathbf{z}$
+        
+3. **return** $\mathbf{x}_0$
+    
+
+이 과정이 바로 Diffusion Model이 노이즈에서 의미 있는 이미지를 "조각"해내는 수학적으로 엄밀한 과정입니다.
