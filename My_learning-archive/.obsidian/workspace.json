@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAE 수학적 증명 및 해석"
+              "title": "Reverse Process"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VAE 수학적 증명 및 해석 의 개요"
+              "title": "Reverse Process 의 개요"
             }
           },
           {
@@ -240,22 +240,22 @@
   },
   "active": "6955ffffbff51f62",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
+    "Deep_Learning/Generative_Model/HVAE/HVAE 전체 과정, LOSS.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
+    "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
     "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
     "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
     "Math & Statistics/Statistics/Gaussian Distribution/Covariance 유형.md",
     "Math & Statistics/Statistics/Gaussian Distribution/Gaussian 합체 규칙.md",
     "Math & Statistics/Statistics/Gaussian Distribution/Multivariate Gaussian.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Variance Preserving.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Anytime Transition.md",
     "Math & Statistics/Statistics/Gaussian Distribution",
     "Deep_Learning/Generative_Model/VAE/VAE 사진.md",
     "Deep_Learning/Generative_Model/AutoEncoder/AutoEncoder.md",
     "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
-    "Deep_Learning/Generative_Model/HVAE/HVAE 전체 과정, LOSS.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
     "Deep_Learning/Generative_Model/VAE/VAE 전체 과정.md",
     "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
