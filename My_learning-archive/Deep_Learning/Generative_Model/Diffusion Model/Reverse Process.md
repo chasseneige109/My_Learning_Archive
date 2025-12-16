@@ -44,15 +44,13 @@ $$\hat{\boldsymbol{\epsilon}} = \epsilon_\theta(\mathbf{x}_t, t)$$
 
 #### Step 2-2. 원본 데이터 추정 (Estimation of $x_0$)
 
-앞서 Forward Process 식을 역이용하여, 현재 노이즈 예측값을 바탕으로 **"잠정적인 원본 $\hat{\mathbf{x}}_0$"**를 추정합니다. (이 과정은 수식 내부에 내재되어 있지만, 유도를 위해 명시합니다.)
+앞서 Forward Process 식을 가져와서, **"잠정적인 원본 $\hat{\mathbf{x}}_0$"**를 추정치로 사용
 
 $$\hat{\mathbf{x}}_0 = \frac{1}{\sqrt{\bar{\alpha}_t}}(\mathbf{x}_t - \sqrt{1 - \bar{\alpha}_t}\hat{\boldsymbol{\epsilon}})$$
 
 #### Step 2-3. 후위 평균 벡터 결정 (Posterior Mean Calculation)
 
-가장 중요한 단계입니다. 
-베이즈 정리로 유도했던 **이상적인 평균 $\tilde{\boldsymbol{\mu}}_t$** 공식에, <---- [[Proof) Mean 구하기|Proof) Mean 구하기]]
-방금 구한 **추정된 원본 $\hat{\mathbf{x}}_0$**를 대입합니다.
+베이즈 정리로 **이상적인 평균 $\tilde{\boldsymbol{\mu}}_t$** 공식에, <---- [[Proof) Mean 구하기|Proof) Mean 구하기]]
 
 $$\tilde{\boldsymbol{\mu}}_t(\mathbf{x}_t, \mathbf{x}_0) = \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_t}{1 - \bar{\alpha}_t}\mathbf{x}_0 + \frac{\sqrt{\alpha_t}(1 - \bar{\alpha}_{t-1})}{1 - \bar{\alpha}_t}\mathbf{x}_t$$
 
