@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Variance Preserving.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variance Preserving"
+              "title": "무제"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Variance Preserving.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/무제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Variance Preserving 의 개요"
+              "title": "무제 의 개요"
             }
           },
           {
@@ -254,11 +254,11 @@
   },
   "active": "aa429ca38e25ee83",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/Diffusion Model/Proof) Anytime Transition.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/무제.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Variance Preserving.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/무제.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/Proof) Anytime Transition.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/Proof) Variance Preserving.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
     "Deep_Learning/Generative_Model/HVAE/HVAE 전체 과정, LOSS.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",

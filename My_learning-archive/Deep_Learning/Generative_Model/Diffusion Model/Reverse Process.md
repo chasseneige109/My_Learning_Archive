@@ -50,7 +50,9 @@ $$\hat{\mathbf{x}}_0 = \frac{1}{\sqrt{\bar{\alpha}_t}}(\mathbf{x}_t - \sqrt{1 - 
 
 #### Step 2-3. 후위 평균 벡터 결정 (Posterior Mean Calculation)
 
-가장 중요한 단계입니다. 베이즈 정리로 유도했던 **이상적인 평균 $\tilde{\boldsymbol{\mu}}_t$** 공식에, 방금 구한 **추정된 원본 $\hat{\mathbf{x}}_0$**를 대입합니다.
+가장 중요한 단계입니다. 
+베이즈 정리로 유도했던 **이상적인 평균 $\tilde{\boldsymbol{\mu}}_t$** 공식에,  [[Proof) Mean 구하기|Proof) Mean 구하기]]
+방금 구한 **추정된 원본 $\hat{\mathbf{x}}_0$**를 대입합니다.
 
 $$\boldsymbol{\mu}_\theta(\mathbf{x}_t, t) = \tilde{\boldsymbol{\mu}}_t(\mathbf{x}_t, \hat{\mathbf{x}}_0)$$
 
