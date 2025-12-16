@@ -21,9 +21,11 @@
 
 ### 2. Denoising 루프 (Iterative Refinement)
 
+- forward과정의 행렬 크기와 정확히 같은 크기로 reverse
+
 $t = T, T-1, \dots, 1$ 순서로 다음 과정을 반복합니다.
 
-목표는 $p_\theta(\mathbf{x}_{t-1} | \mathbf{x}t)$의 분포에서 샘플링하여 $\mathbf{x}_{t-1}$을 구하는 것입니다.
+목표는 $p_\theta(\mathbf{x}_{t-1} | \mathbf{x}_t)$의 분포에서 샘플링하여 $\mathbf{x}_{t-1}$을 구하는 것입니다.
 
 이 분포는 가우시안으로 근사됩니다:
 
