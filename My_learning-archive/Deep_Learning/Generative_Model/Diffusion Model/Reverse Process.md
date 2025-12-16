@@ -74,7 +74,7 @@ $$\boldsymbol{\mu}_\theta(\mathbf{x}_t, t) = \frac{1}{\sqrt{\alpha_t}} \left( \m
 
 - **공분산 행렬:** $\boldsymbol{\Sigma}_\theta(x_t, t) = \sigma_t^2 \mathbf{I}$
     
-    - 보통 $\sigma_t^2 = \beta_t$ (Forward process variance) 혹은 $\tilde{\beta}_t$ (Posterior variance)를 사용합니다. 두 값은 거의 비슷합니다.
+    - 보통 $\sigma_t^2 = \beta_t$ (Forward process variance) 혹은 $\tilde{\beta}_t$ (Posterior variance)를 사용합니다. 두 값은 거의 비슷합니다. [[Which Covariance]] <-- 수학적 원리
         
 - **랜덤 노이즈 샘플링:** $\mathbf{z} \sim \mathcal{N}(\mathbf{0}, \mathbf{I})$ (단, $t=1$일 때는 $\mathbf{z}=\mathbf{0}$)
 	
