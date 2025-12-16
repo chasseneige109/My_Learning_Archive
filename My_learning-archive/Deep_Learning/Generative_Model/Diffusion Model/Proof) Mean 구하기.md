@@ -46,9 +46,9 @@ $$\tilde{\beta}_t = \frac{1-\bar{\alpha}_{t-1}}{1-\bar{\alpha}_t}\beta_t$$
 
 #### (2) 1차항 ($\mathbf{x}_{t-1}$) 정리 → 평균 유도
 
-$\mathbf{x}{t-1}$이 포함된 항만 모읍니다:
+$\mathbf{x}_{t-1}$이 포함된 항만 모읍니다:
 
-$$\mathbf{x}{t-1}^T \left( \frac{\sqrt{\alpha_t}}{\beta_t}\mathbf{x}t + \frac{\sqrt{\bar{\alpha}{t-1}}}{1-\bar{\alpha}_{t-1}}\mathbf{x}_0 \right)$$
+$$\mathbf{x}_{t-1}^T \left( \frac{\sqrt{\alpha_t}}{\beta_t}\mathbf{x}_{t} + \frac{\sqrt{\bar{\alpha}_{t-1}}}{1-\bar{\alpha}_{t-1}}\mathbf{x}_0 \right)$$
 
 가우시안 분포에서 1차항의 계수는 **$\frac{\text{평균}}{\text{분산}}$**과 같습니다.
 
