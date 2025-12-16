@@ -51,7 +51,7 @@ $$\hat{\mathbf{x}}_0 = \frac{1}{\sqrt{\bar{\alpha}_t}}(\mathbf{x}_t - \sqrt{1 - 
 #### Step 2-3. 후위 평균 벡터 결정 (Posterior Mean Calculation)
 
 베이즈 정리로 **이상적인 평균 $\tilde{\boldsymbol{\mu}}_t$** 공식 도출 <---- [[Proof) Mean 구하기|Proof) Mean 구하기]]
-이후 x0에  $\hat{\mathbf{x}}_0$ 대입!
+이후 $x_0$에  $\hat{\mathbf{x}}_0$ 대입!
 
 $$\tilde{\boldsymbol{\mu}}_t(\mathbf{x}_t, \mathbf{x}_0) = \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_t}{1 - \bar{\alpha}_t}\mathbf{x}_0 + \frac{\sqrt{\alpha_t}(1 - \bar{\alpha}_{t-1})}{1 - \bar{\alpha}_t}\mathbf{x}_t$$
 
