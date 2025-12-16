@@ -77,7 +77,11 @@ $$\boldsymbol{\mu}_\theta(\mathbf{x}_t, t) = \frac{1}{\sqrt{\alpha_t}} \left( \m
     - 보통 $\sigma_t^2 = \beta_t$ (Forward process variance) 혹은 $\tilde{\beta}_t$ (Posterior variance)를 사용합니다. 두 값은 거의 비슷합니다.
         
 - **랜덤 노이즈 샘플링:** $\mathbf{z} \sim \mathcal{N}(\mathbf{0}, \mathbf{I})$ (단, $t=1$일 때는 $\mathbf{z}=\mathbf{0}$)
+	
+- **노이즈가 있으면:** 매 스텝마다 **상을 좌우로 살짝살짝 흔들어줍니다.** 이렇게 흔들어주면, 잘못된 길에 빠졌더라도 다시 **더 깊고 올바른 골짜기(데이터가 많은 확률 분포)** 쪽으로 굴러떨어지게 됩니다. 이것을 물리학에서 **Langevin Dynamics(랑주뱅 역학)**라고 합니다.
     
+
+> **비유:** 구슬을 미로 통과시킬 때, 바닥을 탁탁 쳐서(진동) 구슬이 구석에 끼지 않고 구멍으로 잘 들어가게 하는 것과 같습니다.
 
 ---
 
