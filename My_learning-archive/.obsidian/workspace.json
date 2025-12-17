@@ -25,14 +25,13 @@
             "id": "b2362f13a524d59e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
-                "mode": "source",
-                "source": false
+                "file": "무제.base",
+                "viewName": "표"
               },
-              "icon": "lucide-file",
-              "title": "DDIM"
+              "icon": "lucide-table",
+              "title": "무제"
             }
           }
         ],
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
+                "file": "무제.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DDIM 의 개요"
+              "title": "무제 의 개요"
             }
           },
           {
@@ -198,6 +197,7 @@
   },
   "active": "b2362f13a524d59e",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
     "무제 2.base",
     "무제 1.base",
     "무제.base",
@@ -205,7 +205,6 @@
     "Deep_Learning/Generative_Model/Diffusion/Conditional Diffusion.md",
     "Deep_Learning/Generative_Model/Diffusion/Forward Process.md",
     "무제.md",
-    "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
     "Deep_Learning/Generative_Model/Diffusion/Score_Matching.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/무제 2.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) LOSS 수학적 증명.md",
@@ -240,7 +239,6 @@
     "Deep_Learning/Generative_Model/WGAN",
     "Optimization/Duality",
     "Optimization/무제",
-    "Optimization",
     "z Pasted Image/Pasted image 20251213215457.png",
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251212014421.png",
