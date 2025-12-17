@@ -135,7 +135,7 @@ Diffusion은 $512 \times 512$ 픽셀 이미지를 직접 다루지 않습니다.
     - $\text{Predicted Noise} = \text{UNet}(z_t, t, c)$
         
 4. Loss 계산 (MSE): 정답 노이즈($\epsilon$)와 예측 노이즈($\epsilon_\theta$)의 차이를 계산합니다.
-    
+    (진짜 저 노이즈 MSE 항이 전부임)
     $$L = || \epsilon - \epsilon_\theta(z_t, t, c) ||^2$$
     
 5. **Backpropagation:** 이 Loss를 줄이는 방향으로 U-Net 내부의 모든 파라미터(Conv weights, Attention weights, MLP weights)를 업데이트합니다. (VAE와 Text Encoder는 고정)
