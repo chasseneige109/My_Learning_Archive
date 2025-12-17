@@ -105,7 +105,7 @@ $$d\mathbf{x} = \left[ \mathbf{f}(\mathbf{x}, t) - g(t)^2 \nabla_\mathbf{x} \log
 이것이 바로 **Score Function(점수 함수)**입니다.
 
 - **결론:** 우리가 **Score Function($\nabla \log p_t$)만 알아낼 수 있다면(학습한다면)**, SDE 공식을 이용해 가우시안 노이즈를 다시 데이터 분포로 되돌리는 **Reverse SDE**를 풀 수 있다는 뜻입니다.
-    
+[[Score_Matching]] **<--- 이후 과정
 
 ### 5. **요약:**
 
