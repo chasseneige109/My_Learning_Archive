@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "UNET"
             }
+          },
+          {
+            "id": "f838ce401903f36f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/UNET.md",
+                "file": "무제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UNET 의 개요"
+              "title": "무제 의 개요"
             }
           },
           {
@@ -210,11 +224,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "f838ce401903f36f",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion Model/UNET.md",
+    "무제.md",
     "z Pasted Image/Pasted image 20251217130123.png",
     "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/UNET.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
@@ -257,7 +272,6 @@
     "z Pasted Image/Pasted image 20251213215457.png",
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251212014421.png",
-    "z Pasted Image/Pasted image 20251210214811.png",
     "무제.canvas",
     "무제 1.canvas",
     "Untitled 8.canvas",
