@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) LOSS 수학적 증명.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) SDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "M) LOSS 수학적 증명"
+              "title": "M) SDE"
             }
           }
         ],
@@ -269,13 +269,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) LOSS 수학적 증명.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) SDE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "M) LOSS 수학적 증명 의 개요"
+              "title": "M) SDE 의 개요"
             }
           },
           {
@@ -310,6 +310,7 @@
   },
   "active": "c80a3372ae87ea2e",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) LOSS 수학적 증명.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
     "Deep_Learning/Generative_Model/Diffusion/Score_Matching.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) SDE.md",
@@ -322,7 +323,6 @@
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/무제 1.md",
     "Deep_Learning/Learning/Inductive Bias.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion.md",
-    "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) LOSS 수학적 증명.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/📌VIT 전체 그림.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/📌 Vision_Transformer 총정리.md",
