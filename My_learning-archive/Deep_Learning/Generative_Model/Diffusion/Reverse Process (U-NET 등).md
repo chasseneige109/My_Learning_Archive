@@ -31,8 +31,6 @@ $t = T, T-1, \dots, 1$ 순서로 다음 과정을 반복합니다.
 
 $$p_\theta(\mathbf{x}_{t-1} | \mathbf{x}_t) = \mathcal{N}(\mathbf{x}_{t-1}; \boldsymbol{\mu}_\theta(\mathbf{x}_t, t), \boldsymbol{\Sigma}_\theta(\mathbf{x}_t, t))$$
 
-이때, **평균 벡터 $\boldsymbol{\mu}_\theta$**와 **공분산 행렬 $\boldsymbol{\Sigma}_\theta$**를 결정하는 엄밀한 과정을 서술합니다.
-
 #### Step 2-1. AI 모델의 노이즈 예측 (Prediction)
 
 현재 상태 $\mathbf{x}_t$를 입력받아, 포함된 노이즈를 예측합니다.
