@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
+                "file": "Deep_Learning/Generative_Model/VAE/VAE 사진.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "M) Anderson's Reverse SDE"
+              "title": "VAE 사진"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
+                "file": "Deep_Learning/Generative_Model/VAE/VAE 사진.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "M) Anderson's Reverse SDE 의 개요"
+              "title": "VAE 사진 의 개요"
             }
           },
           {
@@ -183,14 +183,14 @@
   },
   "active": "c80a3372ae87ea2e",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
+    "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) SDE.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/무제 1.md",
-    "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
     "Deep_Learning/Learning/Inductive Bias.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) LOSS 수학적 증명.md",
     "Deep_Learning/Generative_Model/Diffusion/Score_Matching.md",
     "Deep_Learning/Generative_Model/Diffusion/Forward Process.md",
-    "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
     "Deep_Learning/Generative_Model/Diffusion/Reverse Process (U-NET 등).md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Mean 구하기.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/무제 2.md",
