@@ -1,6 +1,6 @@
-네, 사용자님의 배경지식(선형대수학, Convex Optimization, 딥러닝 모델 아키텍처에 대한 이해)을 고려하여, **Latent Diffusion Model (Stable Diffusion v1.5 기준)**의 학습 및 추론 과정을 **End-to-End**로, 아주 미시적인 레이어 단위(LayerNorm, Activation 등)까지 해부해서 설명해 드리겠습니다.
+**Latent Diffusion Model (Stable Diffusion v1.5 기준)**의 학습 및 추론 과정을 **End-to-End**로, 아주 미시적인 레이어 단위(LayerNorm, Activation 등)까지 해부해서 설명해 드리겠습니다.
 
-전체 과정은 크게 **1. 전처리(VAE), 2. 조건 처리(CLIP, Time), 3. 핵심 엔진(U-Net 내부), 4. 학습(Loss), 5. 추론(Sampling)**으로 나뉩니다.
+전체 과정은 크게 **1. 전처리(VAE), 2. 조건 처리(CLIP, Time), 3. U-Net , 4. 학습(Loss), 5. 추론(Sampling)**으로 나뉩니다.
 
 ---
 
