@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "대학원가자/졸업 학점 및 GPA.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "졸업 학점 및 GPA"
+              "title": "M) Anderson's Reverse SDE"
             }
           }
         ],
@@ -255,13 +255,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "대학원가자/졸업 학점 및 GPA.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "졸업 학점 및 GPA 의 개요"
+              "title": "M) Anderson's Reverse SDE 의 개요"
             }
           },
           {
@@ -296,6 +296,7 @@
   },
   "active": "19740c0d9ef86b41",
   "lastOpenFiles": [
+    "대학원가자/졸업 학점 및 GPA.md",
     "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) SDE.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
@@ -324,7 +325,6 @@
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
     "z Pasted Image/Pasted image 20251217130123.png",
-    "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
     "Math & Statistics/Statistics/Gaussian Distribution",
     "Deep_Learning/Generative_Model/HVAE",
     "z Pasted Image/Pasted image 20251213220152.png",
