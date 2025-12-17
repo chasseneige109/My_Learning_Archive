@@ -30,11 +30,11 @@ Inductive Bias가 없다면, 모델은 훈련 데이터에 있는 것만 기억�
 
 ### 4. 다양한 모델에서의 Inductive Bias
 
-|**모델**|**Inductive Bias**|**설명**|
-|---|---|---|
-|**RNN/LSTM**|**시간적 인과 관계 (Temporal Locality)**|순서대로 들어오는 시퀀스 데이터에서 가까운 시점의 정보가 더 중요하다고 가정함.|
-|**Transformer**|**셋 인베리언스 (Set Invariance)**|입력 시퀀스의 순서를 무시하고 병렬 처리하며, 순서 정보는 따로 Positional Encoding으로 주입해야 함.|
-|**Graph Neural Network (GNN)**|**연결성 (Connectivity)**|인접한 노드(Node)끼리 정보가 전달되어야 의미가 있다고 가정함.|
+| **모델**                         | **Inductive Bias**                | **설명**                                                            |
+| ------------------------------ | --------------------------------- | ----------------------------------------------------------------- |
+| **RNN/LSTM**                   | **시간적 인과 관계 (Temporal Locality)** | 순서대로 들어오는 시퀀스 데이터에서 가까운 시점의 정보가 더 중요하다고 가정함.                      |
+| **Transformer**                | **셋 인베리언스 (Set Invariance)**      | 입력 시퀀스의 순서를 무시하고 병렬 처리하며, 순서 정보는 따로 Positional Encoding으로 주입해야 함. |
+| **Graph Neural Network (GNN)** | **연결성 (Connectivity)**            | 인접한 노드(Node)끼리 정보가 전달되어야 의미가 있다고 가정함.                             |
 
 ### 결론
 

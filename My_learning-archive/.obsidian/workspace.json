@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/M) SDE.md",
+                "file": "Deep_Learning/Learning/Inductive Bias.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "M) SDE"
+              "title": "Inductive Bias"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/M) SDE.md",
+                "file": "Deep_Learning/Learning/Inductive Bias.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "M) SDE 의 개요"
+              "title": "Inductive Bias 의 개요"
             }
           },
           {
@@ -254,8 +254,8 @@
   },
   "active": "ad2752524c9d31fc",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/Diffusion/Diffusion.md",
     "Deep_Learning/Generative_Model/Diffusion/M) SDE.md",
+    "Deep_Learning/Generative_Model/Diffusion/Diffusion.md",
     "Deep_Learning/Generative_Model/Diffusion/M) LOSS 수학적 증명.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/📌VIT 전체 그림.md",
