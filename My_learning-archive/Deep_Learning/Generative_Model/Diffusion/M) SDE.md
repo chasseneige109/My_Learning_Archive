@@ -34,13 +34,11 @@ Discrete한 DDPM($x_t$)을 Continuous한 SDE($X_t$)로 확장하면, Diffusion �
 
 이 관점은 **Score-based Generative Modeling (Yang Song et al.)**의 핵심 이론이기도 합니다.
 
-### 1. 연결 고리: 극한으로 보내기 ($T \to \infty$)
-
 우리가 앞서 본 DDPM의 Forward 식은 다음과 같습니다.
 
 $$x_t = \sqrt{1-\beta_t} x_{t-1} + \sqrt{\beta_t} \epsilon_t$$
 
-여기서 전체 단계 $T$를 무한대로 늘리고, 한 스텝의 크기를 아주 작은 시간 단위 $\Delta t$로 쪼갠다고 상상해 봅시다.
+여기서 전체 단계 $T$를 무한대로 늘리고, 한 스텝의 크기를 아주 작은 시간 단위 $\Delta t$로 쪼갬.
 
 이때 $\beta_t$는 아주 작은 값인 $\beta(t)\Delta t$로 치환할 수 있습니다.
 
@@ -54,7 +52,6 @@ $$d\mathbf{x} = \underbrace{-\frac{1}{2}\beta(t)\mathbf{x} \, dt}_{\mathbf{f}(\m
 
 - $d\mathbf{w}$: 브라운 운동(Wiener Process)의 미소 변화량 (연속적인 노이즈)
     
-
 ---
 
 ### 2. $f$와 $g$의 물리적 의미
@@ -65,16 +62,13 @@ $$d\mathbf{x} = \underbrace{-\frac{1}{2}\beta(t)\mathbf{x} \, dt}_{\mathbf{f}(\m
 
 - **역할:** "데이터를 0으로 끌어당김"
     
-- **설명:** $\mathbf{x}$ 앞에 마이너스 부호가 붙어 있습니다. 시간이 지날수록 현재 데이터 값($\mathbf{x}$)을 원점(0) 방향으로 서서히 줄여버립니다(Decay).
-    
 - **이미지:** 잉크가 물에 퍼지면서 색이 옅어지는 것처럼, 원래 데이터의 진한 정보(Signal)를 지워버리는 역할을 합니다.
     
 
 #### ② Diffusion 항: $g(t) = \sqrt{\beta(t)}$
 
 - **역할:** "무작위 노이즈 주입"
-    
-- **설명:** 랜덤한 움직임($d\mathbf{w}$)을 계속 더해줍니다. $\beta(t)$의 크기만큼 데이터가 제멋대로 흔들리게 만듭니다.
+- 랜덤한 움직임($d\mathbf{w}$)을 계속 더해줍니다. $\beta(t)$의 크기만큼 데이터가 제멋대로 흔들리게 만듭니다.
     
 - **이미지:** 물 분자가 끊임없이 잉크 입자를 때려서 사방으로 흩어지게 만드는 힘입니다.
     
