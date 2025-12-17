@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "VAE 수학적 증명 및 해석"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제.md",
+                "file": "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 의 개요"
+              "title": "VAE 수학적 증명 및 해석 의 개요"
             }
           },
           {
@@ -226,8 +226,9 @@
   },
   "active": "f838ce401903f36f",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/Diffusion Model/UNET.md",
+    "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
     "무제.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/UNET.md",
     "z Pasted Image/Pasted image 20251217130123.png",
     "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
@@ -239,7 +240,6 @@
     "Deep_Learning/Generative_Model/Diffusion Model/M) Covariance Selection.md",
     "Deep_Learning/Generative_Model/Diffusion Model/M) Anytime Transition.md",
     "Deep_Learning/Generative_Model/HVAE/HVAE 전체 과정, LOSS.md",
-    "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
     "Deep_Learning/Generative_Model/WGAN/Kantorovich-Rubinstein Duality.md",
     "Deep_Learning/Generative_Model/WGAN/Spectral Normalization (SN).md",
     "Math & Statistics/Statistics/Gaussian Distribution/Covariance 유형.md",
