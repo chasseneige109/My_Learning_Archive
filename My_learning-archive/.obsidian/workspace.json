@@ -27,11 +27,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "무제.base",
+                "file": "무제 2.base",
                 "viewName": "표"
               },
               "icon": "lucide-table",
-              "title": "무제"
+              "title": "무제 2"
             }
           }
         ],
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제.base",
+                "file": "무제 2.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 의 개요"
+              "title": "무제 2 의 개요"
             }
           },
           {
@@ -197,10 +197,10 @@
   },
   "active": "b2362f13a524d59e",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
-    "무제 2.base",
     "무제 1.base",
     "무제.base",
+    "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
+    "무제 2.base",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
     "Deep_Learning/Generative_Model/Diffusion/Conditional Diffusion.md",
     "Deep_Learning/Generative_Model/Diffusion/Forward Process.md",
