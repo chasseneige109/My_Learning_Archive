@@ -16,6 +16,7 @@ $$L(\theta) = \mathbb{E}_{x \sim p_{\text{data}}} \left[ \| s_\theta(x) - \nabla
 수학자들은 기막힌 우회로를 찾아냈습니다.
 
 **"데이터에 일부러 노이즈를 더한 뒤, 그 노이즈를 예측하게 시키면, 수학적으로 Score를 학습하는 것과 똑같다"**는 사실이 증명되었습니다 (Vincent, 2011).
+[[M) Anderson's Reverse SDE]] <---- 설명
 
 이것이 바로 **Diffusion Model**의 학습 방식과 정확히 일치합니다.
 
