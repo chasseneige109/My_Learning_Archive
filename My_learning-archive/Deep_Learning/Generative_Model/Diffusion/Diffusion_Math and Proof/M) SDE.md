@@ -96,7 +96,7 @@ $$d\mathbf{x} = \underbrace{-\frac{1}{2}\beta(t)\mathbf{x} \, dt}_{\mathbf{f}(\m
 
 이것이 진짜 중요한 이유입니다. 수학자 **Anderson(1982)**의 이론에 따르면,
 
-**"어떤 Forward SDE가 존재하면, 시간을 거꾸로 돌리는 Reverse SDE도 반드시 존재한다"**는 것이 증명되어 있습니다.
+**"어떤 Forward SDE가 존재하면, 시간을 거꾸로 돌리는 Reverse SDE도 반드시 존재한다"**는 것이 증명되어 있습니다. [[M) Anderson's Reverse SDE]] <---- 증명
 
 $$d\mathbf{x} = \left[ \mathbf{f}(\mathbf{x}, t) - g(t)^2 \nabla_\mathbf{x} \log p_t(\mathbf{x}) \right] dt + g(t) d\bar{\mathbf{w}}$$
 
