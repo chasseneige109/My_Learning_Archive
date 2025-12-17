@@ -20,22 +20,8 @@
               "icon": "lucide-file",
               "title": "Diffusion 전체 과정"
             }
-          },
-          {
-            "id": "b2362f13a524d59e",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "무제 2.base",
-                "viewName": "표"
-              },
-              "icon": "lucide-table",
-              "title": "무제 2"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 2.base",
+                "file": "무제 1.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 2 의 개요"
+              "title": "무제 1 의 개요"
             }
           },
           {
@@ -195,12 +181,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b2362f13a524d59e",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "무제 2.base",
     "무제 1.base",
     "무제.base",
     "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
-    "무제 2.base",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
     "Deep_Learning/Generative_Model/Diffusion/Conditional Diffusion.md",
     "Deep_Learning/Generative_Model/Diffusion/Forward Process.md",
