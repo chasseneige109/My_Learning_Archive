@@ -52,7 +52,7 @@ Diffusion은 $512 \times 512$ 픽셀 이미지를 직접 다루지 않습니다.
 
 ---
 
-### 3. 핵심 엔진: U-Net 내부 아키텍처 (Micro-Architecture)
+### 3. Reverse Process U-Net 
 
 이제 $z_t, t, c$가 U-Net에 들어갑니다. U-Net은 크게 **Encoder Blocks(Down), Middle Block, Decoder Blocks(Up)**으로 구성됩니다. 이 블록들 내부의 **기본 구성 요소(Atomic Operations)**를 뜯어보겠습니다.
 

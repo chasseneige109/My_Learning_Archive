@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process (U-NET 등).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reverse Process"
+              "title": "Reverse Process (U-NET 등)"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/UNET.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/U-NET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UNET"
+              "title": "U-NET"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/UNET.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/Diffusion 전체 과정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UNET"
+              "title": "Diffusion 전체 과정"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/UNET.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/Diffusion 전체 과정.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UNET 의 개요"
+              "title": "Diffusion 전체 과정 의 개요"
             }
           },
           {
@@ -226,6 +226,8 @@
   },
   "active": "f838ce401903f36f",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process (U-NET 등).md",
+    "Deep_Learning/Generative_Model/Diffusion Model/U-NET.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Diffusion 전체 과정.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Diffusion.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/📌VIT 전체 그림.md",
@@ -235,14 +237,12 @@
     "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
     "Deep_Learning/Generative_Model/Diffusion Model/M) Anytime Transition.md",
     "Deep_Learning/Generative_Model/Diffusion Model/M) Covariance Selection.md",
     "Deep_Learning/Generative_Model/Diffusion Model/M) Mean 구하기.md",
     "Deep_Learning/Generative_Model/Diffusion Model/M) Variance Preserving.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 증명 및 해석.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/UNET.md",
     "z Pasted Image/Pasted image 20251217130123.png",
     "Deep_Learning/Generative_Model/GAN/GAN 수학 증명, 문제점.md",
     "Deep_Learning/Generative_Model/HVAE/HVAE 전체 과정, LOSS.md",
