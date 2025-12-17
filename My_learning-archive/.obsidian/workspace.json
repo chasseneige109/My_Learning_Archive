@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Diffusion 전체 과정.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/M) LOSS 수학적 증명.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diffusion 전체 과정"
+              "title": "M) LOSS 수학적 증명"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Diffusion 전체 과정.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion Model/M) LOSS 수학적 증명.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Diffusion 전체 과정 의 개요"
+              "title": "M) LOSS 수학적 증명 의 개요"
             }
           },
           {
@@ -240,12 +240,12 @@
   },
   "active": "cb6283c0f02d1d60",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion 전체 과정.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/📌VIT 전체 그림.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/📌 Vision_Transformer 총정리.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token/CLS_Variations.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token/CLS.md",
     "Deep_Learning/Vision_Model/CNN/CNN.md",
-    "Deep_Learning/Generative_Model/Diffusion Model/Diffusion 전체 과정.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process (U-NET 등).md",
     "Deep_Learning/Generative_Model/Diffusion Model/M) LOSS 수학적 증명.md",
     "Deep_Learning/Generative_Model/Diffusion Model/U-NET.md",
