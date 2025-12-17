@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
+                "file": "대학원가자/졸업 학점 및 GPA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WGAN_GP"
+              "title": "졸업 학점 및 GPA"
             }
           }
         ],
@@ -255,13 +255,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
+                "file": "대학원가자/졸업 학점 및 GPA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "WGAN_GP 의 개요"
+              "title": "졸업 학점 및 GPA 의 개요"
             }
           },
           {
@@ -296,6 +296,7 @@
   },
   "active": "19740c0d9ef86b41",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/WGAN/WGAN_GP.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) SDE.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
     "Deep_Learning/Generative_Model/Diffusion/무제 2.md",
