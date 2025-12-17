@@ -53,14 +53,12 @@
             "id": "f838ce401903f36f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Diffusion 전체 과정.md",
-                "mode": "source",
-                "source": false
+                "file": "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png"
               },
-              "icon": "lucide-file",
-              "title": "Diffusion 전체 과정"
+              "icon": "lucide-image",
+              "title": "📌 TF 전체 그림"
             }
           }
         ],
@@ -185,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion Model/Diffusion 전체 과정.md",
+                "file": "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Diffusion 전체 과정 의 개요"
+              "title": "📌 TF 전체 그림 의 개요"
             }
           },
           {
@@ -226,8 +224,8 @@
   },
   "active": "f838ce401903f36f",
   "lastOpenFiles": [
-    "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Diffusion 전체 과정.md",
+    "Deep_Learning/Generative_Model/Diffusion Model/Forward Process.md",
     "Deep_Learning/Generative_Model/Diffusion Model/Reverse Process.md",
     "Deep_Learning/Generative_Model/Diffusion Model/M) Anytime Transition.md",
     "Deep_Learning/Generative_Model/Diffusion Model/M) Covariance Selection.md",
