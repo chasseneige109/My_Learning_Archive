@@ -23,11 +23,12 @@ Diffusion은 $512 \times 512$ 픽셀 이미지를 직접 다루지 않습니다.
 
 학습 시 U-Net에 들어가는 데이터는 세 가지입니다: **Noisy Latent, Timestep, Text Embedding**.
 
-#### A. Forward Diffusion Process (노이즈 주입)
+#### A. Forward Diffusion Process (노이즈 주입!)
 
 - 원본 Latent $z_0$에 시간 $t$에 해당하는 가우시안 노이즈 $\epsilon \sim \mathcal{N}(0, I)$를 섞습니다.
     
-- 수식 (Reparameterization Trick): 매 스텝 노이즈를 더하는 것이 아니라, 한 번에 $t$ 시점의 노이즈 상태를 만듭니다.
+- (Reparameterization Trick): 매 스텝 노이즈를 더하는 것이 아니라, 수학 공식으로 한 번에
+	t시점을 만들어버립니다.
     
     $$z_t = \sqrt{\bar{\alpha}_t} z_0 + \sqrt{1 - \bar{\alpha}_t} \epsilon$$
     
@@ -52,7 +53,7 @@ Diffusion은 $512 \times 512$ 픽셀 이미지를 직접 다루지 않습니다.
 
 ---
 
-### 3. Reverse Process U-Net 
+### 3. Reverse Process U-Net (노이즈 제거!)
 
 이제 $z_t, t, c$가 U-Net에 들어갑니다. U-Net은 크게 **Encoder Blocks(Down), Middle Block, Decoder Blocks(Up)**으로 구성됩니다. 이 블록들 내부의 **기본 구성 요소(Atomic Operations)**를 뜯어보겠습니다.
 
