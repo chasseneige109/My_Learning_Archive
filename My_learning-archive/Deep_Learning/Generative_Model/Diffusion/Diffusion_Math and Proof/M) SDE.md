@@ -96,7 +96,7 @@ $$d\mathbf{x} = \underbrace{-\frac{1}{2}\beta(t)\mathbf{x} \, dt}_{\mathbf{f}(\m
 
 이것이 진짜 중요한 이유입니다. 수학자 **Anderson(1982)**의 이론에 따르면,
 
-**"어떤 Forward SDE가 존재하면, 시간을 거꾸로 돌리는 Reverse SDE도 반드시 존재한다"**는 것이 증명되어 있습니다. [[M) Anderson's Reverse SDE]] <---- 증명
+**"어떤 Forward SDE가 존재하면, 시간을 거꾸로 돌리는 Reverse SDE도 반드시 존재한다"**는 것이 증명되어 있습니다. [[M) Anderson's Reverse SDE]] <---- 수식 유도
 
 $$d\mathbf{x} = \left[ \mathbf{f}(\mathbf{x}, t) - g(t)^2 \nabla_\mathbf{x} \log p_t(\mathbf{x}) \right] dt + g(t) d\bar{\mathbf{w}}$$
 
@@ -107,7 +107,7 @@ $$d\mathbf{x} = \left[ \mathbf{f}(\mathbf{x}, t) - g(t)^2 \nabla_\mathbf{x} \log
 - **결론:** 우리가 **Score Function($\nabla \log p_t$)만 알아낼 수 있다면(학습한다면)**, SDE 공식을 이용해 가우시안 노이즈를 다시 데이터 분포로 되돌리는 **Reverse SDE**를 풀 수 있다는 뜻입니다.
     
 
-**요약:**
+### 5. **요약:**
 
 - Forward Diffusion은 데이터를 가우시안 노이즈로 만드는 SDE 흐름이다.
     
@@ -115,7 +115,3 @@ $$d\mathbf{x} = \left[ \mathbf{f}(\mathbf{x}, t) - g(t)^2 \nabla_\mathbf{x} \log
     
 - 그 반대 흐름을 타기 위한 '나침반'이 바로 **Score Function**이고, U-Net은 이것을 학습한다.
     
-
-다음 단계 제안:
-
-이제 SDE와 Score Function의 관계까지 나왔습니다. 그렇다면 "Score Function($\nabla_\mathbf{x} \log p_t(\mathbf{x})$)이 도대체 직관적으로 무엇을 의미하길래 노이즈를 데이터로 되돌릴 수 있는지" 벡터 필드(Vector Field) 관점에서 설명해 드릴까요?
