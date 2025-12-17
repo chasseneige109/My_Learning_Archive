@@ -1,6 +1,11 @@
 **Anderson's Reverse SDE**라고 불리는, Diffusion Model(Score-based Generative Model)의 **'성배(Holy Grail)'**와도 같은 공식입니다.
 
-질문하신 **"이 식의 정체"**와 **"유도 과정(직관적 설명)"**을 나누어 설명해 드리겠습니다.
+### !!! 미리 요약
+
+**"노이즈 예측 모델($\epsilon_\theta$)"**이 사실은 이 Score Function과 비례 관계임이 밝혀졌습니다.
+
+$$\text{Score Function}: \quad \nabla_\mathbf{x} \log p_t(\mathbf{x}) \approx -\frac{\epsilon_\theta(\mathbf{x}_t, t)}{\sigma_t}$$
+
 
 ---
 
