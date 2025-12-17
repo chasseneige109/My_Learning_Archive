@@ -71,7 +71,7 @@ $$D_{KL}(\color{blue}{q(x_{t-1}|x_t, x_0)} \ || \ \color{red}{p_\theta(x_{t-1}|x
 $$q(x_{t-1}|x_t, x_0) = \frac{q(x_t|x_{t-1}) q(x_{t-1}|x_0)}{q(x_t|x_0)}$$
 
 위 식의 $q$들은 모두 가우시안 분포입니다. 가우시안끼리 곱하고 나누면 결과도 가우시안입니다.
-
+열심히 수학적 노가다를 하며
 따라서 $q(x_{t-1}|x_t, x_0) = \mathcal{N}(x_{t-1}; \tilde{\mu}_t(x_t, x_0), \tilde{\beta}_t \mathbf{I})$ 가 됩니다.
 
 여기서 **평균 $\tilde{\mu}_t$**를 유도하는 것이 제일 중요합니다. 가우시안 지수 항(exponential term)을 정리하여 완전제곱꼴로 만들면 다음 결과가 나옵니다.
