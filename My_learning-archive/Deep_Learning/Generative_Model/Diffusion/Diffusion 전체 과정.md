@@ -104,7 +104,7 @@
             
     7. **Add:** 잔차 연결.
         
-    8. **FFN (Feed Forward):** `LN` $\to$ `Linear` $\to$ `GEGLU` $\to Linear`.
+    8. **FFN (Feed Forward):** `LN` $\to$ `Linear` $\to$ `GEGLU` -> to Linear`.
         
     9. **Reshape:** 다시 $(B, C, H, W)$ 이미지 형태로 복구.
         
