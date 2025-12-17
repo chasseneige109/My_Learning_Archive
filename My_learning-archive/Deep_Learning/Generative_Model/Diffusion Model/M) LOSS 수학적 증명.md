@@ -51,6 +51,7 @@ $$\begin{aligned} L &= \mathbb{E}_q \left[ -\log \frac{p(x_T) \prod_{t=1}^T p_\t
 $$L = \underbrace{D_{KL}(q(x_T|x_0) || p(x_T))}_{L_T} + \sum_{t=2}^T \underbrace{D_{KL}(q(x_{t-1}|x_t, x_0) || p_\theta(x_{t-1}|x_t))}_{L_{t-1}} \underbrace{- \log p_\theta(x_0|x_1)}_{L_0}$$
 
 1. **$L_T$:** $x_T$는 순수 노이즈(Gaussian)로 고정되므로 **상수(0에 근사)**입니다. 무시합니다.
+	$$L_T = D_{KL}(\underbrace{q(x_T | x_0)}_{\text{사실상 }\mathcal{N}(0,I)} \ || \ \underbrace{p(x_T)}_{\text{정의상 }\mathcal{N}(0,I)})$$
     
 2. **$L_0$:** 마지막 복원 단계입니다.
     
