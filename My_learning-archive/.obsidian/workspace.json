@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/Conditional Diffusion.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conditional Diffusion"
+              "title": "Diffusion 전체 과정"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/Conditional Diffusion.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Conditional Diffusion 의 개요"
+              "title": "Diffusion 전체 과정 의 개요"
             }
           },
           {
@@ -212,9 +212,9 @@
   },
   "active": "5edbd29908c52e8b",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion/Conditional Diffusion.md",
     "Deep_Learning/Generative_Model/Diffusion/Forward Process.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
-    "Deep_Learning/Generative_Model/Diffusion/Conditional Diffusion.md",
     "무제.md",
     "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
     "Deep_Learning/Generative_Model/Diffusion/Score_Matching.md",
