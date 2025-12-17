@@ -166,7 +166,7 @@
 
 $t = T(1000)$에서 시작해서 $t=0$까지 줄여나갑니다.
 
-- **Step 1: 입력 복제 (Classifier-Free Guidance)**
+- **Step 1: 입력 복제 (Classifier-Free Guidance 사용버전)**
     
     - $z_t$를 두 개로 복사합니다.
         
