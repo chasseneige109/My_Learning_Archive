@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 1.base",
+                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 1 의 개요"
+              "title": "Diffusion 전체 과정 의 개요"
             }
           },
           {
@@ -181,10 +181,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "c80a3372ae87ea2e",
   "lastOpenFiles": [
-    "무제 2.base",
     "무제 1.base",
+    "무제 2.base",
     "무제.base",
     "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
