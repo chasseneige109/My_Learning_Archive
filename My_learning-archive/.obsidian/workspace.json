@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Matrix Representation of Group"
             }
+          },
+          {
+            "id": "82db7bc818e6a86d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math & Statistics/Group, RIng/O(n).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "O(n)"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math & Statistics/Group, RIng/Matrix Representation of Group.md",
+                "file": "Math & Statistics/Group, RIng/O(n).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Matrix Representation of Group 의 개요"
+              "title": "O(n) 의 개요"
             }
           },
           {
@@ -210,10 +224,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9971e9a0e11843c1",
+  "active": "82db7bc818e6a86d",
   "lastOpenFiles": [
-    "Math & Statistics/Group, RIng/군, 체, 환.md",
     "Math & Statistics/Group, RIng/Matrix Representation of Group.md",
+    "Math & Statistics/Group, RIng/O(n).md",
+    "Math & Statistics/Group, RIng/군, 체, 환.md",
     "Deep_Learning/Generative_Model/Diffusion/직관적 설명.md",
     "Math & Statistics/Group, RIng",
     "Multiple View Geometry",
@@ -243,7 +258,6 @@
     "Deep_Learning/Vision_Model/Vision_Transformer/📌VIT 전체 그림.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/📌 Vision_Transformer 총정리.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token/CLS_Variations.md",
-    "Deep_Learning/Vision_Model/Vision_Transformer/CLS Token/CLS.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "z Pasted Image/Pasted image 20251217130123.png",
     "Statistics/Gaussian Distribution",
