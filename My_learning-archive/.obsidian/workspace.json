@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convex_Optimization/Schur Complement.md",
+                "file": "무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Schur Complement"
+              "title": "무제"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convex_Optimization/Schur Complement.md",
+                "file": "무제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Schur Complement 의 개요"
+              "title": "무제 의 개요"
             }
           },
           {
@@ -254,6 +254,7 @@
   },
   "active": "d4e061030241bb5d",
   "lastOpenFiles": [
+    "Convex_Optimization/Schur Complement.md",
     "대학원가자/무제.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Math & Statistics/Group, RIng/군, 체, 환.md",
@@ -289,7 +290,6 @@
     "Deep_Learning/Generative_Model/Diffusion/Reverse Process (U-NET 등).md",
     "Deep_Learning/Generative_Model/VAE/VAE 사진.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
-    "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) SDE.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "z Pasted Image/Pasted image 20251217130123.png",
