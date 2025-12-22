@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math & Statistics/Group, RIng/군, 체, 환.md",
+                "file": "대학원가자/졸업 학점 및 GPA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "군, 체, 환"
+              "title": "졸업 학점 및 GPA"
+            }
+          },
+          {
+            "id": "d4e061030241bb5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "대학원가자/무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -199,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math & Statistics/Group, RIng/군, 체, 환.md",
+                "file": "대학원가자/무제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "군, 체, 환 의 개요"
+              "title": "무제 의 개요"
             }
           },
           {
@@ -238,8 +252,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3481202f5a981339",
+  "active": "d4e061030241bb5d",
   "lastOpenFiles": [
+    "대학원가자/졸업 학점 및 GPA.md",
+    "대학원가자/무제.md",
+    "Math & Statistics/Group, RIng/군, 체, 환.md",
+    "대학원가자/논문 읽기/논문 선정 기준/논문 선정 기준.md",
     "무제.md",
     "Deep_Learning/Fine Tuning/PEFT/Adapter_그림.md",
     "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
@@ -248,15 +266,12 @@
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251213215457.png",
     "z Pasted Image/Pasted image 20251212014329.png",
-    "대학원가자/졸업 학점 및 GPA.md",
     "대학원가자/논문 읽기/학회 및 저널/학회.md",
     "대학원가자/논문 읽기/학회 및 저널/저널.md",
-    "대학원가자/논문 읽기/논문 선정 기준/논문 선정 기준.md",
     "무제 1.md",
     "Math & Statistics/Group, RIng/O(n).md",
     "Math & Statistics/Group, RIng/Matrix Representation of Group.md",
     "Math & Statistics/Group, RIng/Homogeneous Coordinate.md",
-    "Math & Statistics/Group, RIng/군, 체, 환.md",
     "Deep_Learning/Generative_Model/Diffusion/직관적 설명.md",
     "Math & Statistics/Group, RIng",
     "Multiple View Geometry",
@@ -275,7 +290,6 @@
     "Deep_Learning/Generative_Model/VAE/VAE 사진.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) SDE.md",
-    "Deep_Learning/Learning/Inductive Bias.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "z Pasted Image/Pasted image 20251217130123.png",
