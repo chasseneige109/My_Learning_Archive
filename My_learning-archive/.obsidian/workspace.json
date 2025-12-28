@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Audio_Model/AST.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AST"
+              "title": "DDIM"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Audio_Model/AST.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AST 의 개요"
+              "title": "DDIM 의 개요"
             }
           },
           {
@@ -240,13 +240,13 @@
   },
   "active": "3481202f5a981339",
   "lastOpenFiles": [
+    "Deep_Learning/Audio_Model/AST.md",
     "Deep_Learning/Audio_Model/전처리.md",
     "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
     "Deep_Learning/Audio_Model/📌AST 이미지.md",
     "Deep_Learning/Audio_Model/Speech Transformer.md",
     "Deep_Learning/Audio_Model/📌 Speech Transformer 이미지.md",
     "Deep_Learning/Audio_Model/Conformer.md",
-    "Deep_Learning/Audio_Model/AST.md",
     "무제 1.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
