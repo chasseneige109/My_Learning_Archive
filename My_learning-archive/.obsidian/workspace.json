@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DDIM"
+              "title": "Diffusion 전체 과정"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
+                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DDIM 의 개요"
+              "title": "Diffusion 전체 과정 의 개요"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "3481202f5a981339",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
     "Deep_Learning/Audio_Model/AST.md",
     "Deep_Learning/Audio_Model/전처리.md",
     "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
@@ -272,7 +273,6 @@
     "Deep_Learning/Generative_Model/Diffusion/직관적 설명.md",
     "Math & Statistics/Group, RIng",
     "Multiple View Geometry",
-    "Deep_Learning/Generative_Model/Diffusion/Conditional Diffusion.md",
     "무제 1.base",
     "무제 2.base",
     "무제.base",
