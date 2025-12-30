@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Attention_변형/Flash Attention.md",
+                "file": "Statistics/Gumbell Noise.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flash Attention"
+              "title": "Gumbell Noise"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Attention_변형/Flash Attention.md",
+                "file": "Statistics/Gumbell Noise.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Flash Attention 의 개요"
+              "title": "Gumbell Noise 의 개요"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "3481202f5a981339",
   "lastOpenFiles": [
+    "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Mean 구하기.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) LOSS 수학적 증명.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
@@ -253,7 +254,6 @@
     "Deep_Learning/Audio_Model/📌 Speech Transformer 이미지.md",
     "Deep_Learning/Audio_Model/Conformer.md",
     "무제 1.md",
-    "Deep_Learning/Attention_변형/Flash Attention.md",
     "대학원가자/졸업 학점 및 GPA.md",
     "Nam's Algorithm.md",
     "Convex_Optimization/Schur Complement.md",
