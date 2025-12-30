@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Mean 구하기.md",
+                "file": "Deep_Learning/Attention_변형/Flash Attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "M) Mean 구하기"
+              "title": "Flash Attention"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Mean 구하기.md",
+                "file": "Deep_Learning/Attention_변형/Flash Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "M) Mean 구하기 의 개요"
+              "title": "Flash Attention 의 개요"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "3481202f5a981339",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Mean 구하기.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) LOSS 수학적 증명.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
@@ -270,7 +271,6 @@
     "대학원가자/논문 읽기/학회 및 저널/저널.md",
     "Math & Statistics/Group, RIng/O(n).md",
     "Math & Statistics/Group, RIng/Matrix Representation of Group.md",
-    "Math & Statistics/Group, RIng/Homogeneous Coordinate.md",
     "Math & Statistics/Group, RIng",
     "Multiple View Geometry",
     "무제 1.base",
