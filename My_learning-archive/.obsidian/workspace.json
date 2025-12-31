@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "Math & Statistics/Group, RIng/군, 체, 환.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "군, 체, 환"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제.md",
+                "file": "Math & Statistics/Group, RIng/군, 체, 환.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 의 개요"
+              "title": "군, 체, 환 의 개요"
             }
           },
           {
@@ -268,12 +268,12 @@
   },
   "active": "4f8fa5bb296a7461",
   "lastOpenFiles": [
+    "무제.md",
     "무제 1.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Mean 구하기.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Covariance Selection.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anytime Transition.md",
-    "무제.md",
     "Deep_Learning/Attention_변형/무제.md",
     "Deep_Learning/Attention_변형/Linear Attention.md",
     "Deep_Learning/Attention_변형/KV Caching.md",
