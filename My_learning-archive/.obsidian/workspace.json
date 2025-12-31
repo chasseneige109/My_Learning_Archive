@@ -67,12 +67,14 @@
             "id": "3481202f5a981339",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "z Pasted Image/Pasted image 20251210214811.png"
+                "file": "Deep_Learning/Audio_Model/📌AST 이미지.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251210214811"
+              "icon": "lucide-file",
+              "title": "📌AST 이미지"
             }
           }
         ],
@@ -197,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z Pasted Image/Pasted image 20251210214811.png",
+                "file": "Deep_Learning/Audio_Model/📌AST 이미지.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20251210214811 의 개요"
+              "title": "📌AST 이미지 의 개요"
             }
           },
           {
@@ -238,6 +240,12 @@
   },
   "active": "3481202f5a981339",
   "lastOpenFiles": [
+    "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
+    "Deep_Learning/Vision_Model/Vision_Transformer/📌VIT 전체 그림.md",
+    "Deep_Learning/Vision_Model/Vision_Transformer/📌 Vision_Transformer 총정리.md",
+    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
+    "Deep_Learning/Transformer_Basic/📌 TF (근본) 총정리.md",
+    "z Pasted Image/Pasted image 20251210214811.png",
     "z Pasted Image/Pasted image 20251212014329.png",
     "z Pasted Image/Pasted image 20251217130123.png",
     "z Pasted Image/Pasted image 20251213220152.png",
@@ -246,9 +254,6 @@
     "z Pasted Image/Pasted image 20251212014603.png",
     "z Pasted Image/Pasted image 20251212014531.png",
     "z Pasted Image/Pasted image 20251212014421.png",
-    "z Pasted Image/Pasted image 20251210214811.png",
-    "z Pasted Image/Pasted image 20251210214414.png",
-    "z Pasted Image/Pasted image 20251210214357.png",
     "Statistics/Gumbell Noise.md",
     "Deep_Learning/Attention_변형/Flash Attention.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Mean 구하기.md",
@@ -258,7 +263,6 @@
     "Deep_Learning/Generative_Model/Diffusion/DDIM.md",
     "Deep_Learning/Audio_Model/AST.md",
     "Deep_Learning/Audio_Model/전처리.md",
-    "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
     "Deep_Learning/Audio_Model/📌AST 이미지.md",
     "Deep_Learning/Audio_Model/Speech Transformer.md",
     "Deep_Learning/Audio_Model/📌 Speech Transformer 이미지.md",
@@ -272,8 +276,6 @@
     "대학원가자/논문 읽기/논문 선정 기준/논문 선정 기준.md",
     "Deep_Learning/Fine Tuning/PEFT/Adapter_그림.md",
     "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
-    "대학원가자/논문 읽기/학회 및 저널/학회.md",
-    "대학원가자/논문 읽기/학회 및 저널/저널.md",
     "Math & Statistics/Group, RIng",
     "Multiple View Geometry",
     "무제 1.base",
