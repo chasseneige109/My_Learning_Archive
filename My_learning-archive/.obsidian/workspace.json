@@ -69,10 +69,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "z Pasted Image/Pasted image 20251212014421.png"
+                "file": "z Pasted Image/Pasted image 20251210214811.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20251212014421"
+              "title": "Pasted image 20251210214811"
             }
           }
         ],
@@ -197,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z Pasted Image/Pasted image 20251212014421.png",
+                "file": "z Pasted Image/Pasted image 20251210214811.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20251212014421 의 개요"
+              "title": "Pasted image 20251210214811 의 개요"
             }
           },
           {
@@ -239,6 +239,13 @@
   "active": "3481202f5a981339",
   "lastOpenFiles": [
     "z Pasted Image/Pasted image 20251212014329.png",
+    "z Pasted Image/Pasted image 20251217130123.png",
+    "z Pasted Image/Pasted image 20251213220152.png",
+    "z Pasted Image/Pasted image 20251213215457.png",
+    "z Pasted Image/Pasted image 20251213210821.png",
+    "z Pasted Image/Pasted image 20251212014603.png",
+    "z Pasted Image/Pasted image 20251212014531.png",
+    "z Pasted Image/Pasted image 20251212014421.png",
     "z Pasted Image/Pasted image 20251210214811.png",
     "z Pasted Image/Pasted image 20251210214414.png",
     "z Pasted Image/Pasted image 20251210214357.png",
@@ -265,10 +272,6 @@
     "대학원가자/논문 읽기/논문 선정 기준/논문 선정 기준.md",
     "Deep_Learning/Fine Tuning/PEFT/Adapter_그림.md",
     "Deep_Learning/Fine Tuning/PEFT/Adapter.md",
-    "z Pasted Image/Pasted image 20251212014531.png",
-    "z Pasted Image/Pasted image 20251212014421.png",
-    "z Pasted Image/Pasted image 20251212014603.png",
-    "z Pasted Image/Pasted image 20251213215457.png",
     "대학원가자/논문 읽기/학회 및 저널/학회.md",
     "대학원가자/논문 읽기/학회 및 저널/저널.md",
     "Math & Statistics/Group, RIng",
@@ -277,11 +280,8 @@
     "무제 2.base",
     "무제.base",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof",
-    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
-    "z Pasted Image/Pasted image 20251217130123.png",
     "Statistics/Gaussian Distribution",
     "Deep_Learning/Generative_Model/HVAE",
-    "z Pasted Image/Pasted image 20251213220152.png",
     "Deep_Learning/Generative_Model/GAN/GAN_변형",
     "Deep_Learning/Generative_Model/WGAN",
     "무제.canvas",
