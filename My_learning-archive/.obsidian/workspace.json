@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Audio_Model/📌 Speech Transformer 이미지.md",
+                "file": "Machine_Learning/Regression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📌 Speech Transformer 이미지"
+              "title": "Regression"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Audio_Model/📌 Speech Transformer 이미지.md",
+                "file": "Machine_Learning/Regression.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📌 Speech Transformer 이미지 의 개요"
+              "title": "Regression 의 개요"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "3481202f5a981339",
   "lastOpenFiles": [
+    "Deep_Learning/Audio_Model/📌 Speech Transformer 이미지.md",
     "Deep_Learning/Audio_Model/📌AST 이미지.md",
     "Deep_Learning/Audio_Model/📌Conformer 이미지.md",
     "Deep_Learning/Vision_Model/Vision_Transformer/📌VIT 전체 그림.md",
@@ -265,7 +266,6 @@
     "Deep_Learning/Audio_Model/AST.md",
     "Deep_Learning/Audio_Model/전처리.md",
     "Deep_Learning/Audio_Model/Speech Transformer.md",
-    "Deep_Learning/Audio_Model/📌 Speech Transformer 이미지.md",
     "Deep_Learning/Audio_Model/Conformer.md",
     "무제 1.md",
     "대학원가자/졸업 학점 및 GPA.md",
