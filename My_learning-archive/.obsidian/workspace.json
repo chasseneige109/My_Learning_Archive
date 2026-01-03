@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C & C++/문법 & 테크닉/inline.md",
+                "file": "C & C++/알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "inline"
+              "title": "힙 정렬 (Heap Sort)"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & C++/문법 & 테크닉/inline.md",
+                "file": "C & C++/알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "inline 의 개요"
+              "title": "힙 정렬 (Heap Sort) 의 개요"
             }
           },
           {
@@ -266,8 +266,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f8fa5bb296a7461",
+  "active": "1784a1b9aff380e8",
   "lastOpenFiles": [
+    "대학원가자/졸업 학점 및 GPA.md",
+    "C & C++/알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
+    "C & C++/알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
+    "C & C++/알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
+    "C & C++/알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
+    "C & C++/알고리즘/정렬(Sort)/병합 정렬(Merge Sort).md",
+    "C & C++/알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
+    "C & C++/알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
+    "C & C++/알고리즘/정렬(Sort)/ㄱ 정렬 및 시간 복잡도.md",
+    "C & C++/알고리즘/자료구조활용/히스토그램 문제.md",
+    "C & C++/알고리즘/자료구조활용/슬라이딩 윈도우.md",
+    "C & C++/알고리즘/자료구조활용/무제 1.md",
+    "C & C++/문법 & 테크닉/inline.md",
     "C & C++/문법 & 테크닉/중복값 삭제.md",
     "C & C++/문법 & 테크닉/아스키코드.md",
     "C & C++/문법 & 테크닉/소수 판별 함수.md",
@@ -281,19 +294,6 @@
     "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
     "Statistics/Gumbell Noise.md",
     "Convex_Optimization/CVXPY/Basic Syntax.md",
-    "Optimization/Optimal Transport(OT) 문제.md",
-    "Statistics/Change of Variables Formula.md",
-    "Statistics/Gaussian Distribution/Multivariate Gaussian.md",
-    "Statistics/Gaussian Distribution/Gaussian 합체 규칙.md",
-    "Statistics/Gaussian Distribution/Covariance 유형.md",
-    "무제 1.md",
-    "무제.md",
-    "Math & Statistics/Group, RIng/O(n).md",
-    "Math & Statistics/Group, RIng/Matrix Representation of Group.md",
-    "Math & Statistics/Group, RIng/Homogeneous Coordinate.md",
-    "Math & Statistics/Group, RIng/군, 체, 환.md",
-    "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Mean 구하기.md",
-    "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Anderson's Reverse SDE.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "z Pasted Image/Pasted image 20251210214811.png",
     "z Pasted Image/Pasted image 20251212014329.png",
