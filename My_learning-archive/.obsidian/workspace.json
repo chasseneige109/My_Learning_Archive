@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
+                "file": "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "아주 간단히 정리"
+              "title": "VAE 수학적 원리, 한계"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
+                "file": "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "아주 간단히 정리 의 개요"
+              "title": "VAE 수학적 원리, 한계 의 개요"
             }
           },
           {
@@ -268,7 +268,14 @@
   },
   "active": "4f8fa5bb296a7461",
   "lastOpenFiles": [
+    "Deep_Learning/Generative_Model/VAE/VAE 사진.md",
+    "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) Variance Preserving.md",
+    "Deep_Learning/Generative_Model/Diffusion/Diffusion_Math and Proof/M) SDE.md",
+    "Deep_Learning/Generative_Model/Diffusion/Score_Matching.md",
     "Deep_Learning/Generative_Model/AutoEncoder/AutoEncoder.md",
+    "Deep_Learning/Generative_Model/AutoEncoder/PCA.md",
+    "Deep_Learning/Generative_Model/AutoEncoder/Linear Autoencoder.md",
+    "Deep_Learning/Generative_Model/AutoEncoder/아주 간단히 정리.md",
     "Statistics/Variance.md",
     "Statistics/Gumbell Noise.md",
     "C & C++/알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
@@ -287,13 +294,6 @@
     "C & C++/문법 & 테크닉/중복값 삭제.md",
     "C & C++/문법 & 테크닉/아스키코드.md",
     "C & C++/문법 & 테크닉/소수 판별 함수.md",
-    "C & C++/문법 & 테크닉/삼항 연산자.md",
-    "C & C++/문법 & 테크닉/비트 연산자.md",
-    "C & C++/문법 & 테크닉/반복문.md",
-    "C & C++/문법 & 테크닉/값 치환하기.md",
-    "C & C++/문법 & 테크닉/값 전달.md",
-    "C & C++/문법 & 테크닉/값 교환.md",
-    "C & C++/문법 & 테크닉/2차원 '조합'으로 순회하기 테크닉.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "z Pasted Image/Pasted image 20251210214811.png",
     "z Pasted Image/Pasted image 20251212014329.png",
