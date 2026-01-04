@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C & C++/알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
+                "file": "Statistics/Variance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "힙 정렬 (Heap Sort)"
+              "title": "Variance"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & C++/알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
+                "file": "Statistics/Variance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "힙 정렬 (Heap Sort) 의 개요"
+              "title": "Variance 의 개요"
             }
           },
           {
@@ -266,10 +266,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1784a1b9aff380e8",
+  "active": "4f8fa5bb296a7461",
   "lastOpenFiles": [
-    "대학원가자/졸업 학점 및 GPA.md",
+    "Statistics/Gumbell Noise.md",
     "C & C++/알고리즘/정렬(Sort)/힙 정렬 (Heap Sort).md",
+    "대학원가자/졸업 학점 및 GPA.md",
     "C & C++/알고리즘/정렬(Sort)/퀵 정렬 (Quick Sort).md",
     "C & C++/알고리즘/정렬(Sort)/위상 정렬(topology sort).md",
     "C & C++/알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
@@ -292,7 +293,6 @@
     "C & C++/문법 & 테크닉/값 교환.md",
     "C & C++/문법 & 테크닉/2차원 '조합'으로 순회하기 테크닉.md",
     "C & C++/메모리 할당/Malloc, Calloc, Realloc.md",
-    "Statistics/Gumbell Noise.md",
     "Convex_Optimization/CVXPY/Basic Syntax.md",
     "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "z Pasted Image/Pasted image 20251210214811.png",
