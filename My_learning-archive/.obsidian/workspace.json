@@ -95,12 +95,14 @@
             "id": "4f8fa5bb296a7461",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png"
+                "file": "Deep_Learning/Transformer_Basic/Multi head Self Attention.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "📌 TF 전체 그림"
+              "icon": "lucide-file",
+              "title": "Multi head Self Attention"
             }
           }
         ],
@@ -225,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
+                "file": "Deep_Learning/Transformer_Basic/Multi head Self Attention.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📌 TF 전체 그림 의 개요"
+              "title": "Multi head Self Attention 의 개요"
             }
           },
           {
@@ -266,6 +268,9 @@
   },
   "active": "4f8fa5bb296a7461",
   "lastOpenFiles": [
+    "Deep_Learning/Transformer_Basic/Masking.md",
+    "Deep_Learning/Transformer_Basic/Masked_Self Attention.md",
+    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "무제.md",
     "Deep_Learning/Generative_Model/Diffusion/Diffusion 전체 과정.md",
     "Deep_Learning/Generative_Model/VAE/VAE 수학적 원리, 한계.md",
@@ -290,9 +295,6 @@
     "C & C++/알고리즘/정렬(Sort)/ㄱ 정렬 및 시간 복잡도.md",
     "C & C++/알고리즘/자료구조활용/히스토그램 문제.md",
     "C & C++/알고리즘/자료구조활용/슬라이딩 윈도우.md",
-    "C & C++/알고리즘/자료구조활용/무제 1.md",
-    "C & C++/문법 & 테크닉/inline.md",
-    "Deep_Learning/Transformer_Basic/📌 TF 전체 그림.png",
     "z Pasted Image/Pasted image 20251210214811.png",
     "z Pasted Image/Pasted image 20251212014329.png",
     "z Pasted Image/Pasted image 20251217130123.png",
