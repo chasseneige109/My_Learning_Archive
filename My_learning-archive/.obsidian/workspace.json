@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C & C++/알고리즘/그래프/Dijkstra algorithm.md",
+                "file": "C & C++/알고리즘/그래프/MST, Minimum Spanning Tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dijkstra algorithm"
+              "title": "MST, Minimum Spanning Tree"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & C++/알고리즘/그래프/Dijkstra algorithm.md",
+                "file": "C & C++/알고리즘/그래프/MST, Minimum Spanning Tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dijkstra algorithm 의 개요"
+              "title": "MST, Minimum Spanning Tree 의 개요"
             }
           },
           {
@@ -268,6 +268,9 @@
   },
   "active": "4f8fa5bb296a7461",
   "lastOpenFiles": [
+    "C & C++/알고리즘/그래프/Kruskal algorithm.md",
+    "C & C++/알고리즘/그래프/Bellman - Ford algorithm.md",
+    "C & C++/알고리즘/그래프/Dijkstra algorithm.md",
     "Deep_Learning/Transformer_Basic/Multi head Self Attention.md",
     "Deep_Learning/Transformer_Basic/Masking.md",
     "Deep_Learning/Transformer_Basic/Masked_Self Attention.md",
@@ -292,9 +295,6 @@
     "C & C++/알고리즘/정렬(Sort)/삽입 정렬 (Insertion sort).md",
     "C & C++/알고리즘/정렬(Sort)/병합 정렬(Merge Sort).md",
     "C & C++/알고리즘/정렬(Sort)/버블 정렬 (Bubble Sort).md",
-    "C & C++/알고리즘/정렬(Sort)/계수 정렬(Counting Sort).md",
-    "C & C++/알고리즘/정렬(Sort)/ㄱ 정렬 및 시간 복잡도.md",
-    "C & C++/알고리즘/자료구조활용/히스토그램 문제.md",
     "z Pasted Image/Pasted image 20251210214811.png",
     "z Pasted Image/Pasted image 20251212014329.png",
     "z Pasted Image/Pasted image 20251217130123.png",
